@@ -1,0 +1,2663 @@
+{
+  "version": 3,
+  "lastUpdated": "2026-03-23",
+  "temples": [
+    {
+      "id": "t_kashi_vishwanath",
+      "slug": "kashi-vishwanath-varanasi",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Kashi Vishwanath Temple",
+      "alternateName": "काशी विश्वनाथ मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 25.31,
+        "longitude": 83.01,
+        "city": "Varanasi",
+        "district": null,
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga",
+        "c_sapta_puri"
+      ],
+      "description": "Kashi Vishwanath, the Lord of the Universe, is enshrined in the holiest of the twelve Jyotirlingas on the western bank of the Ganges in Varanasi. The temple has been demolished and rebuilt several times through history; the current gold-spired structure was constructed in 1780 CE by Ahilyabai Holkar of the Maratha Empire. Varanasi itself is considered the city of Shiva and one of the world's oldest living cities.",
+      "shortDescription": "The supreme Jyotirlinga in Varanasi, the eternal city of Lord Shiva.",
+      "facts": {
+        "established": null,
+        "dynasty": "Maratha (Ahilyabai Holkar, 1780 CE)",
+        "architectureStyle": "Nagara",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 80,
+        "dresscode": "Traditional attire required",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "02:30–23:00"
+      },
+      "images": {
+        "heroImageName": "t_kashi_vishwanath_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_kashi_vishwanath_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "The great night of Shiva draws millions of pilgrims to Varanasi; the ghats and lanes fill with devotees performing night-long vigils and abhisheks.",
+          "significance": "high"
+        },
+        {
+          "name": "Dev Deepawali",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "The festival of lights on Kartik Purnima illuminates the ghats of Varanasi with lakhs of lamps, celebrating the gods' victory over demons.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_ram_janmabhoomi",
+      "slug": "ram-janmabhoomi-ayodhya",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Ram Janmabhoomi (Ram Mandir)",
+      "alternateName": "राम जन्मभूमि मंदिर",
+      "deity": "Rama",
+      "location": {
+        "latitude": 26.795,
+        "longitude": 82.1996,
+        "city": "Ayodhya",
+        "district": null,
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_sapta_puri",
+        "c_rama_circuit"
+      ],
+      "description": "Ram Janmabhoomi is the birthplace of Lord Rama, one of the most sacred sites in Hinduism, located in the ancient city of Ayodhya. The grand new Ram Mandir, inaugurated in January 2024, is built in the Nagara style with pink sandstone and stands as the culmination of a decades-long movement. Ayodhya is one of the seven sacred Sapta Puri cities and central to the Vaishnava tradition.",
+      "shortDescription": "Birthplace of Lord Rama in the sacred city of Ayodhya, now home to the new Ram Mandir.",
+      "facts": {
+        "established": "2024 CE (current temple)",
+        "dynasty": null,
+        "architectureStyle": "Nagara",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 93,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "07:00–11:00, 02:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_ram_janmabhoomi_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_ram_janmabhoomi_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ram Navami",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "The birth anniversary of Lord Rama is the most important festival at Ayodhya, celebrated with processions, bhajans, and special abhishek of the deity.",
+          "significance": "high"
+        },
+        {
+          "name": "Diwali",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Ayodhya celebrates Diwali as the day of Rama's return from exile; the city is lit with millions of lamps along the Sarayu River.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_krishna_janmabhoomi",
+      "slug": "krishna-janmabhoomi-mathura",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Krishna Janmabhoomi Temple",
+      "alternateName": "कृष्ण जन्मभूमि मंदिर",
+      "deity": "Krishna",
+      "location": {
+        "latitude": 27.4924,
+        "longitude": 77.6737,
+        "city": "Mathura",
+        "district": null,
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_sapta_puri",
+        "c_krishna_circuit"
+      ],
+      "description": "Krishna Janmabhoomi marks the birthplace of Lord Krishna inside a prison cell (karagriha) in ancient Mathura. The Keshav Deo temple complex has been destroyed and rebuilt multiple times through history, with the present structures dating to the 20th century. Mathura is one of the Sapta Puri cities and the heart of the Braj region sacred to Krishna devotees worldwide.",
+      "shortDescription": "Birthplace of Lord Krishna in the ancient sacred city of Mathura.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": "Modern",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 174,
+        "dresscode": "Traditional attire required",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "05:00–12:00, 04:00–21:30"
+      },
+      "images": {
+        "heroImageName": "t_krishna_janmabhoomi_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_krishna_janmabhoomi_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Janmashtami",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "The birth of Lord Krishna is celebrated with great fervour; at midnight the image of baby Krishna is bathed and placed in a cradle amid joyous chanting.",
+          "significance": "high"
+        },
+        {
+          "name": "Holi",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "The festival of colours in Mathura and Vrindavan is legendary, lasting several days with unique rituals like Lathmar Holi in nearby Barsana.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_mansa_devi",
+      "slug": "mansa-devi-haridwar",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Mansa Devi Temple",
+      "alternateName": "मनसा देवी मंदिर",
+      "deity": "Devi",
+      "location": {
+        "latitude": 29.946,
+        "longitude": 78.1635,
+        "city": "Haridwar",
+        "district": null,
+        "state": "Uttarakhand",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_sapta_puri"
+      ],
+      "description": "Mansa Devi Temple is perched atop the Bilwa Parvat (Shivalik Hills) overlooking the holy city of Haridwar on the Ganges. The goddess Mansa Devi is believed to be a form of the divine Shakti who fulfils the wishes (mansa) of devotees. The temple is one of the Panch Tirth (five sacred sites) of Haridwar and accessible by ropeway.",
+      "shortDescription": "Hilltop Shakti shrine overlooking the sacred Ganges in Haridwar.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 340,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "06:00–20:00"
+      },
+      "images": {
+        "heroImageName": "t_mansa_devi_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_mansa_devi_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Navratri",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Both Chaitra and Sharada Navratri bring hundreds of thousands of devotees to seek blessings of Mansa Devi during the nine sacred nights.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_ekambareswarar",
+      "slug": "ekambareswarar-kanchipuram",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Ekambareswarar Temple",
+      "alternateName": "एकम्बरेश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 12.833,
+        "longitude": 79.716,
+        "city": "Kanchipuram",
+        "district": null,
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_sapta_puri",
+        "c_pancha_bhoota_lingas"
+      ],
+      "description": "Ekambareswarar Temple in Kanchipuram is one of the five Pancha Bhoota Lingam temples representing the element of Earth (Prithvi). The temple complex covers 40 acres and features a magnificent 59-metre tall gopuram. A sacred mango tree within the complex, believed to be 3,500 years old, bears four varieties of fruit on different branches.",
+      "shortDescription": "Pancha Bhoota Earth-element Shiva temple in the silk city of Kanchipuram.",
+      "facts": {
+        "established": null,
+        "dynasty": "Pallava, expanded by Chola and Vijayanagara",
+        "architectureStyle": "Dravidian",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 83,
+        "dresscode": "Traditional attire required; no shirts for men inside",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "06:00–12:30, 04:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_ekambareswarar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_ekambareswarar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Grand celebrations with special abhisheks and processions of the deity through the ancient streets of Kanchipuram.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_mahakaleshwar",
+      "slug": "mahakaleshwar-ujjain",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Mahakaleshwar Temple",
+      "alternateName": "महाकालेश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 23.182,
+        "longitude": 75.776,
+        "city": "Ujjain",
+        "district": null,
+        "state": "Madhya Pradesh",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_sapta_puri",
+        "c_jyotirlinga"
+      ],
+      "description": "Mahakaleshwar in Ujjain is one of the twelve Jyotirlingas and one of the most celebrated Shiva shrines in India. Uniquely, the lingam here is Dakshinamurti — it faces south, unlike most Shiva lingas. The temple is renowned for its Bhasma Aarti, a dawn ritual where sacred ash is applied to the lingam amid Vedic chanting.",
+      "shortDescription": "Jyotirlinga in Ujjain, famous for the pre-dawn Bhasma Aarti ritual.",
+      "facts": {
+        "established": null,
+        "dynasty": "Paramara (medieval); rebuilt by Maratha Ranoji Shinde in 18th century",
+        "architectureStyle": "Maratha",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 491,
+        "dresscode": "Traditional attire required; no jeans/shorts in sanctum",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "04:00–23:00"
+      },
+      "images": {
+        "heroImageName": "t_mahakaleshwar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_mahakaleshwar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Massive night-long celebration with bhasma aarti, processions, and hundreds of thousands of devotees filling Ujjain.",
+          "significance": "high"
+        },
+        {
+          "name": "Simhastha Kumbh Mela",
+          "approximateMonth": 4,
+          "isLunar": false,
+          "description": "Held every 12 years when Jupiter enters Leo; Ujjain becomes one of the world's largest human gatherings.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_dwarkadhish",
+      "slug": "dwarkadhish-dwarka",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Dwarkadhish Temple",
+      "alternateName": "द्वारकाधीश मंदिर",
+      "deity": "Krishna",
+      "location": {
+        "latitude": 22.241,
+        "longitude": 68.968,
+        "city": "Dwarka",
+        "district": null,
+        "state": "Gujarat",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_sapta_puri",
+        "c_char_dham",
+        "c_krishna_circuit"
+      ],
+      "description": "Dwarkadhish Temple, dedicated to Lord Krishna as the King of Dwarka, is one of the four Char Dham pilgrimage sites and one of the seven Sapta Puri sacred cities. The five-storey temple, standing 51.8 metres tall, is believed to have been built by Krishna's grandson Vajranabha. Dwarka was the ancient kingdom of Lord Krishna and is considered among the holiest cities in Hinduism.",
+      "shortDescription": "Char Dham temple of Lord Krishna in the ancient sacred city of Dwarka, Gujarat.",
+      "facts": {
+        "established": null,
+        "dynasty": "Rebuilt under Solanki rulers (12th–13th century CE)",
+        "architectureStyle": "Chalukya",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 1,
+        "dresscode": "Traditional attire required",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "06:00–13:00, 05:00–21:30"
+      },
+      "images": {
+        "heroImageName": "t_dwarkadhish_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_dwarkadhish_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Janmashtami",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "The birth of Lord Krishna is celebrated with elaborate rituals, processions, and all-night vigil at the Dwarkadhish Temple.",
+          "significance": "high"
+        }
+      ],
+      "significance": "charDham",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_jagannath",
+      "slug": "jagannath-puri",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Jagannath Temple",
+      "alternateName": "जगन्नाथ मंदिर",
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 19.8135,
+        "longitude": 85.8312,
+        "city": "Puri",
+        "district": null,
+        "state": "Odisha",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_char_dham"
+      ],
+      "description": "Jagannath Temple in Puri is one of the four Char Dham sacred sites and one of the most revered Vaishnava shrines in India. The presiding deity is Jagannath (Lord of the Universe), an ancient form of Vishnu/Krishna with distinctive large eyes and truncated limbs. The temple, built in the 12th century CE in the Kalinga architectural style, is famous for its annual Rath Yatra chariot festival.",
+      "shortDescription": "One of the four Char Dham sites, home to Lord Jagannath in Puri, Odisha.",
+      "facts": {
+        "established": "12th century CE",
+        "dynasty": "Ganga dynasty (Anantavarman Chodaganga Deva)",
+        "architectureStyle": "Kalinga (Odisha)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 4,
+        "dresscode": "Traditional attire required; non-Hindus not permitted inside",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "05:00–24:00"
+      },
+      "images": {
+        "heroImageName": "t_jagannath_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_jagannath_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Rath Yatra",
+          "approximateMonth": 6,
+          "isLunar": true,
+          "description": "The grand chariot festival where the three deities — Jagannath, Balabhadra, and Subhadra — are placed on enormous wooden chariots and pulled through the streets of Puri by thousands of devotees.",
+          "significance": "high"
+        }
+      ],
+      "significance": "charDham",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_ramanathaswamy",
+      "slug": "ramanathaswamy-rameswaram",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Ramanathaswamy Temple",
+      "alternateName": "रामनाथस्वामी मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 9.2887,
+        "longitude": 79.3129,
+        "city": "Rameswaram",
+        "district": null,
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_char_dham",
+        "c_jyotirlinga",
+        "c_rama_circuit"
+      ],
+      "description": "Ramanathaswamy Temple on the island of Rameswaram is one of the four Char Dham sites and the southernmost Jyotirlinga. According to the Ramayana, Lord Rama worshipped Shiva here to atone for the sin of slaying Ravana, a Brahmin. The temple complex houses the longest temple corridor in the world, stretching over 1,200 metres, lined with intricately carved pillars.",
+      "shortDescription": "Southernmost Char Dham and Jyotirlinga temple on the island of Rameswaram.",
+      "facts": {
+        "established": null,
+        "dynasty": "Setupati rulers of Ramanathapuram (16th–17th century CE)",
+        "architectureStyle": "Dravidian",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 10,
+        "dresscode": "Traditional attire required; no shirts for men inside",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "05:00–13:00, 03:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_ramanathaswamy_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_ramanathaswamy_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Special abhisheks and night-long prayers at this sacred island temple where Rama himself worshipped Shiva.",
+          "significance": "high"
+        }
+      ],
+      "significance": "charDham",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_badrinath",
+      "slug": "badrinath-uttarakhand",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Badrinath Temple",
+      "alternateName": "बद्रीनाथ मंदिर",
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 30.7433,
+        "longitude": 79.4939,
+        "city": "Badrinath",
+        "district": null,
+        "state": "Uttarakhand",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_char_dham",
+        "c_pancha_badri"
+      ],
+      "description": "Badrinath Temple, dedicated to Lord Vishnu in his Badrinath (or Badrinarayana) form, is one of the four Char Dham pilgrimage sites located at 3,133 metres in the Chamoli district of Uttarakhand. The temple, originally established by Adi Shankaracharya in the 8th century CE, sits on the banks of the Alaknanda River flanked by the Nar and Narayan mountain ranges. It opens only from April to November due to heavy Himalayan snowfall.",
+      "shortDescription": "Char Dham Vishnu temple at 3,133 m in the Garhwal Himalayas.",
+      "facts": {
+        "established": null,
+        "dynasty": "Revived by Adi Shankaracharya (8th century CE)",
+        "architectureStyle": "Garhwali",
+        "openingMonth": 4,
+        "closingMonth": 11,
+        "altitude": 3133,
+        "dresscode": "Traditional attire preferred; warm clothing required",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "04:30–21:00"
+      },
+      "images": {
+        "heroImageName": "t_badrinath_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_badrinath_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Badri-Kedar Festival",
+          "approximateMonth": 6,
+          "isLunar": false,
+          "description": "Annual music and cultural festival celebrating the divine at Badrinath and Kedarnath, attracting pilgrims and performers from across India.",
+          "significance": "medium"
+        }
+      ],
+      "significance": "charDham",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_kedarnath",
+      "slug": "kedarnath-uttarakhand",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Kedarnath Temple",
+      "alternateName": "केदारनाथ मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 30.7352,
+        "longitude": 79.0666,
+        "city": "Kedarnath",
+        "district": null,
+        "state": "Uttarakhand",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga",
+        "c_pancha_kedar"
+      ],
+      "description": "Kedarnath is both a Jyotirlinga and the chief shrine of the Pancha Kedar pilgrimage, situated at 3,583 metres in the Garhwal Himalayas above the Mandakini River. The stone temple is believed to have been built by the Pandavas and revived by Adi Shankaracharya in the 8th century CE. The temple is accessible only from May to November due to heavy snowfall and draws millions of pilgrims each season.",
+      "shortDescription": "Jyotirlinga and chief Pancha Kedar shrine at 3,583 m in the Himalayas.",
+      "facts": {
+        "established": null,
+        "dynasty": "Believed built by Pandavas; revived by Adi Shankaracharya (8th century CE)",
+        "architectureStyle": "Garhwali stone",
+        "openingMonth": 4,
+        "closingMonth": 11,
+        "altitude": 3583,
+        "dresscode": "Traditional attire preferred; warm clothing essential",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "04:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_kedarnath_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_kedarnath_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "The opening of the Kedarnath shrine after winter closure is timed around this auspicious occasion, with special Vedic rituals performed by the priests.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_somnath",
+      "slug": "somnath-gujarat",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Somnath Temple",
+      "alternateName": "सोमनाथ मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 20.8995,
+        "longitude": 70.3981,
+        "city": "Somnath",
+        "district": null,
+        "state": "Gujarat",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga"
+      ],
+      "description": "Somnath is the first and foremost of the twelve Jyotirlingas, believed to have been originally built in gold by Soma, the Moon God. The current temple, rebuilt multiple times after repeated destruction, stands in the Chalukya style of architecture on the shores of the Arabian Sea. It is one of the most sacred pilgrimage sites in Hinduism.",
+      "shortDescription": "First of the 12 Jyotirlingas, on the Arabian Sea coast of Gujarat.",
+      "facts": {
+        "established": null,
+        "dynasty": "Solanki / Chalukya (current reconstruction 1951)",
+        "architectureStyle": "Chalukya (Kailash Mahameru Prasad)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 2,
+        "dresscode": "Conservative attire required",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "06:00–22:00"
+      },
+      "images": {
+        "heroImageName": "t_somnath_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_somnath_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "The great night of Shiva celebrated with night-long prayers, abhishek, and cultural programs drawing hundreds of thousands of devotees.",
+          "significance": "high"
+        },
+        {
+          "name": "Kartik Purnima",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Full moon in the month of Kartik is especially auspicious at Somnath, with devotees taking a holy dip in the sea and offering prayers.",
+          "significance": "medium"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_mallikarjuna",
+      "slug": "mallikarjuna-srisailam",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Mallikarjuna Temple",
+      "alternateName": "मल्लिकार्जुन मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 16.0721,
+        "longitude": 78.8694,
+        "city": "Srisailam",
+        "district": null,
+        "state": "Andhra Pradesh",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga"
+      ],
+      "description": "Mallikarjuna, a Jyotirlinga, is situated atop the Nallamala Hills on the banks of the Krishna River in Srisailam. The presiding deity is Mallikarjuna (Shiva) and Bhramaramba (a form of Devi), making it one of the rare Jyotirlinga-Shakti Peetha dual-shrines. The temple complex dates back to at least the 7th century CE.",
+      "shortDescription": "Jyotirlinga set in the Nallamala forest hills of Andhra Pradesh.",
+      "facts": {
+        "established": null,
+        "dynasty": "Chalukyas, later Vijayanagara",
+        "architectureStyle": "Dravidian",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 457,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "04:30–22:00"
+      },
+      "images": {
+        "heroImageName": "t_mallikarjuna_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_mallikarjuna_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Celebrated with great pomp; lakhs of devotees trek through the forest to seek blessings of Mallikarjuna.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_omkareshwar",
+      "slug": "omkareshwar-madhya-pradesh",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Omkareshwar Temple",
+      "alternateName": "ओंकारेश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 22.25,
+        "longitude": 76.17,
+        "city": "Omkareshwar",
+        "district": null,
+        "state": "Madhya Pradesh",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga"
+      ],
+      "description": "Omkareshwar is a Jyotirlinga situated on Mandhata Island in the Narmada River, whose outline resembles the sacred Om symbol when viewed from above. The complex contains two shrines — Omkareshwar and Amareshwar — both counted in the Jyotirlinga tradition. The island is circumambulated by pilgrims as a sacred parikrama.",
+      "shortDescription": "Jyotirlinga on an Om-shaped island in the Narmada River, Madhya Pradesh.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": "Nagara",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 292,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "05:00–22:00"
+      },
+      "images": {
+        "heroImageName": "t_omkareshwar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_omkareshwar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Grand celebration with special abhisheks and night-long prayers attracting pilgrims from across central India.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_bhimashankar",
+      "slug": "bhimashankar-maharashtra",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Bhimashankar Temple",
+      "alternateName": "भीमाशंकर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 19.0761,
+        "longitude": 73.5333,
+        "city": "Bhimashankar",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga"
+      ],
+      "description": "Bhimashankar Temple is a Jyotirlinga located in the Sahyadri hills of Maharashtra, set within the Bhimashankar Wildlife Sanctuary. The temple is the source of the Bhima River and is renowned for its Hemadpanthi style of architecture. The surrounding dense forest and the cool climate make it both a spiritual and natural retreat.",
+      "shortDescription": "Jyotirlinga nestled in the Sahyadri hills and wildlife sanctuary of Maharashtra.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": "Hemadpanthi / Nagara",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 1260,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "04:30–21:30"
+      },
+      "images": {
+        "heroImageName": "t_bhimashankar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_bhimashankar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "The Jyotirlinga at Bhimashankar is celebrated with special abhisheks, night-long vigils and a large fair in the surrounding village.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_trimbakeshwar",
+      "slug": "trimbakeshwar-maharashtra",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Trimbakeshwar Temple",
+      "alternateName": "त्र्यंबकेश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 20.0096,
+        "longitude": 73.6467,
+        "city": "Trimbak",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga"
+      ],
+      "description": "Trimbakeshwar Temple near Nasik is a Jyotirlinga unique for housing a three-faced lingam representing the Hindu Trinity — Brahma, Vishnu, and Shiva. The temple stands at the source of the Godavari River, one of India's holiest rivers. Nasik hosts the Kumbh Mela every twelve years at the Trimbakeshwar site.",
+      "shortDescription": "Jyotirlinga with the three-faced Shiva lingam at the source of the Godavari River.",
+      "facts": {
+        "established": null,
+        "dynasty": "Rebuilt by Peshwa Balaji Baji Rao (18th century CE)",
+        "architectureStyle": "Hemadpanthi",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 699,
+        "dresscode": "Traditional attire required; women not permitted in inner sanctum",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "05:30–21:00"
+      },
+      "images": {
+        "heroImageName": "t_trimbakeshwar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_trimbakeshwar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "One of the most sacred Mahashivratri celebrations in Maharashtra, with special rituals honouring the three-faced Jyotirlinga.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_vaidyanath",
+      "slug": "vaidyanath-deoghar",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Vaidyanath Temple",
+      "alternateName": "वैद्यनाथ मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 24.479,
+        "longitude": 86.69,
+        "city": "Deoghar",
+        "district": null,
+        "state": "Jharkhand",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga"
+      ],
+      "description": "Vaidyanath (Baidyanath) Jyotirlinga in Deoghar, Jharkhand, is one of the twelve sacred Jyotirlingas. According to legend, Ravana performed severe penance here and Shiva appeared as Vaidyanath (the physician of the gods) to heal him. The Shravani Mela, held during the monsoon month of Shravan, sees millions of Kanwariyas walking 105 km from the Ganges at Sultanganj to offer sacred water.",
+      "shortDescription": "Jyotirlinga in Deoghar, destination of millions of Kanwaria pilgrims each monsoon.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": "Nagara",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 254,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "04:00–21:30"
+      },
+      "images": {
+        "heroImageName": "t_vaidyanath_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_vaidyanath_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Shravani Mela",
+          "approximateMonth": 7,
+          "isLunar": true,
+          "description": "The month-long pilgrimage during Shravan when millions of Kanwariyas carry Ganges water on foot to offer abhishek to the Jyotirlinga.",
+          "significance": "high"
+        },
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Grand celebrations with night-long pujas and a large fair at Deoghar.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_nageshwar",
+      "slug": "nageshwar-dwarka",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Nageshwar Temple",
+      "alternateName": "नागेश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 22.3361,
+        "longitude": 69.087,
+        "city": "Dwarka",
+        "district": null,
+        "state": "Gujarat",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga"
+      ],
+      "description": "Nageshwar Jyotirlinga near Dwarka in Gujarat is one of the twelve Jyotirlingas and is associated with freedom from all poisons (the name means Lord of Serpents). The temple features a massive 25-metre tall statue of Shiva in meditation. According to legend, this is where Shiva appeared to protect his devotee Supriya from a demon named Daruka.",
+      "shortDescription": "Jyotirlinga of the Lord of Serpents near Dwarka on the Gujarat coast.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 5,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "06:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_nageshwar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_nageshwar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Special pujas and abhisheks are performed at the Nageshwar Jyotirlinga on this most sacred night of Shiva.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_grishneshwar",
+      "slug": "grishneshwar-ellora",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Grishneshwar Temple",
+      "alternateName": "घृष्णेश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 20.0273,
+        "longitude": 75.1816,
+        "city": "Ellora",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_jyotirlinga"
+      ],
+      "description": "Grishneshwar Temple near the Ellora Caves in Maharashtra is the twelfth and last of the Jyotirlingas. The red-stone temple with its five-tiered shikhara was rebuilt in the 18th century by Ahilyabai Holkar. The Ellora Caves, a UNESCO World Heritage Site, are just a kilometre away, making this a site of both spiritual and archaeological significance.",
+      "shortDescription": "The twelfth Jyotirlinga near the UNESCO Ellora Caves in Maharashtra.",
+      "facts": {
+        "established": null,
+        "dynasty": "Rebuilt by Ahilyabai Holkar (1730 CE)",
+        "architectureStyle": "Hemadpanthi",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 602,
+        "dresscode": "Traditional attire required; no shirts for men inside",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "05:30–21:30"
+      },
+      "images": {
+        "heroImageName": "t_grishneshwar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_grishneshwar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "The final Jyotirlinga hosts grand celebrations with special rituals and a large gathering of devotees from across the Deccan.",
+          "significance": "high"
+        }
+      ],
+      "significance": "jyotirlinga",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_brihadeeswarar",
+      "slug": "brihadeeswarar-thanjavur",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Brihadeeswarar Temple",
+      "alternateName": "बृहदेश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 10.782,
+        "longitude": 79.1318,
+        "city": "Thanjavur",
+        "district": null,
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_unesco",
+        "c_chola"
+      ],
+      "description": "Brihadeeswarar Temple, also known as the Big Temple (Peruvudaiyar Kovil), was built by the great Chola emperor Raja Raja I and completed in 1010 CE. The 66-metre vimana (tower) is one of the tallest in South India, and the entire structure was built without mortar. It is a UNESCO World Heritage Site, part of the Great Living Chola Temples, and a supreme example of Dravidian architecture.",
+      "shortDescription": "Magnificent Chola masterpiece and UNESCO World Heritage temple in Thanjavur.",
+      "facts": {
+        "established": "1010 CE",
+        "dynasty": "Chola (Raja Raja I)",
+        "architectureStyle": "Dravidian (Chola)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 55,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "06:00–12:30, 04:00–20:30"
+      },
+      "images": {
+        "heroImageName": "t_brihadeeswarar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_brihadeeswarar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Grand celebrations at this great Chola temple with classical music, dance, and thousands of devotees.",
+          "significance": "high"
+        },
+        {
+          "name": "Arudra Darshan",
+          "approximateMonth": 12,
+          "isLunar": true,
+          "description": "The festival of Nataraja, the cosmic dancer, celebrated in the Tamil month of Margazhi with classical Bharatanatyam performances.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": true,
+      "sourceURL": null
+    },
+    {
+      "id": "t_kailasa",
+      "slug": "kailasa-ellora",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Kailasa Temple",
+      "alternateName": "कैलास मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 20.0255,
+        "longitude": 75.1647,
+        "city": "Ellora",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_rock_cut",
+        "c_unesco"
+      ],
+      "description": "The Kailasa Temple at Ellora (Cave 16) is the world's largest monolithic rock-cut structure, carved entirely from a single basalt cliff face in the 8th century CE under the Rashtrakuta king Krishna I. It is designed to represent Mount Kailash, the celestial abode of Shiva, and features intricate sculptures of deities, mythological scenes, and celestial beings. The Ellora Caves complex is a UNESCO World Heritage Site.",
+      "shortDescription": "World's largest monolithic rock-cut Shiva temple, carved from a cliff at Ellora.",
+      "facts": {
+        "established": "8th century CE",
+        "dynasty": "Rashtrakuta (Krishna I)",
+        "architectureStyle": "Rock-cut Dravidian",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 602,
+        "dresscode": "No specific dress code; modest attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "08:00–17:30 (closed Tuesdays)"
+      },
+      "images": {
+        "heroImageName": "t_kailasa_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_kailasa_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "The monolithic Kailash temple resonates with the energy of Mahashivratri as devotees gather at this ancient wonder.",
+          "significance": "medium"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": true,
+      "sourceURL": null
+    },
+    {
+      "id": "t_shore_temple",
+      "slug": "shore-temple-mahabalipuram",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Shore Temple",
+      "alternateName": null,
+      "deity": "Shiva",
+      "location": {
+        "latitude": 12.6223,
+        "longitude": 80.193,
+        "city": "Mahabalipuram",
+        "district": null,
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_pallava",
+        "c_unesco"
+      ],
+      "description": "The Shore Temple at Mahabalipuram is one of the oldest structural stone temples in South India, built during the reign of the Pallava king Narasimhavarman II in the 8th century CE. Standing on the Bay of Bengal, it comprises two shrines dedicated to Shiva and a smaller Vishnu shrine. The complex is part of the UNESCO World Heritage Site of Mahabalipuram.",
+      "shortDescription": "8th-century Pallava stone temple standing on the Bay of Bengal at Mahabalipuram.",
+      "facts": {
+        "established": "8th century CE",
+        "dynasty": "Pallava (Narasimhavarman II)",
+        "architectureStyle": "Dravidian (Pallava)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 4,
+        "dresscode": "No specific dress code",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "06:00–18:00"
+      },
+      "images": {
+        "heroImageName": "t_shore_temple_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_shore_temple_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahabalipuram Dance Festival",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "An annual classical dance festival performed with the Shore Temple as a backdrop under the moonlit sky, featuring top Bharatanatyam and other dance forms.",
+          "significance": "medium"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": true,
+      "sourceURL": null
+    },
+    {
+      "id": "t_konark",
+      "slug": "konark-odisha",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Konark Sun Temple",
+      "alternateName": "कोणार्क सूर्य मंदिर",
+      "deity": "Surya",
+      "location": {
+        "latitude": 19.887,
+        "longitude": 86.0945,
+        "city": "Konark",
+        "district": null,
+        "state": "Odisha",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_unesco"
+      ],
+      "description": "The Konark Sun Temple is a 13th-century CE marvel built by King Narasimhadeva I of the Eastern Ganga dynasty, designed as a colossal chariot of the Sun God Surya with twelve pairs of intricately carved stone wheels and seven horses. The temple, now partially ruined, is renowned for its exquisite Kalinga-style carvings depicting celestial nymphs, musicians, and erotic panels. It is a UNESCO World Heritage Site.",
+      "shortDescription": "13th-century chariot-shaped Sun temple, a UNESCO World Heritage Site in Odisha.",
+      "facts": {
+        "established": "13th century CE (c. 1250 CE)",
+        "dynasty": "Eastern Ganga (Narasimhadeva I)",
+        "architectureStyle": "Kalinga (Odisha)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 6,
+        "dresscode": "No specific dress code",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "06:00–20:00"
+      },
+      "images": {
+        "heroImageName": "t_konark_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_konark_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Konark Dance Festival",
+          "approximateMonth": 11,
+          "isLunar": false,
+          "description": "An internationally acclaimed five-day classical dance festival held against the backdrop of the Sun Temple, featuring Odissi, Bharatanatyam, Kathak, and other dance forms.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": true,
+      "sourceURL": null
+    },
+    {
+      "id": "t_virupaksha",
+      "slug": "virupaksha-hampi",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Virupaksha Temple",
+      "alternateName": "विरूपाक्ष मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 15.335,
+        "longitude": 76.462,
+        "city": "Hampi",
+        "district": null,
+        "state": "Karnataka",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_vijayanagara",
+        "c_unesco"
+      ],
+      "description": "Virupaksha Temple at Hampi is one of the oldest functioning temples in India, with inscriptions attesting worship here since the 7th century CE. It was the royal temple of the Vijayanagara Empire and dedicated to Virupaksha (a form of Shiva) and his consort Pampa. The 50-metre gopuram and the sprawling complex are part of the Group of Monuments at Hampi, a UNESCO World Heritage Site.",
+      "shortDescription": "Living Vijayanagara dynasty temple and UNESCO World Heritage Site at Hampi.",
+      "facts": {
+        "established": null,
+        "dynasty": "Vijayanagara (Krishnadevaraya expanded in 1510 CE)",
+        "architectureStyle": "Dravidian (Vijayanagara)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 467,
+        "dresscode": "Traditional attire required",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "06:00–13:00, 05:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_virupaksha_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_virupaksha_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Grand celebrations at Virupaksha temple with the chariot festival, drawing pilgrims to the ancient ruined capital of Hampi.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": true,
+      "sourceURL": null
+    },
+    {
+      "id": "t_chennakesava",
+      "slug": "chennakesava-belur",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Chennakesava Temple",
+      "alternateName": null,
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 13.1667,
+        "longitude": 75.9917,
+        "city": "Belur",
+        "district": null,
+        "state": "Karnataka",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_hoysala"
+      ],
+      "description": "Chennakesava Temple in Belur is a 12th-century masterpiece of Hoysala architecture, built by King Vishnuvardhana to commemorate his victory over the Cholas in 1116 CE. The star-shaped platform (jagati) and the extraordinary density of sculpture — with friezes of elephants, horses, and celestial women — make it one of India's finest temples. Its intricate sculptures are so detailed they are said to have taken 103 years to complete.",
+      "shortDescription": "12th-century Hoysala jewel in Belur, Karnataka, with extraordinary sculptural detail.",
+      "facts": {
+        "established": "12th century CE (begun 1116 CE)",
+        "dynasty": "Hoysala (Vishnuvardhana)",
+        "architectureStyle": "Hoysala",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 945,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "07:30–20:30"
+      },
+      "images": {
+        "heroImageName": "t_chennakesava_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_chennakesava_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Vaikuntha Ekadashi",
+          "approximateMonth": 12,
+          "isLunar": true,
+          "description": "The most auspicious day for Vishnu devotees, celebrated with special pujas and the opening of the Vaikuntha Dwara (gate to heaven).",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_hoysaleswara",
+      "slug": "hoysaleswara-halebidu",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Hoysaleswara Temple",
+      "alternateName": null,
+      "deity": "Shiva",
+      "location": {
+        "latitude": 13.2125,
+        "longitude": 75.9942,
+        "city": "Halebidu",
+        "district": null,
+        "state": "Karnataka",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_hoysala"
+      ],
+      "description": "Hoysaleswara Temple in Halebidu is a 12th-century Hoysala temple considered the largest and finest example of Hoysala architecture in existence. Built during the reign of King Vishnuvardhana and completed under Narasimha I, the twin temples are covered with an uninterrupted series of sculptured friezes on the outer walls. The temple's 240 panels of horizontal relief sculpture make it one of the most densely carved temples in the world.",
+      "shortDescription": "Largest Hoysala temple, with extraordinary sculptured friezes at Halebidu, Karnataka.",
+      "facts": {
+        "established": "12th century CE",
+        "dynasty": "Hoysala (Vishnuvardhana to Narasimha I)",
+        "architectureStyle": "Hoysala",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 920,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "08:00–18:00"
+      },
+      "images": {
+        "heroImageName": "t_hoysaleswara_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_hoysaleswara_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Special pujas at this ancient Hoysala Shiva temple with cultural programmes celebrating Karnataka's temple heritage.",
+          "significance": "medium"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_lingaraj",
+      "slug": "lingaraj-bhubaneswar",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Lingaraj Temple",
+      "alternateName": "लिंगराज मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 20.2346,
+        "longitude": 85.8282,
+        "city": "Bhubaneswar",
+        "district": null,
+        "state": "Odisha",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_ancient"
+      ],
+      "description": "Lingaraj Temple is the largest temple in Bhubaneswar and one of the most important Shaiva shrines in Odisha, dating to the 11th century CE. The presiding deity is Harihara — a combined form of Shiva and Vishnu — reflecting the syncretic tradition of Odisha. The 55-metre shikhara built in the Kalinga style dominates the skyline of the temple city of Bhubaneswar.",
+      "shortDescription": "11th-century Kalinga-style Shiva temple, the grandest shrine in Bhubaneswar.",
+      "facts": {
+        "established": "11th century CE",
+        "dynasty": "Somavamshi (Yayati I)",
+        "architectureStyle": "Kalinga (Odisha)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 45,
+        "dresscode": "Traditional attire required; non-Hindus not permitted inside",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "06:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_lingaraj_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_lingaraj_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "The grandest celebration in Bhubaneswar, with a chariot procession of Lingaraj through the streets drawing lakhs of devotees.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_airavateswara",
+      "slug": "airavateswara-darasuram",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Airavateswara Temple",
+      "alternateName": "ऐरावतेश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 10.9483,
+        "longitude": 79.3567,
+        "city": "Darasuram",
+        "district": null,
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_unesco",
+        "c_chola"
+      ],
+      "description": "Airavateswara Temple in Darasuram near Kumbakonam was built by the Chola king Rajaraja II in the 12th century CE and is dedicated to Shiva worshipped by Airavata, the divine elephant of Indra. The temple is renowned for the extraordinary delicacy and miniaturism of its sculptural work — it is said to be a 'stone poem.' It is part of the Great Living Chola Temples UNESCO World Heritage Site.",
+      "shortDescription": "Exquisite 12th-century Chola temple renowned for its miniaturist sculpture, a UNESCO site.",
+      "facts": {
+        "established": "12th century CE",
+        "dynasty": "Chola (Rajaraja II)",
+        "architectureStyle": "Dravidian (Chola)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 78,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "06:00–12:00, 04:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_airavateswara_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_airavateswara_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Celebrated with traditional Tamil rituals at this UNESCO Chola masterpiece in the Cauvery delta.",
+          "significance": "medium"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": true,
+      "sourceURL": null
+    },
+    {
+      "id": "t_jambukeswarar",
+      "slug": "jambukeswarar-tiruchirappalli",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Jambukeswarar Temple",
+      "alternateName": "जम्बुकेश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 10.8534,
+        "longitude": 78.7055,
+        "city": "Tiruchirappalli",
+        "district": null,
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_pancha_bhoota_lingas"
+      ],
+      "description": "Jambukeswarar Temple on Srirangam Island near Tiruchirappalli is one of the five Pancha Bhoota Lingam temples, representing the element of Water (Appu). The lingam inside the sanctum is partially submerged in a natural spring, symbolising water. The goddess here, Akilandeswari, is considered unusually powerful, and even Lord Shiva is said to worship her.",
+      "shortDescription": "Pancha Bhoota Water-element Shiva temple on Srirangam Island, Tamil Nadu.",
+      "facts": {
+        "established": null,
+        "dynasty": "Chola, expanded by Vijayanagara",
+        "architectureStyle": "Dravidian",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 78,
+        "dresscode": "Traditional attire required; men must remove shirts inside",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "06:00–13:00, 03:30–21:00"
+      },
+      "images": {
+        "heroImageName": "t_jambukeswarar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_jambukeswarar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "The water-element Jyotirlinga celebrates Mahashivratri with special abhisheks from the natural spring within the sanctum.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_srikalahasteeswara",
+      "slug": "srikalahasteeswara-srikalahasti",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Sri Kalahasteeswara Temple",
+      "alternateName": "श्रीकालहस्तीश्वर मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 13.7497,
+        "longitude": 79.6989,
+        "city": "Srikalahasti",
+        "district": null,
+        "state": "Andhra Pradesh",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_pancha_bhoota_lingas"
+      ],
+      "description": "Sri Kalahasteeswara Temple in Srikalahasti is one of the five Pancha Bhoota Lingam temples, representing the element of Air (Vayu). The temple is famous for Rahu-Ketu puja, performed to mitigate the malefic effects of the shadow planets in one's horoscope. The flickering of the lamp flame inside the sealed sanctum, attributed to the Vayu lingam, is a celebrated phenomenon.",
+      "shortDescription": "Pancha Bhoota Air-element Shiva temple, famous for Rahu-Ketu puja in Andhra Pradesh.",
+      "facts": {
+        "established": null,
+        "dynasty": "Pallava, Chola, expanded by Vijayanagara",
+        "architectureStyle": "Dravidian",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 119,
+        "dresscode": "Traditional attire required",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "06:00–20:00"
+      },
+      "images": {
+        "heroImageName": "t_srikalahasteeswara_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_srikalahasteeswara_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Celebrated with great devotion; the air-element shrine at Srikalahasti draws pilgrims seeking relief from planetary afflictions.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_chidambaram",
+      "slug": "chidambaram-nataraja-tamil-nadu",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Chidambaram Nataraja Temple",
+      "alternateName": "चिदंबरम नटराज मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 11.4,
+        "longitude": 79.7,
+        "city": "Chidambaram",
+        "district": null,
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_pancha_bhoota_lingas"
+      ],
+      "description": "Chidambaram Temple is dedicated to Nataraja (Shiva as the Lord of the Cosmic Dance) and is one of the five Pancha Bhoota Lingam temples, representing the element of Space (Akasha). Uniquely, the 'lingam' here is invisible — the Akasha Lingam is pure space, symbolised by a curtain of golden vilva leaves. The Chidambaram Rahasyam (secret of Chidambaram) refers to the mystery of Shiva's omnipresence.",
+      "shortDescription": "Temple of Nataraja and the Space-element Pancha Bhoota Lingam in Tamil Nadu.",
+      "facts": {
+        "established": null,
+        "dynasty": "Chola, with later Pandya additions",
+        "architectureStyle": "Dravidian",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 7,
+        "dresscode": "Traditional attire required; men must remove shirts inside",
+        "photographyAllowed": false,
+        "entryFee": null,
+        "darshanaTimings": "06:00–12:00, 05:00–22:00"
+      },
+      "images": {
+        "heroImageName": "t_chidambaram_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_chidambaram_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Arudra Darshan",
+          "approximateMonth": 12,
+          "isLunar": true,
+          "description": "The most important festival at Chidambaram, celebrating the cosmic dance of Nataraja in the Tamil month of Margazhi with classical Bharatanatyam performances.",
+          "significance": "high"
+        },
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Night-long pujas and abhisheks at the space-element Shiva shrine, one of the most mystical in India.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_mayureshwar",
+      "slug": "mayureshwar-morgaon",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Mayureshwar Temple",
+      "alternateName": "मयुरेश्वर मंदिर",
+      "deity": "Ganesha",
+      "location": {
+        "latitude": 18.2726,
+        "longitude": 74.3206,
+        "city": "Morgaon",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_ashtavinayak"
+      ],
+      "description": "Mayureshwar (Moreshwar) Temple in Morgaon is the first and most important of the eight Ashtavinayaka Ganesha shrines in Maharashtra, and the pilgrimage traditionally begins and ends here. The deity Mayureshwar is depicted as black and seated on a peacock (mayur), facing east. Devotees visit this shrine first to seek Ganesha's blessings before beginning any auspicious undertaking.",
+      "shortDescription": "First and foremost of the eight Ashtavinayaka shrines, in Morgaon, Maharashtra.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": "Hemadpanthi",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 553,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "05:00–22:00"
+      },
+      "images": {
+        "heroImageName": "t_mayureshwar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_mayureshwar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ganesh Chaturthi",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "The birth of Lord Ganesha is celebrated across Maharashtra and especially at the Ashtavinayaka shrine of Morgaon with elaborate rituals and processions.",
+          "significance": "high"
+        }
+      ],
+      "significance": "ashtavinayak",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_siddhivinayak_siddhatek",
+      "slug": "siddhivinayak-siddhatek",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Siddhivinayak Temple, Siddhatek",
+      "alternateName": "सिद्धिविनायक मंदिर",
+      "deity": "Ganesha",
+      "location": {
+        "latitude": 18.4441,
+        "longitude": 74.7263,
+        "city": "Siddhatek",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_ashtavinayak"
+      ],
+      "description": "Siddhivinayak Temple in Siddhatek is the second of the Ashtavinayaka shrines, notable for the unusual north-facing (Uttarabhimukhi) trunk of the Ganesha idol. According to legend, Lord Vishnu worshipped Ganesha here and received the strength (siddhi) to defeat the demons Madhu and Kaitabha. The temple stands on the banks of the Bhima River.",
+      "shortDescription": "One of the eight Ashtavinayak Ganesha temples, on the banks of the Bhima River in Ahmednagar district.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 561,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "05:00–22:00"
+      },
+      "images": {
+        "heroImageName": "t_siddhivinayak_siddhatek_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_siddhivinayak_siddhatek_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ganesh Chaturthi",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "The birth of Ganesha celebrated at this Ashtavinayaka shrine with special abhisheks and devotees arriving from across Maharashtra.",
+          "significance": "high"
+        }
+      ],
+      "significance": "ashtavinayak",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_ballaleshwar",
+      "slug": "ballaleshwar-pali",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Ballaleshwar Temple",
+      "alternateName": "बल्लाळेश्वर मंदिर",
+      "deity": "Ganesha",
+      "location": {
+        "latitude": 18.5356,
+        "longitude": 73.224,
+        "city": "Pali",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_ashtavinayak"
+      ],
+      "description": "Ballaleshwar Temple in Pali is unique among the Ashtavinayaka shrines as it is the only one named after a devotee rather than a deity. The shrine is named after Ballal, a young devotee whose intense worship of Ganesha and subsequent hardships led the deity to manifest here to rescue him. The east-facing idol is known for its large, round eyes.",
+      "shortDescription": "Third Ashtavinayaka shrine, the only one named after a devotee, in Pali, Maharashtra.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 78,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "05:00–22:00"
+      },
+      "images": {
+        "heroImageName": "t_ballaleshwar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_ballaleshwar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ganesh Chaturthi",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "The festival of Ganesha's birth celebrated at Pali with devotees gathering to worship Ballaleshwar.",
+          "significance": "high"
+        }
+      ],
+      "significance": "ashtavinayak",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_varadvinayak",
+      "slug": "varadvinayak-mahad",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Varadvinayak Temple",
+      "alternateName": "वरदविनायक मंदिर",
+      "deity": "Ganesha",
+      "location": {
+        "latitude": 18.74,
+        "longitude": 73.37,
+        "city": "Mahad",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_ashtavinayak"
+      ],
+      "description": "Varadvinayak Temple in Mahad (Kolaba district) is the fourth Ashtavinayaka shrine, associated with wish-fulfilment (varad means one who grants boons). The idol of Ganesha here is self-manifested (swayambhu) and faces east with a right-facing trunk. A lamp (akhand jyot) has been continuously burning in the temple since 1892.",
+      "shortDescription": "Fourth Ashtavinayaka shrine, the boon-granting Ganesha at Mahad, Maharashtra.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 10,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "06:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_varadvinayak_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_varadvinayak_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ganesh Chaturthi",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Ganesh Chaturthi celebrated at the boon-granting shrine of Mahad with special rituals and large gatherings of devotees.",
+          "significance": "high"
+        }
+      ],
+      "significance": "ashtavinayak",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_chintamani",
+      "slug": "chintamani-theur",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Chintamani Temple",
+      "alternateName": "चिंतामणि मंदिर",
+      "deity": "Ganesha",
+      "location": {
+        "latitude": 18.5258,
+        "longitude": 74.053,
+        "city": "Theur",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_ashtavinayak"
+      ],
+      "description": "Chintamani Temple in Theur is the fifth Ashtavinayaka shrine, dedicated to Ganesha as Chintamani — the one who relieves his devotees of worries (chinta) and grants the legendary wish-fulfilling jewel. According to legend, the sage Kapila's Chintamani gem was returned here by Ganesha after defeating a king who had stolen it. The temple sits at the confluence of the Mula and Mutha rivers.",
+      "shortDescription": "Fifth Ashtavinayaka shrine, the worry-relieving Ganesha at the Mula-Mutha confluence, Theur.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 555,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "05:00–22:00"
+      },
+      "images": {
+        "heroImageName": "t_chintamani_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_chintamani_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ganesh Chaturthi",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Ganesh Chaturthi at Theur draws devotees from Pune and across Maharashtra to the riverside Chintamani shrine.",
+          "significance": "high"
+        }
+      ],
+      "significance": "ashtavinayak",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_girijatmaj",
+      "slug": "girijatmaj-lenyadri",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Girijatmaj Temple",
+      "alternateName": "गिरिजात्मज मंदिर",
+      "deity": "Ganesha",
+      "location": {
+        "latitude": 19.2428,
+        "longitude": 73.8856,
+        "city": "Lenyadri",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_ashtavinayak"
+      ],
+      "description": "Girijatmaj Temple at Lenyadri is the sixth Ashtavinayaka shrine and the only one located in a cave cut into a hillside, requiring a climb of 307 rock-hewn steps. The name Girijatmaj means 'son of Girija (Parvati)', and tradition holds that Parvati performed penance here for twelve years, after which Ganesha was born. The surrounding Lenyadri caves are Buddhist rock-cut monasteries from the 1st-3rd century CE.",
+      "shortDescription": "Sixth Ashtavinayaka shrine in a hillside cave, reached by 307 steps at Lenyadri.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": "Rock-cut cave",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 853,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "08:00–18:00"
+      },
+      "images": {
+        "heroImageName": "t_girijatmaj_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_girijatmaj_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ganesh Chaturthi",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Devotees climb the 307 steps to celebrate Ganesh Chaturthi at this unique cave shrine, the only Ashtavinayaka in a hillside cave.",
+          "significance": "high"
+        }
+      ],
+      "significance": "ashtavinayak",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_vighneshwar",
+      "slug": "vighneshwar-ozar",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Vighneshwar Temple",
+      "alternateName": "विघ्नेश्वर मंदिर",
+      "deity": "Ganesha",
+      "location": {
+        "latitude": 20.0947,
+        "longitude": 73.9282,
+        "city": "Ozar",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_ashtavinayak"
+      ],
+      "description": "Vighneshwar (Vighnahar) Temple at Ozar near Junnar is the seventh Ashtavinayaka shrine, dedicated to Ganesha as the remover of obstacles. The idol faces east with a right-facing trunk and is adorned with rubies and emeralds. The temple, built in the Hemadpanthi style, is situated on the banks of the Kukadi River and is one of the best-maintained Ashtavinayaka temples.",
+      "shortDescription": "Seventh Ashtavinayaka shrine, the obstacle-remover Ganesha on the Kukadi River at Ozar.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": "Hemadpanthi",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 675,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "05:00–22:00"
+      },
+      "images": {
+        "heroImageName": "t_vighneshwar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_vighneshwar_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ganesh Chaturthi",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Ganesh Chaturthi at Ozar celebrated with special rituals and thousands of devotees visiting the obstacle-removing deity.",
+          "significance": "high"
+        }
+      ],
+      "significance": "ashtavinayak",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_mahaganapati",
+      "slug": "mahaganapati-ranjangaon",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Mahaganapati Temple",
+      "alternateName": "महागणपती मंदिर",
+      "deity": "Ganesha",
+      "location": {
+        "latitude": 18.7651,
+        "longitude": 74.215,
+        "city": "Ranjangaon",
+        "district": null,
+        "state": "Maharashtra",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_ashtavinayak"
+      ],
+      "description": "Mahaganapati Temple in Ranjangaon is the eighth and final Ashtavinayaka shrine, dedicated to Ganesha in his Mahaganapati form — the greatest Ganesha, said to have ten trunks and twenty hands. According to legend, Lord Shiva worshipped Ganesha here before defeating the demon Tripurasura. The idol's true form, visible only to initiated priests, is concealed within a chamber.",
+      "shortDescription": "Eighth and final Ashtavinayaka shrine, dedicated to the Mahaganapati form of Ganesha, Ranjangaon.",
+      "facts": {
+        "established": null,
+        "dynasty": null,
+        "architectureStyle": "Hemadpanthi",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 614,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "05:00–22:00"
+      },
+      "images": {
+        "heroImageName": "t_mahaganapati_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_mahaganapati_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ganesh Chaturthi",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "The final shrine of the Ashtavinayaka circuit celebrates Ganesh Chaturthi as the culminating blessing of the entire pilgrimage.",
+          "significance": "high"
+        }
+      ],
+      "significance": "ashtavinayak",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_baijnath_kangra",
+      "slug": "baijnath-kangra-himachal",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Baijnath Temple",
+      "alternateName": "बैजनाथ मंदिर",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 32.0521,
+        "longitude": 76.6493,
+        "city": "Kangra",
+        "district": null,
+        "state": "Himachal Pradesh",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_major_pilgrimage"
+      ],
+      "description": "Baijnath Temple in Kangra district of Himachal Pradesh is dedicated to Shiva in his Vaidyanath (Lord of Physicians) form. Dating to 1204 CE, the Nagara-style shikhara temple stands in the verdant Kangra Valley at the confluence of the Binwa and Khud rivers. It is one of the finest surviving examples of the Shikhara architectural style in the western Himalayas.",
+      "shortDescription": "13th-century Nagara Shiva temple in the scenic Kangra Valley of Himachal Pradesh.",
+      "facts": {
+        "established": "1204 CE",
+        "dynasty": null,
+        "architectureStyle": "Nagara (Shikhara)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 1050,
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": null,
+        "darshanaTimings": "06:00–21:00"
+      },
+      "images": {
+        "heroImageName": "t_baijnath_kangra_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_baijnath_kangra_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Mahashivratri at Baijnath is celebrated with a large fair and night-long pujas at this ancient Vaidyanath shrine in the Kangra Valley.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": null
+    },
+    {
+      "id": "t_siddhivinayak_mumbai",
+      "slug": "siddhivinayak-mumbai",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Siddhivinayak Temple",
+      "alternateName": "श्री सिद्धिविनायक गणपती मंदिर",
+      "deity": "Ganesha",
+      "location": {
+        "latitude": 19.017,
+        "longitude": 72.8309,
+        "city": "Mumbai",
+        "district": "Mumbai City",
+        "state": "Maharashtra",
+        "country": "India",
+        "address": "S.K. Bole Road, Prabhadevi, Mumbai, Maharashtra 400028",
+        "pincode": "400028"
+      },
+      "categoryIDs": [
+        "c_major_pilgrimage"
+      ],
+      "description": "Shree Siddhivinayak Ganapati Temple in Prabhadevi, Mumbai is one of the richest and most visited temples in India. Built in 1801 by Laxman Vithu Patil and Deubai Patil, the temple houses a black stone idol of Lord Ganesha with four arms. The trunk of the idol turns to the right, which is considered highly auspicious and rare. The temple draws lakhs of devotees each week, including politicians, film stars, and ordinary citizens seeking Ganesha's blessings.",
+      "shortDescription": "One of India's most visited temples, housing an auspicious right-trunked black stone Ganesha idol in Prabhadevi, Mumbai.",
+      "facts": {
+        "established": "1801",
+        "dynasty": "Built by Laxman Vithu Patil and Deubai Patil",
+        "architectureStyle": "Modern temple with gold-plated dome",
+        "dresscode": "Traditional attire recommended",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "5:30 AM – 12:00 PM, 12:30 PM – 8:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_siddhivinayak_mumbai_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_siddhivinayak_mumbai_thumb"
+      },
+      "festivals": [
+        {
+          "name": "Ganesh Chaturthi",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "The biggest celebration at the temple, drawing hundreds of thousands of devotees. Date varies — typically August or September.",
+          "significance": "high"
+        },
+        {
+          "name": "Sankashti Chaturthi",
+          "approximateMonth": null,
+          "isLunar": true,
+          "description": "Monthly observance on the fourth day after the full moon. The temple sees massive queues on this day every month.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Siddhivinayak_Temple,_Mumbai"
+    }
+  ],
+  "categories": [
+    {
+      "id": "c_jyotirlinga",
+      "name": "12 Jyotirlingas",
+      "description": "The twelve sacred abodes of Lord Shiva, where he manifested as pillars of light (jyoti). Completing the Jyotirlinga pilgrimage is considered one of the greatest spiritual achievements in Shaivism.",
+      "templeIDs": [
+        "t_somnath",
+        "t_mallikarjuna",
+        "t_mahakaleshwar",
+        "t_omkareshwar",
+        "t_kedarnath",
+        "t_bhimashankar",
+        "t_kashi_vishwanath",
+        "t_trimbakeshwar",
+        "t_vaidyanath",
+        "t_nageshwar",
+        "t_ramanathaswamy",
+        "t_grishneshwar"
+      ],
+      "achievementID": "a_jyotirlinga_complete",
+      "iconAssetName": "category_jyotirlinga",
+      "color": "#FF6B35",
+      "deity": "Shiva",
+      "sortOrder": 1
+    },
+    {
+      "id": "c_char_dham",
+      "name": "Char Dham",
+      "description": "The four most sacred Hindu pilgrimage sites in India — Badrinath, Jagannath (Puri), Ramanathaswamy (Rameswaram), and Dwarkadhish (Dwarka) — forming the pan-India Char Dham circuit established by Adi Shankaracharya.",
+      "templeIDs": [
+        "t_badrinath",
+        "t_jagannath",
+        "t_ramanathaswamy",
+        "t_dwarkadhish"
+      ],
+      "achievementID": "a_char_dham_complete",
+      "iconAssetName": "category_char_dham",
+      "color": "#FF6B35",
+      "deity": null,
+      "sortOrder": 2
+    },
+    {
+      "id": "c_ashtavinayak",
+      "name": "Ashtavinayak",
+      "description": "Eight self-manifested (swayambhu) Ganesha shrines in Maharashtra, each representing a different form of Ganesha. The pilgrimage follows a specific sequence starting and ending at Morgaon.",
+      "templeIDs": [
+        "t_mayureshwar",
+        "t_siddhivinayak_siddhatek",
+        "t_ballaleshwar",
+        "t_varadvinayak",
+        "t_chintamani",
+        "t_girijatmaj",
+        "t_vighneshwar",
+        "t_mahaganapati"
+      ],
+      "achievementID": "a_ashtavinayak_complete",
+      "iconAssetName": "category_ashtavinayak",
+      "color": "#9B59B6",
+      "deity": "Ganesha",
+      "sortOrder": 3
+    },
+    {
+      "id": "c_sapta_puri",
+      "name": "Sapta Puri",
+      "description": "The seven sacred cities (moksha-nagar) of Hinduism — Ayodhya, Mathura, Haridwar, Varanasi, Kanchipuram, Ujjain, and Dwarka — whose very darshan is said to grant liberation.",
+      "templeIDs": [
+        "t_kashi_vishwanath",
+        "t_ram_janmabhoomi",
+        "t_krishna_janmabhoomi",
+        "t_mansa_devi",
+        "t_ekambareswarar",
+        "t_mahakaleshwar",
+        "t_dwarkadhish"
+      ],
+      "achievementID": "a_sapta_puri_complete",
+      "iconAssetName": "category_sapta_puri",
+      "color": "#3498DB",
+      "deity": null,
+      "sortOrder": 4
+    },
+    {
+      "id": "c_pancha_bhoota_lingas",
+      "name": "Pancha Bhoota Lingas",
+      "description": "Five Shiva temples in South India where the lingam represents one of the five classical elements: Earth (Kanchipuram), Water (Tiruchirappalli), Fire (Tiruvannamalai), Air (Srikalahasti), and Space (Chidambaram).",
+      "templeIDs": [
+        "t_ekambareswarar",
+        "t_jambukeswarar",
+        "t_srikalahasteeswara",
+        "t_chidambaram"
+      ],
+      "achievementID": "a_pancha_bhoota_lingas_complete",
+      "iconAssetName": "category_pancha_bhoota",
+      "color": "#1ABC9C",
+      "deity": "Shiva",
+      "sortOrder": 5
+    },
+    {
+      "id": "c_pancha_kedar",
+      "name": "Pancha Kedar",
+      "description": "Five sacred Shiva temples in the Garhwal Himalayas — Kedarnath, Tungnath, Rudranath, Madhyamaheshwar, and Kalpeshwar — believed to be sites where different parts of the Pandavas' patron Shiva (in bull form) emerged from the earth.",
+      "templeIDs": [
+        "t_kedarnath"
+      ],
+      "achievementID": "a_pancha_kedar_complete",
+      "iconAssetName": "category_pancha_kedar",
+      "color": "#27AE60",
+      "deity": "Shiva",
+      "sortOrder": 6
+    },
+    {
+      "id": "c_pancha_badri",
+      "name": "Pancha Badri",
+      "description": "Five sacred Vishnu temples in the Garhwal Himalayas — Badrinath (Vishal Badri), Yogadhyan Badri, Bhavishya Badri, Adi Badri, and Vridha Badri — together forming the Pancha Badri pilgrimage.",
+      "templeIDs": [
+        "t_badrinath"
+      ],
+      "achievementID": "a_pancha_badri_complete",
+      "iconAssetName": "category_pancha_badri",
+      "color": "#F39C12",
+      "deity": "Vishnu",
+      "sortOrder": 7
+    },
+    {
+      "id": "c_unesco",
+      "name": "UNESCO Temple Sites",
+      "description": "Hindu and Jain temples recognised as UNESCO World Heritage Sites for their outstanding universal value in architecture, sculpture, and cultural heritage.",
+      "templeIDs": [
+        "t_brihadeeswarar",
+        "t_kailasa",
+        "t_shore_temple",
+        "t_konark",
+        "t_virupaksha",
+        "t_airavateswara"
+      ],
+      "achievementID": "a_unesco_complete",
+      "iconAssetName": "category_unesco",
+      "color": "#E74C3C",
+      "deity": null,
+      "sortOrder": 8
+    },
+    {
+      "id": "c_chola",
+      "name": "Chola Temples",
+      "description": "Magnificent temples built by the imperial Chola dynasty of Tamil Nadu (9th–13th century CE), exemplifying the pinnacle of Dravidian architecture with soaring vimanas and intricate bronze sculptures.",
+      "templeIDs": [
+        "t_brihadeeswarar",
+        "t_airavateswara"
+      ],
+      "achievementID": "a_chola_complete",
+      "iconAssetName": "category_chola",
+      "color": "#8B4513",
+      "deity": null,
+      "sortOrder": 9
+    },
+    {
+      "id": "c_rock_cut",
+      "name": "Rock-cut Temples",
+      "description": "Temples carved entirely from living rock — among the greatest feats of ancient Indian engineering and artistry, found at sites like Ellora, Mahabalipuram, and Badami.",
+      "templeIDs": [
+        "t_kailasa"
+      ],
+      "achievementID": null,
+      "iconAssetName": "category_rock_cut",
+      "color": "#795548",
+      "deity": null,
+      "sortOrder": 10
+    },
+    {
+      "id": "c_pallava",
+      "name": "Pallava Temples",
+      "description": "Temples built by the Pallava dynasty of Tamil Nadu (3rd–9th century CE), pioneers of Dravidian architecture who created the earliest structural stone temples and remarkable rock-cut monuments at Mahabalipuram.",
+      "templeIDs": [
+        "t_shore_temple"
+      ],
+      "achievementID": null,
+      "iconAssetName": "category_pallava",
+      "color": "#00897B",
+      "deity": null,
+      "sortOrder": 11
+    },
+    {
+      "id": "c_vijayanagara",
+      "name": "Vijayanagara Temples",
+      "description": "Temples built or patronised by the Vijayanagara Empire (14th–17th century CE) of the Deccan, known for their monumental gopurams, pillared halls (kalyanamandapas), and synthesis of multiple regional styles.",
+      "templeIDs": [
+        "t_virupaksha"
+      ],
+      "achievementID": null,
+      "iconAssetName": "category_vijayanagara",
+      "color": "#F57F17",
+      "deity": null,
+      "sortOrder": 12
+    },
+    {
+      "id": "c_hoysala",
+      "name": "Hoysala Temples",
+      "description": "Temples built by the Hoysala dynasty of Karnataka (11th–14th century CE), famous for their star-shaped platforms (jagati) and extraordinarily dense sculptural work in dark chloritic schist stone.",
+      "templeIDs": [
+        "t_chennakesava",
+        "t_hoysaleswara"
+      ],
+      "achievementID": "a_hoysala_complete",
+      "iconAssetName": "category_hoysala",
+      "color": "#795548",
+      "deity": null,
+      "sortOrder": 13
+    },
+    {
+      "id": "c_rama_circuit",
+      "name": "Rama Circuit",
+      "description": "Sacred sites associated with the life and journey of Lord Rama as narrated in the Ramayana — from his birthplace in Ayodhya to the sea crossing at Rameswaram.",
+      "templeIDs": [
+        "t_ram_janmabhoomi",
+        "t_ramanathaswamy"
+      ],
+      "achievementID": "a_rama_circuit_complete",
+      "iconAssetName": "category_rama_circuit",
+      "color": "#FF8C00",
+      "deity": "Rama",
+      "sortOrder": 14
+    },
+    {
+      "id": "c_krishna_circuit",
+      "name": "Krishna Circuit",
+      "description": "Sacred sites associated with the life and lila of Lord Krishna — from his birthplace in Mathura and childhood in Vrindavan to his kingdom in Dwarka.",
+      "templeIDs": [
+        "t_krishna_janmabhoomi",
+        "t_dwarkadhish"
+      ],
+      "achievementID": "a_krishna_circuit_complete",
+      "iconAssetName": "category_krishna_circuit",
+      "color": "#1565C0",
+      "deity": "Krishna",
+      "sortOrder": 15
+    },
+    {
+      "id": "c_ancient",
+      "name": "Ancient Temples",
+      "description": "Significant ancient temples of historical and architectural importance not falling within other specific circuits.",
+      "templeIDs": [
+        "t_lingaraj"
+      ],
+      "achievementID": null,
+      "iconAssetName": "category_ancient",
+      "color": "#546E7A",
+      "deity": null,
+      "sortOrder": 16
+    },
+    {
+      "id": "c_major_pilgrimage",
+      "name": "Major Pilgrimage Centers",
+      "description": "Prominent pilgrimage temples of regional and national significance that draw large numbers of devotees throughout the year.",
+      "templeIDs": [
+        "t_baijnath_kangra"
+      ],
+      "achievementID": null,
+      "iconAssetName": "category_major_pilgrimage",
+      "color": "#607D8B",
+      "deity": null,
+      "sortOrder": 17
+    }
+  ],
+  "achievements": [
+    {
+      "id": "a_jyotirlinga_complete",
+      "categoryID": "c_jyotirlinga",
+      "name": "Jyotirlinga Yatri",
+      "description": "Visited all 12 sacred Jyotirlingas of Lord Shiva — the divine pillars of light scattered across India.",
+      "iconAssetName": "achievement_jyotirlinga",
+      "rarity": "legendary",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#FFB830"
+      }
+    },
+    {
+      "id": "a_char_dham_complete",
+      "categoryID": "c_char_dham",
+      "name": "Char Dham Yatri",
+      "description": "Completed the sacred Char Dham pilgrimage — Badrinath, Jagannath, Ramanathaswamy, and Dwarkadhish.",
+      "iconAssetName": "achievement_char_dham",
+      "rarity": "legendary",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#FF6B35"
+      }
+    },
+    {
+      "id": "a_ashtavinayak_complete",
+      "categoryID": "c_ashtavinayak",
+      "name": "Ashtavinayak Yatri",
+      "description": "Visited all 8 self-manifested Ganesha shrines of the Ashtavinayaka pilgrimage in Maharashtra.",
+      "iconAssetName": "achievement_ashtavinayak",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#9B59B6"
+      }
+    },
+    {
+      "id": "a_sapta_puri_complete",
+      "categoryID": "c_sapta_puri",
+      "name": "Sapta Puri Yatri",
+      "description": "Visited the seven sacred cities of Hinduism — the moksha-nagar where the divine presence is most palpable.",
+      "iconAssetName": "achievement_sapta_puri",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#3498DB"
+      }
+    },
+    {
+      "id": "a_pancha_bhoota_lingas_complete",
+      "categoryID": "c_pancha_bhoota_lingas",
+      "name": "Pancha Bhoota Yatri",
+      "description": "Visited all five Pancha Bhoota Lingam temples of South India, experiencing Shiva as the five elements of creation.",
+      "iconAssetName": "achievement_pancha_bhoota",
+      "rarity": "rare",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#1ABC9C"
+      }
+    },
+    {
+      "id": "a_pancha_kedar_complete",
+      "categoryID": "c_pancha_kedar",
+      "name": "Pancha Kedar Yatri",
+      "description": "Completed the arduous Pancha Kedar pilgrimage through the high Garhwal Himalayas, seeking Shiva at his most remote and majestic shrines.",
+      "iconAssetName": "achievement_pancha_kedar",
+      "rarity": "rare",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#27AE60"
+      }
+    },
+    {
+      "id": "a_pancha_badri_complete",
+      "categoryID": "c_pancha_badri",
+      "name": "Pancha Badri Yatri",
+      "description": "Completed the Pancha Badri pilgrimage, visiting all five sacred Vishnu shrines in the Garhwal Himalayas.",
+      "iconAssetName": "achievement_pancha_badri",
+      "rarity": "rare",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#F39C12"
+      }
+    },
+    {
+      "id": "a_unesco_complete",
+      "categoryID": "c_unesco",
+      "name": "UNESCO Temple Explorer",
+      "description": "Visited all UNESCO World Heritage temple sites in the Pad Yatra collection — witnessing humanity's greatest sacred architecture.",
+      "iconAssetName": "achievement_unesco",
+      "rarity": "legendary",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#E74C3C"
+      }
+    },
+    {
+      "id": "a_chola_complete",
+      "categoryID": "c_chola",
+      "name": "Chola Temple Yatri",
+      "description": "Visited the great Chola temples — monuments to an empire that made Tamil Nadu the centre of Hindu civilisation for five centuries.",
+      "iconAssetName": "achievement_chola",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#8B4513"
+      }
+    },
+    {
+      "id": "a_hoysala_complete",
+      "categoryID": "c_hoysala",
+      "name": "Hoysala Temple Yatri",
+      "description": "Visited both great Hoysala temples — Belur and Halebidu — marvelling at the most densely sculpted stone temples in the world.",
+      "iconAssetName": "achievement_hoysala",
+      "rarity": "rare",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#795548"
+      }
+    },
+    {
+      "id": "a_rama_circuit_complete",
+      "categoryID": "c_rama_circuit",
+      "name": "Rama Circuit Yatri",
+      "description": "Followed the sacred footsteps of Lord Rama, visiting the key shrines of the Rama Circuit from Ayodhya to Rameswaram.",
+      "iconAssetName": "achievement_rama_circuit",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#FF8C00"
+      }
+    },
+    {
+      "id": "a_krishna_circuit_complete",
+      "categoryID": "c_krishna_circuit",
+      "name": "Krishna Circuit Yatri",
+      "description": "Traced the divine journey of Lord Krishna, from his birthplace in Mathura to his eternal kingdom in Dwarka.",
+      "iconAssetName": "achievement_krishna_circuit",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#8A7B72",
+        "unlocked": "#1565C0"
+      }
+    }
+  ]
+}
