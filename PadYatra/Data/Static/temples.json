@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "lastUpdated": "2026-03-23",
   "categories": [
     {
@@ -7195,7 +7195,7 @@
       "id": "t_rameswaram_ramanathaswamy_temple_rameshw",
       "slug": "rameswaram-ramanathaswamy-temple-rameshwaram",
       "legacyIDs": [],
-      "isActive": true,
+      "isActive": false,
       "name": "Rameswaram Ramanathaswamy Temple",
       "alternateName": null,
       "deity": "Rama & Shiva",
@@ -8340,7 +8340,9 @@
     {
       "id": "t_rameswaram_ramanathaswamy_temple_rameswa",
       "slug": "rameswaram-ramanathaswamy-temple-rameswaram",
-      "legacyIDs": [],
+      "legacyIDs": [
+        "t_rameswaram_ramanathaswamy_temple_rameshw"
+      ],
       "isActive": true,
       "name": "Rameswaram Ramanathaswamy Temple",
       "alternateName": null,
@@ -8360,7 +8362,8 @@
         "c_jyotirlinga",
         "c_major_pilgrimage",
         "c_oldest_functioning",
-        "c_riverbank"
+        "c_riverbank",
+        "c_rama_circuit"
       ],
       "description": "Rameswaram Ramanathaswamy Temple is a Hindu temple located in Rameswaram, Tamil Nadu, India, dedicated to Shiva. It dates to the Medieval Period.",
       "shortDescription": "Rameswaram Ramanathaswamy Temple is a Hindu temple located in Rameswaram, Tamil Nadu, India, dedicated to Shiva.",
