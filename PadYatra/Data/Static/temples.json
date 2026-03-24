@@ -3445,10 +3445,10 @@
       "location": {
         "latitude": null,
         "longitude": null,
-        "city": "Varad",
-        "district": "Talegaon",
-        "state": "Dhule",
-        "country": "Maharashtra",
+        "city": "Mahad",
+        "district": "Raigad",
+        "state": "Maharashtra",
+        "country": "India",
         "address": null,
         "pincode": null
       },
@@ -3473,7 +3473,7 @@
         "heroImageName": "t_varadvinayak_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_varadvinayak_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Varadavinayak.jpg/1200px-Varadavinayak.jpg"
       },
       "festivals": [
         {
@@ -3486,7 +3486,7 @@
       ],
       "significance": "ashtavinayak",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Varadvinayak"
     },
     {
       "id": "t_suryanar",
