@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "lastUpdated": "2026-03-23",
   "categories": [
     {
@@ -148,11 +148,11 @@
       "deity": "Shiva",
       "sortOrder": 5,
       "templeIDs": [
-        "t_badrinath",
         "t_kalpeshwar",
         "t_kedarnath",
         "t_rudranath",
-        "t_tungnath"
+        "t_tungnath",
+        "t_madhyamaheshwar"
       ],
       "achievementID": "a_pancha_kedar_complete"
     },
@@ -10736,7 +10736,7 @@
         "heroImageName": "t_kalpeshwar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_kalpeshwar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Kalpehswar.jpg/1200px-Kalpehswar.jpg"
       },
       "festivals": [
         {
@@ -10756,7 +10756,7 @@
       ],
       "significance": "panchaKedar",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Kalpeshwar"
     },
     {
       "id": "t_mallikarjuna",
@@ -11229,7 +11229,7 @@
         "heroImageName": "t_rudranath_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_rudranath_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rudranath_temple.jpg/1200px-Rudranath_temple.jpg"
       },
       "festivals": [
         {
@@ -11249,7 +11249,7 @@
       ],
       "significance": "panchaKedar",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Rudranath"
     },
     {
       "id": "t_somnath_temple_prabhas_patan",
@@ -11416,7 +11416,7 @@
         "heroImageName": "t_tungnath_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_tungnath_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Tungnath_temple.jpg/1200px-Tungnath_temple.jpg"
       },
       "festivals": [
         {
@@ -11436,7 +11436,7 @@
       ],
       "significance": "panchaKedar",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Tungnath"
     },
     {
       "id": "t_vaidyanath",
@@ -13467,7 +13467,6 @@
         "c_largest",
         "c_major_pilgrimage",
         "c_pancha_badri",
-        "c_pancha_kedar",
         "c_riverbank",
         "c_swayambhu_vishnu"
       ],
@@ -15397,6 +15396,52 @@
       "significance": "shaktipeeth",
       "isUNESCO": false,
       "sourceURL": null
+    },
+    {
+      "id": "t_madhyamaheshwar",
+      "slug": "madhyamaheshwar-temple",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Madhyamaheshwar Temple",
+      "alternateName": "Madmaheshwar",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 30.63694444,
+        "longitude": 79.21611111,
+        "city": "Gaundar",
+        "district": "Rudraprayag",
+        "state": "Uttarakhand",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_pancha_kedar"
+      ],
+      "description": "Madhyamaheshwar is a Hindu temple dedicated to Shiva, located in Gaundar village in Rudraprayag district, amidst the Garhwal Himalayas of Uttarakhand. Situated at an elevation of 3,497 m (11,473 ft), it is one of the Panch Kedar pilgrimage sites. The temple is believed to enshrine the navel (nabhi) of Shiva.",
+      "shortDescription": "Panch Kedar temple at 3,497 m enshrining the navel of Shiva.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": 5,
+        "closingMonth": 11,
+        "altitude": "3,497 m",
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": "Free",
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_madhyamaheshwar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_madhyamaheshwar_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Madhyamaheshwar_Temple%2C_Uttarakhand.JPG/1200px-Madhyamaheshwar_Temple%2C_Uttarakhand.JPG"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Madhyamaheshwar"
     }
   ]
 }
