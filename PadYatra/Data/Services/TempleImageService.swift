@@ -1,10 +1,12 @@
 // TempleImageService.swift
-// Fetches temple image URLs from three sources in parallel:
-//   1. Wikipedia REST API  — authoritative hero image
-//   2. Wikimedia Commons   — additional gallery images (free/CC)
-//   3. Unsplash            — high-quality photography
-// Results are memory-cached by temple ID. Disk caching of the actual
-// image data is handled automatically by URLSession/AsyncImage.
+// Resolves image URLs for a temple, in priority order:
+//   1. remoteHeroURL in the JSON  — pre-verified during build pipeline (most accurate)
+//   2. Wikipedia REST API         — live fetch using temple's Wikipedia sourceURL
+//   3. Wikimedia Commons search   — additional gallery images (CC licensed)
+//   4. Unsplash search            — high-quality photography (name-based, last resort)
+//
+// URL lists are persisted to disk via URLCache so re-fetching is avoided between launches.
+// Actual image pixel data is also disk-cached by AsyncImage via the same URLCache.
 import Foundation
 import OSLog
 
@@ -18,51 +20,67 @@ final class TempleImageService {
 
     // MARK: - State
 
-    private var cache: [String: [URL]] = [:]
+    /// In-memory URL list cache. Persists for the lifetime of the process.
+    private var urlCache: [String: [URL]] = [:]
     private let logger = Logger(subsystem: "com.padyatra", category: "TempleImageService")
 
     // MARK: - Public
 
-    /// Returns cached or freshly fetched image URLs for a temple.
-    /// Always returns hero URL first (Wikipedia), then Wikimedia, then Unsplash.
+    /// Returns image URLs for a temple. First call fetches; subsequent calls return cached.
     func imageURLs(for temple: Temple) async -> [URL] {
-        if let cached = cache[temple.id] { return cached }
-        logger.debug("Fetching images for '\(temple.id)'")
-        let urls = await Self.fetchAll(for: temple.name)
-        cache[temple.id] = urls
+        if let cached = urlCache[temple.id] { return cached }
+        let urls = await Self.fetchAll(for: temple)
+        urlCache[temple.id] = urls
         logger.debug("Cached \(urls.count) URL(s) for '\(temple.id)'")
         return urls
     }
 
     // MARK: - Aggregator
 
-    private nonisolated static func fetchAll(for name: String) async -> [URL] {
-        async let wiki      = fetchWikipedia(name)
-        async let wikimedia = fetchWikimedia(name)
-        async let unsplash  = fetchUnsplash(name)
-        let (w, wm, u)      = await (wiki, wikimedia, unsplash)
-
+    private nonisolated static func fetchAll(for temple: Temple) async -> [URL] {
         var urls: [URL] = []
-        if let hero = w { urls.append(hero) }
-        urls.append(contentsOf: wm)
-        urls.append(contentsOf: u)
+
+        // 1. Pre-verified hero image from JSON build pipeline — use directly, no search needed
+        if let heroString = temple.images.remoteHeroURL, let heroURL = URL(string: heroString) {
+            urls.append(heroURL)
+        }
+
+        // 2. Wikipedia article page — use stored sourceURL for accurate article lookup
+        //    Skip if we already have a hero from the same Wikipedia source
+        if urls.isEmpty, let hero = await fetchWikipediaHero(temple) {
+            urls.append(hero)
+        }
+
+        // 3. Wikimedia Commons gallery images (independent of hero source)
+        let wikimediaURLs = await fetchWikimedia(temple.name)
+        urls.append(contentsOf: wikimediaURLs)
+
+        // 4. Unsplash — last resort, name-based search
+        if urls.count < 3 {
+            let unsplashURLs = await fetchUnsplash(temple.name)
+            urls.append(contentsOf: unsplashURLs)
+        }
+
         return urls
     }
 
-    // MARK: - Wikipedia REST API
+    // MARK: - Wikipedia (by article URL, not name search)
 
-    /// Fetches the lead image from the Wikipedia article matching the temple name.
-    /// Uses the `thumbnail` URL widened to 1200 px — Wikimedia serves any width
-    /// via URL, giving a pre-processed JPEG that AsyncImage decodes reliably.
-    /// Raw `originalimage` files can be very large or use JPEG sub-formats that
-    /// trigger iOS decoder warnings, so we avoid them.
-    private nonisolated static func fetchWikipedia(_ name: String) async -> URL? {
+    /// Fetches the hero image from the temple's stored Wikipedia article URL.
+    /// This avoids name-ambiguity bugs — we use the exact article already identified
+    /// during the build pipeline, not a free-text search.
+    private nonisolated static func fetchWikipediaHero(_ temple: Temple) async -> URL? {
+        // Derive article title from sourceURL (e.g. ".../wiki/Somnath_temple" → "Somnath_temple")
         guard
-            let encoded = name.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed),
-            let url = URL(string: "https://en.wikipedia.org/api/rest_v1/page/summary/\(encoded)")
+            let sourceURL = temple.sourceURL,
+            let articleTitle = sourceURL.components(separatedBy: "/wiki/").last,
+            !articleTitle.isEmpty
         else { return nil }
 
-        var request = URLRequest(url: url)
+        guard let apiURL = URL(string: "https://en.wikipedia.org/api/rest_v1/page/summary/\(articleTitle)")
+        else { return nil }
+
+        var request = URLRequest(url: apiURL)
         request.setValue("PadYatra/1.0 (iOS; contact@padyatra.com)", forHTTPHeaderField: "User-Agent")
 
         guard
@@ -72,13 +90,11 @@ final class TempleImageService {
 
         struct WikiSummary: Decodable {
             struct Image: Decodable { let source: String }
-            let originalimage: Image?
             let thumbnail: Image?
+            let originalimage: Image?
         }
-
         guard let summary = try? JSONDecoder().decode(WikiSummary.self, from: data) else { return nil }
 
-        // Prefer thumbnail widened to 1200px; fall back to originalimage
         if let thumbSource = summary.thumbnail?.source,
            let widened = widenWikimediaThumb(thumbSource, width: 1200) {
             return widened
@@ -86,9 +102,7 @@ final class TempleImageService {
         return summary.originalimage.flatMap { URL(string: $0.source) }
     }
 
-    /// Rewrites a Wikimedia thumbnail URL to request a different width.
-    /// Wikimedia thumbnail URLs end with `/{N}px-{filename}`.
-    /// Replacing N serves a fresh resize at the requested width.
+    /// Rewrites a Wikimedia thumbnail URL to request a specific width.
     private nonisolated static func widenWikimediaThumb(_ source: String, width: Int) -> URL? {
         guard var comps = URLComponents(string: source) else { return nil }
         var parts = comps.path.components(separatedBy: "/")
@@ -101,12 +115,9 @@ final class TempleImageService {
         return comps.url
     }
 
-    // MARK: - Wikimedia Commons API
+    // MARK: - Wikimedia Commons
 
-    /// Searches Wikimedia Commons for image files matching the temple name,
-    /// then resolves their direct URLs. SVGs and non-photo formats are skipped.
     private nonisolated static func fetchWikimedia(_ name: String) async -> [URL] {
-        // Step 1: search for image files
         guard
             let encoded = "\(name) temple".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
             let searchURL = URL(string: "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=\(encoded)&srnamespace=6&srlimit=5&format=json")
@@ -127,15 +138,13 @@ final class TempleImageService {
             let items = result.query?.search, !items.isEmpty
         else { return [] }
 
-        // Keep only photo formats; skip SVG diagrams and maps
-        let photoTitles = items.map(\.title).filter { title in
-            let lower = title.lowercased()
+        let photoTitles = items.map(\.title).filter {
+            let lower = $0.lowercased()
             return lower.hasSuffix(".jpg") || lower.hasSuffix(".jpeg")
                 || lower.hasSuffix(".png") || lower.hasSuffix(".webp")
         }
         guard !photoTitles.isEmpty else { return [] }
 
-        // Step 2: resolve direct download URLs
         guard
             let titlesEncoded = photoTitles.joined(separator: "|")
                 .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
@@ -161,10 +170,8 @@ final class TempleImageService {
         } ?? []
     }
 
-    // MARK: - Unsplash API
+    // MARK: - Unsplash
 
-    /// Searches Unsplash for photos of the temple. Returns `regular`-size URLs
-    /// (≈1080px wide) suitable for gallery display.
     private nonisolated static func fetchUnsplash(_ name: String) async -> [URL] {
         guard
             let encoded = "\(name) temple india".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),

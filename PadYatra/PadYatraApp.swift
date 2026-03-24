@@ -7,6 +7,14 @@ import OSLog
 @main
 struct PadYatraApp: App {
 
+    init() {
+        // 50 MB memory + 300 MB disk image cache shared by AsyncImage and URLSession.
+        URLCache.shared = URLCache(
+            memoryCapacity: 50  * 1024 * 1024,
+            diskCapacity:   300 * 1024 * 1024
+        )
+    }
+
     // MARK: - Services
 
     @StateObject private var templeDataService = TempleDataService()
