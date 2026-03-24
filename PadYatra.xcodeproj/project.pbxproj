@@ -31,7 +31,6 @@
 		4DE2FE66606F0D37DA055A44 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8627B41063BF55BF098626 /* StatsView.swift */; };
 		4ED15FB90B173E0D330456B3 /* TempleListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FAC15682889FA4DCAC9816 /* TempleListRow.swift */; };
 		504BE7FCB138EB6D5005F9EF /* Temple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688BECFD8CCE2FE11589FF5 /* Temple.swift */; };
-		518A0355832D6D7F3D3B0FF6 /* RemoteDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B23F6CC6BA1500EC0E8F3 /* RemoteDataServiceTests.swift */; };
 		523C9BE18575CEC55D69E173 /* FormSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB85E2CFD8502883BC9DDF0 /* FormSectionHeader.swift */; };
 		5660A6E65AF559E597BFD3F4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707037FC0A0A04A1F626EA30 /* MapViewModel.swift */; };
 		608B29C6F218270D0F8F7AFB /* TempleDataValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CFC66E8ACD0C9232B8495 /* TempleDataValidator.swift */; };
@@ -87,7 +86,6 @@
 		0FB85E2CFD8502883BC9DDF0 /* FormSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSectionHeader.swift; sourceTree = "<group>"; };
 		1193F67105E3596B2771F2C9 /* AchievementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementService.swift; sourceTree = "<group>"; };
 		13D761BFFE06E210238F843F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		147B23F6CC6BA1500EC0E8F3 /* RemoteDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataServiceTests.swift; sourceTree = "<group>"; };
 		1B0DF66685311F9C2D865801 /* RemoteDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataService.swift; sourceTree = "<group>"; };
 		1F01547B90F2F3A9908590D4 /* AchievementServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementServiceTests.swift; sourceTree = "<group>"; };
 		1F70B7AB77B7833E50FF46A9 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
@@ -298,7 +296,6 @@
 			isa = PBXGroup;
 			children = (
 				1F01547B90F2F3A9908590D4 /* AchievementServiceTests.swift */,
-				147B23F6CC6BA1500EC0E8F3 /* RemoteDataServiceTests.swift */,
 				71CDE3D36933F4CB0BF711F4 /* TempleDataServiceTests.swift */,
 				A45B0BD2DB19233B8BA2E508 /* TempleDataValidatorTests.swift */,
 				D5ABCEEBEC9E426B318149EB /* VisitServiceTests.swift */,
@@ -542,7 +539,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C083B3539AD615845E07F4F8 /* AchievementServiceTests.swift in Sources */,
-				518A0355832D6D7F3D3B0FF6 /* RemoteDataServiceTests.swift in Sources */,
 				A977135DDF794E681D361764 /* TempleDataServiceTests.swift in Sources */,
 				AEEA865B1711F032F089874B /* TempleDataValidatorTests.swift in Sources */,
 				F253061D8532B715872D0441 /* VisitServiceTests.swift in Sources */,
