@@ -4502,7 +4502,7 @@
         "heroImageName": "t_krishna_janmabhoomi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_krishna_janmabhoomi_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mathura_Temple-Mathura-India0002.JPG/1280px-Mathura_Temple-Mathura-India0002.JPG"
       },
       "festivals": [
         {
@@ -4522,7 +4522,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Krishna_Janmasthan_Temple_Complex"
     },
     {
       "id": "t_dwarkadhish",
