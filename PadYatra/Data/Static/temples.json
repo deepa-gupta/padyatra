@@ -2181,7 +2181,7 @@
         "heroImageName": "t_moreshwar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_moreshwar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Morgaon.jpg/1200px-Morgaon.jpg"
       },
       "festivals": [
         {
@@ -2201,7 +2201,7 @@
       ],
       "significance": "ashtavinayak",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Ganesha_Temple,_Morgaon"
     },
     {
       "id": "t_siddhivinayak",
@@ -2215,7 +2215,7 @@
         "latitude": 18.444367,
         "longitude": 74.726371,
         "city": "Siddhatek",
-        "district": "Aurangabad",
+        "district": "Ahmednagar",
         "state": "Maharashtra",
         "country": "India",
         "address": null,
@@ -2242,7 +2242,7 @@
         "heroImageName": "t_siddhivinayak_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_siddhivinayak_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Siddhi_Vinayak_at_Siddhatek.jpg"
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Siddhi_Vinayak_at_Siddhatek.jpg/1200px-Siddhi_Vinayak_at_Siddhatek.jpg"
       },
       "festivals": [
         {
@@ -2303,7 +2303,7 @@
         "heroImageName": "t_ballaleshwar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_ballaleshwar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pali-_Shri_Ballaleshwar.jpg/1200px-Pali-_Shri_Ballaleshwar.jpg"
       },
       "festivals": [
         {
@@ -2323,7 +2323,7 @@
       ],
       "significance": "ashtavinayak",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Ballaleshwar_Pali"
     },
     {
       "id": "t_chintamani",
@@ -2364,7 +2364,7 @@
         "heroImageName": "t_chintamani_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chintamani_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Shri_Cintamani_of_Theur.jpg"
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Shri_Cintamani_of_Theur.jpg/1200px-Shri_Cintamani_of_Theur.jpg"
       },
       "festivals": [
         {
@@ -2425,7 +2425,7 @@
         "heroImageName": "t_girijatmaj_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_girijatmaj_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Lenyadri.jpg/1200px-Lenyadri.jpg"
       },
       "festivals": [
         {
@@ -2445,7 +2445,7 @@
       ],
       "significance": "ashtavinayak",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Lenyadri#Cave_7:_Ganesha_Temple"
     },
     {
       "id": "t_vinayak",
@@ -2459,7 +2459,7 @@
         "latitude": 16.102371,
         "longitude": 73.467464,
         "city": "Ozar",
-        "district": "Nashik",
+        "district": "Pune",
         "state": "Maharashtra",
         "country": "India",
         "address": null,
@@ -2486,7 +2486,7 @@
         "heroImageName": "t_vinayak_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_vinayak_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ozhar_-_Shri_Vighnahar.jpg/1200px-Ozhar_-_Shri_Vighnahar.jpg"
       },
       "festivals": [
         {
@@ -2506,7 +2506,7 @@
       ],
       "significance": "ashtavinayak",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Vigneshwara_Temple,_Ozar"
     },
     {
       "id": "t_mahaganapati",
@@ -2547,7 +2547,7 @@
         "heroImageName": "t_mahaganapati_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_mahaganapati_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ranjangaon_Mahaganapati_Temple_Viman.jpg/1200px-Ranjangaon_Mahaganapati_Temple_Viman.jpg"
       },
       "festivals": [
         {
@@ -2567,7 +2567,7 @@
       ],
       "significance": "ashtavinayak",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Ranjangaon_Ganpati"
     },
     {
       "id": "t_gangotri",
