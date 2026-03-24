@@ -699,7 +699,10 @@
     "lat": 24.489832,
     "lon": 86.699018
   },
-  "t_jambukeswarar": null,
+  "t_jambukeswarar": {
+    "lat": 10.853333,
+    "lon": 78.705556
+  },
   "t_group_of_monuments_at_pattadakal": {
     "lat": 15.951389,
     "lon": 75.814722

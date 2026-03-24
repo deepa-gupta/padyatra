@@ -244,25 +244,36 @@ BATCH = 50
 todo = [t for t in unique_temples if t["_id"] not in wiki_cache]
 print(f"  Need to fetch: {len(todo)}")
 
+def wiki_page_to_entry(page):
+    entry = {"extract": None, "lat": None, "lon": None, "image_url": None, "source_url": None}
+    if not page or page.get("pageid", -1) == -1:
+        return entry
+    coords = page.get("coordinates")
+    if coords:
+        entry["lat"] = round(coords[0]["lat"], 6)
+        entry["lon"] = round(coords[0]["lon"], 6)
+    entry["extract"] = page.get("extract") or None
+    orig = page.get("original")
+    if orig:
+        entry["image_url"] = orig.get("source")
+    entry["source_url"] = (
+        f"https://en.wikipedia.org/wiki/{page['title'].replace(' ', '_')}"
+    )
+    return entry
+
+WIKI_PROPS = {
+    "action": "query", "prop": "coordinates|extracts|pageimages",
+    "exintro": "1", "explaintext": "1", "exsentences": "6",
+    "piprop": "original", "redirects": "1", "format": "json",
+}
+
+# Pass 1: batch by temple name
 for batch_start in range(0, len(todo), BATCH):
     batch = todo[batch_start:batch_start + BATCH]
     titles = "|".join(t["name"] for t in batch)
     try:
-        r = SESSION.get(
-            "https://en.wikipedia.org/w/api.php",
-            params={
-                "action":    "query",
-                "titles":    titles,
-                "prop":      "coordinates|extracts|pageimages",
-                "exintro":   "1",
-                "explaintext": "1",
-                "exsentences": "5",
-                "piprop":    "original",
-                "redirects": "1",
-                "format":    "json",
-            },
-            timeout=20
-        )
+        r = SESSION.get("https://en.wikipedia.org/w/api.php",
+                        params={**WIKI_PROPS, "titles": titles}, timeout=20)
         data = r.json()
     except Exception as e:
         print(f"  !! batch {batch_start}: {e}")
@@ -270,46 +281,54 @@ for batch_start in range(0, len(todo), BATCH):
         continue
 
     pages = data.get("query", {}).get("pages", {})
-
-    # Build title→page map (normalized titles from redirects)
-    redirects = {rd["from"].lower(): rd["to"].lower()
-                 for rd in data.get("query", {}).get("redirects", [])}
+    redirects  = {rd["from"].lower(): rd["to"].lower()
+                  for rd in data.get("query", {}).get("redirects", [])}
     normalised = {n["from"].lower(): n["to"].lower()
                   for n in data.get("query", {}).get("normalized", [])}
-
-    title_to_page = {}
-    for page in pages.values():
-        title_to_page[page.get("title", "").lower()] = page
+    title_to_page = {p.get("title", "").lower(): p for p in pages.values()}
 
     for t in batch:
-        tid   = t["_id"]
-        tname = t["name"].lower()
-        # Follow normalization / redirect chain
+        tname    = t["name"].lower()
         resolved = normalised.get(tname, tname)
         resolved = redirects.get(resolved, resolved)
-        page = title_to_page.get(resolved) or title_to_page.get(tname)
+        page     = title_to_page.get(resolved) or title_to_page.get(tname)
+        wiki_cache[t["_id"]] = wiki_page_to_entry(page)
 
-        entry = {"extract": None, "lat": None, "lon": None,
-                 "image_url": None, "source_url": None}
-
-        if page and page.get("pageid", -1) != -1:
-            coords = page.get("coordinates")
-            if coords:
-                entry["lat"] = round(coords[0]["lat"], 6)
-                entry["lon"] = round(coords[0]["lon"], 6)
-            entry["extract"]    = page.get("extract") or None
-            orig = page.get("original")
-            if orig:
-                entry["image_url"] = orig.get("source")
-            entry["source_url"] = (
-                f"https://en.wikipedia.org/wiki/{page['title'].replace(' ', '_')}"
-            )
-
-        wiki_cache[tid] = entry
-
-    print(f"  Fetched {min(batch_start + BATCH, len(todo))}/{len(todo)}")
+    print(f"  Batch {min(batch_start + BATCH, len(todo))}/{len(todo)}")
     save_cache(WIKI_CACHE, wiki_cache)
     time.sleep(0.5)
+
+# Pass 2: disambiguation for temples that got no image — try "{name} temple, {city}"
+no_image = [t for t in unique_temples if not (wiki_cache.get(t["_id"]) or {}).get("image_url")]
+print(f"\n  Disambiguation pass for {len(no_image)} temples with no image...")
+for i, t in enumerate(no_image):
+    # Try progressively specific titles until we get a page with an image
+    candidates = [
+        f"{t['name']}, {t['city']}",
+        f"{t['name']} temple, {t['city']}",
+        f"{t['name']} {t['city']}",
+    ]
+    for candidate in candidates:
+        try:
+            r = SESSION.get("https://en.wikipedia.org/w/api.php",
+                            params={**WIKI_PROPS, "titles": candidate}, timeout=15)
+            data = r.json()
+            pages = data.get("query", {}).get("pages", {})
+            page  = next((p for p in pages.values() if p.get("pageid", -1) != -1), None)
+            if page:
+                entry = wiki_page_to_entry(page)
+                if entry["image_url"] or entry["extract"]:
+                    wiki_cache[t["_id"]] = entry
+                    break
+        except Exception:
+            pass
+        time.sleep(0.3)
+
+    if (i + 1) % 20 == 0:
+        save_cache(WIKI_CACHE, wiki_cache)
+        print(f"    Disambiguated {i+1}/{len(no_image)}")
+
+save_cache(WIKI_CACHE, wiki_cache)
 
 # Merge Wikipedia coords into geo_cache for temples that Nominatim missed
 for t in unique_temples:

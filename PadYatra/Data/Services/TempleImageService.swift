@@ -1,12 +1,17 @@
 // TempleImageService.swift
-// Resolves image URLs for a temple, in priority order:
-//   1. remoteHeroURL in the JSON  — pre-verified during build pipeline (most accurate)
-//   2. Wikipedia REST API         — live fetch using temple's Wikipedia sourceURL
-//   3. Wikimedia Commons search   — additional gallery images (CC licensed)
-//   4. Unsplash search            — high-quality photography (name-based, last resort)
+// Resolves image URLs for a temple from verified sources only.
+// We never show images unless we are confident they show the correct temple.
 //
-// URL lists are persisted to disk via URLCache so re-fetching is avoided between launches.
-// Actual image pixel data is also disk-cached by AsyncImage via the same URLCache.
+// Priority order:
+//   1. remoteHeroURL in the JSON — pre-verified during build pipeline (exact article match)
+//   2. Wikipedia REST API        — via temple's stored sourceURL (exact article, not a search)
+//   3. Unsplash                  — searched with name + city + state for specificity
+//
+// Wikimedia Commons text-search is intentionally excluded: a name-only search
+// ("Ganesh Temple") reliably returns images of the wrong temple.
+//
+// If all sources return nothing, callers must show a "no photos" state rather
+// than a placeholder that implies a photo exists.
 import Foundation
 import OSLog
 
@@ -20,18 +25,18 @@ final class TempleImageService {
 
     // MARK: - State
 
-    /// In-memory URL list cache. Persists for the lifetime of the process.
     private var urlCache: [String: [URL]] = [:]
     private let logger = Logger(subsystem: "com.padyatra", category: "TempleImageService")
 
     // MARK: - Public
 
-    /// Returns image URLs for a temple. First call fetches; subsequent calls return cached.
+    /// Returns verified image URLs for a temple.
+    /// Returns an empty array — not a placeholder — when no photos are found.
     func imageURLs(for temple: Temple) async -> [URL] {
         if let cached = urlCache[temple.id] { return cached }
         let urls = await Self.fetchAll(for: temple)
         urlCache[temple.id] = urls
-        logger.debug("Cached \(urls.count) URL(s) for '\(temple.id)'")
+        logger.debug("'\(temple.id)': \(urls.count) image(s) found")
         return urls
     }
 
@@ -40,37 +45,27 @@ final class TempleImageService {
     private nonisolated static func fetchAll(for temple: Temple) async -> [URL] {
         var urls: [URL] = []
 
-        // 1. Pre-verified hero image from JSON build pipeline — use directly, no search needed
-        if let heroString = temple.images.remoteHeroURL, let heroURL = URL(string: heroString) {
+        // 1. Pre-verified URL from build pipeline — most accurate, use directly
+        if let heroString = temple.images.remoteHeroURL,
+           let heroURL = URL(string: heroString) {
             urls.append(heroURL)
         }
 
-        // 2. Wikipedia article page — use stored sourceURL for accurate article lookup
-        //    Skip if we already have a hero from the same Wikipedia source
-        if urls.isEmpty, let hero = await fetchWikipediaHero(temple) {
-            urls.append(hero)
+        // 2. Wikipedia via exact stored article URL — no name search, no ambiguity
+        if let hero = await fetchWikipediaHero(temple) {
+            if !urls.contains(hero) { urls.append(hero) }
         }
 
-        // 3. Wikimedia Commons gallery images (independent of hero source)
-        let wikimediaURLs = await fetchWikimedia(temple.name)
-        urls.append(contentsOf: wikimediaURLs)
-
-        // 4. Unsplash — last resort, name-based search
-        if urls.count < 3 {
-            let unsplashURLs = await fetchUnsplash(temple.name)
-            urls.append(contentsOf: unsplashURLs)
-        }
+        // 3. Unsplash — include city + state in query to reduce wrong-temple matches
+        let unsplashURLs = await fetchUnsplash(temple)
+        urls.append(contentsOf: unsplashURLs)
 
         return urls
     }
 
-    // MARK: - Wikipedia (by article URL, not name search)
+    // MARK: - Wikipedia (exact article URL)
 
-    /// Fetches the hero image from the temple's stored Wikipedia article URL.
-    /// This avoids name-ambiguity bugs — we use the exact article already identified
-    /// during the build pipeline, not a free-text search.
     private nonisolated static func fetchWikipediaHero(_ temple: Temple) async -> URL? {
-        // Derive article title from sourceURL (e.g. ".../wiki/Somnath_temple" → "Somnath_temple")
         guard
             let sourceURL = temple.sourceURL,
             let articleTitle = sourceURL.components(separatedBy: "/wiki/").last,
@@ -102,7 +97,6 @@ final class TempleImageService {
         return summary.originalimage.flatMap { URL(string: $0.source) }
     }
 
-    /// Rewrites a Wikimedia thumbnail URL to request a specific width.
     private nonisolated static func widenWikimediaThumb(_ source: String, width: Int) -> URL? {
         guard var comps = URLComponents(string: source) else { return nil }
         var parts = comps.path.components(separatedBy: "/")
@@ -115,67 +109,15 @@ final class TempleImageService {
         return comps.url
     }
 
-    // MARK: - Wikimedia Commons
+    // MARK: - Unsplash (location-specific query)
 
-    private nonisolated static func fetchWikimedia(_ name: String) async -> [URL] {
+    private nonisolated static func fetchUnsplash(_ temple: Temple) async -> [URL] {
+        // Build a specific query: "Temple Name City State temple"
+        // More specific than just the temple name → fewer wrong-location results
+        let query = "\(temple.name) \(temple.location.city) \(temple.location.state) temple"
         guard
-            let encoded = "\(name) temple".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
-            let searchURL = URL(string: "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=\(encoded)&srnamespace=6&srlimit=5&format=json")
-        else { return [] }
-
-        guard let (searchData, _) = try? await URLSession.shared.data(from: searchURL) else { return [] }
-
-        struct SearchResponse: Decodable {
-            struct Query: Decodable {
-                struct Item: Decodable { let title: String }
-                let search: [Item]
-            }
-            let query: Query?
-        }
-
-        guard
-            let result = try? JSONDecoder().decode(SearchResponse.self, from: searchData),
-            let items = result.query?.search, !items.isEmpty
-        else { return [] }
-
-        let photoTitles = items.map(\.title).filter {
-            let lower = $0.lowercased()
-            return lower.hasSuffix(".jpg") || lower.hasSuffix(".jpeg")
-                || lower.hasSuffix(".png") || lower.hasSuffix(".webp")
-        }
-        guard !photoTitles.isEmpty else { return [] }
-
-        guard
-            let titlesEncoded = photoTitles.joined(separator: "|")
-                .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
-            let infoURL = URL(string: "https://commons.wikimedia.org/w/api.php?action=query&titles=\(titlesEncoded)&prop=imageinfo&iiprop=url&format=json")
-        else { return [] }
-
-        guard let (infoData, _) = try? await URLSession.shared.data(from: infoURL) else { return [] }
-
-        struct InfoResponse: Decodable {
-            struct Query: Decodable {
-                struct Page: Decodable {
-                    struct ImageInfo: Decodable { let url: String }
-                    let imageinfo: [ImageInfo]?
-                }
-                let pages: [String: Page]
-            }
-            let query: Query?
-        }
-
-        guard let info = try? JSONDecoder().decode(InfoResponse.self, from: infoData) else { return [] }
-        return info.query?.pages.values.compactMap {
-            $0.imageinfo?.first.flatMap { URL(string: $0.url) }
-        } ?? []
-    }
-
-    // MARK: - Unsplash
-
-    private nonisolated static func fetchUnsplash(_ name: String) async -> [URL] {
-        guard
-            let encoded = "\(name) temple india".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
-            let url = URL(string: "https://api.unsplash.com/search/photos?query=\(encoded)&per_page=3&client_id=\(unsplashKey)")
+            let encoded = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
+            let url = URL(string: "https://api.unsplash.com/search/photos?query=\(encoded)&per_page=4&client_id=\(unsplashKey)")
         else { return [] }
 
         guard let (data, _) = try? await URLSession.shared.data(from: url) else { return [] }

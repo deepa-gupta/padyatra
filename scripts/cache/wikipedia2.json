@@ -63,7 +63,7 @@
     "source_url": "https://en.wikipedia.org/wiki/Bhairabi_Temple"
   },
   "t_tulja_bhavani": {
-    "extract": "Shree Tulaja Bhavani Temple (Marathi: श्री तुळजाभवानी मंदिर), is a 12th century CE Hindu temple dedicated to goddess Bhavani. It was built in 12th century CE by Mahamandaleshwara Māradadeva of the Kadamb dynasty. Considered as one of the 51 Shakti Pithas, it is located on the banks of Mandakini River and Bori Dam in Yamunachala Hill of Balaghat Range of Tuljapur, which is 45 km northeast of Solapur, in Dharashiv district of Maharashtra in India.\nThis Tuljapur Bhavani temple, along with Renuka temple at Mahur (330 km northeast of Tuljapur), Mahalaxmi temple at Kolhapur (275 southwest of Tuljapur), and Saptashringi temple at Vani (375 northwest of Tuljapur), make up the four great Shaktipithas of Maharashtra. \nThere are other temples of Tulja Bhavani in India, such as the Chittorgarh Fort Tulja Bhavani Temple at Chittorgarh built in 1537–1540.",
+    "extract": "Shree Tulaja Bhavani Temple (Marathi: श्री तुळजाभवानी मंदिर), is a 12th century CE Hindu temple dedicated to goddess Bhavani. It was built in 12th century CE by Mahamandaleshwara Māradadeva of the Kadamb dynasty. Considered as one of the 51 Shakti Pithas, it is located on the banks of Mandakini River and Bori Dam in Yamunachala Hill of Balaghat Range of Tuljapur, which is 45 km northeast of Solapur, in Dharashiv district of Maharashtra in India.\nThis Tuljapur Bhavani temple, along with Renuka temple at Mahur (330 km northeast of Tuljapur), Mahalaxmi temple at Kolhapur (275 southwest of Tuljapur), and Saptashringi temple at Vani (375 northwest of Tuljapur), make up the four great Shaktipithas of Maharashtra. \nThere are other temples of Tulja Bhavani in India, such as the Chittorgarh Fort Tulja Bhavani Temple at Chittorgarh built in 1537–1540. This is 960 km north of Tuljapur.",
     "lat": 18.011386,
     "lon": 76.125641,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Raje_Shahaji_Mahadwar_of_Tulja_Bhavani_Temple.jpg",
@@ -98,7 +98,7 @@
     "source_url": null
   },
   "t_ajanta_caves": {
-    "extract": "The Ajanta Caves are 30 rock-cut Buddhist cave monuments dating from the second century BCE to about 480 CE in Aurangabad district of Maharashtra state in India. Ajanta Caves are a  UNESCO World Heritage Site. Universally regarded as masterpieces of Buddhist religious art, the caves include paintings and rock-cut sculptures, described as among the finest surviving examples of ancient Indian art, particularly expressive paintings that present emotions through gesture, pose and form.\nThe caves were built in two phases, the first starting around the second century BCE and the second occurring from 400 to 650 CE, according to older accounts, or in a brief period of 460–480 CE according to later scholarship.\nThe Ajanta Caves constitute ancient monasteries (Viharas) and worship-halls (Chaityas) of different Buddhist traditions carved into a 75-metre (246 ft) wall of rock.",
+    "extract": "The Ajanta Caves are 30 rock-cut Buddhist cave monuments dating from the second century BCE to about 480 CE in Aurangabad district of Maharashtra state in India. Ajanta Caves are a  UNESCO World Heritage Site. Universally regarded as masterpieces of Buddhist religious art, the caves include paintings and rock-cut sculptures, described as among the finest surviving examples of ancient Indian art, particularly expressive paintings that present emotions through gesture, pose and form.\nThe caves were built in two phases, the first starting around the second century BCE and the second occurring from 400 to 650 CE, according to older accounts, or in a brief period of 460–480 CE according to later scholarship.\nThe Ajanta Caves constitute ancient monasteries (Viharas) and worship-halls (Chaityas) of different Buddhist traditions carved into a 75-metre (246 ft) wall of rock. The caves also present paintings depicting the past lives  and rebirths of the Buddha, pictorial tales from Aryasura's Jatakamala, and rock-cut sculptures of Buddhist deities.",
     "lat": 20.553333,
     "lon": 75.700278,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ajanta_%2863%29.jpg",
@@ -168,11 +168,11 @@
     "source_url": null
   },
   "t_siddhivinayak": {
-    "extract": "Siddhivinayak temple may refer to the following Hindu Ganesha temples:",
+    "extract": "The Siddhivinayak Temple of Siddhatek is a Hindu temple dedicated to Ganesha, the elephant-headed god of wisdom. The temple is one of the Ashtavinayaka, the eight revered shrines of Ganesha in the Indian state of Maharashtra and the only Ashtavinayaka shrine in Ahmednagar district.",
     "lat": null,
     "lon": null,
-    "image_url": null,
-    "source_url": "https://en.wikipedia.org/wiki/Siddhivinayak_temple"
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Siddhi_Vinayak_at_Siddhatek.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Siddhivinayak_Temple,_Siddhatek"
   },
   "t_ballaleshwar": {
     "extract": null,
@@ -182,11 +182,11 @@
     "source_url": null
   },
   "t_chintamani": {
-    "extract": null,
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": null
+    "extract": "The Chintamani Temple of Theur is a Hindu temple dedicated to Supreme God Ganesha according to Ganapatya Sect located 25 km (16 mi) from Pune, the temple is \"one of the larger and more famous\" of the Ashtavinayaka, the eight revered shrines of Ganesha in the Indian state of Maharashtra.\nThe temple lore describes how bhagwan Ganesh retrieved the wish-giving jewel Chintamani for his devotee, the sage Kapila from the greedy king Gana and how he pacifies the uneasy mind of the god Brahma, who meditated on him in Theur. The temple is associated with the Ganapatya saint Morya Gosavi (dated between 13th to 17th century). Though the temple is believed to have existed since antiquity, the current structure of the temple was built by him or his descendant. The Chintamani Temple was also a spiritual magnet for the Peshwa rulers, especially Madhavrao I (1745–1772) who renovated and made additions to the temple structure.",
+    "lat": 18.523797,
+    "lon": 74.046283,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Shri_Cintamani_of_Theur.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Chintamani_Temple,_Theur"
   },
   "t_girijatmaj": {
     "extract": null,
@@ -217,7 +217,7 @@
     "source_url": "https://en.wikipedia.org/wiki/Gangotri"
   },
   "t_guhyeshwari": {
-    "extract": "Guhyeshwari Temple (Nepali: गुह्येश्वरी मन्दिर), also spelled Guheswari or Gujeshwari, is a Hindu temple in Kathmandu, Nepal. The temple is a Shakta pitha and is about 1km east of Pashupati Kshetra and is located on the southern bank of the Bagmati River. It is an important pilgrimage destination especially for Tantric worshipers. King Pratap Malla renovated this temple in the 17th century.\nThe Devi Bhagavata Purana mentions this temple in its list of sacred places of Adishakti and refers to the deity of Nepal as Guhyakali.",
+    "extract": "Guhyeshwari Temple (Nepali: गुह्येश्वरी मन्दिर), also spelled Guheswari or Gujeshwari, is a Hindu temple in Kathmandu, Nepal. The temple is a Shakta pitha and is about 1km east of Pashupati Kshetra and is located on the southern bank of the Bagmati River. It is an important pilgrimage destination especially for Tantric worshipers. King Pratap Malla renovated this temple in the 17th century.\nThe Devi Bhagavata Purana mentions this temple in its list of sacred places of Adishakti and refers to the deity of Nepal as Guhyakali.\n\nThe great abode of Śrī Guhya Kālī is established in Nepal\n— Devī Bhāgavatam 7th Canto, Chapter 38, Verse 11\nThe temple's name originates from the Sanskrit words Guhya (secret or hidden) and Ishwari (goddess).",
     "lat": 27.711111,
     "lon": 85.353333,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%283%29.jpg",
@@ -287,7 +287,7 @@
     "source_url": null
   },
   "t_mahavir": {
-    "extract": "Mahavir Mandir is a Hindu temple dedicated to the god Hanuman, located in Patna, Bihar, India. Millions of pilgrims visit the temple every year. Acharya Kishore Kunal is the secretary of the Mahavir Mandir Temple Trust, Patna. After the Vaishno Devi Temple, this temple has the highest earnings of over 1 lakh per day rendering its trust budgets as the second highest in the northern part of the country. The temple attracts huge crowds on festivals like Ramnavami.",
+    "extract": "Mahavir Mandir is a Hindu temple dedicated to the god Hanuman, located in Patna, Bihar, India. Millions of pilgrims visit the temple every year. Acharya Kishore Kunal is the secretary of the Mahavir Mandir Temple Trust, Patna. After the Vaishno Devi Temple, this temple has the highest earnings of over 1 lakh per day rendering its trust budgets as the second highest in the northern part of the country. The temple attracts huge crowds on festivals like Ramnavami. It is one of the leading temples dedicated to the worship of Lord Hanuman.",
     "lat": 25.603889,
     "lon": 85.136389,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Mahavir_Mandir_from_Buddha_Smriti_Park.JPG",
@@ -308,14 +308,14 @@
     "source_url": "https://en.wikipedia.org/wiki/Hanuman_Temple"
   },
   "t_mehandipur_balaji": {
-    "extract": "Mehandipur Balaji Temple  is a Hindu temple located in Mehandipur, Dausa district, in the Indian state of Rajasthan. The temple is dedicated to the deity Hanuman. The name Balaji refers to the childhood form of Hanuman, revered in several parts of the country. Unlike similar religious sites, it is located in a town rather than the countryside. Its reputation for ritualistic healing and exorcism of evil spirits attracts many pilgrims from Rajasthan and elsewhere.",
+    "extract": "Mehandipur Balaji Temple  is a Hindu temple located in Mehandipur, Dausa district, in the Indian state of Rajasthan. The temple is dedicated to the deity Hanuman. The name Balaji refers to the childhood form of Hanuman, revered in several parts of the country. Unlike similar religious sites, it is located in a town rather than the countryside. Its reputation for ritualistic healing and exorcism of evil spirits attracts many pilgrims from Rajasthan and elsewhere.\nThe temple is famous worldwide.",
     "lat": 26.94,
     "lon": 76.79,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Mehandipur_Balaji_idol.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Mehandipur_Balaji_Temple"
   },
   "t_hinglaj_mata": {
-    "extract": "Hinglaj Mata (Urdu: ہنگلاج ماتا; Balochi: هنگلاج ماتا; Sindhi: هنگلاج ماتا ,हिग्लाज़ माता मंदिर), also known as Hinglaj Devi, Hingula Devi and Nani Mandir, is a Hindu temple in Hinglaj, a town on the Makran coast in the Lasbela district of Balochistan, and is in the middle of the Hingol National Park. It is one of the 51 Shakti Peethas in Shaktism denomination of Hinduism. It is one of the two Shakti Peethas in Pakistan, the other one being Sharada Peeth in the Neelum Valley of Azad Jammu and Kashmir. It is a form of Durga or Devi in a mountain cavern on the banks of the Hingol River. Over the last three decades the place has gained increasing popularity and became a unifying point of reference for Pakistan's many Hindu communities.",
+    "extract": "Hinglaj Mata (Urdu: ہنگلاج ماتا; Balochi: هنگلاج ماتا; Sindhi: هنگلاج ماتا ,हिग्लाज़ माता मंदिर), also known as Hinglaj Devi, Hingula Devi and Nani Mandir, is a Hindu temple in Hinglaj, a town on the Makran coast in the Lasbela district of Balochistan, and is in the middle of the Hingol National Park. It is one of the 51 Shakti Peethas in Shaktism denomination of Hinduism. It is one of the two Shakti Peethas in Pakistan, the other one being Sharada Peeth in the Neelum Valley of Azad Jammu and Kashmir. It is a form of Durga or Devi in a mountain cavern on the banks of the Hingol River. Over the last three decades the place has gained increasing popularity and became a unifying point of reference for Pakistan's many Hindu communities. Hinglaj Yatra is the largest Hindu pilgrimage in Pakistan.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Hinglaj_Mata.jpg",
@@ -329,7 +329,7 @@
     "source_url": null
   },
   "t_suryanar": {
-    "extract": "Suryanar Kovil (also called Suryanar Temple) is a Hindu temple dedicated to the deity Hindu Sun-God, Surya, located in near a small town Aduthurai, Thanjavur District in Tamil Nadu, India. The presiding deity is Suriyanar, the Sun and his consorts Ushadevi and Pratyusha Devi. The temple also has separate shrines for the other eight planetary deities. The temple is considered one of the nine Navagraha temples in Tamil Nadu. The temple is one of the few historic temples dedicated to Sun god and is also the only temple in Tamil Nadu which has shrines for all the planetary deities.",
+    "extract": "Suryanar Kovil (also called Suryanar Temple) is a Hindu temple dedicated to the deity Hindu Sun-God, Surya, located in near a small town Aduthurai, Thanjavur District in Tamil Nadu, India. The presiding deity is Suriyanar, the Sun and his consorts Ushadevi and Pratyusha Devi. The temple also has separate shrines for the other eight planetary deities. The temple is considered one of the nine Navagraha temples in Tamil Nadu. The temple is one of the few historic temples dedicated to Sun god and is also the only temple in Tamil Nadu which has shrines for all the planetary deities.\nThe present masonry structure was built during the reign of Kulottunga Choladeva (1060–1118 CE) in the 11th century with later additions from the Vijayanagar period.",
     "lat": 11.029722,
     "lon": 79.477778,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Suryanar_Koil_in_Tamil_Nadu_JEG6875.jpg",
@@ -357,7 +357,7 @@
     "source_url": null
   },
   "t_jagannath": {
-    "extract": "The Jagannath Temple is a Hindu temple dedicated to Jagannath, a form of Vishnu. It is located in Puri, Odisha, on the eastern coast of India. As per temple records, King Indradyumna of Avanti built the main temple. The present temple complex was rebuilt from the eleventh century onwards on the site of the earlier shrines, excluding the main Jagannath temple, and was begun by Anantavarman Chodaganga, the first ruler of the Eastern Ganga dynasty. Many of the temple rituals are based on Shabari Tantras which are evolved from tribal beliefs respectively.",
+    "extract": "The Jagannath Temple is a Hindu temple dedicated to Jagannath, a form of Vishnu. It is located in Puri, Odisha, on the eastern coast of India. As per temple records, King Indradyumna of Avanti built the main temple. The present temple complex was rebuilt from the eleventh century onwards on the site of the earlier shrines, excluding the main Jagannath temple, and was begun by Anantavarman Chodaganga, the first ruler of the Eastern Ganga dynasty. Many of the temple rituals are based on Shabari Tantras which are evolved from tribal beliefs respectively. The local legends link the idols with Nilamadhaba deva worshipped by tribala and the daitapatis (servitors) claim to be descendants of the tribes.",
     "lat": 19.804722,
     "lon": 85.818333,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Shri_Jagannath_temple.jpg",
@@ -427,21 +427,21 @@
     "source_url": "https://en.wikipedia.org/wiki/Kalighat_Temple"
   },
   "t_dakshineswar_kali": {
-    "extract": "Dakshineswar Kali Temple or Dakshineswar Kalibari is a Hindu navaratna style temple in Dakshineswar, Kolkata, West Bengal, India, on the eastern bank of the Hooghly River. The presiding deity of the temple is Bhavatarini (Kali), a form of Mahadevi or Parashakti Adya Kali, otherwise known as Adishakti Kalika. The temple was built in 1855 by Rani Rashmoni, a zamindar (feudal lord), and a devotee of Kali. The temple is associated with avatar Sri Ramakrishna and Sarada Devi, his wife and devotee mystic, both of 19th century Bengal.\nThe main temple was inspired by Radhakanta temple in Tollygunge, built by Babu Ramnath Mondal of the Bawali Raj family.",
+    "extract": "Dakshineswar Kali Temple or Dakshineswar Kalibari is a Hindu navaratna style temple in Dakshineswar, Kolkata, West Bengal, India, on the eastern bank of the Hooghly River. The presiding deity of the temple is Bhavatarini (Kali), a form of Mahadevi or Parashakti Adya Kali, otherwise known as Adishakti Kalika. The temple was built in 1855 by Rani Rashmoni, a zamindar (feudal lord), and a devotee of Kali. The temple is associated with avatar Sri Ramakrishna and Sarada Devi, his wife and devotee mystic, both of 19th century Bengal.\nThe main temple was inspired by Radhakanta temple in Tollygunge, built by Babu Ramnath Mondal of the Bawali Raj family. The temple compound, apart from the nine-spired main temple, contains a large courtyard surrounding the temple, with rooms along the boundary walls.",
     "lat": 22.655,
     "lon": 88.357778,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Dakhineshwar_Temple_beside_the_Hoogly%2C_West_Bengal.JPG",
     "source_url": "https://en.wikipedia.org/wiki/Dakshineswar_Kali_Temple"
   },
   "t_bhadrakali": {
-    "extract": "Bhadrakali Temple (Nepali :भद्रकाली मन्दिर) is a temple on the East of Pokhara in Kundahar, atop a small hill.  It is dedicated to the Goddess Kali. Founded in the year 1817, the temple shrines the Hindu goddess of power and strength. Bhadrakali or Durga covers an area of 135 ropanies. There are two ways to reach atop: the eastern way has 292 steps to reach the temple while traversing from the southern part is only 265 steps.",
+    "extract": "Bhadrakali Temple (Nepali :भद्रकाली मन्दिर) is a temple on the East of Pokhara in Kundahar, atop a small hill.  It is dedicated to the Goddess Kali. Founded in the year 1817, the temple shrines the Hindu goddess of power and strength. Bhadrakali or Durga covers an area of 135 ropanies. There are two ways to reach atop: the eastern way has 292 steps to reach the temple while traversing from the southern part is only 265 steps. In the year 1817, the temple was previously known as “Mudule Thumpko.\" Currently, the temple stands at 2930 feet above sea level, and it is surrounded by greenery, which give it a \"peaceful environment.\"\nThis temple came about when the Goddess \"Bhadrakali\" told the Priest to dig into the hill; there they found the statue of the Goddess.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Bhadrakali_temple_pokhara.JPG",
     "source_url": "https://en.wikipedia.org/wiki/Bhadrakali_Temple"
   },
   "t_kamakhya": {
-    "extract": "Kamakhya Temple (Rajbanshi: Kāmākhyā moṇḍir; Assamese: kamakhya mondir) is a Hindu temple at Nilachal hills in Guwahati, Assam is one of the oldest and most revered centres of Tantric practices, dedicated to the goddess Kamakhya. The temple is the center of the Kulachara Tantra Marga and the site of the Ambubachi Mela, an annual festival that celebrates the menstruation of the goddess. Structurally, the temple is dated to the 8th-9th century with many subsequent rebuildings—and the final hybrid architecture defines a local style called Nilachal. It is also one among the oldest 4 of the 51 pithas in the Shakta tradition.  An obscure place of worship for much of history it became an important pilgrimage destination, especially for those from Bengal, in the 19th century during colonial rule.",
+    "extract": "Kamakhya Temple (Rajbanshi: Kāmākhyā moṇḍir; Assamese: kamakhya mondir) is a Hindu temple at Nilachal hills in Guwahati, Assam is one of the oldest and most revered centres of Tantric practices, dedicated to the goddess Kamakhya. The temple is the center of the Kulachara Tantra Marga and the site of the Ambubachi Mela, an annual festival that celebrates the menstruation of the goddess. Structurally, the temple is dated to the 8th-9th century with many subsequent rebuildings—and the final hybrid architecture defines a local style called Nilachal. It is also one among the oldest 4 of the 51 pithas in the Shakta tradition.  An obscure place of worship for much of history it became an important pilgrimage destination, especially for those from Bengal, in the 19th century during colonial rule.\nOriginally an autochthonous place of worship of a local goddess where the primary worship of the aniconic yoni set in natural stone continues till today, the Kamakya Temple became identified with the state power when the Mleccha dynasty of Kamarupa patronised it first, followed by the Palas, the Koch, and the Ahoms.",
     "lat": 26.166426,
     "lon": 91.705509,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Kamakhya_Temple_-_DEV_8829.jpg",
@@ -476,14 +476,14 @@
     "source_url": null
   },
   "t_dwarkadhish": {
-    "extract": "The Dwarkadhish temple, also known as the Jagat Mandir and occasionally spelled Dwarakadheesh, is a Hindu temple dedicated to Krishna, who is worshiped in the temple by the name Dwarkadhish (Dvārakādhīśa), or 'King of Dwarka'. The temple is located at Dwarka city of Gujarat, India, which is one of the destinations of Char Dham, a Hindu pilgrimage circuit. The main shrine of the five-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir. Archaeological findings suggest the original temple was built in 200 BCE at the earliest. The temple was rebuilt and  enlarged in the 15th–16th century.",
+    "extract": "The Dwarkadhish temple, also known as the Jagat Mandir and occasionally spelled Dwarakadheesh, is a Hindu temple dedicated to Krishna, who is worshiped in the temple by the name Dwarkadhish (Dvārakādhīśa), or 'King of Dwarka'. The temple is located at Dwarka city of Gujarat, India, which is one of the destinations of Char Dham, a Hindu pilgrimage circuit. The main shrine of the five-storied building, supported by 72 pillars, is known as Jagat Mandir or Nija Mandir. Archaeological findings suggest the original temple was built in 200 BCE at the earliest. The temple was rebuilt and  enlarged in the 15th–16th century.\nThe temple became part of the Char Dham pilgrimage considered sacred by Hindus in India.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Dwarakadheesh_Temple%2C_2014.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Dwarkadhish_Temple"
   },
   "t_bankey_bihari": {
-    "extract": "Banke Bihari Temple is a Hindu temple situated in the town of Vrindavan, Mathura district of Uttar Pradesh, India. The temple is dedicated to Banke Bihari who is believed to be the combined form of Radha and Krishna. Banke Bihari was originally worshipped at Nidhivan, Vrindavan. Later, when Banke Bihari temple was constructed around 1864, the icon of Banke Bihari was moved to its present temple.\nIn the Banke Bihari temple, the icon of Radha Krishna's united form stands in the Tribhanga posture.",
+    "extract": "Banke Bihari Temple is a Hindu temple situated in the town of Vrindavan, Mathura district of Uttar Pradesh, India. The temple is dedicated to Banke Bihari who is believed to be the combined form of Radha and Krishna. Banke Bihari was originally worshipped at Nidhivan, Vrindavan. Later, when Banke Bihari temple was constructed around 1864, the icon of Banke Bihari was moved to its present temple.\nIn the Banke Bihari temple, the icon of Radha Krishna's united form stands in the Tribhanga posture. Swami Haridas originally worshipped this murti under the name of Kunj Bihari, which means the one who enjoys in the groves or Kunj of Vrindavan.",
     "lat": 27.57976,
     "lon": 77.69051,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Banke_Bihari_Vrindavan.jpg",
@@ -497,11 +497,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Radha_Raman_Temple,_Vrindavan"
   },
   "t_radha_vallabh": {
-    "extract": null,
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": null
+    "extract": "Shri Radha Vallabh Temple, also called Shri Radha Vallabhlal ji Temple is a historic temple in the city of Vrindavan, Mathura district, Uttar Pradesh, India. The temple is dedicated to Hindu deities Radha Krishna. The temple belongs to Radha Vallabh Sampradaya and was constructed in 16th century under the guidance of Vrindavan saint Hith Harivansha Mahaprabhu.\nThe central deity of the temple is Krishna who is worshiped under the name of Shri Radha Vallabh which means the consort of Radha. Alongside Krishna, a crown is placed which signifies the presence of goddess Radha.",
+    "lat": 27.5812,
+    "lon": 77.692,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Radhavallabhlalj.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Radha_Vallabh_Temple,_Vrindavan"
   },
   "t_udupi_sri_krishna_matha": {
     "extract": "Udupi Shri Krishna Temple is a well-known historic Hindu temple dedicated to Krishna and Dvaita Matha, located in the city of Udupi in Karnataka, India. The Matha area resembles a living ashram, a holy place for daily devotion and living. Surrounding the Shri Krishna Temple are several temples namely the Udupi Anantheshwara Temple which is over a thousand years old.",
@@ -588,11 +588,11 @@
     "source_url": "https://en.wikipedia.org/wiki/ISKCON_Temple,_Chennai"
   },
   "t_mahalakshmi": {
-    "extract": "Mahalakshmi Temple or Mahalaxmi Temple may refer to these Hindu temples in Maharashtra, India dedicated to the goddess Mahalakshmi:",
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple"
+    "extract": "Mahalakshmi Temple (also known as Ambabai Mandir) is an important Hindu temple dedicated to Goddess Mahalakshmi, who is worshipped by locals as Ambabai. Goddess Mahalakshmi Ambabai is the consort of Lord Vishnu and it is customary among Hindus to visit Tirumala Venkateswara Temple, Kolhapur Mahalakshmi Temple and Padmavathi Temple as a yatra (pilgrimage). It is believed that visiting these temples as a pilgrimage helps achieve moksha (salvation).",
+    "lat": 16.7,
+    "lon": 74.233333,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mahalaxmi_Temple%2C_Kolhapur.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple,_Kolhapur"
   },
   "t_keezhaperumpallam_temple_keezhperumpalla": {
     "extract": null,
@@ -623,11 +623,11 @@
     "source_url": null
   },
   "t_maya_devi": {
-    "extract": "Maya Devi Temple may refer to:",
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": "https://en.wikipedia.org/wiki/Maya_Devi_Temple"
+    "extract": "Maya Devi Temple, Haridwar (Hindi: माया देवी मंदिर, हरिद्वार) is a Hindu temple dedicated to goddess Maya in the holy city of Haridwar of Uttarakhand state in India. It is believed that the heart and navel of goddess Sati fell in the region where the temple stands today and thus it is sometimes referred to as a Shakta pitha.\nGoddess Maya is the Adhisthatri deity of Haridwar. She is a three-headed and four-armed deity who is believed to be an incarnation of Shakti. Haridwar was previously known as Mayapuri in reverence to this deity. The temple is a siddha pitha which are the places of worship where desires get fulfilled.",
+    "lat": 29.95,
+    "lon": 78.161944,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Maya_Devi_Temple%2C_Haridwar%283%29.JPG",
+    "source_url": "https://en.wikipedia.org/wiki/Maya_Devi_Temple,_Haridwar"
   },
   "t_naina_devi": {
     "extract": null,
@@ -693,11 +693,11 @@
     "source_url": null
   },
   "t_prem": {
-    "extract": "Prem Mandir may refer to:",
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": "https://en.wikipedia.org/wiki/Prem_Mandir"
+    "extract": "Prem Mandir UP  (lit.  The Temple of Divine Love) is a Hindu temple in Vrindavan, Mathura district, Western Uttar Pradesh, India. The temple was established by Jagadguru Shri Kripalu Ji Maharaj. It is maintained by Jagadguru Kripalu Parishat, an international non-profit, educational, spiritual, charitable trust.\nThe complex is spread across a 22-hectare (55-acre) site on the outskirts of Vrindavan. It is dedicated to Radha Krishna and Sita Ram.",
+    "lat": 27.572457,
+    "lon": 77.672492,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/PremMandirSideViewFromCanteen.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Prem_Mandir,_Vrindavan"
   },
   "t_shree_radha_krishna": {
     "extract": null,
@@ -791,7 +791,7 @@
     "source_url": null
   },
   "t_kanak_bhawan": {
-    "extract": "Kanak Bhawan (lit. 'Golden Palace') is a temple in Ram Janmabhoomi, Ayodhya, which is in the north-east of Ramkot. It is one of the most famous temples of Ayodhya. It is believed that this palace (temple) was gifted by Kaikeyi, immediately after the marriage of Rama with Sita and hence, it is their personal palace. According to the mythology, after the original Kanak Bhawan was damaged, it was rebuilt by Krishna himself in the Dvapar Yuga. It is believed that it was renovated by Vikramaditya in the medieval period.",
+    "extract": "Kanak Bhawan (lit. 'Golden Palace') is a temple in Ram Janmabhoomi, Ayodhya, which is in the north-east of Ramkot. It is one of the most famous temples of Ayodhya. It is believed that this palace (temple) was gifted by Kaikeyi, immediately after the marriage of Rama with Sita and hence, it is their personal palace. According to the mythology, after the original Kanak Bhawan was damaged, it was rebuilt by Krishna himself in the Dvapar Yuga. It is believed that it was renovated by Vikramaditya in the medieval period. Later, it was renovated by Queen Vrishabhanu Kunwari which is still present today.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Kanak_Bhawan.jpg",
@@ -819,7 +819,7 @@
     "source_url": null
   },
   "t_rukmini_devi": {
-    "extract": "The Rukmini Devi Temple is a temple in Dwarka, 2 kilometres (1.2 mi) away from Dwarka, Gujarat, India. It is dedicated to Goddess Rukmini (Lord Krishna's chief queen, beloved consort and the incarnation of Devi Mahalakshmi in Dvapara Yuga).  The temple is believed to date back to the 5th century BC, though its present form is thought to originate from the 12th century.\nIt is a richly carved temple decorated with sculptures of gods and goddesses on the exterior with the sanctum housing the main image of Rukmini. Carved naratharas (human figures) and carved gajatharas (elephants) are depicted in panels at the base of the tower.",
+    "extract": "The Rukmini Devi Temple is a temple in Dwarka, 2 kilometres (1.2 mi) away from Dwarka, Gujarat, India. It is dedicated to Goddess Rukmini (Lord Krishna's chief queen, beloved consort and the incarnation of Devi Mahalakshmi in Dvapara Yuga).  The temple is believed to date back to the 5th century BC, though its present form is thought to originate from the 12th century.\nIt is a richly carved temple decorated with sculptures of gods and goddesses on the exterior with the sanctum housing the main image of Rukmini. Carved naratharas (human figures) and carved gajatharas (elephants) are depicted in panels at the base of the tower.\nThe present structure of temple is inferred to belong to the 19th century.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Rukmini_temple.JPG",
@@ -853,8 +853,8 @@
     "image_url": null,
     "source_url": null
   },
-  "t_vaishno_devi_temple_katra": {
-    "extract": "Vaishno Devi Temple, also known as the Shri Mata Vaishno Devi Temple and Vaishno Devi Bhavan, is a Hindu temple in Katra, Reasi district, Jammu and Kashmir, India. Dedicated to Vaishno Devi, a manifestation of godesses Mahakali, Mahalakshmi, and Mahasarasvati, it is on Trikuta mountain at an elevation of 5,200 feet (1,500 meters). The Shakti tradition considers it to be a Shakti Pitha. The temple is 43 km from the main city of Jammu and 29 km from the district headquarters Reasi town. The temple is governed by the Shri Mata Vaishno Devi Shrine Board (SMVDSB) and has been chaired by the Governor of Jammu and Kashmir since August 1986.",
+  "t_vaishno_devi": {
+    "extract": "Vaishno Devi Temple, also known as the Shri Mata Vaishno Devi Temple and Vaishno Devi Bhavan, is a Hindu temple in Katra, Reasi district, Jammu and Kashmir, India. Dedicated to Vaishno Devi, a manifestation of godesses Mahakali, Mahalakshmi, and Mahasarasvati, it is on Trikuta mountain at an elevation of 5,200 feet (1,500 meters). The Shakti tradition considers it to be a Shakti Pitha. The temple is 43 km from the main city of Jammu and 29 km from the district headquarters Reasi town. The temple is governed by the Shri Mata Vaishno Devi Shrine Board (SMVDSB) and has been chaired by the Governor of Jammu and Kashmir since August 1986.\nIt is one of the most popular Hindu pilgrimage sites in India, with millions of devotees visiting the temple annually.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mata_Vaishno_Devi_Bhawan.jpg",
@@ -882,7 +882,7 @@
     "source_url": null
   },
   "t_sharada": {
-    "extract": "Sharada Peeth is a ruined Hindu temple and ancient centre of learning located in the Neelum Valley of Pakistan-administered Azad Kashmir in the disputed Kashmir region. Between the 6th and 12th centuries CE, it was among the most prominent temple universities in the Indian subcontinent. Known in particular for its library, stories recount scholars travelling long distances to access its texts. It played a key role in the development and popularisation of the Sharada script in North India, causing the script to be named after it, and Kashmir to acquire the moniker \"Sharada Desh\", meaning \"country of Sharada\".\nAs one of the Maha Shakti Peethas, Hindus believe that it represents the spiritual location of the goddess Sati's fallen right hand.",
+    "extract": "Sharada Peeth is a ruined Hindu temple and ancient centre of learning located in the Neelum Valley of Pakistan-administered Azad Kashmir in the disputed Kashmir region. Between the 6th and 12th centuries CE, it was among the most prominent temple universities in the Indian subcontinent. Known in particular for its library, stories recount scholars travelling long distances to access its texts. It played a key role in the development and popularisation of the Sharada script in North India, causing the script to be named after it, and Kashmir to acquire the moniker \"Sharada Desh\", meaning \"country of Sharada\".\nAs one of the Maha Shakti Peethas, Hindus believe that it represents the spiritual location of the goddess Sati's fallen right hand. Sharada Peeth is one of the three holiest sites of pilgrimage for Kashmiri Pandits, alongside the Martand Sun Temple and the Amarnath Temple.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sharda_Fort%2C_Azad_Jammu_%26_Kashmir.jpg",
@@ -903,7 +903,7 @@
     "source_url": null
   },
   "t_kashi_vishwanath": {
-    "extract": "Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva. It is located in Vishwanath Gali, in Varanasi, Uttar Pradesh, India. The temple is a Hindu pilgrimage site and is one of the twelve Jyotirlinga shrines. The presiding deity is known by the names Vishwanath and Vishweshwara (IAST: Viśvanātha and Viśveśvara), meaning Lord of the Universe.\nThe original temple, called the Adi Vishveshwar Temple, was demolished by Mohammad of Ghor during his invasion of India.",
+    "extract": "Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva. It is located in Vishwanath Gali, in Varanasi, Uttar Pradesh, India. The temple is a Hindu pilgrimage site and is one of the twelve Jyotirlinga shrines. The presiding deity is known by the names Vishwanath and Vishweshwara (IAST: Viśvanātha and Viśveśvara), meaning Lord of the Universe.\nThe original temple, called the Adi Vishveshwar Temple, was demolished by Mohammad of Ghor during his invasion of India. Subsequently, the template was rebuilt by Man Singh I and Todar Mal under the emperor Akbar.",
     "lat": 25.310775,
     "lon": 83.010614,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Kashi_Vishwanath.jpg",
@@ -931,7 +931,7 @@
     "source_url": null
   },
   "t_kedarnath": {
-    "extract": "Kēdāranātha Temple (Sanskrit: केदारनाथ मंदिर, IAST: Kēdāranātha Mandira, lit. 'temple of the God of the field') is a Hindu temple, one of the twelve jyotirlinga of Śiva. The temple is located on the Garhwal Himalayan range \nnear the Mandākinī river, in the state of Uttarakhand, India. Due to extreme weather conditions, the temple is open to the general public only between the months of April (Akṣaya Tritiya) and November (Kārtika Pūrṇimā, the autumn full moon). During the winters, the vigraha (deity) of the temple is carried down to Ukhimath to be worshiped for the next six months. Kēdāranātha is seen as a homogeneous form of Śiva, the 'Lord of Kēdārakhaṇḍa', the historical name of the region.",
+    "extract": "Kēdāranātha Temple (Sanskrit: केदारनाथ मंदिर, IAST: Kēdāranātha Mandira, lit. 'temple of the God of the field') is a Hindu temple, one of the twelve jyotirlinga of Śiva. The temple is located on the Garhwal Himalayan range \nnear the Mandākinī river, in the state of Uttarakhand, India. Due to extreme weather conditions, the temple is open to the general public only between the months of April (Akṣaya Tritiya) and November (Kārtika Pūrṇimā, the autumn full moon). During the winters, the vigraha (deity) of the temple is carried down to Ukhimath to be worshiped for the next six months. Kēdāranātha is seen as a homogeneous form of Śiva, the 'Lord of Kēdārakhaṇḍa', the historical name of the region.\nThe temple is not directly accessible by road and has to be reached by a 17 kilometres (11 mi) uphill trek from Gaurikuṇḍa.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Kedarnath_Temple_in_Rainy_season.jpg",
@@ -973,42 +973,42 @@
     "source_url": "https://en.wikipedia.org/wiki/Devprayag"
   },
   "t_kailasa": {
-    "extract": "The Kailasha (IAST: Kailāśa) or Kailasha-natha (IAST: Kailāśa-nātha) temple is the largest of the rock-cut Hindu temples at the Ellora Caves in Sambhaji Nagar district of Maharashtra, India.\nA megalith carved into a cliff face, it is considered one of the most remarkable cave temples in the world because of its size, architecture, and sculptural treatment. It has been called \"the climax of the rock-cut phase of Indian architecture\". The top of the structure over the sanctuary is 32.6 metres (107 ft) above the level of the court below. Although the rock face slopes downwards from the rear of the temple to the front, archaeologists believe it was sculpted from a single rock.",
+    "extract": "The Kailasha (IAST: Kailāśa) or Kailasha-natha (IAST: Kailāśa-nātha) temple is the largest of the rock-cut Hindu temples at the Ellora Caves in Sambhaji Nagar district of Maharashtra, India.\nA megalith carved into a cliff face, it is considered one of the most remarkable cave temples in the world because of its size, architecture, and sculptural treatment. It has been called \"the climax of the rock-cut phase of Indian architecture\". The top of the structure over the sanctuary is 32.6 metres (107 ft) above the level of the court below. Although the rock face slopes downwards from the rear of the temple to the front, archaeologists believe it was sculpted from a single rock.\nThe Kailasa temple (Cave 16) is the largest of the 34 Hindu, Buddhist, and Jain cave temples and monasteries known collectively as the Ellora Caves, ranging for over two kilometres (1.2 mi) along the sloping basalt cliff at the site.",
     "lat": 20.023889,
     "lon": 75.179167,
     "image_url": "https://upload.wikimedia.org/wikipedia/en/f/fc/Kailash_temple_%28Ellora_cave_no_15%29_at_Verul.png",
     "source_url": "https://en.wikipedia.org/wiki/Kailasa_Temple,_Ellora"
   },
   "t_elephanta_caves": {
-    "extract": "The Elephanta Caves form a collection of cave temples predominantly dedicated to the Hindu god Shiva; UNESCO has designated them as a World Heritage Site. They are located on Elephanta Island, or Gharapuri (literally meaning \"the city of the caves\"), in Mumbai Harbour, 10 kilometres (6.2 mi) east of Mumbai in the Indian state of Maharashtra. The island, about 2 kilometres (1.2 mi) west of the Jawaharlal Nehru Port, features five Hindu caves, a few Buddhist stupa mounds that date back to the 2nd century BCE, and two Buddhist caves with water tanks.\nThe Elephanta Caves contain rock-cut stone sculptures, mostly in high relief, that show a syncretism of Hindu—Buddhist ideas and iconography. The caves are hewn from solid basalt rock.",
+    "extract": "The Elephanta Caves form a collection of cave temples predominantly dedicated to the Hindu god Shiva; UNESCO has designated them as a World Heritage Site. They are located on Elephanta Island, or Gharapuri (literally meaning \"the city of the caves\"), in Mumbai Harbour, 10 kilometres (6.2 mi) east of Mumbai in the Indian state of Maharashtra. The island, about 2 kilometres (1.2 mi) west of the Jawaharlal Nehru Port, features five Hindu caves, a few Buddhist stupa mounds that date back to the 2nd century BCE, and two Buddhist caves with water tanks.\nThe Elephanta Caves contain rock-cut stone sculptures, mostly in high relief, that show a syncretism of Hindu—Buddhist ideas and iconography. The caves are hewn from solid basalt rock. Apart from a few exceptions, much of the artwork has been defaced and damaged.",
     "lat": 18.963333,
     "lon": 72.931389,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Elephanta_Caves_Trimurti.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Elephanta_Caves"
   },
   "t_brihadeeswarar": {
-    "extract": "Brihadisvara Temple, called Rajarajesvaram (lit. 'Lord of Rajaraja') by its builder, and known locally as Thanjai Periya Kovil (lit. 'Thanjavur Big Temple') and Peruvudaiyar Kovil (lit. 'Temple of the great lord'), is a Shaivite Hindu temple built in a Chola architectural style located on the south bank of the Cauvery river in Thanjavur, Tamil Nadu, India. It is one of the largest Hindu temples and an exemplar of Tamil architecture. It is also called Dakshina Meru (Meru of the South). Built by Chola emperor Rajaraja I between 1003 and 1010 CE, the temple is a part of the UNESCO World Heritage Site known as the \"Great Living Chola Temples\", along with the Chola-era Gangaikonda Cholapuram temple and Airavatesvara temple, which are about 70 kilometres (43 mi) and 40 kilometres (25 mi) to its northeast respectively.\nThe original monuments of this 11th-century temple were built around a moat.",
+    "extract": "Brihadisvara Temple, called Rajarajesvaram (lit. 'Lord of Rajaraja') by its builder, and known locally as Thanjai Periya Kovil (lit. 'Thanjavur Big Temple') and Peruvudaiyar Kovil (lit. 'Temple of the great lord'), is a Shaivite Hindu temple built in a Chola architectural style located on the south bank of the Cauvery river in Thanjavur, Tamil Nadu, India. It is one of the largest Hindu temples and an exemplar of Tamil architecture. It is also called Dakshina Meru (Meru of the South). Built by Chola emperor Rajaraja I between 1003 and 1010 CE, the temple is a part of the UNESCO World Heritage Site known as the \"Great Living Chola Temples\", along with the Chola-era Gangaikonda Cholapuram temple and Airavatesvara temple, which are about 70 kilometres (43 mi) and 40 kilometres (25 mi) to its northeast respectively.\nThe original monuments of this 11th-century temple were built around a moat. It included gopura, the main temple, its massive tower, inscriptions, frescoes, and sculptures predominantly related to Shaivism, but also of Vaishnavism and Shaktism.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Brihadisvara_Temple"
   },
   "t_group_of_monuments_at_mahabalipuram": {
-    "extract": "The Group of Monuments at Mahabalipuram is a collection of 7th- and 8th-century CE religious monuments in the coastal resort town of Mahabalipuram, Tamil Nadu, India and is a UNESCO World Heritage Site. It is on the Coromandel Coast of the Bay of Bengal, about 60 kilometres (37 mi) south of Chennai.\nThe site has 40 ancient monuments and Hindu temples, including one of the largest open-air rock reliefs in the world: the Descent of the Ganges or Arjuna's Penance. The group contains several categories of monuments: ratha temples with monolithic processional chariots, built between 630 and 668; mandapa viharas (cave temples) with narratives from the Mahabharata and Shaivite, Shakti or Shaaktha and Vaishnava inscriptions in a number of Indian languages and scripts; rock reliefs (particularly bas-reliefs); stone-cut temples built between 695 and 722, and archaeological excavations dated to the 6th century and earlier.\nThe monuments were built during the rule of the Pallava dynasty.",
+    "extract": "The Group of Monuments at Mahabalipuram is a collection of 7th- and 8th-century CE religious monuments in the coastal resort town of Mahabalipuram, Tamil Nadu, India and is a UNESCO World Heritage Site. It is on the Coromandel Coast of the Bay of Bengal, about 60 kilometres (37 mi) south of Chennai.\nThe site has 40 ancient monuments and Hindu temples, including one of the largest open-air rock reliefs in the world: the Descent of the Ganges or Arjuna's Penance. The group contains several categories of monuments: ratha temples with monolithic processional chariots, built between 630 and 668; mandapa viharas (cave temples) with narratives from the Mahabharata and Shaivite, Shakti or Shaaktha and Vaishnava inscriptions in a number of Indian languages and scripts; rock reliefs (particularly bas-reliefs); stone-cut temples built between 695 and 722, and archaeological excavations dated to the 6th century and earlier.\nThe monuments were built during the rule of the Pallava dynasty. Known as the Seven Pagodas in many colonial-era publications, they are also called the Mamallapuram temples or Mahabalipuram temples in contemporary literature.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mamallapuram_view.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Group_of_Monuments_at_Mahabalipuram"
   },
   "t_lingaraja": {
-    "extract": "Lingaraja Temple (Odia: [liŋɡɔraːd͡ʒɔ] ) is a Hindu temple dedicated to Shiva and is one of the oldest temples in Bhubaneswar, the capital of the Indian state of Odisha, India. The temple is the most prominent landmark of Bhubaneswar city and one of the major tourist attractions of the state. Shiva's consort and the temple's presiding Goddess, Parvati, is referred to as Annapurna or Girija.\nThe Lingaraja temple is the largest temple in Bhubaneswar. The central tower of the temple is 180 ft (55 m) tall.",
+    "extract": "Lingaraja Temple (Odia: [liŋɡɔraːd͡ʒɔ] ) is a Hindu temple dedicated to Shiva and is one of the oldest temples in Bhubaneswar, the capital of the Indian state of Odisha, India. The temple is the most prominent landmark of Bhubaneswar city and one of the major tourist attractions of the state. Shiva's consort and the temple's presiding Goddess, Parvati, is referred to as Annapurna or Girija.\nThe Lingaraja temple is the largest temple in Bhubaneswar. The central tower of the temple is 180 ft (55 m) tall. The temple represents the quintessence of the Kalinga architecture and culminating the medieval stages of the architectural tradition at Bhubaneswar.",
     "lat": 20.238333,
     "lon": 85.833611,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Lingaraj_Temple_%2C_Bhubaneswar.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Lingaraja_Temple"
   },
   "t_hoysaleswara": {
-    "extract": "Hoysaleshwara temple (also spelled as Hoysaleswara, Hoysaleśvara or Hoywalesvara temple), also referred simply as the Halebidu temple, is a 12th-century Hindu temple dedicated to the god Shiva. It is the largest monument in Halebidu, a town in the state of Karnataka, India, and the former capital of the Hoysala Empire. The temple was built on the banks of a large man-made lake, and sponsored by King Vishnuvardhana of the Hoysala Empire. Its construction started around 1121 CE and was complete in 1160 CE. \nDuring the early 14th century, Halebidu was twice sacked and plundered by the Muslim armies of the Delhi Sultanate from northern India, and the temple and the capital fell into a state of ruin and neglect. It is 30 kilometres (19 mi) from Hassan city and about 210 kilometres (130 mi) from Bengaluru.",
+    "extract": "Hoysaleshwara temple (also spelled as Hoysaleswara, Hoysaleśvara or Hoywalesvara temple), also referred simply as the Halebidu temple, is a 12th-century Hindu temple dedicated to the god Shiva. It is the largest monument in Halebidu, a town in the state of Karnataka, India, and the former capital of the Hoysala Empire. The temple was built on the banks of a large man-made lake, and sponsored by King Vishnuvardhana of the Hoysala Empire. Its construction started around 1121 CE and was complete in 1160 CE. \nDuring the early 14th century, Halebidu was twice sacked and plundered by the Muslim armies of the Delhi Sultanate from northern India, and the temple and the capital fell into a state of ruin and neglect. It is 30 kilometres (19 mi) from Hassan city and about 210 kilometres (130 mi) from Bengaluru.\nThe Hoysaleswara temple is a Shaiva monument, yet reverentially includes many themes from Vaishnavism and Shaktism tradition of Hinduism, as well as images from Jainism.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Hoysaleshwara_temple_in_Monsoon.JPG",
@@ -1029,14 +1029,14 @@
     "source_url": null
   },
   "t_gangaikonda_cholapuram": {
-    "extract": "The Brihadisvara Temple is a Hindu temple dedicated to Shiva in Gangaikonda Cholapuram, Jayankondam, in the South Indian state of Tamil Nadu. Completed in 1035 CE by Rajendra Chola I as a part of his new capital, this Chola dynasty era temple is similar in design, and has a similar name, as the older 11th century, Brihadeeswarar Temple about 70 kilometres (43 mi) to the southwest in Thanjavur. The Gangaikonda Cholapuram Temple is smaller yet more refined than the Thanjavur Temple. Both are among the largest Shiva temples in South India and examples of Dravidian style temples. The temple is also referred to in texts as Gangaikonda Cholapuram Temple or Gangaikondacholeeswaram Temple\nThe main temple dedicated to Shiva is based on a square plan, but it displays other Hindu deities such as Vishnu, Durga, Surya, Harihara, Ardhanarishvara, and others.",
+    "extract": "The Brihadisvara Temple is a Hindu temple dedicated to Shiva in Gangaikonda Cholapuram, Jayankondam, in the South Indian state of Tamil Nadu. Completed in 1035 CE by Rajendra Chola I as a part of his new capital, this Chola dynasty era temple is similar in design, and has a similar name, as the older 11th century, Brihadeeswarar Temple about 70 kilometres (43 mi) to the southwest in Thanjavur. The Gangaikonda Cholapuram Temple is smaller yet more refined than the Thanjavur Temple. Both are among the largest Shiva temples in South India and examples of Dravidian style temples. The temple is also referred to in texts as Gangaikonda Cholapuram Temple or Gangaikondacholeeswaram Temple\nThe main temple dedicated to Shiva is based on a square plan, but it displays other Hindu deities such as Vishnu, Durga, Surya, Harihara, Ardhanarishvara, and others. It opens to the sunrise and its sanctum, as well as the mandapas, are aligned on an east–west axis.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Gangaikondacholapuram_Temple_4.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Gangaikonda_Cholapuram"
   },
   "t_airavatesvara": {
-    "extract": "Airavatesvara Temple is a Hindu temple of Chola architecture located in Darasuram, a suburb of Kumbakonam, Thanjavur District in the South Indian state of Tamil Nadu. This temple, built by Chola emperor Rajaraja II in the 12th century CE is a UNESCO World Heritage Site, along with the Brihadeeswara Temple at Thanjavur, the Gangaikondacholisvaram Temple at Gangaikonda Cholapuram that are referred to as the Great Living Chola Temples.\nThe Airavatesvarar temple is one among a cluster of eighteen medieval era large Hindu temples in the Kumbakonam area, Thanjavur District. The temple is dedicated to Shiva. It also reverentially displays Vaishnavism and Shaktism traditions of Hinduism, along with the legends associated with Nayanmars – the Bhakti movement saints of Shaivism.",
+    "extract": "Airavatesvara Temple is a Hindu temple of Chola architecture located in Darasuram, a suburb of Kumbakonam, Thanjavur District in the South Indian state of Tamil Nadu. This temple, built by Chola emperor Rajaraja II in the 12th century CE is a UNESCO World Heritage Site, along with the Brihadeeswara Temple at Thanjavur, the Gangaikondacholisvaram Temple at Gangaikonda Cholapuram that are referred to as the Great Living Chola Temples.\nThe Airavatesvarar temple is one among a cluster of eighteen medieval era large Hindu temples in the Kumbakonam area, Thanjavur District. The temple is dedicated to Shiva. It also reverentially displays Vaishnavism and Shaktism traditions of Hinduism, along with the legends associated with Nayanmars – the Bhakti movement saints of Shaivism.\nThe stone temple incorporates a chariot structure, and includes major Vedic and Puranic deities such as Indra, Agni, Varuna, Vayu, Brahma, Surya, Vishnu, Saptamatrikas, Durga, Saraswati, Sri devi (Lakshmi), Ganga, Yamuna, Subrahmanya, Ganesha, Kama, Rati and others.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/A_different_view_of_Airavatesvara_Temple.jpg",
@@ -1071,18 +1071,18 @@
     "source_url": null
   },
   "t_kailasanathar": {
-    "extract": "Kailasanathar Temple is the name of several temples and ancient religious sites found in Southeastern India, all dedicated to the deity Shiva in its form of Kailasanathar or Kailashanatha (transl. Lord of the Kailasha). The designation refers to the Mount Kailash, which is the primary abode of Shiva.",
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": "https://en.wikipedia.org/wiki/Kailasanathar_Temple"
+    "extract": "The Kailasanathar Temple, Kanchipuram, also referred to as the Kailasanatha temple, is a Pallava-era historic Hindu temple in Kanchipuram, Tamil Nadu, India. Dedicated to Shiva, it is one of the oldest surviving monuments in Kanchipuram. It reflects a Dravidian architecture and was built around 700 CE by Narasimhavarman II with additions by Mahendravarman III. A square-plan temple, it has a mukha-mandapa (entrance hall), a maha-mandapa (gathering hall) and a primary garbha-griya (sanctum) topped with a four-storey vimana. The main sanctum is surrounded by nine shrines, seven outside and two inside flanking the entrance of the sanctum, all with forms of Shiva. The outer walls of the temple's prakara (courtyard) is also surrounded by cells. \nThe Kailasanathar temple is notable for its intricately carved galaxy of Hindu art in the late 7th- and early 8th-century Tamil tradition.",
+    "lat": 12.842306,
+    "lon": 79.689667,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/7th_century_Sri_Kailashnathar_Temple_Kanchipuram_Tamil_Nadu_India_01_%2811%29.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Kailasanathar_Temple,_Kanchipuram"
   },
   "t_amrutesvara": {
-    "extract": null,
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": null
+    "extract": "The Amruteshvara temple also spelt \"Amrutesvara\" or \"Amruteshwara\", is located in the village of Amruthapura, 67 km north of Chikmagalur town in the Chikkamagaluru district of the Karnataka state, India. Located 110 km from Hassan and 50 km from Shimoga on NH 206, Amruthapura is known for the  Amruteshvara temple.",
+    "lat": 13.741,
+    "lon": 75.854,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Amrutesvara_temple_at_Amruthapura_in_Chikkamagaluru_district.JPG",
+    "source_url": "https://en.wikipedia.org/wiki/Amrutesvara_Temple,_Amruthapura"
   },
   "t_kedareshwara": {
     "extract": "Kedareshwara Temple (also spelt \"Kedaresvara\" or \"Kedareshvara\") is a Hoysala era construction in the historically important town of Halebidu, in the Hassan district of Karnataka state, India. It is located a short distance away from the famous Hoysaleswara Temple. The temple was constructed by Hoysala King Veera Ballala II (r. 1173–1220 CE) and his Queen Ketaladevi, and the main deity is Ishwara (another name for the Hindu god Shiva). The temple is protected as a monument of national importance by the Archaeological Survey of India.",
@@ -1113,7 +1113,7 @@
     "source_url": "https://en.wikipedia.org/wiki/Vishvanath_Temple"
   },
   "t_devi_jagadambi": {
-    "extract": "Devi Jagadambika Temple or Jagadambika Temple is one of a group of about 25 temples at Khajuraho, Madhya Pradesh, India. Along with the other temples at Khajuraho, the temple was listed as a World Heritage Site because of its outstanding architecture, art, and historical importance. The temples of Khajuraho were built by the rulers of the Chandela dynasty between the 10th and the 12th centuries.\nDevi Jagadambika temple, in a group to the north, is one of the most finely decorated temples at Khajuraho. It is named after Jagadambika, a Hindu goddess related to devi.",
+    "extract": "Devi Jagadambika Temple or Jagadambika Temple is one of a group of about 25 temples at Khajuraho, Madhya Pradesh, India. Along with the other temples at Khajuraho, the temple was listed as a World Heritage Site because of its outstanding architecture, art, and historical importance. The temples of Khajuraho were built by the rulers of the Chandela dynasty between the 10th and the 12th centuries.\nDevi Jagadambika temple, in a group to the north, is one of the most finely decorated temples at Khajuraho. It is named after Jagadambika, a Hindu goddess related to devi. Three bands of carvings encircle the body of the temple.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Khajuraho_Devi_Jagadambi_Temple_2010.jpg",
@@ -1127,14 +1127,14 @@
     "source_url": null
   },
   "t_annamalaiyar": {
-    "extract": "The Arunachalesvara Temple or Annamalaiyar Temple, is a Hindu temple dedicated to Shiva and Parvati, located at the foothills of the Arunachala hill in Tiruvannamalai, Tamil Nadu, India. It is regarded as one of the significant temples in the Tamil Shaivite tradition. It is one of the Pancha Bhuta Sthalams and is associated with the element of fire (Agni) among the five natural elements. The presiding deity of the temple is Annamalaiyar (meaning \"the mountain that cannot be reached\"), who is worshipped as the embodiment of the hill itself, and is represented by a lingam known as the Agni Lingam, symbolizing the element of fire. Parvathi, revered as Unnamulai ammai, is represented by the yoni, with her idol referred to as the Agni Yoni.",
+    "extract": "The Arunachalesvara Temple or Annamalaiyar Temple, is a Hindu temple dedicated to Shiva and Parvati, located at the foothills of the Arunachala hill in Tiruvannamalai, Tamil Nadu, India. It is regarded as one of the significant temples in the Tamil Shaivite tradition. It is one of the Pancha Bhuta Sthalams and is associated with the element of fire (Agni) among the five natural elements. The presiding deity of the temple is Annamalaiyar (meaning \"the mountain that cannot be reached\"), who is worshipped as the embodiment of the hill itself, and is represented by a lingam known as the Agni Lingam, symbolizing the element of fire. Parvathi, revered as Unnamulai ammai, is represented by the yoni, with her idol referred to as the Agni Yoni.\nThe temple is classified as one of the Paadal Petra Sthalams, one of the 276 sacred Saivite temples glorified in medieval Tamil Shaiva literature.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Arunachalam_temple_from_a_nearby_hill.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Arunachalesvara_Temple"
   },
   "t_mundeshwari": {
-    "extract": "The Mundeshwari Devi Temple (IAST: Muṇḍeśvarī) is a Hindu temple, located at Ramgarh Village, 608 feet (185 m) on the Mundeshwari Hills of Kaimur plateau near Son River, in the Bhojpuri region of Indian state of Bihar. It is an Archaeological Survey of India (ASI) protected monument since 1915.\nIt is an ancient temple which is believed to be dedicated to the worship of the goddess Durga and god Shiva, and is claimed as the oldest functional Hindu temple in the world. The findings also established that here was a religious and educational center spread over the hillock and Mandaleshwar (Shiva) temple was the main shrine. The Mandaleshwari (Durga) was on the southern side.",
+    "extract": "The Mundeshwari Devi Temple (IAST: Muṇḍeśvarī) is a Hindu temple, located at Ramgarh Village, 608 feet (185 m) on the Mundeshwari Hills of Kaimur plateau near Son River, in the Bhojpuri region of Indian state of Bihar. It is an Archaeological Survey of India (ASI) protected monument since 1915.\nIt is an ancient temple which is believed to be dedicated to the worship of the goddess Durga and god Shiva, and is claimed as the oldest functional Hindu temple in the world. The findings also established that here was a religious and educational center spread over the hillock and Mandaleshwar (Shiva) temple was the main shrine. The Mandaleshwari (Durga) was on the southern side. The temple was damaged and the idol of Mandaleshwari (degenerated Mundeshwari and later connected with the mythical demon Mund) was kept in the eastern chamber of the main temple.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Maa_Mundeshwari_Devi.jpg",
@@ -1148,7 +1148,7 @@
     "source_url": null
   },
   "t_somnath_temple_somnath": {
-    "extract": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. It is unclear when the first version of the Somnath temple was built, with estimates varying between the early centuries of the 1st millennium and about the 9th century CE. Various texts, including the Mahabharata and Bhagavata Purana, mention a tirtha (pilgrimage site) at Prabhas Patan on the coastline of Saurashtra, where the later temple was, but archaeology has not found traces of an early temple, though there was a settlement there.\nThe temple was reconstructed several times in the past after repeated destruction by multiple Muslim invaders and rulers, notably starting with an attack by Mahmud Ghazni in January 1026.\nIn the late 19th and early 20th centuries, historians and archaeologists of the colonial era actively studied the Somnath temple because its ruins showed a historic Hindu temple that was turning into an Islamic mosque.",
+    "extract": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. It is unclear when the first version of the Somnath temple was built, with estimates varying between the early centuries of the 1st millennium and about the 9th century CE. Various texts, including the Mahabharata and Bhagavata Purana, mention a tirtha (pilgrimage site) at Prabhas Patan on the coastline of Saurashtra, where the later temple was, but archaeology has not found traces of an early temple, though there was a settlement there.\nThe temple was reconstructed several times in the past after repeated destruction by multiple Muslim invaders and rulers, notably starting with an attack by Mahmud Ghazni in January 1026.\nIn the late 19th and early 20th centuries, historians and archaeologists of the colonial era actively studied the Somnath temple because its ruins showed a historic Hindu temple that was turning into an Islamic mosque. After India's independence, those ruins were demolished, and the present Somnath temple was reconstructed in the Māru-Gurjara style of Hindu temple architecture.",
     "lat": 20.888028,
     "lon": 70.401389,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Somanath_mandir_%28cropped%29.jpg",
@@ -1197,7 +1197,7 @@
     "source_url": "https://en.wikipedia.org/wiki/Srikalahasteeswara_temple"
   },
   "t_bhimashankar": {
-    "extract": "Bhimashankar Temple is a Hindu temple dedicated to Shiva situated in its eponymous village, Bhimashankar, in Pune district of Maharashtra. It is a key pilgrimage centre and contains one of the 12 Jyotirlingas. The temple's Shiva lingam is one of the three Jyotirlingas of Maharashtra. The mandir is situated on a mountain, 110 kilometers away from Pune. The temple's vicinity has rare plant and animal species.",
+    "extract": "Bhimashankar Temple is a Hindu temple dedicated to Shiva situated in its eponymous village, Bhimashankar, in Pune district of Maharashtra. It is a key pilgrimage centre and contains one of the 12 Jyotirlingas. The temple's Shiva lingam is one of the three Jyotirlingas of Maharashtra. The mandir is situated on a mountain, 110 kilometers away from Pune. The temple's vicinity has rare plant and animal species. The mandir is located in Khed taluka, in the Bhimashankar forest range.",
     "lat": 19.072,
     "lon": 73.536,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bhimashankar.jpg",
@@ -1225,11 +1225,11 @@
     "source_url": null
   },
   "t_mallikarjuna": {
-    "extract": "Mallikarjuna Temple may refer to:",
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": "https://en.wikipedia.org/wiki/Mallikarjuna_Temple"
+    "extract": "Mallikarjuna Swamy Temple or Srisailam Temple is a Hindu temple dedicated to the deities Shiva and Parvati, located at Srisailam in the Indian state of Andhra Pradesh. It is significant to the Hindu sects of both Shaivism and Shaktism as this temple is referred to as one of the twelve Jyotirlingas of Shiva and as one of the fifty two Shakta pithas, centres of the Hindu goddess. Shiva is worshiped as Mallikarjuna and is represented by the lingam. His consort Parvati is depicted as Bhramaramba.",
+    "lat": 16.074167,
+    "lon": 78.868056,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Srisailam.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Mallikarjuna_Temple,_Srisailam"
   },
   "t_manimahesh_kailash": {
     "extract": null,
@@ -1253,7 +1253,7 @@
     "source_url": "https://en.wikipedia.org/wiki/Thirukutralam"
   },
   "t_meenakshi_amman": {
-    "extract": "Meenakshi Temple, also known as Meenakshi Sundareswarar Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and her consort Sundareswarar (Shiva). The temple is theologically significant as it represents a confluence of various denominations of Hinduism such as Shaivism, Shaktism, and Vaishnavism.\nWhile the Sangam literature mentions the temple city of Madurai, the existence of a temple is first referenced in the Tamil texts from 6th century CE. It is one of the Paadal Petra Sthalams, Shiva temples that are revered in the Tevaram verses composed by the Nayanars between the 6th and 11th century CE. The early structures of the temple were built during the reign of the Pandyas in the 12th to 13th century CE. It was later rebuilt by the Vijayanagara Empire in the 14th century CE, after its destruction by the armies of the Delhi Sultanate. The temple complex was later expanded extensively by the Madurai Nayaks in the 16th and 17th centuries.",
+    "extract": "Meenakshi Temple, also known as Meenakshi Sundareswarar Temple, is a historic Hindu temple located on the southern bank of the Vaigai River in Madurai, Tamil Nadu, India. It is dedicated to Meenakshi, a form of Parvati, and her consort Sundareswarar (Shiva). The temple is theologically significant as it represents a confluence of various denominations of Hinduism such as Shaivism, Shaktism, and Vaishnavism.\nWhile the Sangam literature mentions the temple city of Madurai, the existence of a temple is first referenced in the Tamil texts from 6th century CE. It is one of the Paadal Petra Sthalams, Shiva temples that are revered in the Tevaram verses composed by the Nayanars between the 6th and 11th century CE. The early structures of the temple were built during the reign of the Pandyas in the 12th to 13th century CE. It was later rebuilt by the Vijayanagara Empire in the 14th century CE, after its destruction by the armies of the Delhi Sultanate. The temple complex was later expanded extensively by the Madurai Nayaks in the 16th and 17th centuries. While a few structural improvements were made during the 18th and 19th centuries CE, the temple condition degraded due to negligence during the British Raj.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg",
@@ -1281,14 +1281,14 @@
     "source_url": null
   },
   "t_somnath_temple_prabhas_patan": {
-    "extract": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. It is unclear when the first version of the Somnath temple was built, with estimates varying between the early centuries of the 1st millennium and about the 9th century CE. Various texts, including the Mahabharata and Bhagavata Purana, mention a tirtha (pilgrimage site) at Prabhas Patan on the coastline of Saurashtra, where the later temple was, but archaeology has not found traces of an early temple, though there was a settlement there.\nThe temple was reconstructed several times in the past after repeated destruction by multiple Muslim invaders and rulers, notably starting with an attack by Mahmud Ghazni in January 1026.\nIn the late 19th and early 20th centuries, historians and archaeologists of the colonial era actively studied the Somnath temple because its ruins showed a historic Hindu temple that was turning into an Islamic mosque.",
+    "extract": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. It is unclear when the first version of the Somnath temple was built, with estimates varying between the early centuries of the 1st millennium and about the 9th century CE. Various texts, including the Mahabharata and Bhagavata Purana, mention a tirtha (pilgrimage site) at Prabhas Patan on the coastline of Saurashtra, where the later temple was, but archaeology has not found traces of an early temple, though there was a settlement there.\nThe temple was reconstructed several times in the past after repeated destruction by multiple Muslim invaders and rulers, notably starting with an attack by Mahmud Ghazni in January 1026.\nIn the late 19th and early 20th centuries, historians and archaeologists of the colonial era actively studied the Somnath temple because its ruins showed a historic Hindu temple that was turning into an Islamic mosque. After India's independence, those ruins were demolished, and the present Somnath temple was reconstructed in the Māru-Gurjara style of Hindu temple architecture.",
     "lat": 20.888028,
     "lon": 70.401389,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Somanath_mandir_%28cropped%29.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Somnath_Temple"
   },
   "t_trimbakeshwar": {
-    "extract": "Trimbakeshwar Shiva Temple (श्री त्र्यंबकेश्वर ज्योतिर्लिंग मंदिर) is an ancient Hindu temple in the town of Trimbak, in the Trimbakeshwar tehsil, in the Nashik District of Maharashtra, India, 28 km from the city of Nashik and 40 km from Nashik road. It is dedicated to the Hindu god Shiva and is one of the twelve jyotirlingas where the Hindu genealogy registers at Trimbakeshwar, Maharashtra are kept. The origin of the sacred Godavari River is near Trimbak. Several Hindu rituals are carried out in Trimbakeshwar, for that pilgrims travel from all over India.\nThe Kusavarta kunda (sacred pond) in the temple premises, built by Shrimant Sardar Raosaheb Parnerkar, who was the Fadnavis of Indore State, is the source of the Godavari River, the second longest river in India.",
+    "extract": "Trimbakeshwar Shiva Temple (श्री त्र्यंबकेश्वर ज्योतिर्लिंग मंदिर) is an ancient Hindu temple in the town of Trimbak, in the Trimbakeshwar tehsil, in the Nashik District of Maharashtra, India, 28 km from the city of Nashik and 40 km from Nashik road. It is dedicated to the Hindu god Shiva and is one of the twelve jyotirlingas where the Hindu genealogy registers at Trimbakeshwar, Maharashtra are kept. The origin of the sacred Godavari River is near Trimbak. Several Hindu rituals are carried out in Trimbakeshwar, for that pilgrims travel from all over India.\nThe Kusavarta kunda (sacred pond) in the temple premises, built by Shrimant Sardar Raosaheb Parnerkar, who was the Fadnavis of Indore State, is the source of the Godavari River, the second longest river in India. A bust of Sardar Fadnavis and his wife can be seen on the edge of the kunda.",
     "lat": 19.932222,
     "lon": 73.530833,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Trimbakeshwar_Temple-Nashik-Maharashtra-1.jpg",
@@ -1309,11 +1309,11 @@
     "source_url": "https://en.wikipedia.org/wiki/Baidyanath_Temple"
   },
   "t_jambukeswarar": {
-    "extract": null,
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": null
+    "extract": "Jambukeswarar Temple, Thiruvanaikaval (also Thiruvanaikal, Jambukeswaram) is a temple of Shiva in Tiruchirapalli district, in the state of Tamil Nadu, India. It is one of the five major Shiva Temples of Tamil Nadu representing the Mahābhūta or five elements; this temple represents the element of water, or neer in Tamil. The sanctum of Jambukeswara has an underground stream.In the temple, Shiva is worshipped as Jambukeshwarar and his consort Parvati as Akilandeswari.\nIt is one of the 275 Paadal Petra Sthalams and has inscriptions from the Chola period.",
+    "lat": 10.853333,
+    "lon": 78.705556,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Tiruvanaikaval5.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Jambukeswarar_Temple,_Thiruvanaikaval"
   },
   "t_group_of_monuments_at_pattadakal": {
     "extract": null,
@@ -1330,21 +1330,21 @@
     "source_url": null
   },
   "t_badami_cave_temples": {
-    "extract": "The Badami cave temples are a complex of Buddhist, Hindu and Jain cave temples located in Badami, a town in the Bagalkot district in northern part of Karnataka, India. The caves are important examples of Indian rock-cut architecture, especially Badami Chalukya architecture, and the earliest date from the 6th century. Badami is a modern name and was previously known as \"Vataapi\", the capital of the early Chalukya dynasty, which ruled much of Karnataka from the 6th to the 8th century. Badami is situated on the west bank of a man-made lake ringed by an earthen wall with stone steps; it is surrounded on the north and south by forts built  during Early Chalukya and  in later times.\nThe Badami cave temples represent some of the earliest known examples of Hindu temples in the Deccan region.",
+    "extract": "The Badami cave temples are a complex of Buddhist, Hindu and Jain cave temples located in Badami, a town in the Bagalkot district in northern part of Karnataka, India. The caves are important examples of Indian rock-cut architecture, especially Badami Chalukya architecture, and the earliest date from the 6th century. Badami is a modern name and was previously known as \"Vataapi\", the capital of the early Chalukya dynasty, which ruled much of Karnataka from the 6th to the 8th century. Badami is situated on the west bank of a man-made lake ringed by an earthen wall with stone steps; it is surrounded on the north and south by forts built  during Early Chalukya and  in later times.\nThe Badami cave temples represent some of the earliest known examples of Hindu temples in the Deccan region. They along with the temples in Aihole transformed the Mallaprabha River valley into a cradle of temple architecture that influenced the components of later Hindu temples elsewhere in India.",
     "lat": 15.918333,
     "lon": 75.684167,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vishnu_image_inside_cave_number_3_in_Badami.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Badami_cave_temples"
   },
   "t_shore": {
-    "extract": "The Shore Temple (c. 725 AD) is a complex of temples and shrines that overlooks the shore of the Bay of Bengal. It is located in Mahabalipuram, about 60 kilometres (37 mi) south of Chennai in Tamil Nadu, India.\nIt is a structural temple, built with blocks of granite, dating from the 8th century AD. At the time of its creation, the site was a busy port during the reign of Narasimhavarman II of the Indian Pallava dynasty. As one of the Group of Monuments at Mahabalipuram, it has been classified as a UNESCO World Heritage Site since 1984.",
+    "extract": "The Shore Temple (c. 725 AD) is a complex of temples and shrines that overlooks the shore of the Bay of Bengal. It is located in Mahabalipuram, about 60 kilometres (37 mi) south of Chennai in Tamil Nadu, India.\nIt is a structural temple, built with blocks of granite, dating from the 8th century AD. At the time of its creation, the site was a busy port during the reign of Narasimhavarman II of the Indian Pallava dynasty. As one of the Group of Monuments at Mahabalipuram, it has been classified as a UNESCO World Heritage Site since 1984. It is one of the oldest structural (versus rock-cut) stone temples of Southern India.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Shore_Temple"
   },
   "t_pancha_rathas": {
-    "extract": "Pancha Rathas (also known as Five Rathas or Pandava Rathas or Ainthinai kovil) is a monument complex at Mahabalipuram, on the Coromandel Coast of the Bay of Bengal, in the Chengalpattu district of the state of Tamil Nadu, India. Pancha Rathas is an example of monolithic Indian rock-cut architecture. The complex was initially thought to have carved during the reign of King Narasimhavarman I (630–668 CE). However, historians such as Nagaswamy attributed all of monuments in Mahabalipuram to Narasimhavarman II (c. 690–725 CE) with the discovery of new inscriptions.",
+    "extract": "Pancha Rathas (also known as Five Rathas or Pandava Rathas or Ainthinai kovil) is a monument complex at Mahabalipuram, on the Coromandel Coast of the Bay of Bengal, in the Chengalpattu district of the state of Tamil Nadu, India. Pancha Rathas is an example of monolithic Indian rock-cut architecture. The complex was initially thought to have carved during the reign of King Narasimhavarman I (630–668 CE). However, historians such as Nagaswamy attributed all of monuments in Mahabalipuram to Narasimhavarman II (c. 690–725 CE) with the discovery of new inscriptions. The complex is under the auspices of the Archaeological Survey of India (ASI) and is part of the UNESCO World Heritage Site inscribed by UNESCO in 1984 as Group of Monuments at Mahabalipuram.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Five_Rathas_at_Mahaballipuram%2CTamil_Nadu.jpg",
@@ -1379,7 +1379,7 @@
     "source_url": null
   },
   "t_ellora_caves": {
-    "extract": "The Ellora Caves are a UNESCO World Heritage Site in Aurangabad, India. It is one of the largest rock-cut  cave complexes in the world, with artwork dating from AD 600–1000, including Hindu, Buddhist, and Jain caves. The complex is a leading example of Indian rock-cut architecture, and several are not strictly \"caves\" in that they have no roof.  Cave 16 features the largest single monolithic rock excavation in the world, the Kailash temple, a chariot-shaped monument dedicated to the god Shiva. The Kailash temple excavation also features sculptures depicting various Hindu deities as well as relief panels summarizing the two major Hindu epics.",
+    "extract": "The Ellora Caves are a UNESCO World Heritage Site in Aurangabad, India. It is one of the largest rock-cut  cave complexes in the world, with artwork dating from AD 600–1000, including Hindu, Buddhist, and Jain caves. The complex is a leading example of Indian rock-cut architecture, and several are not strictly \"caves\" in that they have no roof.  Cave 16 features the largest single monolithic rock excavation in the world, the Kailash temple, a chariot-shaped monument dedicated to the god Shiva. The Kailash temple excavation also features sculptures depicting various Hindu deities as well as relief panels summarizing the two major Hindu epics.\nThere are over 100 caves at the site, all excavated from the basalt cliffs in the Charanandri Hills, 34 of which are open to public.",
     "lat": 20.0268,
     "lon": 75.1771,
     "image_url": null,
@@ -1407,14 +1407,14 @@
     "source_url": null
   },
   "t_konark_sun": {
-    "extract": "Konark Sun Temple is a 13th-century CE Hindu Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri city on the coastline in Puri district, Odisha, India. The temple is attributed to king Narasingha Deva I of the Eastern Ganga dynasty about 1250 CE. Dedicated to the Hindu Sun-god Surya, it reflects the pinnacle of kalingan architecture and artistic excellence, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone. Once over 200 feet (61 m) high, much of the temple is now in ruins, in particular the large shikara tower over the sanctuary; at one time this rose much higher than the mandapa that remains. The structures and elements that have survived are famed for their intricate artwork, iconography, and themes, including erotic kama and mithuna scenes. Also called the Surya Devalaya, it is a classic illustration of the Odisha style of Architecture or Kalinga architecture.",
+    "extract": "Konark Sun Temple is a 13th-century CE Hindu Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri city on the coastline in Puri district, Odisha, India. The temple is attributed to king Narasingha Deva I of the Eastern Ganga dynasty about 1250 CE. Dedicated to the Hindu Sun-god Surya, it reflects the pinnacle of kalingan architecture and artistic excellence, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone. Once over 200 feet (61 m) high, much of the temple is now in ruins, in particular the large shikara tower over the sanctuary; at one time this rose much higher than the mandapa that remains. The structures and elements that have survived are famed for their intricate artwork, iconography, and themes, including erotic kama and mithuna scenes. Also called the Surya Devalaya, it is a classic illustration of the Odisha style of Architecture or Kalinga architecture.\nThe cause of the destruction of the Konark temple is unclear and still remains a source of controversy.",
     "lat": 19.8875,
     "lon": 86.094722,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Konarka_Temple.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
   },
   "t_modhera_sun": {
-    "extract": "The  Sun Temple of Modhera is a Hindu temple dedicated to the solar deity Surya located in the village of Modhera in Mehsana district, Gujarat, India. The temple is situated on the bank of the river Pushpavati, and was constructed after 1026-1027 CE during the reign of Bhima I of the Chaulukya dynasty. The temple is no longer used for worship and is a protected monument maintained by the Archaeological Survey of India. The temple complex has three components: Gūḍhamanḍapa, the shrine hall; Sabhamanḍapa, the assembly hall and Kunḍa, the reservoir. The halls are noted for the intricately carved exteriors and decorated pillars.",
+    "extract": "The  Sun Temple of Modhera is a Hindu temple dedicated to the solar deity Surya located in the village of Modhera in Mehsana district, Gujarat, India. The temple is situated on the bank of the river Pushpavati, and was constructed after 1026-1027 CE during the reign of Bhima I of the Chaulukya dynasty. The temple is no longer used for worship and is a protected monument maintained by the Archaeological Survey of India. The temple complex has three components: Gūḍhamanḍapa, the shrine hall; Sabhamanḍapa, the assembly hall and Kunḍa, the reservoir. The halls are noted for the intricately carved exteriors and decorated pillars. The tiered steps of reservoir lead to the bottom and numerous small shrines.",
     "lat": 23.583806,
     "lon": 72.132686,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Surya_mandhir.jpg",
@@ -1435,7 +1435,7 @@
     "source_url": "https://en.wikipedia.org/wiki/Tara_Tarini_Mandir"
   },
   "t_tripura_sundari": {
-    "extract": "Tripura Sundari Temple is a Hindu temple of the Goddess Tripura Sundari, better known locally as Devi Tripureshwari the third mahavidya and main form of Parvati. The temple is situated in the ancient city of Udaipur, about 55 km from Agartala, Tripura and can be reached by train and road from Agartala. It is believed to be one of the holiest Hindu shrines in this part of the country and witnesses the highest number of visitors for a temple in North-East India, after Kamakhya Temple in Assam. The state of Tripura is named after this temple. Popularly known as Matabari, the shrine is set upon a small hillock that resembles the hump of a tortoise (Kurma).",
+    "extract": "Tripura Sundari Temple is a Hindu temple of the Goddess Tripura Sundari, better known locally as Devi Tripureshwari the third mahavidya and main form of Parvati. The temple is situated in the ancient city of Udaipur, about 55 km from Agartala, Tripura and can be reached by train and road from Agartala. It is believed to be one of the holiest Hindu shrines in this part of the country and witnesses the highest number of visitors for a temple in North-East India, after Kamakhya Temple in Assam. The state of Tripura is named after this temple. Popularly known as Matabari, the shrine is set upon a small hillock that resembles the hump of a tortoise (Kurma). This shape called Kurmapṛṣṭhākṛti is considered the holiest possible site for a Shakti temple, hence also bestowing the name of Kurma Pīṭha.",
     "lat": null,
     "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Tripura_Sundari_Temple%2C_Udaipur.jpg",
@@ -1463,7 +1463,7 @@
     "source_url": null
   },
   "t_vimala": {
-    "extract": "The Vimala temple or Mãā Bimåḷā Deuḷå (Odia - ମାଁ ବିମଳା ଦେଉଳ) is a Hindu temple dedicated to goddess Vimala or Bimala (ବିମଳା), located within the Jagannath Temple complex in Puri in the Indian state of Odisha. It is generally regarded as a Shakta pitha, among the holiest temples dedicated to the Hindu Goddess.\nThe temple is located in the south-west corner of the inner enclosure of the Jagannath temple complex and on the western corner of the tower of Jagannath, next to the sacred pond Rohini kunda. The temple faces east and is built of sandstone and laterite. It is built in the Deula style with four components; vimana (structure containing the sanctum), jagamohana (assembly hall), nata-mandapa (festival hall) and bhoga-mandapa (hall of offerings).",
+    "extract": "The Vimala temple or Mãā Bimåḷā Deuḷå (Odia - ମାଁ ବିମଳା ଦେଉଳ) is a Hindu temple dedicated to goddess Vimala or Bimala (ବିମଳା), located within the Jagannath Temple complex in Puri in the Indian state of Odisha. It is generally regarded as a Shakta pitha, among the holiest temples dedicated to the Hindu Goddess.\nThe temple is located in the south-west corner of the inner enclosure of the Jagannath temple complex and on the western corner of the tower of Jagannath, next to the sacred pond Rohini kunda. The temple faces east and is built of sandstone and laterite. It is built in the Deula style with four components; vimana (structure containing the sanctum), jagamohana (assembly hall), nata-mandapa (festival hall) and bhoga-mandapa (hall of offerings). The temple was renovated around 2005 and is maintained by the Archaeological Survey of India, Bhubaneswar Circle.",
     "lat": 19.804722,
     "lon": 85.818333,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Minor_temples_in_Jagannath_Puri.jpg",
@@ -1477,18 +1477,18 @@
     "source_url": "https://en.wikipedia.org/wiki/Undavalli_Caves"
   },
   "t_varaha_cave": {
-    "extract": "Varaha Cave Temple (i.e., Varaha Mandapa or the Adivaraha Cave) is a rock-cut cave temple located at Mamallapuram, on the Coromandel Coast of the Bay of Bengal in Kancheepuram District in Tamil Nadu, India. It is part of the hill top village, which is 4 kilometres (2.5 mi) to the north of the main Mahabalipurm sites of rathas and the Shore Temple. It is an example of Indian rock-cut architecture dating from the late 7th century. The temple is one of the finest testimonial to the ancient Hindu rock-cut cave architecture, out of many such caves also called mandapas. Part of the Group of Monuments at Mahabalipuram, the temple is a UNESCO World Heritage Site as inscribed in 1984 under criteria i, ii, iii and iv.",
-    "lat": 12.6175,
-    "lon": 80.198889,
+    "extract": "Varaha Cave Temple (i.e., Varaha Mandapa or the Adivaraha Cave) is a rock-cut cave temple located at Mamallapuram, on the Coromandel Coast of the Bay of Bengal in Kancheepuram District in Tamil Nadu, India. It is part of the hill top village, which is 4 kilometres (2.5 mi) to the north of the main Mahabalipurm sites of rathas and the Shore Temple. It is an example of Indian rock-cut architecture dating from the late 7th century. The temple is one of the finest testimonial to the ancient Hindu rock-cut cave architecture, out of many such caves also called mandapas. Part of the Group of Monuments at Mahabalipuram, the temple is a UNESCO World Heritage Site as inscribed in 1984 under criteria i, ii, iii and iv. The most prominent sculpture in the cave is that of the Hindu god Vishnu in the incarnated form of a Varaha or boar lifting Bhudevi, the mother earth goddess from the sea.",
+    "lat": null,
+    "lon": null,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Vsvarahacave.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Varaha_Cave_Temple"
   },
   "t_krishna_mandapam": {
-    "extract": null,
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": null
+    "extract": "Mandapa of Krishna or Krishna Mandapam is a monument at Mahabalipuram, on the Coromandel Coast of the Bay of Bengal, in the Kancheepuram district of the state of Tamil Nadu, India. It is part of the Group of Monuments at Mahabalipuram, a UNESCO World Heritage Site inscribed in 1984. It is located on a hillock next to the open rock relief of Descent of the Ganges (Mahabalipuram).\nIt is constituted by an originally open-air bas-relief dedicated to Krishna, dating to the mid-seventh century, which was later enclosed within a mandapa in the 16th century during the Vijayanagara Empire. Notable carvings inside are sculpted panels that bring out the story of Krishna lifting the Govardhana Hill to protect the cowherds and gopis (milk maids) from heavy rains and floods – the \"most poetic and endearing\" Indian or Angkor sculpture-based representation of this legend – and there are also scenes of Krishna frolicking with the milk maids.",
+    "lat": 12.6167,
+    "lon": 80.1917,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Krishna_Mandapa_Exterior_NE_Mahabalipuram_Sep22_A7C_02520.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Krishna_Mandapam,_Mahabalipuram"
   },
   "t_chennakesava_temple_somnathpura": {
     "extract": "Chennakeshava Temple may refer to the following buildings in Karnataka, India:",
@@ -1540,21 +1540,21 @@
     "source_url": "https://en.wikipedia.org/wiki/Padmanabhaswamy_Temple"
   },
   "t_ranganathaswamy": {
-    "extract": "Ranganatha Temple or Ranganathaswamy Temple may refer to any of several temples dedicated to the Hindu God Ranganatha, including:",
-    "lat": null,
-    "lon": null,
-    "image_url": null,
-    "source_url": "https://en.wikipedia.org/wiki/Ranganatha_Temple"
+    "extract": "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. Constructed in the Tamil architectural style, the temple is glorified by the Tamil poet-saints called the Alvars in their canon, the Naalayira Divya Prabhandam, and has the unique distinction of being the foremost among the 108 Divya Desams dedicated to the god Vishnu. The Srirangam temple stands as the largest religious complex in the world in active worship with a continuous historical presence as a Hindu temple. Some of these structures have been renovated, expanded and rebuilt over the centuries as a living temple. The latest addition is the outer tower that is approximately 73 metres (240 ft) tall, which was completed in 1987 with support from the Ahobila mutt among others.",
+    "lat": 10.8625,
+    "lon": 78.689722,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ranganathaswamy_temple_tiruchirappalli.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Ranganathaswamy_Temple,_Srirangam"
   },
   "t_sri_venkateswara": {
-    "extract": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple situated in the hills of Tirumala, Tirupati Urban Mandal in the Tirupati district of Andhra Pradesh, India. The temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on earth to save mankind from trials and troubles of Kali Yuga. Hence the place is also known by the name Kaliyuga Vaikuntha and the deity here is referred to as Kaliyuga Prathyaksha Daivam. Venkateswara is also known by other names including Balaji, Govinda, and Srinivasa. The temple is run by Tirumala Tirupati Devasthanams (TTD), which is under control of Andhra Pradesh Government.",
+    "extract": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple situated in the hills of Tirumala, Tirupati Urban Mandal in the Tirupati district of Andhra Pradesh, India. The temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on earth to save mankind from trials and troubles of Kali Yuga. Hence the place is also known by the name Kaliyuga Vaikuntha and the deity here is referred to as Kaliyuga Prathyaksha Daivam. Venkateswara is also known by other names including Balaji, Govinda, and Srinivasa. The temple is run by Tirumala Tirupati Devasthanams (TTD), which is under control of Andhra Pradesh Government. The head of TTD is appointed by Andhra Pradesh Government.",
     "lat": 13.68325,
     "lon": 79.347194,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala"
   },
   "t_badrinath": {
-    "extract": "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu. It is located in the town of Badrinath in Chamoli district of Uttarakhand, India. The temple is one of the 108 Divya Desams, sacred to Vaishnavism, where Vishnu is worshipped as Badrinath. Due to extreme weather conditions in the Himalayas, the temple is open for six months each year, from late April to early November. It is one of the most visited pilgrimage centers of India, having recorded 2.8 million (28 lakh) visits in just 2 months in 2022.",
+    "extract": "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu. It is located in the town of Badrinath in Chamoli district of Uttarakhand, India. The temple is one of the 108 Divya Desams, sacred to Vaishnavism, where Vishnu is worshipped as Badrinath. Due to extreme weather conditions in the Himalayas, the temple is open for six months each year, from late April to early November. It is one of the most visited pilgrimage centers of India, having recorded 2.8 million (28 lakh) visits in just 2 months in 2022. It is one of the Char Dham pilgrimage sites.",
     "lat": 30.744695,
     "lon": 79.491175,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Badrinath_Temple_%2C_Uttarakhand.jpg",
@@ -1582,14 +1582,14 @@
     "source_url": "https://en.wikipedia.org/wiki/Padmanabhaswamy_Temple"
   },
   "t_tirumala_venkateswara_temple_tirupati": {
-    "extract": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple situated in the hills of Tirumala, Tirupati Urban Mandal in the Tirupati district of Andhra Pradesh, India. The temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on earth to save mankind from trials and troubles of Kali Yuga. Hence the place is also known by the name Kaliyuga Vaikuntha and the deity here is referred to as Kaliyuga Prathyaksha Daivam. Venkateswara is also known by other names including Balaji, Govinda, and Srinivasa. The temple is run by Tirumala Tirupati Devasthanams (TTD), which is under control of Andhra Pradesh Government.",
+    "extract": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple situated in the hills of Tirumala, Tirupati Urban Mandal in the Tirupati district of Andhra Pradesh, India. The temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on earth to save mankind from trials and troubles of Kali Yuga. Hence the place is also known by the name Kaliyuga Vaikuntha and the deity here is referred to as Kaliyuga Prathyaksha Daivam. Venkateswara is also known by other names including Balaji, Govinda, and Srinivasa. The temple is run by Tirumala Tirupati Devasthanams (TTD), which is under control of Andhra Pradesh Government. The head of TTD is appointed by Andhra Pradesh Government.",
     "lat": 13.68325,
     "lon": 79.347194,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala"
   },
   "t_tirumala_venkateswara_temple_tirumala": {
-    "extract": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple situated in the hills of Tirumala, Tirupati Urban Mandal in the Tirupati district of Andhra Pradesh, India. The temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on earth to save mankind from trials and troubles of Kali Yuga. Hence the place is also known by the name Kaliyuga Vaikuntha and the deity here is referred to as Kaliyuga Prathyaksha Daivam. Venkateswara is also known by other names including Balaji, Govinda, and Srinivasa. The temple is run by Tirumala Tirupati Devasthanams (TTD), which is under control of Andhra Pradesh Government.",
+    "extract": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple situated in the hills of Tirumala, Tirupati Urban Mandal in the Tirupati district of Andhra Pradesh, India. The temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on earth to save mankind from trials and troubles of Kali Yuga. Hence the place is also known by the name Kaliyuga Vaikuntha and the deity here is referred to as Kaliyuga Prathyaksha Daivam. Venkateswara is also known by other names including Balaji, Govinda, and Srinivasa. The temple is run by Tirumala Tirupati Devasthanams (TTD), which is under control of Andhra Pradesh Government. The head of TTD is appointed by Andhra Pradesh Government.",
     "lat": 13.68325,
     "lon": 79.347194,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg",
@@ -1652,7 +1652,7 @@
     "source_url": null
   },
   "t_alwarthirunagari": {
-    "extract": "Alwarthirunagari Permual Temple is a Hindu temple, dedicated to the god Vishnu, in Alwarthirunagari, a town in Thoothukudi district in the Indian state of Tamil Nadu. It is located 26 km from Tirunelveli. Constructed in the Dravidian style of architecture, the temple is glorified in the Naalayira Divya Prabandham, the early medieval Tamil canon of the Alwar saints from the 6th–9th centuries CE. It is one of the 108 Divya Desams dedicated to Vishnu, who is worshipped as Adinathar and his consort Lakshmi as Adinathanayaki. The temple is also classified as a Navatirupathi, the nine temples revered by Nammalvar located in the banks of Tamiraparani river. The temple is the most prominent among the nine Navatirupathi temples.",
+    "extract": "Alwarthirunagari Permual Temple is a Hindu temple, dedicated to the god Vishnu, in Alwarthirunagari, a town in Thoothukudi district in the Indian state of Tamil Nadu. It is located 26 km from Tirunelveli. Constructed in the Dravidian style of architecture, the temple is glorified in the Naalayira Divya Prabandham, the early medieval Tamil canon of the Alwar saints from the 6th–9th centuries CE. It is one of the 108 Divya Desams dedicated to Vishnu, who is worshipped as Adinathar and his consort Lakshmi as Adinathanayaki. The temple is also classified as a Navatirupathi, the nine temples revered by Nammalvar located in the banks of Tamiraparani river. The temple is the most prominent among the nine Navatirupathi temples. The temple is one of the Navagraha temples in Vaishnavism, associated with Jupiter, also known as Brihaspati.",
     "lat": 8.607111,
     "lon": 77.938306,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Azhwar_Thirunagari9.jpg",
@@ -1743,7 +1743,7 @@
     "source_url": null
   },
   "t_group_of_monuments_at_hampi": {
-    "extract": "Hampi or Hampe (Kannada: [hɐmpe]), also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in the town of Hampi in Vijayanagara district, east-central Karnataka, India. Hampi predates the Vijayanagara Empire; it is mentioned in the Ramayana and the Puranas of Hinduism as Pampa Devi Tirtha Kshetra. Hampi continues as a religious centre, with the Virupaksha Temple, an active Adi Shankara-linked monastery and various monuments belonging to the old city.\nHampi was the capital of the Vijayanagara Empire from 1336 to 1565 (as Vijayanagara), when it was abandoned. It was a fortified city.",
+    "extract": "Hampi or Hampe (Kannada: [hɐmpe]), also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in the town of Hampi in Vijayanagara district, east-central Karnataka, India. Hampi predates the Vijayanagara Empire; it is mentioned in the Ramayana and the Puranas of Hinduism as Pampa Devi Tirtha Kshetra. Hampi continues as a religious centre, with the Virupaksha Temple, an active Adi Shankara-linked monastery and various monuments belonging to the old city.\nHampi was the capital of the Vijayanagara Empire from 1336 to 1565 (as Vijayanagara), when it was abandoned. It was a fortified city. Chronicles left by Persian and European travellers, particularly the Portuguese, say that Hampi was a prosperous, wealthy and grand city near the Tungabhadra River, with numerous temples, farms and trading markets.",
     "lat": 15.334444,
     "lon": 76.462222,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Wide_angle_of_Galigopuram_of_Virupaksha_Temple%2C_Hampi_%2804%29_%28cropped%29.jpg",
@@ -1764,14 +1764,14 @@
     "source_url": null
   },
   "t_akshardham": {
-    "extract": "Swaminarayan Akshardham is a Hindu temple and campus in Delhi, India. The temple is close to the border with Noida. Also known as Akshardham Temple or Akshardham Delhi, the complex displays traditional and modern Hindu culture and architecture. Inspired by Yogiji Maharaj and created by Pramukh Swami Maharaj, it was constructed by BAPS. It is the world's second-largest BAPS Hindu temple, following Akshardham, New Jersey, in the United States.\nThe temple was opened on 6 November 2005 by Pramukh Swami Maharaj in the presence of A. P. J. Abdul Kalam, Manmohan Singh, L.K Advani and B.L Joshi.",
+    "extract": "Swaminarayan Akshardham is a Hindu temple and campus in Delhi, India. The temple is close to the border with Noida. Also known as Akshardham Temple or Akshardham Delhi, the complex displays traditional and modern Hindu culture and architecture. Inspired by Yogiji Maharaj and created by Pramukh Swami Maharaj, it was constructed by BAPS. It is the world's second-largest BAPS Hindu temple, following Akshardham, New Jersey, in the United States.\nThe temple was opened on 6 November 2005 by Pramukh Swami Maharaj in the presence of A. P. J. Abdul Kalam, Manmohan Singh, L.K Advani and B.L Joshi. The temple, at the centre of the complex, was built according to the Vastu shastra and Pancharatra shastra.",
     "lat": 28.6125,
     "lon": 77.277222,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Swaminarayan_Akshardham%2C_Delhi.jpg",
     "source_url": "https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_(Delhi)"
   },
   "t_yamunotri": {
-    "extract": "Yamunotri Temple is a Hindu temple, situated in the western region of Garhwal Himalayas at an altitude of 3,291 metres (10,797 ft) in Uttarkashi district, Uttarakhand, India. It's just 129 km from Uttarkashi, the main district headquarters. The temple is dedicated to Goddess Yamuna, and has a black marble idol of the goddess. \nThe actual temple is only accessible by a 13 kilometres (8.1 mi) trek from the town of Hanuman Chatti and a 6 kilometres (3.7 mi) walk from Janki Chatti; horses or palanquins are available for rent. The hike from Hanuman Chatti to Yamunotri takes in views of a number of waterfalls.",
+    "extract": "Yamunotri Temple is a Hindu temple, situated in the western region of Garhwal Himalayas at an altitude of 3,291 metres (10,797 ft) in Uttarkashi district, Uttarakhand, India. It's just 129 km from Uttarkashi, the main district headquarters. The temple is dedicated to Goddess Yamuna, and has a black marble idol of the goddess. \nThe actual temple is only accessible by a 13 kilometres (8.1 mi) trek from the town of Hanuman Chatti and a 6 kilometres (3.7 mi) walk from Janki Chatti; horses or palanquins are available for rent. The hike from Hanuman Chatti to Yamunotri takes in views of a number of waterfalls. There are two trekking routes from Hanuman Chatti to Yamunotri; the one along the right bank proceeds via the Markandeya Tirth, where the sage Markandeya wrote the Markandeya Purana.",
     "lat": 31.0167,
     "lon": 78.45,
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Yamunotri_temple_and_ashram.jpg",
@@ -1783,12 +1783,5 @@
     "lon": null,
     "image_url": null,
     "source_url": null
-  },
-  "t_vaishno_devi": {
-    "extract": "Vaishno Devi Temple, also known as the Shri Mata Vaishno Devi Temple and Vaishno Devi Bhavan, is a Hindu temple in Katra, Reasi district, Jammu and Kashmir, India. Dedicated to Vaishno Devi, a manifestation of godesses Mahakali, Mahalakshmi, and Mahasarasvati, it is on Trikuta mountain at an elevation of 5,200 feet (1,500 meters). The Shakti tradition considers it to be a Shakti Pitha. The temple is 43 km from the main city of Jammu and 29 km from the district headquarters Reasi town. The temple is governed by the Shri Mata Vaishno Devi Shrine Board (SMVDSB) and has been chaired by the Governor of Jammu and Kashmir since August 1986.",
-    "lat": 33.0299,
-    "lon": 74.9482,
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mata_Vaishno_Devi_Bhawan.jpg",
-    "source_url": "https://en.wikipedia.org/wiki/Vaishno_Devi_Temple"
   }
 }

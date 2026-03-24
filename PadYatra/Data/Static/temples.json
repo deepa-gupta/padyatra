@@ -2224,8 +2224,8 @@
       "categoryIDs": [
         "c_ashta_vinayaka"
       ],
-      "description": "Siddhivinayak temple may refer to the following Hindu Ganesha temples:",
-      "shortDescription": "Siddhivinayak temple may refer to the following Hindu Ganesha temples:",
+      "description": "The Siddhivinayak Temple of Siddhatek is a Hindu temple dedicated to Ganesha, the elephant-headed god of wisdom. The temple is one of the Ashtavinayaka, the eight revered shrines of Ganesha in the Indian state of Maharashtra and the only Ashtavinayaka shrine in Ahmednagar district.",
+      "shortDescription": "The Siddhivinayak Temple of Siddhatek is a Hindu temple dedicated to Ganesha, the elephant-headed god of wisdom.",
       "facts": {
         "established": "12th century CE",
         "dynasty": "Medieval Period",
@@ -2242,7 +2242,7 @@
         "heroImageName": "t_siddhivinayak_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_siddhivinayak_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Siddhi_Vinayak_at_Siddhatek.jpg"
       },
       "festivals": [
         {
@@ -2262,7 +2262,7 @@
       ],
       "significance": "ashtavinayak",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Siddhivinayak_temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Siddhivinayak_Temple,_Siddhatek"
     },
     {
       "id": "t_ballaleshwar",
@@ -2346,8 +2346,8 @@
       "categoryIDs": [
         "c_ashta_vinayaka"
       ],
-      "description": "Chintamani Temple is a Hindu temple located in Theur, Maharashtra, India, dedicated to Ganesha. It dates to the Medieval Period.",
-      "shortDescription": "Chintamani Temple is a Hindu temple located in Theur, Maharashtra, India, dedicated to Ganesha.",
+      "description": "The Chintamani Temple of Theur is a Hindu temple dedicated to Supreme God Ganesha according to Ganapatya Sect located 25 km (16 mi) from Pune, the temple is \"one of the larger and more famous\" of the Ashtavinayaka, the eight revered shrines of Ganesha in the Indian state of Maharashtra.\nThe temple lore describes how bhagwan Ganesh retrieved the wish-giving jewel Chintamani for his devotee, the sage Kapila from the greedy king Gana and how he pacifies the uneasy mind of the god Brahma, who meditated on him in Theur.",
+      "shortDescription": "The Chintamani Temple of Theur is a Hindu temple dedicated to Supreme God Ganesha according to Ganapatya Sect located 25 km (16 mi…",
       "facts": {
         "established": "12th century CE",
         "dynasty": "Medieval Period",
@@ -2364,7 +2364,7 @@
         "heroImageName": "t_chintamani_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chintamani_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Shri_Cintamani_of_Theur.jpg"
       },
       "festivals": [
         {
@@ -2384,7 +2384,7 @@
       ],
       "significance": "ashtavinayak",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Chintamani_Temple,_Theur"
     },
     {
       "id": "t_girijatmaj",
@@ -3185,7 +3185,7 @@
       "categoryIDs": [
         "c_hanuman_circuit"
       ],
-      "description": "Mahavir Mandir is a Hindu temple dedicated to the god Hanuman, located in Patna, Bihar, India. Millions of pilgrims visit the temple every year. Acharya Kishore Kunal is the secretary of the Mahavir Mandir Temple Trust, Patna. After the Vaishno Devi Temple, this temple has the highest earnings of over 1 lakh per day rendering its trust budgets as the second highest in the northern part of the country. The temple attracts huge crowds on festivals like Ramnavami.",
+      "description": "Mahavir Mandir is a Hindu temple dedicated to the god Hanuman, located in Patna, Bihar, India. Millions of pilgrims visit the temple every year. Acharya Kishore Kunal is the secretary of the Mahavir Mandir Temple Trust, Patna. After the Vaishno Devi Temple, this temple has the highest earnings of over 1 lakh per day rendering its trust budgets as the second highest in the northern part of the country. The temple attracts huge crowds on festivals like Ramnavami. It is one of the leading temples dedicated to the worship of Lord Hanuman.",
       "shortDescription": "Mahavir Mandir is a Hindu temple dedicated to the god Hanuman, located in Patna, Bihar, India.",
       "facts": {
         "established": "Ancient",
@@ -3347,7 +3347,7 @@
       "categoryIDs": [
         "c_modern_pilgrimage"
       ],
-      "description": "Mehandipur Balaji Temple  is a Hindu temple located in Mehandipur, Dausa district, in the Indian state of Rajasthan. The temple is dedicated to the deity Hanuman. The name Balaji refers to the childhood form of Hanuman, revered in several parts of the country. Unlike similar religious sites, it is located in a town rather than the countryside. Its reputation for ritualistic healing and exorcism of evil spirits attracts many pilgrims from Rajasthan and elsewhere.",
+      "description": "Mehandipur Balaji Temple  is a Hindu temple located in Mehandipur, Dausa district, in the Indian state of Rajasthan. The temple is dedicated to the deity Hanuman. The name Balaji refers to the childhood form of Hanuman, revered in several parts of the country. Unlike similar religious sites, it is located in a town rather than the countryside. Its reputation for ritualistic healing and exorcism of evil spirits attracts many pilgrims from Rajasthan and elsewhere.\nThe temple is famous worldwide.",
       "shortDescription": "Mehandipur Balaji Temple  is a Hindu temple located in Mehandipur, Dausa district, in the Indian state of Rajasthan.",
       "facts": {
         "established": "18th century CE",
@@ -4331,7 +4331,7 @@
       "categoryIDs": [
         "c_oldest_functioning"
       ],
-      "description": "Bhadrakali Temple (Nepali :भद्रकाली मन्दिर) is a temple on the East of Pokhara in Kundahar, atop a small hill.  It is dedicated to the Goddess Kali. Founded in the year 1817, the temple shrines the Hindu goddess of power and strength. Bhadrakali or Durga covers an area of 135 ropanies. There are two ways to reach atop: the eastern way has 292 steps to reach the temple while traversing from the southern part is only 265 steps.",
+      "description": "Bhadrakali Temple (Nepali :भद्रकाली मन्दिर) is a temple on the East of Pokhara in Kundahar, atop a small hill.  It is dedicated to the Goddess Kali. Founded in the year 1817, the temple shrines the Hindu goddess of power and strength. Bhadrakali or Durga covers an area of 135 ropanies. There are two ways to reach atop: the eastern way has 292 steps to reach the temple while traversing from the southern part is only 265 steps. In the year 1817, the temple was previously known as “Mudule Thumpko.",
       "shortDescription": "Bhadrakali Temple (Nepali :भद्रकाली मन्दिर) is a temple on the East of Pokhara in Kundahar, atop a small hill.",
       "facts": {
         "established": "11th century CE",
@@ -4855,8 +4855,8 @@
       "categoryIDs": [
         "c_krishna_circuit"
       ],
-      "description": "Radha Vallabh Temple is a Hindu temple located in Vrindavan, Uttar Pradesh, India, dedicated to Krishna. It dates to the Medieval Period.",
-      "shortDescription": "Radha Vallabh Temple is a Hindu temple located in Vrindavan, Uttar Pradesh, India, dedicated to Krishna.",
+      "description": "Shri Radha Vallabh Temple, also called Shri Radha Vallabhlal ji Temple is a historic temple in the city of Vrindavan, Mathura district, Uttar Pradesh, India. The temple is dedicated to Hindu deities Radha Krishna. The temple belongs to Radha Vallabh Sampradaya and was constructed in 16th century under the guidance of Vrindavan saint Hith Harivansha Mahaprabhu.\nThe central deity of the temple is Krishna who is worshiped under the name of Shri Radha Vallabh which means the consort of Radha. Alongside Krishna, a crown is placed which signifies the presence of goddess Radha.",
+      "shortDescription": "Shri Radha Vallabh Temple, also called Shri Radha Vallabhlal ji Temple is a historic temple in the city of Vrindavan, Mathura dist…",
       "facts": {
         "established": "1585 CE",
         "dynasty": "Medieval Period",
@@ -4873,7 +4873,7 @@
         "heroImageName": "t_radha_vallabh_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_radha_vallabh_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Radhavallabhlalj.jpg"
       },
       "festivals": [
         {
@@ -4893,7 +4893,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Radha_Vallabh_Temple,_Vrindavan"
     },
     {
       "id": "t_udupi_sri_krishna_matha",
@@ -5649,8 +5649,8 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Mahalakshmi Temple or Mahalaxmi Temple may refer to these Hindu temples in Maharashtra, India dedicated to the goddess Mahalakshmi:",
-      "shortDescription": "Mahalakshmi Temple or Mahalaxmi Temple may refer to these Hindu temples in Maharashtra, India dedicated to the goddess Mahalakshmi…",
+      "description": "Mahalakshmi Temple (also known as Ambabai Mandir) is an important Hindu temple dedicated to Goddess Mahalakshmi, who is worshipped by locals as Ambabai. Goddess Mahalakshmi Ambabai is the consort of Lord Vishnu and it is customary among Hindus to visit Tirumala Venkateswara Temple, Kolhapur Mahalakshmi Temple and Padmavathi Temple as a yatra (pilgrimage). It is believed that visiting these temples as a pilgrimage helps achieve moksha (salvation).",
+      "shortDescription": "Mahalakshmi Temple (also known as Ambabai Mandir) is an important Hindu temple dedicated to Goddess Mahalakshmi, who is worshipped…",
       "facts": {
         "established": "7th century CE",
         "dynasty": "Chalukya Period",
@@ -5667,7 +5667,7 @@
         "heroImageName": "t_mahalakshmi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_mahalakshmi_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mahalaxmi_Temple%2C_Kolhapur.jpg"
       },
       "festivals": [
         {
@@ -5680,7 +5680,7 @@
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple,_Kolhapur"
     },
     {
       "id": "t_keezhaperumpallam_temple_keezhperumpalla",
@@ -5919,8 +5919,8 @@
       "categoryIDs": [
         "c_sapta_puri"
       ],
-      "description": "Maya Devi Temple may refer to:",
-      "shortDescription": "Maya Devi Temple may refer to:",
+      "description": "Maya Devi Temple, Haridwar (Hindi: माया देवी मंदिर, हरिद्वार) is a Hindu temple dedicated to goddess Maya in the holy city of Haridwar of Uttarakhand state in India. It is believed that the heart and navel of goddess Sati fell in the region where the temple stands today and thus it is sometimes referred to as a Shakta pitha.\nGoddess Maya is the Adhisthatri deity of Haridwar. She is a three-headed and four-armed deity who is believed to be an incarnation of Shakti. Haridwar was previously known as Mayapuri in reverence to this deity.",
+      "shortDescription": "Maya Devi Temple, Haridwar (Hindi: माया देवी मंदिर, हरिद्वार) is a Hindu temple dedicated to goddess Maya in the holy city of Hari…",
       "facts": {
         "established": "11th century CE",
         "dynasty": "Early Medieval Period",
@@ -5937,7 +5937,7 @@
         "heroImageName": "t_maya_devi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_maya_devi_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/da/Maya_Devi_Temple%2C_Haridwar%283%29.JPG"
       },
       "festivals": [
         {
@@ -5957,7 +5957,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Maya_Devi_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Maya_Devi_Temple,_Haridwar"
     },
     {
       "id": "t_naina_devi",
@@ -6467,8 +6467,8 @@
       "categoryIDs": [
         "c_new_landmark"
       ],
-      "description": "Prem Mandir may refer to:",
-      "shortDescription": "Prem Mandir may refer to:",
+      "description": "Prem Mandir UP  (lit.  The Temple of Divine Love) is a Hindu temple in Vrindavan, Mathura district, Western Uttar Pradesh, India. The temple was established by Jagadguru Shri Kripalu Ji Maharaj. It is maintained by Jagadguru Kripalu Parishat, an international non-profit, educational, spiritual, charitable trust.\nThe complex is spread across a 22-hectare (55-acre) site on the outskirts of Vrindavan. It is dedicated to Radha Krishna and Sita Ram.",
+      "shortDescription": "Prem Mandir UP  (lit.",
       "facts": {
         "established": "2012 CE",
         "dynasty": "Modern Period",
@@ -6485,7 +6485,7 @@
         "heroImageName": "t_prem_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_prem_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/PremMandirSideViewFromCanteen.jpg"
       },
       "festivals": [
         {
@@ -6505,7 +6505,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Prem_Mandir"
+      "sourceURL": "https://en.wikipedia.org/wiki/Prem_Mandir,_Vrindavan"
     },
     {
       "id": "t_shree_radha_krishna",
@@ -8172,7 +8172,7 @@
         "c_oldest_functioning",
         "c_sapta_puri"
       ],
-      "description": "Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva. It is located in Vishwanath Gali, in Varanasi, Uttar Pradesh, India. The temple is a Hindu pilgrimage site and is one of the twelve Jyotirlinga shrines. The presiding deity is known by the names Vishwanath and Vishweshwara (IAST: Viśvanātha and Viśveśvara), meaning Lord of the Universe.\nThe original temple, called the Adi Vishveshwar Temple, was demolished by Mohammad of Ghor during his invasion of India.",
+      "description": "Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva. It is located in Vishwanath Gali, in Varanasi, Uttar Pradesh, India. The temple is a Hindu pilgrimage site and is one of the twelve Jyotirlinga shrines. The presiding deity is known by the names Vishwanath and Vishweshwara (IAST: Viśvanātha and Viśveśvara), meaning Lord of the Universe.\nThe original temple, called the Adi Vishveshwar Temple, was demolished by Mohammad of Ghor during his invasion of India. Subsequently, the template was rebuilt by Man Singh I and Todar Mal under the emperor Akbar.",
       "shortDescription": "Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva.",
       "facts": {
         "established": "Ancient (rebuilt 1780 CE)",
@@ -9664,8 +9664,8 @@
         "c_cave_temple",
         "c_pallava"
       ],
-      "description": "Kailasanathar Temple is the name of several temples and ancient religious sites found in Southeastern India, all dedicated to the deity Shiva in its form of Kailasanathar or Kailashanatha (transl. Lord of the Kailasha). The designation refers to the Mount Kailash, which is the primary abode of Shiva.",
-      "shortDescription": "Kailasanathar Temple is the name of several temples and ancient religious sites found in Southeastern India, all dedicated to the…",
+      "description": "The Kailasanathar Temple, Kanchipuram, also referred to as the Kailasanatha temple, is a Pallava-era historic Hindu temple in Kanchipuram, Tamil Nadu, India. Dedicated to Shiva, it is one of the oldest surviving monuments in Kanchipuram. It reflects a Dravidian architecture and was built around 700 CE by Narasimhavarman II with additions by Mahendravarman III. A square-plan temple, it has a mukha-mandapa (entrance hall), a maha-mandapa (gathering hall) and a primary garbha-griya (sanctum) topped with a four-storey vimana.",
+      "shortDescription": "The Kailasanathar Temple, Kanchipuram, also referred to as the Kailasanatha temple, is a Pallava-era historic Hindu temple in Kanc…",
       "facts": {
         "established": "7th–8th century CE",
         "dynasty": "Pallava Period",
@@ -9682,7 +9682,7 @@
         "heroImageName": "t_kailasanathar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_kailasanathar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/1/19/7th_century_Sri_Kailashnathar_Temple_Kanchipuram_Tamil_Nadu_India_01_%2811%29.jpg"
       },
       "festivals": [
         {
@@ -9702,7 +9702,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Kailasanathar_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Kailasanathar_Temple,_Kanchipuram"
     },
     {
       "id": "t_amrutesvara",
@@ -9725,8 +9725,8 @@
       "categoryIDs": [
         "c_hoysala"
       ],
-      "description": "Amrutesvara Temple is a Hindu temple located in Amruthapura, Karnataka, India, dedicated to Shiva. It dates to the Hoysala Period.",
-      "shortDescription": "Amrutesvara Temple is a Hindu temple located in Amruthapura, Karnataka, India, dedicated to Shiva.",
+      "description": "The Amruteshvara temple also spelt \"Amrutesvara\" or \"Amruteshwara\", is located in the village of Amruthapura, 67 km north of Chikmagalur town in the Chikkamagaluru district of the Karnataka state, India. Located 110 km from Hassan and 50 km from Shimoga on NH 206, Amruthapura is known for the  Amruteshvara temple.",
+      "shortDescription": "The Amruteshvara temple also spelt \"Amrutesvara\" or \"Amruteshwara\", is located in the village of Amruthapura, 67 km north of Chikm…",
       "facts": {
         "established": "12th century CE",
         "dynasty": "Hoysala Period",
@@ -9743,7 +9743,7 @@
         "heroImageName": "t_amrutesvara_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_amrutesvara_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/6/63/Amrutesvara_temple_at_Amruthapura_in_Chikkamagaluru_district.JPG"
       },
       "festivals": [
         {
@@ -9763,7 +9763,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Amrutesvara_Temple,_Amruthapura"
     },
     {
       "id": "t_kedareshwara",
@@ -10766,7 +10766,7 @@
       "categoryIDs": [
         "c_jyotirlinga"
       ],
-      "description": "Bhimashankar Temple is a Hindu temple dedicated to Shiva situated in its eponymous village, Bhimashankar, in Pune district of Maharashtra. It is a key pilgrimage centre and contains one of the 12 Jyotirlingas. The temple's Shiva lingam is one of the three Jyotirlingas of Maharashtra. The mandir is situated on a mountain, 110 kilometers away from Pune. The temple's vicinity has rare plant and animal species.",
+      "description": "Bhimashankar Temple is a Hindu temple dedicated to Shiva situated in its eponymous village, Bhimashankar, in Pune district of Maharashtra. It is a key pilgrimage centre and contains one of the 12 Jyotirlingas. The temple's Shiva lingam is one of the three Jyotirlingas of Maharashtra. The mandir is situated on a mountain, 110 kilometers away from Pune. The temple's vicinity has rare plant and animal species. The mandir is located in Khed taluka, in the Bhimashankar forest range.",
       "shortDescription": "Bhimashankar Temple is a Hindu temple dedicated to Shiva situated in its eponymous village, Bhimashankar, in Pune district of Maha…",
       "facts": {
         "established": "Ancient",
@@ -11010,8 +11010,8 @@
       "categoryIDs": [
         "c_jyotirlinga"
       ],
-      "description": "Mallikarjuna Temple may refer to:",
-      "shortDescription": "Mallikarjuna Temple may refer to:",
+      "description": "Mallikarjuna Swamy Temple or Srisailam Temple is a Hindu temple dedicated to the deities Shiva and Parvati, located at Srisailam in the Indian state of Andhra Pradesh. It is significant to the Hindu sects of both Shaivism and Shaktism as this temple is referred to as one of the twelve Jyotirlingas of Shiva and as one of the fifty two Shakta pithas, centres of the Hindu goddess. Shiva is worshiped as Mallikarjuna and is represented by the lingam. His consort Parvati is depicted as Bhramaramba.",
+      "shortDescription": "Mallikarjuna Swamy Temple or Srisailam Temple is a Hindu temple dedicated to the deities Shiva and Parvati, located at Srisailam i…",
       "facts": {
         "established": "Ancient",
         "dynasty": "Satavahana to Vijayanagara Periods",
@@ -11028,7 +11028,7 @@
         "heroImageName": "t_mallikarjuna_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_mallikarjuna_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Srisailam.jpg"
       },
       "festivals": [
         {
@@ -11048,7 +11048,7 @@
       ],
       "significance": "jyotirlinga",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Mallikarjuna_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Mallikarjuna_Temple,_Srisailam"
     },
     {
       "id": "t_manimahesh_kailash",
@@ -11736,8 +11736,8 @@
       "alternateName": null,
       "deity": "Shiva",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 10.853333,
+        "longitude": 78.705556,
         "city": "Thiruvanaikaval",
         "district": "Trichy",
         "state": "Tamil Nadu",
@@ -11748,8 +11748,8 @@
       "categoryIDs": [
         "c_pancha_bhoota_linga"
       ],
-      "description": "Jambukeswarar Temple is a Hindu temple located in Thiruvanaikaval, Tamil Nadu, India, dedicated to Shiva. It dates to the Medieval Chola Period.",
-      "shortDescription": "Jambukeswarar Temple is a Hindu temple located in Thiruvanaikaval, Tamil Nadu, India, dedicated to Shiva.",
+      "description": "Jambukeswarar Temple, Thiruvanaikaval (also Thiruvanaikal, Jambukeswaram) is a temple of Shiva in Tiruchirapalli district, in the state of Tamil Nadu, India. It is one of the five major Shiva Temples of Tamil Nadu representing the Mahābhūta or five elements; this temple represents the element of water, or neer in Tamil. The sanctum of Jambukeswara has an underground stream.In the temple, Shiva is worshipped as Jambukeshwarar and his consort Parvati as Akilandeswari.\nIt is one of the 275 Paadal Petra Sthalams and has inscriptions from the Chola period.",
+      "shortDescription": "Jambukeswarar Temple, Thiruvanaikaval (also Thiruvanaikal, Jambukeswaram) is a temple of Shiva in Tiruchirapalli district, in the…",
       "facts": {
         "established": "7th century CE",
         "dynasty": "Medieval Chola Period",
@@ -11766,7 +11766,7 @@
         "heroImageName": "t_jambukeswarar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_jambukeswarar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/6/68/Tiruvanaikaval5.jpg"
       },
       "festivals": [
         {
@@ -11786,7 +11786,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Jambukeswarar_Temple,_Thiruvanaikaval"
     },
     {
       "id": "t_group_of_monuments_at_pattadakal",
@@ -13200,8 +13200,8 @@
       "categoryIDs": [
         "c_pallava"
       ],
-      "description": "Krishna Mandapam is a Hindu temple located in Mahabalipuram, Tamil Nadu, India, dedicated to Vishnu. It dates to the Pallava Period.",
-      "shortDescription": "Krishna Mandapam is a Hindu temple located in Mahabalipuram, Tamil Nadu, India, dedicated to Vishnu.",
+      "description": "Mandapa of Krishna or Krishna Mandapam is a monument at Mahabalipuram, on the Coromandel Coast of the Bay of Bengal, in the Kancheepuram district of the state of Tamil Nadu, India. It is part of the Group of Monuments at Mahabalipuram, a UNESCO World Heritage Site inscribed in 1984. It is located on a hillock next to the open rock relief of Descent of the Ganges (Mahabalipuram).\nIt is constituted by an originally open-air bas-relief dedicated to Krishna, dating to the mid-seventh century, which was later enclosed within a mandapa in the 16th century during the Vijayanagara Empire.",
+      "shortDescription": "Mandapa of Krishna or Krishna Mandapam is a monument at Mahabalipuram, on the Coromandel Coast of the Bay of Bengal, in the Kanche…",
       "facts": {
         "established": "7th–8th century CE",
         "dynasty": "Pallava Period",
@@ -13218,7 +13218,7 @@
         "heroImageName": "t_krishna_mandapam_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_krishna_mandapam_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Krishna_Mandapa_Exterior_NE_Mahabalipuram_Sep22_A7C_02520.jpg"
       },
       "festivals": [
         {
@@ -13238,7 +13238,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Krishna_Mandapam,_Mahabalipuram"
     },
     {
       "id": "t_chennakesava_temple_somnathpura",
@@ -13689,8 +13689,8 @@
         "c_largest",
         "c_tallest_tower"
       ],
-      "description": "Ranganatha Temple or Ranganathaswamy Temple may refer to any of several temples dedicated to the Hindu God Ranganatha, including:",
-      "shortDescription": "Ranganatha Temple or Ranganathaswamy Temple may refer to any of several temples dedicated to the Hindu God Ranganatha, including:",
+      "description": "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. Constructed in the Tamil architectural style, the temple is glorified by the Tamil poet-saints called the Alvars in their canon, the Naalayira Divya Prabhandam, and has the unique distinction of being the foremost among the 108 Divya Desams dedicated to the god Vishnu.",
+      "shortDescription": "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of La…",
       "facts": {
         "established": "9th–10th century CE",
         "dynasty": "Pallava/Medieval Period",
@@ -13707,7 +13707,7 @@
         "heroImageName": "t_ranganathaswamy_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_ranganathaswamy_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ranganathaswamy_temple_tiruchirappalli.jpg"
       },
       "festivals": [
         {
@@ -13727,7 +13727,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Ranganatha_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Ranganathaswamy_Temple,_Srirangam"
     },
     {
       "id": "t_sri_venkateswara",
@@ -13818,7 +13818,7 @@
         "c_riverbank",
         "c_swayambhu_vishnu"
       ],
-      "description": "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu. It is located in the town of Badrinath in Chamoli district of Uttarakhand, India. The temple is one of the 108 Divya Desams, sacred to Vaishnavism, where Vishnu is worshipped as Badrinath. Due to extreme weather conditions in the Himalayas, the temple is open for six months each year, from late April to early November. It is one of the most visited pilgrimage centers of India, having recorded 2.8 million (28 lakh) visits in just 2 months in 2022.",
+      "description": "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu. It is located in the town of Badrinath in Chamoli district of Uttarakhand, India. The temple is one of the 108 Divya Desams, sacred to Vaishnavism, where Vishnu is worshipped as Badrinath. Due to extreme weather conditions in the Himalayas, the temple is open for six months each year, from late April to early November. It is one of the most visited pilgrimage centers of India, having recorded 2.8 million (28 lakh) visits in just 2 months in 2022. It is one of the Char Dham pilgrimage sites.",
       "shortDescription": "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu.",
       "facts": {
         "established": "8th century CE (revived by Adi Shankaracharya)",

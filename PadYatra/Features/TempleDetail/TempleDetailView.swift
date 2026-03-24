@@ -10,13 +10,14 @@ struct TempleDetailView: View {
     @StateObject var vm: TempleDetailViewModel
     @EnvironmentObject var locationService: LocationService
     @State private var imageURLs: [URL] = []
+    @State private var imagesLoaded = false
 
     // MARK: - Body
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
-                TempleHeroGallery(imageURLs: imageURLs, templeName: vm.temple.name)
+                TempleHeroGallery(imageURLs: imageURLs, templeName: vm.temple.name, isLoaded: imagesLoaded)
 
                 VStack(alignment: .leading, spacing: AppSpacing.lg) {
                     titleBlock
@@ -59,7 +60,9 @@ struct TempleDetailView: View {
             vm.loadVisits()
         }
         .task(id: vm.temple.id) {
+            imagesLoaded = false
             imageURLs = await TempleImageService.shared.imageURLs(for: vm.temple)
+            imagesLoaded = true
         }
     }
 
