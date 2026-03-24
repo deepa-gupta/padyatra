@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "lastUpdated": "2026-03-23",
   "categories": [
     {
@@ -333,7 +333,7 @@
         "t_kishkindha_anjaneya",
         "t_nandigram",
         "t_ram_janmabhoomi",
-        "t_rameswaram_ramanathaswamy_temple_rameshw",
+        "t_rameswaram_ramanathaswamy_temple_rameswa",
         "t_sita_ramachandraswamy",
         "t_sitamarhi"
       ],
@@ -397,7 +397,7 @@
         "t_group_of_monuments_at_pattadakal",
         "t_kailasa",
         "t_khajuraho_group_of_temples",
-        "t_sun"
+        "t_konark_sun"
       ],
       "achievementID": null
     },
@@ -674,9 +674,9 @@
         "t_brihadeeswarar",
         "t_kedarnath",
         "t_meenakshi_amman",
-        "t_padmanabhaswamy",
+        "t_sree_padmanabhaswamy",
         "t_ranganathaswamy",
-        "t_sri_venkateswara"
+        "t_tirumala_venkateswara_temple_tirumala"
       ],
       "achievementID": null
     },
@@ -736,8 +736,8 @@
         "t_kedarnath",
         "t_meenakshi_amman",
         "t_rameswaram_ramanathaswamy_temple_rameswa",
-        "t_somnath_temple_somnath",
-        "t_tirumala_venkateswara_temple_tirupati",
+        "t_somnath_temple_prabhas_patan",
+        "t_tirumala_venkateswara_temple_tirumala",
         "t_vaishno_devi"
       ],
       "achievementID": null
@@ -776,7 +776,7 @@
         "t_akshardham",
         "t_baps_swaminarayan",
         "t_chinmaya_mission",
-        "t_iskcon_mayapur",
+        "t_iskcon_temple_mayapur",
         "t_jagadguru_kripaluji_maharaj",
         "t_kanchi_kamakoti_peetham_new",
         "t_prem",
@@ -3543,60 +3543,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Suryanar_Kovil"
     },
     {
-      "id": "t_sun",
-      "slug": "sun-temple-konark",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Sun Temple",
-      "alternateName": null,
-      "deity": "India",
-      "location": {
-        "latitude": 19.887564,
-        "longitude": 86.094489,
-        "city": "Konark",
-        "district": "Konark",
-        "state": "Puri",
-        "country": "Odisha",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_unesco"
-      ],
-      "description": "A sun temple (or solar temple) is a building used for religious or spiritual activities, such as prayer and sacrifice, dedicated to the sun or a solar deity. Such temples were built by a number different cultures and are distributed around the world including in India, China, Egypt, Japan and Peru. Some of the temples are in ruins, undergoing excavation, preservation or restoration and a few are listed as World Heritage Sites individually or as part of a larger site, such as Konark.",
-      "shortDescription": "A sun temple (or solar temple) is a building used for religious or spiritual activities, such as prayer and sacrifice, dedicated t…",
-      "facts": {
-        "established": "Surya",
-        "dynasty": "13th century CE",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_sun_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_sun_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Suryanar_Koil_in_Tamil_Nadu_JEG6875.jpg"
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": true,
-      "sourceURL": "https://en.wikipedia.org/wiki/Sun_temple"
-    },
-    {
       "id": "t_jagatpita_brahma",
       "slug": "jagatpita-brahma-temple-brahma-temple",
       "legacyIDs": [],
@@ -5202,67 +5148,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/ISKCON_Temple,_Bengaluru"
     },
     {
-      "id": "t_iskcon_mayapur",
-      "slug": "iskcon-mayapur-temple-mayapur",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "ISKCON Mayapur Temple",
-      "alternateName": null,
-      "deity": "Krishna",
-      "location": {
-        "latitude": 23.423424,
-        "longitude": 88.390808,
-        "city": "Mayapur",
-        "district": "Nadia",
-        "state": "West Bengal",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_new_landmark"
-      ],
-      "description": "ISKCON Mayapur Temple is a Hindu temple located in Mayapur, West Bengal, India, dedicated to Krishna. It dates to the Modern Period.",
-      "shortDescription": "ISKCON Mayapur Temple is a Hindu temple located in Mayapur, West Bengal, India, dedicated to Krishna.",
-      "facts": {
-        "established": "2001 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_iskcon_mayapur_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_iskcon_mayapur_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Janmashtami",
-          "approximateMonth": 8,
-          "isLunar": true,
-          "description": "Celebration of Krishna's birth with midnight prayers, devotional singing and fasting.",
-          "significance": "high"
-        },
-        {
-          "name": "Radhashtami",
-          "approximateMonth": 9,
-          "isLunar": true,
-          "description": "Birth anniversary of Radha, celebrated with special devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_iskcon_temple_delhi",
       "slug": "iskcon-temple-delhi-new-delhi",
       "legacyIDs": [],
@@ -5326,7 +5211,9 @@
     {
       "id": "t_iskcon_temple_mayapur",
       "slug": "iskcon-temple-mayapur-mayapur",
-      "legacyIDs": [],
+      "legacyIDs": [
+        "t_iskcon_mayapur"
+      ],
       "isActive": true,
       "name": "ISKCON Temple Mayapur",
       "alternateName": null,
@@ -5342,7 +5229,8 @@
         "pincode": null
       },
       "categoryIDs": [
-        "c_iskcon"
+        "c_iskcon",
+        "c_new_landmark"
       ],
       "description": "ISKCON Temple Mayapur is a Hindu temple located in Mayapur, West Bengal, India, dedicated to Krishna. It dates to the Modern Period.",
       "shortDescription": "ISKCON Temple Mayapur is a Hindu temple located in Mayapur, West Bengal, India, dedicated to Krishna.",
@@ -7190,67 +7078,6 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": null
-    },
-    {
-      "id": "t_rameswaram_ramanathaswamy_temple_rameshw",
-      "slug": "rameswaram-ramanathaswamy-temple-rameshwaram",
-      "legacyIDs": [],
-      "isActive": false,
-      "name": "Rameswaram Ramanathaswamy Temple",
-      "alternateName": null,
-      "deity": "Rama & Shiva",
-      "location": {
-        "latitude": 9.284466,
-        "longitude": 79.312555,
-        "city": "Rameshwaram",
-        "district": "Ramanathapuram",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_rama_circuit"
-      ],
-      "description": "Rameswaram Ramanathaswamy Temple is a Hindu temple located in Rameshwaram, Tamil Nadu, India, dedicated to Rama & Shiva. It dates to the Medieval Period.",
-      "shortDescription": "Rameswaram Ramanathaswamy Temple is a Hindu temple located in Rameshwaram, Tamil Nadu, India, dedicated to Rama & Shiva.",
-      "facts": {
-        "established": "12th century CE",
-        "dynasty": "Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_rameswaram_ramanathaswamy_temple_rameshw_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_rameswaram_ramanathaswamy_temple_rameshw_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ramanathaswamy_temple7.JPG/1200px-Ramanathaswamy_temple7.JPG"
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Ramanathaswamy_Temple"
     },
     {
       "id": "t_kanak_bhawan",
@@ -10321,67 +10148,6 @@
       "sourceURL": null
     },
     {
-      "id": "t_somnath_temple_somnath",
-      "slug": "somnath-temple-somnath",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Somnath Temple",
-      "alternateName": null,
-      "deity": "Shiva",
-      "location": {
-        "latitude": 20.888028,
-        "longitude": 70.401389,
-        "city": "Somnath",
-        "district": "Junagadh",
-        "state": "Gujarat",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_major_pilgrimage"
-      ],
-      "description": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. It is unclear when the first version of the Somnath temple was built, with estimates varying between the early centuries of the 1st millennium and about the 9th century CE.",
-      "shortDescription": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India.",
-      "facts": {
-        "established": "4th century CE (reconstructed multiple times)",
-        "dynasty": "Ancient Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_somnath_temple_somnath_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_somnath_temple_somnath_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/1/10/Somanath_mandir_%28cropped%29.jpg"
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Somnath_Temple"
-    },
-    {
       "id": "t_varanasi_kashi_vishwanath",
       "slug": "varanasi-kashi-vishwanath-temple-varanasi",
       "legacyIDs": [],
@@ -11488,7 +11254,9 @@
     {
       "id": "t_somnath_temple_prabhas_patan",
       "slug": "somnath-temple-prabhas-patan",
-      "legacyIDs": [],
+      "legacyIDs": [
+        "t_somnath_temple_somnath"
+      ],
       "isActive": true,
       "name": "Somnath Temple",
       "alternateName": null,
@@ -11504,7 +11272,8 @@
         "pincode": null
       },
       "categoryIDs": [
-        "c_jyotirlinga"
+        "c_jyotirlinga",
+        "c_major_pilgrimage"
       ],
       "description": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India. It is one of the most sacred pilgrimage sites the Tirtha Kshetra for Hindus and is the first among the twelve jyotirlinga shrines of Shiva. It is unclear when the first version of the Somnath temple was built, with estimates varying between the early centuries of the 1st millennium and about the 9th century CE.",
       "shortDescription": "Somnath Temple is a Hindu temple, located in Prabhas Patan, Veraval, in Gujarat, India.",
@@ -12569,7 +12338,9 @@
     {
       "id": "t_konark_sun",
       "slug": "konark-sun-temple-konark",
-      "legacyIDs": [],
+      "legacyIDs": [
+        "t_sun"
+      ],
       "isActive": true,
       "name": "Konark Sun Temple",
       "alternateName": null,
@@ -12585,7 +12356,8 @@
         "pincode": null
       },
       "categoryIDs": [
-        "c_ancient_1000"
+        "c_ancient_1000",
+        "c_unesco"
       ],
       "description": "Konark Sun Temple is a 13th-century CE Hindu Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri city on the coastline in Puri district, Odisha, India. The temple is attributed to king Narasingha Deva I of the Eastern Ganga dynasty about 1250 CE. Dedicated to the Hindu Sun-god Surya, it reflects the pinnacle of kalingan architecture and artistic excellence, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone.",
       "shortDescription": "Konark Sun Temple is a 13th-century CE Hindu Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri city on the coas…",
@@ -13610,67 +13382,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Chaturbhuj_Temple"
     },
     {
-      "id": "t_padmanabhaswamy",
-      "slug": "padmanabhaswamy-temple-thiruvananthapuram",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Padmanabhaswamy Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 8.482778,
-        "longitude": 76.943611,
-        "city": "Thiruvananthapuram",
-        "district": "Thiruvananthapuram",
-        "state": "Kerala",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_largest"
-      ],
-      "description": "The Padmanabhaswamy Temple (Malayalam: [pɐd̪mɐnaːbʰɐswaːmi]) is a Hindu temple dedicated to Vishnu in Thiruvananthapuram, Kerala, India. It is one of the 108 Divya Desams, sacred sites of the Sri Vaishnava tradition.\nThe temple's principal deity is Anantha Padmanabhaswamy, a form of Vishnu depicted in yogic sleep, on his serpent mount named Shesha. Padmanabhaswamy is the tutelary deity of the Travancore royal family. The titular Maharaja of Travancore, Moolam Thirunal Rama Varma, is the current trustee of the temple.",
-      "shortDescription": "The Padmanabhaswamy Temple (Malayalam: [pɐd̪mɐnaːbʰɐswaːmi]) is a Hindu temple dedicated to Vishnu in Thiruvananthapuram, Kerala,…",
-      "facts": {
-        "established": "8th century CE (expanded 16th century)",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_padmanabhaswamy_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_padmanabhaswamy_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Sree_Padmanabhaswamy_temple_01.jpg"
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Padmanabhaswamy_Temple"
-    },
-    {
       "id": "t_ranganathaswamy",
       "slug": "ranganathaswamy-temple-srirangam",
       "legacyIDs": [],
@@ -13731,67 +13442,6 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Ranganathaswamy_Temple,_Srirangam"
-    },
-    {
-      "id": "t_sri_venkateswara",
-      "slug": "sri-venkateswara-temple-tirumala",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Sri Venkateswara Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 13.68325,
-        "longitude": 79.347194,
-        "city": "Tirumala",
-        "district": "Tirupati",
-        "state": "Andhra Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_largest"
-      ],
-      "description": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple situated in the hills of Tirumala, Tirupati Urban Mandal in the Tirupati district of Andhra Pradesh, India. The temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on earth to save mankind from trials and troubles of Kali Yuga. Hence the place is also known by the name Kaliyuga Vaikuntha and the deity here is referred to as Kaliyuga Prathyaksha Daivam.",
-      "shortDescription": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple s…",
-      "facts": {
-        "established": "9th century CE",
-        "dynasty": "Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_sri_venkateswara_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_sri_venkateswara_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg"
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala"
     },
     {
       "id": "t_badrinath",
@@ -13986,7 +13636,9 @@
     {
       "id": "t_sree_padmanabhaswamy",
       "slug": "sree-padmanabhaswamy-temple-thiruvananthapuram",
-      "legacyIDs": [],
+      "legacyIDs": [
+        "t_padmanabhaswamy"
+      ],
       "isActive": true,
       "name": "Sree Padmanabhaswamy Temple",
       "alternateName": null,
@@ -14002,7 +13654,8 @@
         "pincode": null
       },
       "categoryIDs": [
-        "c_oldest_functioning"
+        "c_oldest_functioning",
+        "c_largest"
       ],
       "description": "The Padmanabhaswamy Temple (Malayalam: [pɐd̪mɐnaːbʰɐswaːmi]) is a Hindu temple dedicated to Vishnu in Thiruvananthapuram, Kerala, India. It is one of the 108 Divya Desams, sacred sites of the Sri Vaishnava tradition.\nThe temple's principal deity is Anantha Padmanabhaswamy, a form of Vishnu depicted in yogic sleep, on his serpent mount named Shesha. Padmanabhaswamy is the tutelary deity of the Travancore royal family. The titular Maharaja of Travancore, Moolam Thirunal Rama Varma, is the current trustee of the temple.",
       "shortDescription": "The Padmanabhaswamy Temple (Malayalam: [pɐd̪mɐnaːbʰɐswaːmi]) is a Hindu temple dedicated to Vishnu in Thiruvananthapuram, Kerala,…",
@@ -14045,70 +13698,12 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Padmanabhaswamy_Temple"
     },
     {
-      "id": "t_tirumala_venkateswara_temple_tirupati",
-      "slug": "tirumala-venkateswara-temple-tirupati",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Tirumala Venkateswara Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 13.68325,
-        "longitude": 79.347194,
-        "city": "Tirupati",
-        "district": "Tirupati",
-        "state": "Andhra Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_major_pilgrimage"
-      ],
-      "description": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple situated in the hills of Tirumala, Tirupati Urban Mandal in the Tirupati district of Andhra Pradesh, India. The temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on earth to save mankind from trials and troubles of Kali Yuga. Hence the place is also known by the name Kaliyuga Vaikuntha and the deity here is referred to as Kaliyuga Prathyaksha Daivam.",
-      "shortDescription": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple s…",
-      "facts": {
-        "established": "9th century CE",
-        "dynasty": "Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_tirumala_venkateswara_temple_tirupati_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_tirumala_venkateswara_temple_tirupati_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg"
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala"
-    },
-    {
       "id": "t_tirumala_venkateswara_temple_tirumala",
       "slug": "tirumala-venkateswara-temple-tirumala",
-      "legacyIDs": [],
+      "legacyIDs": [
+        "t_tirumala_venkateswara_temple_tirupati",
+        "t_sri_venkateswara"
+      ],
       "isActive": true,
       "name": "Tirumala Venkateswara Temple",
       "alternateName": null,
@@ -14126,7 +13721,9 @@
       "categoryIDs": [
         "c_hilltop",
         "c_modern_pilgrimage",
-        "c_swayambhu_vishnu"
+        "c_swayambhu_vishnu",
+        "c_major_pilgrimage",
+        "c_largest"
       ],
       "description": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple situated in the hills of Tirumala, Tirupati Urban Mandal in the Tirupati district of Andhra Pradesh, India. The temple is dedicated to Venkateswara, a form of Vishnu, who is believed to have appeared on earth to save mankind from trials and troubles of Kali Yuga. Hence the place is also known by the name Kaliyuga Vaikuntha and the deity here is referred to as Kaliyuga Prathyaksha Daivam.",
       "shortDescription": "The Sri Venkateswara Swami Temple, also known as Tirumala Temple, Tirupati Temple, and Tirupati Balaji Temple, is a Hindu temple s…",
