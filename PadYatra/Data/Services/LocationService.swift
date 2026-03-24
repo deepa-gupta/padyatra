@@ -48,12 +48,10 @@ final class LocationService: NSObject, ObservableObject {
     /// Returns the straight-line distance from the user's location to the temple, or nil if
     /// the user's location is unknown.
     func distance(to temple: Temple) -> CLLocationDistance? {
-        guard let userLocation else { return nil }
-        let templeLocation = CLLocation(
-            latitude: temple.location.latitude,
-            longitude: temple.location.longitude
-        )
-        return userLocation.distance(from: templeLocation)
+        guard let userLocation,
+              let lat = temple.location.latitude,
+              let lon = temple.location.longitude else { return nil }
+        return userLocation.distance(from: CLLocation(latitude: lat, longitude: lon))
     }
 
     // MARK: - Private

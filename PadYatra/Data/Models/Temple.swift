@@ -28,8 +28,8 @@ struct Temple: Identifiable, Codable, Hashable {
 // MARK: - TempleLocation
 
 struct TempleLocation: Codable, Hashable {
-    let latitude: Double
-    let longitude: Double
+    let latitude: Double?
+    let longitude: Double?
     let city: String
     let district: String?
     let state: String
@@ -59,6 +59,7 @@ struct TempleImages: Codable, Hashable {
     let heroImageName: String
     let galleryImageNames: [String]
     let thumbnailImageName: String
+    let remoteHeroURL: String?
 }
 
 // MARK: - TempleFestival
@@ -94,11 +95,11 @@ enum TempleSignificance: String, Codable, CaseIterable {
 // MARK: - Coordinate Convenience
 
 extension Temple {
-    /// Convenience accessor returning a MapKit-compatible coordinate.
-    var coordinate: CLLocationCoordinate2D {
-        CLLocationCoordinate2D(
-            latitude: location.latitude,
-            longitude: location.longitude
-        )
+    /// Returns a MapKit coordinate, or nil if this temple has no geocode yet.
+    var coordinate: CLLocationCoordinate2D? {
+        guard let lat = location.latitude, let lon = location.longitude else { return nil }
+        return CLLocationCoordinate2D(latitude: lat, longitude: lon)
     }
+
+    var hasCoordinate: Bool { coordinate != nil }
 }

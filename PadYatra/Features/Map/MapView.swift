@@ -172,11 +172,12 @@ struct ClusteringMapView: UIViewRepresentable {
 
         mapView.removeAnnotations(toRemove)
 
-        let newAnnotations = toAdd.map { temple -> TempleAnnotation in
+        let newAnnotations = toAdd.compactMap { temple -> TempleAnnotation? in
+            guard let coord = temple.coordinate else { return nil }
             let a = TempleAnnotation()
             a.temple    = temple
             a.isVisited = vm.isVisited(temple)
-            a.coordinate = temple.coordinate
+            a.coordinate = coord
             a.title      = temple.name
             a.subtitle   = "\(temple.location.city), \(temple.location.state)"
             return a

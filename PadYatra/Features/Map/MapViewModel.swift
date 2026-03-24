@@ -95,8 +95,8 @@ final class MapViewModel: ObservableObject {
         let minLon = region.center.longitude - region.span.longitudeDelta / 2
         let maxLon = region.center.longitude + region.span.longitudeDelta / 2
         return temples.filter {
-            $0.location.latitude  >= minLat && $0.location.latitude  <= maxLat &&
-            $0.location.longitude >= minLon && $0.location.longitude <= maxLon
+            guard let lat = $0.location.latitude, let lon = $0.location.longitude else { return false }
+            return lat >= minLat && lat <= maxLat && lon >= minLon && lon <= maxLon
         }
     }
 }

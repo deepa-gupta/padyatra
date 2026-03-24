@@ -1,0 +1,869 @@
+{
+  "t_ambaji": {
+    "lat": 24.335728,
+    "lon": 72.849742
+  },
+  "t_amba_mata": {
+    "lat": 24.389837,
+    "lon": 73.904859
+  },
+  "t_karatoya_tat_shakti_peetha": {
+    "lat": 24.850066,
+    "lon": 89.372843
+  },
+  "t_attahas": {
+    "lat": 23.815299,
+    "lon": 87.800083
+  },
+  "t_bhairav_parvat": {
+    "lat": 23.188513,
+    "lon": 75.771656
+  },
+  "t_sabarimala": {
+    "lat": 9.434589,
+    "lon": 77.081387
+  },
+  "t_bahula_shakti_peetha": {
+    "lat": 23.644278,
+    "lon": 88.128733
+  },
+  "t_bakreshwar": {
+    "lat": 23.877252,
+    "lon": 87.379408
+  },
+  "t_bhairabi": {
+    "lat": 26.616957,
+    "lon": 92.765007
+  },
+  "t_tulja_bhavani": {
+    "lat": 20.982423,
+    "lon": 77.654953
+  },
+  "t_bhawani_temple_chandranath_peetha": {
+    "lat": 22.619982,
+    "lon": 91.656984
+  },
+  "t_srisailam_bhramaramba": {
+    "lat": 16.073781,
+    "lon": 78.872707
+  },
+  "t_kali_temple_biraja_peetha": {
+    "lat": 20.874679,
+    "lon": 86.121539
+  },
+  "t_brajeshwari": {
+    "lat": 32.10186,
+    "lon": 76.270042
+  },
+  "t_ajanta_caves": {
+    "lat": 20.532524,
+    "lon": 75.751369
+  },
+  "t_rock_cut_temples_of_mahadeva": {
+    "lat": 20.631002,
+    "lon": 77.047399
+  },
+  "t_hemis_monastery_and": {
+    "lat": 33.908312,
+    "lon": 77.634151
+  },
+  "t_avur": {
+    "lat": 10.660234,
+    "lon": 78.672238
+  },
+  "t_chamunda_devi": {
+    "lat": 32.192689,
+    "lon": 76.450411
+  },
+  "t_thingalur": {
+    "lat": 11.318777,
+    "lon": 77.488907
+  },
+  "t_chintpurni": {
+    "lat": 31.80677,
+    "lon": 76.105971
+  },
+  "t_chamundi_hill": {
+    "lat": 12.305183,
+    "lon": 76.655361
+  },
+  "t_jaintia_shakti_peetha": {
+    "lat": 25.573656,
+    "lon": 92.21701
+  },
+  "t_moreshwar": {
+    "lat": 18.278142,
+    "lon": 74.317472
+  },
+  "t_siddhivinayak": {
+    "lat": 18.444367,
+    "lon": 74.726371
+  },
+  "t_ballaleshwar": {
+    "lat": 18.535215,
+    "lon": 73.223856
+  },
+  "t_chintamani": {
+    "lat": 18.52432,
+    "lon": 74.04648
+  },
+  "t_girijatmaj": {
+    "lat": 19.247909,
+    "lon": 73.886747
+  },
+  "t_vinayak": {
+    "lat": 16.102371,
+    "lon": 73.467464
+  },
+  "t_mahaganapati": {
+    "lat": 18.753386,
+    "lon": 74.240615
+  },
+  "t_gangotri": {
+    "lat": 30.994435,
+    "lon": 78.941147
+  },
+  "t_guhyeshwari": {
+    "lat": 27.708317,
+    "lon": 85.320582
+  },
+  "t_alangudi": {
+    "lat": 10.828622,
+    "lon": 79.409539
+  },
+  "t_hanuman_garhi": {
+    "lat": 26.795086,
+    "lon": 82.201683
+  },
+  "t_kishkindha_anjaneya": {
+    "lat": 15.3358,
+    "lon": 76.46102
+  },
+  "t_sankat_mochan_hanuman": {
+    "lat": 25.282139,
+    "lon": 82.999981
+  },
+  "t_anjaneya_swamy": {
+    "lat": 13.651447,
+    "lon": 79.542598
+  },
+  "t_hanuman_temple_salasar": {
+    "lat": 27.72585,
+    "lon": 74.724257
+  },
+  "t_shree_hanuman": {
+    "lat": 25.217139,
+    "lon": 81.104593
+  },
+  "t_hanuman_mandir_hampi": {
+    "lat": 15.3358,
+    "lon": 76.46102
+  },
+  "t_hanuman_tok": {
+    "lat": 27.329046,
+    "lon": 88.612267
+  },
+  "t_mahavir": {
+    "lat": 25.603889,
+    "lon": 85.136389
+  },
+  "t_salasar_balaji": {
+    "lat": 27.72585,
+    "lon": 74.724257
+  },
+  "t_hanuman_temple_anjaneri": {
+    "lat": 19.904035,
+    "lon": 73.575086
+  },
+  "t_mehandipur_balaji": {
+    "lat": 26.94,
+    "lon": 76.79
+  },
+  "t_hinglaj_mata": null,
+  "t_varadvinayak": null,
+  "t_suryanar": {
+    "lat": 11.029722,
+    "lon": 79.477778
+  },
+  "t_sun": {
+    "lat": 19.887564,
+    "lon": 86.094489
+  },
+  "t_jagatpita_brahma": {
+    "lat": 26.487325,
+    "lon": 74.548928
+  },
+  "t_sri_sathya_sai_baba": {
+    "lat": 12.9964,
+    "lon": 77.761423
+  },
+  "t_jagannath": {
+    "lat": 19.804722,
+    "lon": 85.818333
+  },
+  "t_khandagiri_and_udayagiri_caves": {
+    "lat": 20.260296,
+    "lon": 85.839452
+  },
+  "t_parsvanath_jain": {
+    "lat": 24.851513,
+    "lon": 79.925979
+  },
+  "t_ranakpur_jain": {
+    "lat": 25.116021,
+    "lon": 73.471941
+  },
+  "t_dilwara_temples": {
+    "lat": 24.609306,
+    "lon": 72.723056
+  },
+  "t_kanch": {
+    "lat": 22.716396,
+    "lon": 75.849208
+  },
+  "t_jayanti_shakti_peetha": {
+    "lat": 26.648411,
+    "lon": 89.615454
+  },
+  "t_jessoreswari_kali": null,
+  "t_jwalamukhi": {
+    "lat": 31.874083,
+    "lon": 76.320936
+  },
+  "t_kalighat_kali": {
+    "lat": 22.52,
+    "lon": 88.341944
+  },
+  "t_dakshineswar_kali": {
+    "lat": 22.655,
+    "lon": 88.357778
+  },
+  "t_bhadrakali": null,
+  "t_kamakhya": {
+    "lat": 26.166426,
+    "lon": 91.705509
+  },
+  "t_kanchi_kamakshi": {
+    "lat": 12.964716,
+    "lon": 79.983969
+  },
+  "t_kankalitala": {
+    "lat": 23.661154,
+    "lon": 87.696242
+  },
+  "t_keezhaperumpallam_temple_keezhaperumpall": null,
+  "t_krishna_janmabhoomi": {
+    "lat": 27.495554,
+    "lon": 77.685555
+  },
+  "t_dwarkadhish": {
+    "lat": 22.237774,
+    "lon": 68.967512
+  },
+  "t_bankey_bihari": {
+    "lat": 27.57976,
+    "lon": 77.69051
+  },
+  "t_radha_raman": {
+    "lat": 27.575373,
+    "lon": 77.693804
+  },
+  "t_radha_vallabh": {
+    "lat": 27.575373,
+    "lon": 77.693804
+  },
+  "t_udupi_sri_krishna_matha": {
+    "lat": 13.332222,
+    "lon": 74.746111
+  },
+  "t_govind_dev_ji": {
+    "lat": 26.92883,
+    "lon": 75.823955
+  },
+  "t_nidhivan": {
+    "lat": 27.575373,
+    "lon": 77.693804
+  },
+  "t_krishna": {
+    "lat": 15.330227,
+    "lon": 76.460384
+  },
+  "t_iskcon_temple_bangalore": {
+    "lat": 13.011855,
+    "lon": 77.551441
+  },
+  "t_iskcon_mayapur": {
+    "lat": 23.423424,
+    "lon": 88.390808
+  },
+  "t_iskcon_temple_delhi": {
+    "lat": 28.555855,
+    "lon": 77.248835
+  },
+  "t_iskcon_temple_mayapur": {
+    "lat": 23.423424,
+    "lon": 88.390808
+  },
+  "t_iskcon_temple_mumbai": {
+    "lat": 19.113069,
+    "lon": 72.826673
+  },
+  "t_iskcon_temple_hyderabad": {
+    "lat": 17.360589,
+    "lon": 78.474061
+  },
+  "t_iskcon_temple_pune": {
+    "lat": 18.520012,
+    "lon": 73.879478
+  },
+  "t_iskcon_temple_chennai": null,
+  "t_mahalakshmi": null,
+  "t_keezhaperumpallam_temple_keezhperumpalla": null,
+  "t_ujani_shakti_peetha": null,
+  "t_mangalagauri": null,
+  "t_manibandh_shakti_peetha": null,
+  "t_maya_devi": null,
+  "t_naina_devi": null,
+  "t_nandikeshwari": null,
+  "t_ahobilam_narasimha": null,
+  "t_simhachalam": {
+    "lat": 17.7664,
+    "lon": 83.2505
+  },
+  "t_sholingur_narasimha": null,
+  "t_yadagirigutta": {
+    "lat": 17.5892,
+    "lon": 78.9446
+  },
+  "t_vedadri_narasimha": null,
+  "t_parashurama_temple_parashurama_hill": null,
+  "t_patan_devi": null,
+  "t_prem": null,
+  "t_shree_radha_krishna": null,
+  "t_jagadguru_kripaluji_maharaj": null,
+  "t_iskcon_temple_vrindavan": null,
+  "t_iskcon_temple_jaipur": null,
+  "t_iskcon_temple_kolkata": null,
+  "t_ram_janmabhoomi": null,
+  "t_chitrakoot_ram": null,
+  "t_nandigram": null,
+  "t_hazara_rama": {
+    "lat": 15.317797,
+    "lon": 76.468868
+  },
+  "t_rama": {
+    "lat": 15.335842,
+    "lon": 76.467814
+  },
+  "t_ram_ghat": {
+    "lat": 27.495554,
+    "lon": 77.685555
+  },
+  "t_sri_ram": {
+    "lat": 26.79564,
+    "lon": 82.194576
+  },
+  "t_rameswaram_ramanathaswamy_temple_rameshw": {
+    "lat": 9.284466,
+    "lon": 79.312555
+  },
+  "t_kanak_bhawan": {
+    "lat": 26.797249,
+    "lon": 82.198139
+  },
+  "t_sita_ramachandraswamy": {
+    "lat": 13.631637,
+    "lon": 79.423171
+  },
+  "t_ramdevra": {
+    "lat": 27.007043,
+    "lon": 71.930147
+  },
+  "t_mahur_renuka": {
+    "lat": 18.187826,
+    "lon": 74.056445
+  },
+  "t_rukmini_devi": {
+    "lat": 22.257331,
+    "lon": 68.964398
+  },
+  "t_shirdi_sai_baba": {
+    "lat": 19.766812,
+    "lon": 74.475439
+  },
+  "t_saptashrungi": {
+    "lat": 21.344666,
+    "lon": 74.585946
+  },
+  "t_sarala": {
+    "lat": 20.279719,
+    "lon": 86.293611
+  },
+  "t_savitri": {
+    "lat": 26.485958,
+    "lon": 74.546055
+  },
+  "t_vaishno_devi_temple_katra": {
+    "lat": 32.992486,
+    "lon": 74.931813
+  },
+  "t_kanchi_kamakoti_peetham_new": {
+    "lat": 12.964716,
+    "lon": 79.983969
+  },
+  "t_patan_rani_ki_vav": {
+    "lat": 23.773753,
+    "lon": 71.679858
+  },
+  "t_thirunallar": null,
+  "t_sharada": null,
+  "t_maihar_sharda": {
+    "lat": 24.243754,
+    "lon": 81.044691
+  },
+  "t_sheetla_mata": {
+    "lat": 28.464615,
+    "lon": 77.029919
+  },
+  "t_kashi_vishwanath": {
+    "lat": 25.310775,
+    "lon": 83.010614
+  },
+  "t_ekambareswarar": {
+    "lat": 12.847288,
+    "lon": 79.69979
+  },
+  "t_mahakaleshwar": {
+    "lat": 23.182778,
+    "lon": 75.768333
+  },
+  "t_rameswaram_ramanathaswamy_temple_rameswa": {
+    "lat": 9.284466,
+    "lon": 79.312555
+  },
+  "t_kedarnath": {
+    "lat": 30.734895,
+    "lon": 79.067025
+  },
+  "t_rudraprayag": {
+    "lat": 30.28,
+    "lon": 78.98
+  },
+  "t_nandaprayag": {
+    "lat": 30.33,
+    "lon": 79.33
+  },
+  "t_kanak_prayag": null,
+  "t_karnaprayag": {
+    "lat": 30.259,
+    "lon": 79.218
+  },
+  "t_devprayag": {
+    "lat": 30.146,
+    "lon": 78.598
+  },
+  "t_kailasa": {
+    "lat": 20.023889,
+    "lon": 75.179167
+  },
+  "t_elephanta_caves": {
+    "lat": 18.963333,
+    "lon": 72.931389
+  },
+  "t_brihadeeswarar": {
+    "lat": 10.78258,
+    "lon": 79.131382
+  },
+  "t_group_of_monuments_at_mahabalipuram": {
+    "lat": 12.619598,
+    "lon": 80.19365
+  },
+  "t_lingaraja": {
+    "lat": 20.238333,
+    "lon": 85.833611
+  },
+  "t_hoysaleswara": {
+    "lat": 13.212448,
+    "lon": 75.994257
+  },
+  "t_virupaksha": {
+    "lat": 15.335167,
+    "lon": 76.458722
+  },
+  "t_mahabalipuram_monolithic_temples": {
+    "lat": 12.619598,
+    "lon": 80.19365
+  },
+  "t_gangaikonda_cholapuram": {
+    "lat": 11.206221,
+    "lon": 79.448644
+  },
+  "t_airavatesvara": {
+    "lat": 10.944634,
+    "lon": 79.356271
+  },
+  "t_thanjavur_big": {
+    "lat": 10.659037,
+    "lon": 79.201428
+  },
+  "t_chidambaram_nataraja": {
+    "lat": 11.399444,
+    "lon": 79.693333
+  },
+  "t_thiruvaiyaru": {
+    "lat": 10.87972,
+    "lon": 79.10393
+  },
+  "t_thiruporur": {
+    "lat": 12.725856,
+    "lon": 80.189518
+  },
+  "t_kailasanathar": {
+    "lat": 12.81576,
+    "lon": 79.68263
+  },
+  "t_amrutesvara": {
+    "lat": 13.742468,
+    "lon": 75.888884
+  },
+  "t_kedareshwara": {
+    "lat": 13.212448,
+    "lon": 75.994257
+  },
+  "t_kandariya_mahadev": {
+    "lat": 24.853037,
+    "lon": 79.919634
+  },
+  "t_lakshmana": {
+    "lat": 24.851513,
+    "lon": 79.925979
+  },
+  "t_vishvanath": {
+    "lat": 24.851513,
+    "lon": 79.925979
+  },
+  "t_devi_jagadambi": {
+    "lat": 24.851513,
+    "lon": 79.925979
+  },
+  "t_siddheshwar": {
+    "lat": 21.73936,
+    "lon": 71.386782
+  },
+  "t_annamalaiyar": {
+    "lat": 9.539867,
+    "lon": 77.61979
+  },
+  "t_mundeshwari": {
+    "lat": 24.983511,
+    "lon": 83.564627
+  },
+  "t_amarnath_cave": {
+    "lat": 34.215635,
+    "lon": 75.50383
+  },
+  "t_somnath_temple_somnath": {
+    "lat": 20.888028,
+    "lon": 70.401389
+  },
+  "t_varanasi_kashi_vishwanath": {
+    "lat": 25.335649,
+    "lon": 83.007629
+  },
+  "t_arjunas_penance_monolithic_relief": {
+    "lat": 12.619598,
+    "lon": 80.19365
+  },
+  "t_nithyananda_dhyanapeetam": {
+    "lat": 12.976794,
+    "lon": 77.590082
+  },
+  "t_omkareshwar": {
+    "lat": 22.245583,
+    "lon": 76.151056
+  },
+  "t_adi_kailash": null,
+  "t_kalahasti": {
+    "lat": 13.749444,
+    "lon": 79.698333
+  },
+  "t_bhimashankar": {
+    "lat": 19.072,
+    "lon": 73.536
+  },
+  "t_grishneshwar": {
+    "lat": 20.024972,
+    "lon": 75.169917
+  },
+  "t_kailash": null,
+  "t_kalpeshwar": {
+    "lat": 30.540088,
+    "lon": 79.456632
+  },
+  "t_mallikarjuna": {
+    "lat": 16.050348,
+    "lon": 78.900868
+  },
+  "t_manimahesh_kailash": {
+    "lat": 32.394952,
+    "lon": 76.637294
+  },
+  "t_nageshwar": {
+    "lat": 22.242475,
+    "lon": 68.967145
+  },
+  "t_kutralanathar": {
+    "lat": 11.072814,
+    "lon": 79.559554
+  },
+  "t_meenakshi_amman": {
+    "lat": 9.919543,
+    "lon": 78.118833
+  },
+  "t_thiruvaalangadu_vadaranyeswarar": null,
+  "t_thirunelveli_nellaiappar": {
+    "lat": 8.727119,
+    "lon": 77.723016
+  },
+  "t_rudranath": {
+    "lat": 30.413835,
+    "lon": 79.31584
+  },
+  "t_somnath_temple_prabhas_patan": {
+    "lat": 20.888028,
+    "lon": 70.401389
+  },
+  "t_trimbakeshwar": {
+    "lat": 19.932222,
+    "lon": 73.530833
+  },
+  "t_tungnath": null,
+  "t_vaidyanath": {
+    "lat": 24.489832,
+    "lon": 86.699018
+  },
+  "t_jambukeswarar": null,
+  "t_group_of_monuments_at_pattadakal": {
+    "lat": 15.951389,
+    "lon": 75.814722
+  },
+  "t_pattadakal_temples": {
+    "lat": 15.948433,
+    "lon": 75.81597
+  },
+  "t_badami_cave_temples": {
+    "lat": 15.918333,
+    "lon": 75.684167
+  },
+  "t_shore": {
+    "lat": 12.616621,
+    "lon": 80.199159
+  },
+  "t_pancha_rathas": {
+    "lat": 12.608951,
+    "lon": 80.18959
+  },
+  "t_triveni_sangam_prayag": {
+    "lat": 25.43813,
+    "lon": 81.8338
+  },
+  "t_naimisharanya": {
+    "lat": 27.351188,
+    "lon": 80.485198
+  },
+  "t_chinmaya_mission": {
+    "lat": 11.001812,
+    "lon": 76.962842
+  },
+  "t_khajuraho_group_of_temples": {
+    "lat": 24.851513,
+    "lon": 79.925979
+  },
+  "t_ellora_caves": {
+    "lat": 20.0268,
+    "lon": 75.1771
+  },
+  "t_kanjanur": {
+    "lat": 11.044778,
+    "lon": 79.493451
+  },
+  "t_sitamarhi": {
+    "lat": 26.594284,
+    "lon": 85.500428
+  },
+  "t_sugandha_shakti_peetha": null,
+  "t_konark_sun": {
+    "lat": 19.8875,
+    "lon": 86.094722
+  },
+  "t_modhera_sun": {
+    "lat": 23.583806,
+    "lon": 72.132686
+  },
+  "t_baps_swaminarayan": {
+    "lat": 23.032822,
+    "lon": 72.525377
+  },
+  "t_tara_tarini": {
+    "lat": 19.489675,
+    "lon": 84.899786
+  },
+  "t_tripura_sundari": {
+    "lat": 23.509078,
+    "lon": 91.497999
+  },
+  "t_ugratara": {
+    "lat": 26.189418,
+    "lon": 91.753222
+  },
+  "t_mithila_shakti_peetha": null,
+  "t_lepakshi_veerabhadra_cave": {
+    "lat": 13.803158,
+    "lon": 77.609747
+  },
+  "t_vimala": {
+    "lat": 19.804722,
+    "lon": 85.818333
+  },
+  "t_undavalli_caves": {
+    "lat": 16.49687,
+    "lon": 80.58178
+  },
+  "t_varaha_cave": {
+    "lat": 12.6175,
+    "lon": 80.198889
+  },
+  "t_krishna_mandapam": {
+    "lat": 12.617364,
+    "lon": 80.192598
+  },
+  "t_chennakesava_temple_somnathpura": null,
+  "t_kesava": null,
+  "t_chennakesava_temple_belur": {
+    "lat": 13.162874,
+    "lon": 75.86029
+  },
+  "t_vittala": {
+    "lat": 15.342277,
+    "lon": 76.475493
+  },
+  "t_achyutaraya": {
+    "lat": 15.33196,
+    "lon": 76.470088
+  },
+  "t_chaturbhuj": {
+    "lat": 24.825161,
+    "lon": 79.931038
+  },
+  "t_padmanabhaswamy": {
+    "lat": 8.482778,
+    "lon": 76.943611
+  },
+  "t_ranganathaswamy": {
+    "lat": 10.862717,
+    "lon": 78.689903
+  },
+  "t_sri_venkateswara": {
+    "lat": 13.68325,
+    "lon": 79.347194
+  },
+  "t_badrinath": {
+    "lat": 30.744695,
+    "lon": 79.491175
+  },
+  "t_chokkanatha_temple_srirangam": {
+    "lat": 10.857331,
+    "lon": 78.693085
+  },
+  "t_sri_ranganathaswamy": {
+    "lat": 13.631637,
+    "lon": 79.423171
+  },
+  "t_sree_padmanabhaswamy": {
+    "lat": 8.482778,
+    "lon": 76.943611
+  },
+  "t_tirumala_venkateswara_temple_tirupati": {
+    "lat": 13.68325,
+    "lon": 79.347194
+  },
+  "t_tirumala_venkateswara_temple_tirumala": {
+    "lat": 13.68325,
+    "lon": 79.347194
+  },
+  "t_chhatarpur_vishnu": {
+    "lat": 24.760609,
+    "lon": 79.678178
+  },
+  "t_parashurama_temple_badrinath": {
+    "lat": 30.74233,
+    "lon": 79.493026
+  },
+  "t_adi_badri": null,
+  "t_ardha_badri": null,
+  "t_thra_badri": null,
+  "t_bhavishya_badri": null,
+  "t_naimisaranya_chakra_narayan": null,
+  "t_tirunarayanapuram_cheluvanarayana_swamy": {
+    "lat": 12.662405,
+    "lon": 76.649649
+  },
+  "t_alwarthirunagari": {
+    "lat": 8.607111,
+    "lon": 77.938306
+  },
+  "t_anantha_padmanabhaswamy": {
+    "lat": 8.488227,
+    "lon": 76.947551
+  },
+  "t_srirangam_ranganathaswamy": {
+    "lat": 10.857331,
+    "lon": 78.693085
+  },
+  "t_thirumalisai": null,
+  "t_thirupathisaram": {
+    "lat": 8.206338,
+    "lon": 77.459448
+  },
+  "t_thirukolur": null,
+  "t_thirunagari": {
+    "lat": 11.226351,
+    "lon": 79.800274
+  },
+  "t_thirukkurungudi": {
+    "lat": 8.435226,
+    "lon": 77.562262
+  },
+  "t_thirupulingudi": null,
+  "t_thirunangur": null,
+  "t_srimushnam_bhu_varaha_swamy": {
+    "lat": 11.401355,
+    "lon": 79.404592
+  },
+  "t_pushkar_varaha": {
+    "lat": 26.487647,
+    "lon": 74.557848
+  },
+  "t_thiruvanparis": null,
+  "t_group_of_monuments_at_hampi": {
+    "lat": 15.334444,
+    "lon": 76.462222
+  },
+  "t_chandragiri_hill": {
+    "lat": 12.86171,
+    "lon": 76.487817
+  },
+  "t_haridwar_har_ki_pauri": {
+    "lat": 29.912351,
+    "lon": 78.008718
+  },
+  "t_akshardham": {
+    "lat": 28.6125,
+    "lon": 77.277222
+  },
+  "t_yamunotri": {
+    "lat": 31.0167,
+    "lon": 78.45
+  },
+  "t_kshirgram_yogadya": null
+}

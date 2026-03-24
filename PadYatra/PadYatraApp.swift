@@ -29,9 +29,9 @@ struct PadYatraApp: App {
                 .modelContainer(PersistenceController.shared.container)
                 .onAppear {
                     // One-time dev wipe — remove once new data is loaded
-                    if !UserDefaults.standard.bool(forKey: "dev.dataWipedV4") {
+                    if !UserDefaults.standard.bool(forKey: "dev.dataWipedV5") {
                         PersistenceController.shared.wipeAllData()
-                        UserDefaults.standard.set(true, forKey: "dev.dataWipedV4")
+                        UserDefaults.standard.set(true, forKey: "dev.dataWipedV5")
                     }
 
                     let context = PersistenceController.shared.container.mainContext

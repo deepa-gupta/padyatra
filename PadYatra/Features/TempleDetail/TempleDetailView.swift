@@ -239,7 +239,8 @@ enum PreviewFixtures {
         images: TempleImages(
             heroImageName: "somnath_hero",
             galleryImageNames: ["somnath_gallery_1", "somnath_gallery_2"],
-            thumbnailImageName: "somnath_thumb"
+            thumbnailImageName: "somnath_thumb",
+            remoteHeroURL: nil
         ),
         festivals: [
             TempleFestival(

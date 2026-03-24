@@ -69,8 +69,8 @@ struct TempleDataValidator {
 
     private func checkCoordinates(_ temples: [Temple]) -> [ValidationError] {
         temples.compactMap { temple in
-            let lat = temple.location.latitude
-            let lng = temple.location.longitude
+            guard let lat = temple.location.latitude,
+                  let lng = temple.location.longitude else { return nil }
             guard latBounds.contains(lat), lngBounds.contains(lng) else {
                 return ValidationError.suspiciousCoordinate(templeID: temple.id, lat: lat, lng: lng)
             }

@@ -119,7 +119,8 @@ struct TempleListRow: View {
         images: TempleImages(
             heroImageName: "somnath_hero",
             galleryImageNames: [],
-            thumbnailImageName: "somnath_thumb"
+            thumbnailImageName: "somnath_thumb",
+            remoteHeroURL: nil
         ),
         festivals: [],
         significance: .jyotirlinga,
@@ -127,7 +128,7 @@ struct TempleListRow: View {
         sourceURL: nil
     )
 
-    return List {
+    List {
         TempleListRow(temple: sampleTemple, isVisited: true)
         TempleListRow(temple: sampleTemple, isVisited: false)
     }
