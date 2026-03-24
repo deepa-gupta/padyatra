@@ -6032,7 +6032,7 @@
         "heroImageName": "t_sholingur_narasimha_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_sholingur_narasimha_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/31/Sholingar_%2815%29.JPG"
       },
       "festivals": [
         {
@@ -6045,7 +6045,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Thirukkadigai"
     },
     {
       "id": "t_yadagirigutta",
