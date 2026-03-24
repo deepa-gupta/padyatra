@@ -13939,7 +13939,7 @@
       ],
       "significance": "divyaDesam",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Alwarthirunagari_Permual_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/AlwarThirunagari_Temple"
     },
     {
       "id": "t_anantha_padmanabhaswamy",
@@ -14064,128 +14064,6 @@
       "sourceURL": null
     },
     {
-      "id": "t_thirumalisai",
-      "slug": "thirumalisai-temple-thirumalisai",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Thirumalisai Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": null,
-        "longitude": null,
-        "city": "Thirumalisai",
-        "district": "Chennai",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_nava_tirupati"
-      ],
-      "description": "Thirumalisai Temple is a Hindu temple located in Thirumalisai, Tamil Nadu, India, dedicated to Vishnu. It dates to the Early Medieval Period.",
-      "shortDescription": "Thirumalisai Temple is a Hindu temple located in Thirumalisai, Tamil Nadu, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_thirumalisai_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_thirumalisai_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "divyaDesam",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
-      "id": "t_thirupathisaram",
-      "slug": "thirupathisaram-temple-thirupathisaram",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Thirupathisaram Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 8.206338,
-        "longitude": 77.459448,
-        "city": "Thirupathisaram",
-        "district": "Nagercoil",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_nava_tirupati"
-      ],
-      "description": "Thirupathisaram Temple is a Hindu temple located in Thirupathisaram, Tamil Nadu, India, dedicated to Vishnu. It dates to the Early Medieval Period.",
-      "shortDescription": "Thirupathisaram Temple is a Hindu temple located in Thirupathisaram, Tamil Nadu, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_thirupathisaram_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_thirupathisaram_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "divyaDesam",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_thirukolur",
       "slug": "thirukolur-temple-thirukolur",
       "legacyIDs": [],
@@ -14224,7 +14102,7 @@
         "heroImageName": "t_thirukolur_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_thirukolur_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Thirukkolur3.jpg"
       },
       "festivals": [
         {
@@ -14244,129 +14122,7 @@
       ],
       "significance": "divyaDesam",
       "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
-      "id": "t_thirunagari",
-      "slug": "thirunagari-temple-thirunagari",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Thirunagari Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 11.226351,
-        "longitude": 79.800274,
-        "city": "Thirunagari",
-        "district": "Nagapattinam",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_nava_tirupati"
-      ],
-      "description": "Thirunagari Temple is a Hindu temple located in Thirunagari, Tamil Nadu, India, dedicated to Vishnu. It dates to the Early Medieval Period.",
-      "shortDescription": "Thirunagari Temple is a Hindu temple located in Thirunagari, Tamil Nadu, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_thirunagari_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_thirunagari_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "divyaDesam",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
-      "id": "t_thirukkurungudi",
-      "slug": "thirukkurungudi-temple-thirukkurungudi",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Thirukkurungudi Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 8.435226,
-        "longitude": 77.562262,
-        "city": "Thirukkurungudi",
-        "district": "Nagercoil",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_nava_tirupati"
-      ],
-      "description": "Thirukkurungudi Temple is a Hindu temple located in Thirukkurungudi, Tamil Nadu, India, dedicated to Vishnu. It dates to the Early Medieval Period.",
-      "shortDescription": "Thirukkurungudi Temple is a Hindu temple located in Thirukkurungudi, Tamil Nadu, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_thirukkurungudi_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_thirukkurungudi_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "divyaDesam",
-      "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Vaithamanidhi_Perumal_Temple"
     },
     {
       "id": "t_thirupulingudi",
@@ -14407,7 +14163,7 @@
         "heroImageName": "t_thirupulingudi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_thirupulingudi_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Thirupuliyangudi3.jpg"
       },
       "festivals": [
         {
@@ -14427,68 +14183,7 @@
       ],
       "significance": "divyaDesam",
       "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
-      "id": "t_thirunangur",
-      "slug": "thirunangur-temple-thirunangur",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Thirunangur Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": null,
-        "longitude": null,
-        "city": "Thirunangur",
-        "district": "Nagapattinam",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_nava_tirupati"
-      ],
-      "description": "Thirunangur Temple is a Hindu temple located in Thirunangur, Tamil Nadu, India, dedicated to Vishnu. It dates to the Early Medieval Period.",
-      "shortDescription": "Thirunangur Temple is a Hindu temple located in Thirunangur, Tamil Nadu, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_thirunangur_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_thirunangur_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "divyaDesam",
-      "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/ThiruPulingudi_Perumal_Temple"
     },
     {
       "id": "t_srimushnam_bhu_varaha_swamy",
@@ -14609,67 +14304,6 @@
         }
       ],
       "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
-      "id": "t_thiruvanparis",
-      "slug": "thiruvanparis-temple-thiruvanparis",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Thiruvanparis Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": null,
-        "longitude": null,
-        "city": "Thiruvanparis",
-        "district": "Kanyakumari",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_nava_tirupati"
-      ],
-      "description": "Thiruvanparis Temple is a Hindu temple located in Thiruvanparis, Tamil Nadu, India, dedicated to Vishnu. It dates to the Early Medieval Period.",
-      "shortDescription": "Thiruvanparis Temple is a Hindu temple located in Thiruvanparis, Tamil Nadu, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_thiruvanparis_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_thiruvanparis_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "divyaDesam",
       "isUNESCO": false,
       "sourceURL": null
     },
@@ -15254,6 +14888,282 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Tirunageswaram_Naganathar_Temple"
+    },
+    {
+      "id": "t_srivaikuntanathan",
+      "slug": "srivaikuntanathan-perumal-temple-srivaikuntam",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Srivaikuntanathan Perumal Temple",
+      "alternateName": null,
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 8.63155,
+        "longitude": 77.91031,
+        "city": "Srivaikuntam",
+        "district": "Thoothukudi",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_nava_tirupati"
+      ],
+      "description": "Srivaikuntanathan Perumal Temple is a Hindu Vishnu temple located in Srivaikuntam, Tamil Nadu. It is one of the Nava Tirupati Divya Desam temples on the banks of the Thamirabarani river, presided over by Surya (Sun).",
+      "shortDescription": "Nava Tirupati Divya Desam temple in Srivaikuntam, presiding graha Surya (Sun).",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_srivaikuntanathan_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_srivaikuntanathan_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Srivaikuntam4.jpg"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Srivaikuntanathan_Perumal_Temple"
+    },
+    {
+      "id": "t_varagunamangai",
+      "slug": "vijayasana-perumal-temple-natham",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Vijayasana Perumal Temple",
+      "alternateName": "ThiruVaragunamangai Perumal Temple",
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 8.63741,
+        "longitude": 77.92481,
+        "city": "Natham",
+        "district": "Thoothukudi",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_nava_tirupati"
+      ],
+      "description": "Vijayasana Perumal Temple, also known as ThiruVaragunamangai Perumal Temple, is a Hindu Vishnu temple located in Natham, Tamil Nadu. It is one of the Nava Tirupati Divya Desam temples, presided over by Chandra (Moon).",
+      "shortDescription": "Nava Tirupati Divya Desam temple in Natham, presiding graha Chandra (Moon).",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_varagunamangai_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_varagunamangai_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Varagunamangai2.jpg"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/ThiruVaragunamangai_Perumal_Temple"
+    },
+    {
+      "id": "t_then_thiruperai",
+      "slug": "makara-nedunkuzhai-kannan-temple-thenthiruperai",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Makara Nedunkuzhai Kannan Temple",
+      "alternateName": null,
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 8.604,
+        "longitude": 77.98626,
+        "city": "Thenthiruperai",
+        "district": "Thoothukudi",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_nava_tirupati"
+      ],
+      "description": "Makara Nedunkuzhai Kannan Temple is a Hindu Vishnu temple located in Thenthiruperai, Tamil Nadu. It is one of the Nava Tirupati Divya Desam temples, presided over by Sukran (Venus).",
+      "shortDescription": "Nava Tirupati Divya Desam temple in Thenthiruperai, presiding graha Sukran (Venus).",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_then_thiruperai_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_then_thiruperai_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/5/59/Then_Thirupperai3.jpg"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Makara_Nedunkuzhai_Kannan_Temple"
+    },
+    {
+      "id": "t_tirukulandhai",
+      "slug": "srinivasa-perumal-temple-tirukulandhai",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Srinivasa Perumal Temple",
+      "alternateName": null,
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 8.64191,
+        "longitude": 77.99468,
+        "city": "Thirukulandhai",
+        "district": "Thoothukudi",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_nava_tirupati"
+      ],
+      "description": "Srinivasa Perumal Temple is a Hindu Vishnu temple located in Thirukulandhai, Tamil Nadu. It is one of the Nava Tirupati Divya Desam temples, presided over by Shani (Saturn).",
+      "shortDescription": "Nava Tirupati Divya Desam temple in Thirukulandhai, presiding graha Shani (Saturn).",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_tirukulandhai_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_tirukulandhai_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Thirukulandhai1.jpg"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Srinivasa_Perumal_Temple,_Tirukulandhai"
+    },
+    {
+      "id": "t_aravindalochanar",
+      "slug": "aravindalochanar-temple-tholavillimangalam",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Aravindalochanar Temple",
+      "alternateName": "Irattai Thiruppathy (Ketu)",
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 8.61232,
+        "longitude": 77.9722,
+        "city": "Tholavillimangalam",
+        "district": "Thoothukudi",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_nava_tirupati"
+      ],
+      "description": "Aravindalochanar Temple is a Hindu Vishnu temple located in Tholavillimangalam, Tamil Nadu. One of the Irattai Thiruppathy (Twin Tirupatis), it is a Nava Tirupati Divya Desam temple presided over by Ketu.",
+      "shortDescription": "Nava Tirupati Divya Desam temple in Tholavillimangalam, presiding graha Ketu.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_aravindalochanar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_aravindalochanar_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Aravinda_Lochanar_temple3.jpg"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Aravindalochanar_temple"
+    },
+    {
+      "id": "t_devapiran",
+      "slug": "devapiran-temple-tholavillimangalam",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Devapiran Temple",
+      "alternateName": "Irattai Thiruppathy (Rahu)",
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 8.60945,
+        "longitude": 77.97294,
+        "city": "Tholavillimangalam",
+        "district": "Thoothukudi",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_nava_tirupati"
+      ],
+      "description": "Devapiran Temple is a Hindu Vishnu temple located in Tholavillimangalam, Tamil Nadu. One of the Irattai Thiruppathy (Twin Tirupatis), it is a Nava Tirupati Divya Desam temple presided over by Rahu.",
+      "shortDescription": "Nava Tirupati Divya Desam temple in Tholavillimangalam, presiding graha Rahu.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_devapiran_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_devapiran_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Devapiran_temple4.jpg"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Devapiran_temple"
     }
   ]
 }
