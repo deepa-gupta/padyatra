@@ -8,6 +8,8 @@ final class AchievementsViewModel: ObservableObject {
 
     // MARK: - Published
 
+    // categoryProgress is a derived presentation cache rebuilt fresh on every reload().
+    // isComplete is derived by AchievementService (never stored in SwiftData).
     @Published private(set) var categoryProgress:
         [(category: TempleCategory, visited: Int, isComplete: Bool)] = []
 

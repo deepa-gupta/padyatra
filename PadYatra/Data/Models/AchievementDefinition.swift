@@ -1,6 +1,7 @@
 // AchievementDefinition.swift
 // Static definition of an achievement. Completion is always derived — never stored here.
 import Foundation
+import SwiftUI
 
 // MARK: - AchievementDefinition
 
@@ -37,6 +38,16 @@ enum AchievementRarity: String, Codable, CaseIterable {
         case .rare:      return "Rare"
         case .epic:      return "Epic"
         case .legendary: return "Legendary"
+        }
+    }
+
+    /// The brand color associated with this rarity level.
+    var color: Color {
+        switch self {
+        case .common:    return Color.brandTempleGrey
+        case .rare:      return Color.brandSaffron
+        case .epic:      return Color.brandDeepOrange
+        case .legendary: return Color.brandGold
         }
     }
 }

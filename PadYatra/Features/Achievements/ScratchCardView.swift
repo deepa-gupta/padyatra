@@ -100,17 +100,8 @@ struct ScratchCardView: View {
             .foregroundStyle(.white)
             .padding(.horizontal, AppSpacing.md)
             .padding(.vertical, AppSpacing.xs)
-            .background(rarityColor.opacity(0.85))
+            .background(achievement.rarity.color.opacity(0.85))
             .clipShape(Capsule())
-    }
-
-    private var rarityColor: Color {
-        switch achievement.rarity {
-        case .common:    return Color.brandTempleGrey
-        case .rare:      return Color.brandSaffron
-        case .epic:      return Color.brandDeepOrange
-        case .legendary: return Color.brandGold
-        }
     }
 
     // MARK: - Scratch Overlay
@@ -219,13 +210,15 @@ struct ScratchCardView: View {
 
     private func scratchBounds() -> CGRect? {
         guard !scratchPoints.isEmpty else { return nil }
+        // All force-unwraps below are safe: the guard above guarantees
+        // scratchPoints is non-empty, so min()/max() always return a value.
         let xs = scratchPoints.map { $0.x }
         let ys = scratchPoints.map { $0.y }
         return CGRect(
-            x: xs.min()! - scratchRadius,
-            y: ys.min()! - scratchRadius,
-            width: (xs.max()! - xs.min()!) + scratchRadius * 2,
-            height: (ys.max()! - ys.min()!) + scratchRadius * 2
+            x: xs.min()! - scratchRadius,                          // safe: non-empty
+            y: ys.min()! - scratchRadius,                          // safe: non-empty
+            width: (xs.max()! - xs.min()!) + scratchRadius * 2,   // safe: non-empty
+            height: (ys.max()! - ys.min()!) + scratchRadius * 2   // safe: non-empty
         )
     }
 

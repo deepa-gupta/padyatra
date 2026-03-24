@@ -48,67 +48,19 @@ struct TempleFilterBar: View {
 
     // MARK: - Sort Pill
 
-    @ViewBuilder
     private func pillButton(for mode: TempleFilterMode) -> some View {
-        let isSelected = filterMode == mode
-
-        Button {
+        FilterPill(label: mode.rawValue, isSelected: filterMode == mode, style: .primary) {
             filterMode = mode
             if mode != .byCategory { selectedCategoryID = nil }
-        } label: {
-            Text(mode.rawValue)
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(isSelected ? Color.white : Color.brandEarthBrown)
-                .padding(.horizontal, AppSpacing.md)
-                .padding(.vertical, AppSpacing.sm)
-                .background(
-                    isSelected ? Color.brandSaffron : Color.brandWarmCream,
-                    in: Capsule()
-                )
-                .overlay(
-                    Capsule()
-                        .strokeBorder(
-                            isSelected ? Color.brandDeepOrange.opacity(0.3) : Color.brandTempleGrey.opacity(0.3),
-                            lineWidth: 1
-                        )
-                )
         }
-        .buttonStyle(.plain)
-        .animation(.easeInOut(duration: 0.18), value: isSelected)
-        .accessibilityLabel(mode.rawValue)
-        .accessibilityAddTraits(isSelected ? [.isButton, .isSelected] : .isButton)
     }
 
     // MARK: - Category Chip
 
-    @ViewBuilder
     private func categoryChip(id: String?, name: String) -> some View {
-        let isSelected = selectedCategoryID == id
-
-        Button {
+        FilterPill(label: name, isSelected: selectedCategoryID == id, style: .secondary) {
             selectedCategoryID = id
-        } label: {
-            Text(name)
-                .font(.caption.weight(.semibold))
-                .foregroundStyle(isSelected ? Color.brandSaffron : Color.brandEarthBrown)
-                .padding(.horizontal, AppSpacing.sm)
-                .padding(.vertical, AppSpacing.xs)
-                .background(
-                    isSelected ? Color.brandSaffron.opacity(0.12) : Color.brandWarmCream,
-                    in: Capsule()
-                )
-                .overlay(
-                    Capsule()
-                        .strokeBorder(
-                            isSelected ? Color.brandSaffron : Color.brandTempleGrey.opacity(0.3),
-                            lineWidth: 1
-                        )
-                )
         }
-        .buttonStyle(.plain)
-        .animation(.easeInOut(duration: 0.15), value: isSelected)
-        .accessibilityLabel(name)
-        .accessibilityAddTraits(isSelected ? [.isButton, .isSelected] : .isButton)
     }
 }
 

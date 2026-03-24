@@ -44,4 +44,11 @@ extension Date {
     var monthNameDisplay: String {
         Date.monthNameFormatter.string(from: self)
     }
+
+    /// Full month name for a 1-based integer month: monthName(for: 1) → "January"
+    static func monthName(for month: Int) -> String {
+        let symbols = Calendar.current.monthSymbols
+        let index = max(0, min(month - 1, symbols.count - 1))
+        return symbols[index]
+    }
 }

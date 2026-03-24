@@ -74,18 +74,12 @@ private struct FestivalRow: View {
     private func monthDisplay(for festival: TempleFestival) -> String {
         var parts: [String] = []
         if let month = festival.approximateMonth {
-            parts.append("~\(monthName(for: month))")
+            parts.append("~\(Date.monthName(for: month))")
         }
         if festival.isLunar {
             parts.append("(lunar calendar)")
         }
         return parts.joined(separator: " ")
-    }
-
-    private func monthName(for month: Int) -> String {
-        let symbols = Calendar.current.monthSymbols
-        let index = max(0, min(month - 1, symbols.count - 1))
-        return symbols[index]
     }
 
     private func accessibilityLabel(for festival: TempleFestival) -> String {

@@ -87,7 +87,7 @@ struct VisitEditView: View {
             .tint(Color.brandSaffron)
             .foregroundStyle(Color.brandEarthBrown)
         } header: {
-            sectionHeader("When did you visit?")
+            FormSectionHeader(text: "When did you visit?")
         }
         .listRowBackground(Color.brandWarmCream)
     }
@@ -101,7 +101,7 @@ struct VisitEditView: View {
                 StarRatingView(rating: $rating, starSize: 24)
             }
         } header: {
-            sectionHeader("How was your experience?")
+            FormSectionHeader(text: "How was your experience?")
         }
         .listRowBackground(Color.brandWarmCream)
     }
@@ -117,7 +117,7 @@ struct VisitEditView: View {
             .foregroundStyle(Color.brandEarthBrown)
             .tint(Color.brandSaffron)
         } header: {
-            sectionHeader("Notes (optional)")
+            FormSectionHeader(text: "Notes (optional)")
         }
         .listRowBackground(Color.brandWarmCream)
     }
@@ -140,13 +140,6 @@ struct VisitEditView: View {
     }
 
     // MARK: - Helpers
-
-    private func sectionHeader(_ text: String) -> some View {
-        Text(text)
-            .font(.caption.weight(.medium))
-            .foregroundStyle(Color.brandTempleGrey)
-            .textCase(nil)
-    }
 
     private func save() {
         let effectiveNotes = notes.trimmingCharacters(in: .whitespacesAndNewlines)

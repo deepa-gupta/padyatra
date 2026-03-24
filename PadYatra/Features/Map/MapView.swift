@@ -165,6 +165,9 @@ struct ClusteringMapView: UIViewRepresentable {
 
     // MARK: - Annotation Sync
 
+    // NOTE: syncAnnotations lives in ClusteringMapView by design — it directly
+    // mutates an MKMapView instance, which is a UIKit object that must never
+    // be held or mutated from the ViewModel layer.
     private func syncAnnotations(on mapView: MKMapView) {
         let existing = mapView.annotations.compactMap { $0 as? TempleAnnotation }
         let existingIDs = Set(existing.map { $0.temple.id })

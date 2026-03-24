@@ -1,5 +1,5 @@
 // VisitServiceTests.swift
-// Unit tests for VisitService — CRUD, validation, visited set, and widget sync.
+// Unit tests for VisitService — CRUD, validation, visited set, and persistence.
 import XCTest
 import SwiftData
 @testable import PadYatra
@@ -14,9 +14,11 @@ final class VisitServiceTests: XCTestCase {
 
     override func setUp() async throws {
         try await super.setUp()
-        modelContainer = PersistenceController.preview.container
+        // Fresh in-memory container per test.
+        let schema = Schema([TempleVisit.self, AchievementReveal.self])
+        modelContainer = try ModelContainer(for: schema, configurations: ModelConfiguration(isStoredInMemoryOnly: true))
         modelContext = ModelContext(modelContainer)
-        templeDataService = await TempleDataService()
+        templeDataService = TempleDataService()
         visitService = VisitService(
             modelContext: modelContext,
             templeDataService: templeDataService
@@ -34,121 +36,194 @@ final class VisitServiceTests: XCTestCase {
     // MARK: - addVisit
 
     func test_addVisit_persistsVisit() throws {
-        // TODO: Call addVisit for a templeID.
-        // Fetch all TempleVisit records.
-        // Assert one record exists with the correct templeID.
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: .now)
+
+        let visits = try visitService.allVisits()
+        XCTAssertEqual(visits.count, 1)
+        XCTAssertEqual(visits.first?.templeID, "t_somnath")
     }
 
     func test_addVisit_multipleVisitsSameTemple_allPersisted() throws {
-        // TODO: Call addVisit for the same templeID twice.
-        // Assert both records exist (multiple visits allowed).
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: .now)
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: .now.addingTimeInterval(-3600))
+
+        let visits = try visitService.visits(for: "t_somnath")
+        XCTAssertEqual(visits.count, 2)
     }
 
     func test_addVisit_invalidRating_throws() throws {
-        // TODO: Call addVisit with rating = 0 (invalid).
-        // Assert throws VisitServiceError.invalidRating.
-        // Repeat with rating = 6.
+        XCTAssertThrowsError(try visitService.addVisit(templeID: "t_test", visitedAt: .now, rating: 0)) { error in
+            if case VisitServiceError.invalidRating(0) = error { } else {
+                XCTFail("Expected invalidRating(0), got \(error)")
+            }
+        }
+        XCTAssertThrowsError(try visitService.addVisit(templeID: "t_test", visitedAt: .now, rating: 6)) { error in
+            if case VisitServiceError.invalidRating(6) = error { } else {
+                XCTFail("Expected invalidRating(6), got \(error)")
+            }
+        }
     }
 
     func test_addVisit_validRatingRange_succeeds() throws {
-        // TODO: Call addVisit with ratings 1, 3, 5 — all valid.
-        // Assert no error is thrown.
+        XCTAssertNoThrow(try visitService.addVisit(templeID: "t_a", visitedAt: .now, rating: 1))
+        XCTAssertNoThrow(try visitService.addVisit(templeID: "t_b", visitedAt: .now, rating: 3))
+        XCTAssertNoThrow(try visitService.addVisit(templeID: "t_c", visitedAt: .now, rating: 5))
     }
 
     func test_addVisit_rebuildsVisitedSet() throws {
-        // TODO: Assert templeDataService.visitedTempleIDs is empty.
-        // Call addVisit for a templeID.
-        // Assert visitedTempleIDs contains that templeID.
+        XCTAssertFalse(templeDataService.visitedTempleIDs.contains("t_somnath"))
+
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: .now)
+
+        XCTAssertTrue(templeDataService.visitedTempleIDs.contains("t_somnath"))
+    }
+
+    func test_addVisit_withNilNotesAndRating_succeeds() throws {
+        XCTAssertNoThrow(
+            try visitService.addVisit(templeID: "t_test", visitedAt: .now, notes: nil, rating: nil)
+        )
+        let visits = try visitService.allVisits()
+        XCTAssertEqual(visits.count, 1)
+        XCTAssertNil(visits.first?.notes)
+        XCTAssertNil(visits.first?.rating)
+    }
+
+    func test_addVisit_gpsVerifiedFlag_persisted() throws {
+        try visitService.addVisit(templeID: "t_test", visitedAt: .now, isGPSVerified: true)
+
+        let visits = try visitService.allVisits()
+        XCTAssertEqual(visits.first?.isGPSVerified, true)
     }
 
     // MARK: - isVisited
 
     func test_isVisited_falseBeforeVisit() {
-        // TODO: Assert isVisited("t_somnath") == false with no visits.
+        XCTAssertFalse(visitService.isVisited("t_somnath"))
     }
 
     func test_isVisited_trueAfterVisit() throws {
-        // TODO: addVisit for "t_somnath".
-        // Assert isVisited("t_somnath") == true.
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: .now)
+        XCTAssertTrue(visitService.isVisited("t_somnath"))
     }
 
     func test_isVisited_falseAfterDeletion() throws {
-        // TODO: addVisit then deleteVisit for a templeID.
-        // If it was the only visit, assert isVisited returns false.
+        let visit = try visitService.addVisit(templeID: "t_somnath", visitedAt: .now)
+        try visitService.deleteVisit(visit)
+        XCTAssertFalse(visitService.isVisited("t_somnath"))
     }
 
     func test_isVisited_trueWithMultipleVisits() throws {
-        // TODO: addVisit twice for the same temple, delete one.
-        // Assert isVisited still returns true (one visit remains).
+        let v1 = try visitService.addVisit(templeID: "t_somnath", visitedAt: .now)
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: .now.addingTimeInterval(-3600))
+
+        // Delete one — temple should still be visited (one remains).
+        try visitService.deleteVisit(v1)
+
+        XCTAssertTrue(visitService.isVisited("t_somnath"))
     }
 
     // MARK: - visits(for:)
 
     func test_visitsForTemple_sortedByDateDescending() throws {
-        // TODO: Insert three visits for the same temple with different dates.
-        // Assert the returned array is sorted newest-first.
+        let old = Date.now.addingTimeInterval(-7200)
+        let mid = Date.now.addingTimeInterval(-3600)
+        let new = Date.now
+
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: mid)
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: old)
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: new)
+
+        let visits = try visitService.visits(for: "t_somnath")
+        XCTAssertEqual(visits.count, 3)
+        XCTAssertGreaterThanOrEqual(visits[0].visitedAt, visits[1].visitedAt)
+        XCTAssertGreaterThanOrEqual(visits[1].visitedAt, visits[2].visitedAt)
     }
 
     func test_visitsForTemple_doesNotReturnOtherTempleVisits() throws {
-        // TODO: Insert visits for two different temples.
-        // Assert visits(for: templeA) does not contain visits for templeB.
+        try visitService.addVisit(templeID: "t_somnath", visitedAt: .now)
+        try visitService.addVisit(templeID: "t_kedarnath", visitedAt: .now)
+
+        let somnathVisits = try visitService.visits(for: "t_somnath")
+        XCTAssertTrue(somnathVisits.allSatisfy { $0.templeID == "t_somnath" })
+        XCTAssertFalse(somnathVisits.contains { $0.templeID == "t_kedarnath" })
     }
 
     // MARK: - updateVisit
 
     func test_updateVisit_changesDate() throws {
-        // TODO: Add a visit, then update its visitedAt to a new date.
-        // Fetch and assert the date changed.
+        let visit = try visitService.addVisit(templeID: "t_test", visitedAt: .now)
+        let newDate = Date(timeIntervalSince1970: 1_000_000)
+
+        try visitService.updateVisit(visit, visitedAt: newDate)
+
+        XCTAssertEqual(visit.visitedAt, newDate)
     }
 
     func test_updateVisit_changesNotes() throws {
-        // TODO: Add a visit with no notes, update with a note string.
-        // Fetch and assert notes matches.
+        let visit = try visitService.addVisit(templeID: "t_test", visitedAt: .now)
+
+        try visitService.updateVisit(visit, notes: "Breathtaking view")
+
+        XCTAssertEqual(visit.notes, "Breathtaking view")
     }
 
-    func test_updateVisit_setsLastEditedAt() throws {
-        // TODO: Add a visit, capture lastEditedAt.
-        // Wait 1 second (or mock time), then update.
-        // Assert lastEditedAt is newer.
+    func test_updateVisit_setsLastEditedAt() async throws {
+        let before = Date.now
+        let visit = try visitService.addVisit(templeID: "t_test", visitedAt: .now)
+        let beforeEdit = visit.lastEditedAt
+
+        // Wait 10ms to ensure a measurable time difference.
+        try await Task.sleep(nanoseconds: 10_000_000)
+        try visitService.updateVisit(visit, notes: "Updated")
+
+        XCTAssertGreaterThan(visit.lastEditedAt, beforeEdit)
+        XCTAssertGreaterThan(visit.lastEditedAt, before)
     }
 
     func test_updateVisit_invalidRating_throws() throws {
-        // TODO: Add a visit. Try updating with rating = 0.
-        // Assert throws VisitServiceError.invalidRating.
+        let visit = try visitService.addVisit(templeID: "t_test", visitedAt: .now)
+
+        XCTAssertThrowsError(try visitService.updateVisit(visit, rating: 0)) { error in
+            if case VisitServiceError.invalidRating(0) = error { } else {
+                XCTFail("Expected invalidRating(0), got \(error)")
+            }
+        }
     }
 
     // MARK: - deleteVisit
 
     func test_deleteVisit_removesRecord() throws {
-        // TODO: Add then delete a visit.
-        // Fetch all visits and assert count is 0.
+        let visit = try visitService.addVisit(templeID: "t_test", visitedAt: .now)
+        try visitService.deleteVisit(visit)
+
+        let all = try visitService.allVisits()
+        XCTAssertEqual(all.count, 0)
     }
 
     func test_deleteVisit_rebuildsVisitedSet() throws {
-        // TODO: Add a visit (only visit for that temple).
-        // Delete it. Assert visitedTempleIDs no longer contains the templeID.
+        let visit = try visitService.addVisit(templeID: "t_test", visitedAt: .now)
+        XCTAssertTrue(templeDataService.visitedTempleIDs.contains("t_test"))
+
+        try visitService.deleteVisit(visit)
+
+        XCTAssertFalse(templeDataService.visitedTempleIDs.contains("t_test"))
     }
 
     // MARK: - allVisits
 
     func test_allVisits_sortedByDateDescending() throws {
-        // TODO: Insert visits at different timestamps.
-        // Assert allVisits() returns them newest-first.
+        try visitService.addVisit(templeID: "t_a", visitedAt: .now.addingTimeInterval(-3600))
+        try visitService.addVisit(templeID: "t_b", visitedAt: .now)
+        try visitService.addVisit(templeID: "t_c", visitedAt: .now.addingTimeInterval(-7200))
+
+        let all = try visitService.allVisits()
+        XCTAssertEqual(all.count, 3)
+        XCTAssertGreaterThanOrEqual(all[0].visitedAt, all[1].visitedAt)
+        XCTAssertGreaterThanOrEqual(all[1].visitedAt, all[2].visitedAt)
     }
 
     func test_allVisits_emptyWhenNoVisits() throws {
-        // TODO: Assert allVisits() returns an empty array with no data.
-    }
-
-    // MARK: - Edge Cases
-
-    func test_addVisit_withNilNotesAndRating_succeeds() throws {
-        // TODO: Add a visit with notes=nil, rating=nil.
-        // Assert it persists without error.
-    }
-
-    func test_addVisit_gpsVerifiedFlag_persisted() throws {
-        // TODO: Add a visit with isGPSVerified=true.
-        // Fetch and assert isGPSVerified == true.
+        let all = try visitService.allVisits()
+        XCTAssertTrue(all.isEmpty)
     }
 }

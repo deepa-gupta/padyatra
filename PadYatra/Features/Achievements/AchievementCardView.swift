@@ -168,17 +168,8 @@ struct AchievementCardView: View {
             .foregroundStyle(.white)
             .padding(.horizontal, AppSpacing.sm)
             .padding(.vertical, AppSpacing.xs)
-            .background(rarityColor)
+            .background(definition.rarity.color)
             .clipShape(Capsule())
-    }
-
-    private var rarityColor: Color {
-        switch definition.rarity {
-        case .common:    return Color.brandTempleGrey
-        case .rare:      return Color.brandSaffron
-        case .epic:      return Color.brandDeepOrange
-        case .legendary: return Color.brandGold
-        }
     }
 
     // MARK: - Progress Bar
@@ -187,18 +178,7 @@ struct AchievementCardView: View {
         let fraction = category.totalRequired > 0
             ? Double(visitedCount) / Double(category.totalRequired)
             : 0
-
-        return GeometryReader { geo in
-            ZStack(alignment: .leading) {
-                Capsule()
-                    .fill(Color.brandTempleGrey.opacity(0.15))
-                    .frame(height: 4)
-                Capsule()
-                    .fill(Color.brandSaffron)
-                    .frame(width: geo.size.width * fraction, height: 4)
-            }
-        }
-        .frame(height: 4)
+        return ProgressBar(fraction: fraction, height: 4, animated: false)
     }
 
     // MARK: - Accessibility

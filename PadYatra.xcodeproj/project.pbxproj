@@ -32,13 +32,16 @@
 		4ED15FB90B173E0D330456B3 /* TempleListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FAC15682889FA4DCAC9816 /* TempleListRow.swift */; };
 		504BE7FCB138EB6D5005F9EF /* Temple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688BECFD8CCE2FE11589FF5 /* Temple.swift */; };
 		518A0355832D6D7F3D3B0FF6 /* RemoteDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B23F6CC6BA1500EC0E8F3 /* RemoteDataServiceTests.swift */; };
+		523C9BE18575CEC55D69E173 /* FormSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB85E2CFD8502883BC9DDF0 /* FormSectionHeader.swift */; };
 		5660A6E65AF559E597BFD3F4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707037FC0A0A04A1F626EA30 /* MapViewModel.swift */; };
 		608B29C6F218270D0F8F7AFB /* TempleDataValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CFC66E8ACD0C9232B8495 /* TempleDataValidator.swift */; };
 		63FE65531BD416A3E8664B1B /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70420A36B5B3A369726F6C51 /* AppTheme.swift */; };
 		649755E7691704E98DFA24B8 /* AddVisitSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83D9730C506C4C941A1E32 /* AddVisitSheet.swift */; };
+		733FD9E35B27869C074F54C7 /* FilterPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE58C47CADB455389AA2E40 /* FilterPill.swift */; };
 		7470BC2F1574A03A69516D33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D761BFFE06E210238F843F /* MapKit.framework */; };
 		7F9FC2D9AFDECAB2A6F72BAD /* AchievementCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF71E081AC8DFD254D35E22 /* AchievementCardView.swift */; };
 		8765231FDAC523C9C8785579 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900106EB9C342A1846882D5D /* ProfileViewModel.swift */; };
+		880710FFDA5FE4DBBAD1F414 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F70B7AB77B7833E50FF46A9 /* ProgressBar.swift */; };
 		892A8C69E1514F3904E481CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA45BA43C82D904247AEC335 /* ContentView.swift */; };
 		89A513EFBBBE76C63175A4AB /* ScratchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAECDC3F5C1FADCFAB6488C /* ScratchCardView.swift */; };
 		8C34CB62F4DC6EA45A9FF306 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412DCAE40084B0C6DF46673 /* StarRatingView.swift */; };
@@ -81,11 +84,13 @@
 		073893DDA94BF644473BEBB4 /* CategoryTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTag.swift; sourceTree = "<group>"; };
 		0882AB97AE098D9FEC69D668 /* VisitedBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedBadge.swift; sourceTree = "<group>"; };
 		0D51CF1FD102D57A0FE57359 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0FB85E2CFD8502883BC9DDF0 /* FormSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSectionHeader.swift; sourceTree = "<group>"; };
 		1193F67105E3596B2771F2C9 /* AchievementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementService.swift; sourceTree = "<group>"; };
 		13D761BFFE06E210238F843F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		147B23F6CC6BA1500EC0E8F3 /* RemoteDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataServiceTests.swift; sourceTree = "<group>"; };
 		1B0DF66685311F9C2D865801 /* RemoteDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataService.swift; sourceTree = "<group>"; };
 		1F01547B90F2F3A9908590D4 /* AchievementServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementServiceTests.swift; sourceTree = "<group>"; };
+		1F70B7AB77B7833E50FF46A9 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		23B10F82F814CAB78CE3BFF9 /* TempleFilterMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleFilterMode.swift; sourceTree = "<group>"; };
 		24F3F08D4158B6C43DE3771E /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		35073115477BD0FC56BAE195 /* VisitEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitEditView.swift; sourceTree = "<group>"; };
@@ -118,6 +123,7 @@
 		900106EB9C342A1846882D5D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		91B4FD00F6FCAAC7305A0390 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		91F92D26570213D22EE2E958 /* TempleHeroGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleHeroGallery.swift; sourceTree = "<group>"; };
+		9EE58C47CADB455389AA2E40 /* FilterPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPill.swift; sourceTree = "<group>"; };
 		A45B0BD2DB19233B8BA2E508 /* TempleDataValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDataValidatorTests.swift; sourceTree = "<group>"; };
 		A46C642EC7C3E604D3086949 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		AC2CFC66E8ACD0C9232B8495 /* TempleDataValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDataValidator.swift; sourceTree = "<group>"; };
@@ -377,6 +383,9 @@
 			isa = PBXGroup;
 			children = (
 				073893DDA94BF644473BEBB4 /* CategoryTag.swift */,
+				9EE58C47CADB455389AA2E40 /* FilterPill.swift */,
+				0FB85E2CFD8502883BC9DDF0 /* FormSectionHeader.swift */,
+				1F70B7AB77B7833E50FF46A9 /* ProgressBar.swift */,
 				0412DCAE40084B0C6DF46673 /* StarRatingView.swift */,
 				0882AB97AE098D9FEC69D668 /* VisitedBadge.swift */,
 			);
@@ -489,6 +498,8 @@
 				226627A7236291FF7193C67F /* Color+Brand.swift in Sources */,
 				892A8C69E1514F3904E481CE /* ContentView.swift in Sources */,
 				B6D9A146E44B21A044BF9850 /* Date+Formatting.swift in Sources */,
+				733FD9E35B27869C074F54C7 /* FilterPill.swift in Sources */,
+				523C9BE18575CEC55D69E173 /* FormSectionHeader.swift in Sources */,
 				B45F3047B3DC0CA21E27BF80 /* LocationService.swift in Sources */,
 				38942151AB6AD367BC15D9BB /* MapFilterSheet.swift in Sources */,
 				452662475A007DC97C71982F /* MapView.swift in Sources */,
@@ -497,6 +508,7 @@
 				31EEA24F2C6160F65BF4C788 /* PersistenceController.swift in Sources */,
 				12D6B6C9494091B70BD07CB9 /* ProfileView.swift in Sources */,
 				8765231FDAC523C9C8785579 /* ProfileViewModel.swift in Sources */,
+				880710FFDA5FE4DBBAD1F414 /* ProgressBar.swift in Sources */,
 				B5397C9280DB6FDBCA86E6E9 /* RemoteDataService.swift in Sources */,
 				89A513EFBBBE76C63175A4AB /* ScratchCardView.swift in Sources */,
 				8C34CB62F4DC6EA45A9FF306 /* StarRatingView.swift in Sources */,

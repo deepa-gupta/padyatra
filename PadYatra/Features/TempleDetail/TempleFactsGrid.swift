@@ -73,8 +73,8 @@ struct TempleFactsGrid: View {
         }
 
         if let openingMonth = facts.openingMonth, let closingMonth = facts.closingMonth {
-            let open = monthName(for: openingMonth)
-            let close = monthName(for: closingMonth)
+            let open = Date.monthName(for: openingMonth)
+            let close = Date.monthName(for: closingMonth)
             items.append(FactItem(id: "season", icon: "calendar", label: "Open \(open)–\(close)"))
         }
 
@@ -83,14 +83,6 @@ struct TempleFactsGrid: View {
         }
 
         return items
-    }
-
-    /// Returns the full month name for a 1-based month integer using the current locale.
-    private func monthName(for month: Int) -> String {
-        // Calendar.current.monthSymbols is 0-indexed; clamp to valid range.
-        let symbols = Calendar.current.monthSymbols
-        let index = max(0, min(month - 1, symbols.count - 1))
-        return symbols[index]
     }
 }
 

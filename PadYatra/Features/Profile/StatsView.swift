@@ -71,25 +71,7 @@ struct CategoryProgressRow: View {
     }
 
     private var progressBar: some View {
-        GeometryReader { geo in
-            ZStack(alignment: .leading) {
-                Capsule()
-                    .fill(Color.brandTempleGrey.opacity(0.15))
-                    .frame(height: 6)
-
-                Capsule()
-                    .fill(
-                        LinearGradient(
-                            colors: [Color.brandSaffron, Color.brandDeepOrange],
-                            startPoint: .leading,
-                            endPoint: .trailing
-                        )
-                    )
-                    .frame(width: geo.size.width * fraction, height: 6)
-                    .animation(.easeOut(duration: 0.4), value: fraction)
-            }
-        }
-        .frame(height: 6)
+        ProgressBar(fraction: fraction, height: 6, animated: true)
     }
 }
 
