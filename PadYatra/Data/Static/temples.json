@@ -1802,60 +1802,6 @@
       "sourceURL": null
     },
     {
-      "id": "t_avur",
-      "slug": "avur-temple-avur",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Avur Temple",
-      "alternateName": null,
-      "deity": "Buddha",
-      "location": {
-        "latitude": 10.660234,
-        "longitude": 78.672238,
-        "city": "Avur",
-        "district": "Kumbakonam",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_nava_graha"
-      ],
-      "description": "Avur Temple is a Hindu temple located in Avur, Tamil Nadu, India, dedicated to Buddha. It dates to the Chola Period.",
-      "shortDescription": "Avur Temple is a Hindu temple located in Avur, Tamil Nadu, India, dedicated to Buddha.",
-      "facts": {
-        "established": "10th century CE",
-        "dynasty": "Chola Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_avur_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_avur_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_chamunda_devi",
       "slug": "chamunda-devi-temple-kangra",
       "legacyIDs": [],
@@ -1948,7 +1894,7 @@
         "heroImageName": "t_thingalur_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_thingalur_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kailasanathar_Temple%2C_Thingalur_%285%29.jpg/1280px-Kailasanathar_Temple%2C_Thingalur_%285%29.jpg"
       },
       "festivals": [
         {
@@ -1961,7 +1907,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Kailasanathar_Temple,_Thingalur"
     },
     {
       "id": "t_chintpurni",
@@ -2699,7 +2645,7 @@
         "heroImageName": "t_alangudi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_alangudi_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Aalangudi_Temple.jpg/1280px-Aalangudi_Temple.jpg"
       },
       "festivals": [
         {
@@ -2712,7 +2658,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Apatsahayesvarar_Temple,_Alangudi"
     },
     {
       "id": "t_hanuman_garhi",
@@ -3482,10 +3428,10 @@
       "location": {
         "latitude": 11.029722,
         "longitude": 79.477778,
-        "city": "Suryanar Kovil",
-        "district": "Kumbakonam",
-        "state": "Thanjavur",
-        "country": "Tamil Nadu",
+        "city": "Aduthurai",
+        "district": "Thanjavur",
+        "state": "Tamil Nadu",
+        "country": "India",
         "address": null,
         "pincode": null
       },
@@ -4501,7 +4447,7 @@
         "heroImageName": "t_keezhaperumpallam_temple_keezhaperumpall_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_keezhaperumpallam_temple_keezhaperumpall_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kethu_sthal.JPG/1280px-Kethu_sthal.JPG"
       },
       "festivals": [
         {
@@ -4514,7 +4460,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Nagannathaswamy_Temple,_Keelaperumpallam"
     },
     {
       "id": "t_krishna_janmabhoomi",
@@ -7727,7 +7673,7 @@
         "heroImageName": "t_thirunallar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_thirunallar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Thirunallar_Dharbaranyeeswarar_Temple_and_Tank.jpg/1280px-Thirunallar_Dharbaranyeeswarar_Temple_and_Tank.jpg"
       },
       "festivals": [
         {
@@ -7740,7 +7686,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Tirunallar_Dharbaranyeswarar_Temple"
     },
     {
       "id": "t_sharada",
@@ -11895,7 +11841,7 @@
         "heroImageName": "t_kanjanur_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_kanjanur_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Kanjanur_Sukkiran_Temple.jpg/1280px-Kanjanur_Sukkiran_Temple.jpg"
       },
       "festivals": [
         {
@@ -11908,7 +11854,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Agniswarar_Temple,_Kanjanur"
     },
     {
       "id": "t_sitamarhi",
@@ -15170,6 +15116,144 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Vishnuprayag"
+    },
+    {
+      "id": "t_vaitheeswaran_koil",
+      "slug": "vaitheeswaran-koil-mayiladuthurai",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Vaitheeswaran Koil",
+      "alternateName": null,
+      "deity": "Shiva",
+      "location": {
+        "latitude": 11.195,
+        "longitude": 79.71416667,
+        "city": "Vaitheeswarankoil",
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_nava_graha"
+      ],
+      "description": "Vaitheeswaran Koil is a Hindu temple dedicated to Shiva located near Mayiladuthurai, Tamil Nadu. Shiva is worshipped as Vaidyanathar, the God of healing, and the presiding planet is Angaraka (Mars).",
+      "shortDescription": "Shiva temple near Mayiladuthurai where the presiding Nava Graha is Angaraka (Mars).",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_vaitheeswaran_koil_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_vaitheeswaran_koil_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Vaitheeswarankovil5.JPG/1280px-Vaitheeswarankovil5.JPG"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Vaitheeswaran_Koil"
+    },
+    {
+      "id": "t_swetharanyeswarar",
+      "slug": "swetharanyeswarar-temple-thiruvenkadu",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Swetharanyeswarar Temple",
+      "alternateName": null,
+      "deity": "Shiva",
+      "location": {
+        "latitude": 11.17527778,
+        "longitude": 79.80944444,
+        "city": "Thiruvenkadu",
+        "district": "Mayiladuthurai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_nava_graha"
+      ],
+      "description": "Swetharanyeswarar Temple is a Hindu temple dedicated to Shiva located in Thiruvenkadu, Mayiladuthurai district, Tamil Nadu. It is one of the nine Nava Graha temples, representing Budha (Mercury).",
+      "shortDescription": "Shiva temple in Thiruvenkadu representing Budha (Mercury) among the Nava Graha temples.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_swetharanyeswarar_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_swetharanyeswarar_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Thiruvenkadu_%285%29.jpg/1280px-Thiruvenkadu_%285%29.jpg"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Swetharanyeswarar_Temple"
+    },
+    {
+      "id": "t_tirunageswaram",
+      "slug": "tirunageswaram-naganathar-temple-kumbakonam",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Tirunageswaram Naganathar Temple",
+      "alternateName": null,
+      "deity": "Shiva",
+      "location": {
+        "latitude": 10.964279,
+        "longitude": 79.429269,
+        "city": "Tirunageswaram",
+        "district": "Thanjavur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_nava_graha"
+      ],
+      "description": "Tirunageswaram Naganathar Temple, also known as Rahu Stalam, is a Hindu temple dedicated to Shiva located near Kumbakonam, Tamil Nadu. It is the Nava Graha temple representing Rahu.",
+      "shortDescription": "Shiva temple near Kumbakonam representing Rahu among the Nava Graha temples.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_tirunageswaram_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_tirunageswaram_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Thirunageswaram_gopuram.JPG/1280px-Thirunageswaram_gopuram.JPG"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Tirunageswaram_Naganathar_Temple"
     }
   ]
 }
