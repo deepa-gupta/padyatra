@@ -9,10 +9,18 @@ struct PadYatraApp: App {
 
     init() {
         // 50 MB memory + 300 MB disk image cache shared by AsyncImage and URLSession.
-        URLCache.shared = URLCache(
+        let cache = URLCache(
             memoryCapacity: 50  * 1024 * 1024,
             diskCapacity:   300 * 1024 * 1024
         )
+        // Remove previously-cached wrong images from older app versions.
+        if !UserDefaults.standard.bool(forKey: "dev.urlCacheClearedV1") {
+            cache.removeAllCachedResponses()
+            URLCache.shared = cache
+            UserDefaults.standard.set(true, forKey: "dev.urlCacheClearedV1")
+        } else {
+            URLCache.shared = cache
+        }
     }
 
     // MARK: - Services

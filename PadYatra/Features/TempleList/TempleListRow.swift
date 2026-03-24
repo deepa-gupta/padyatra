@@ -27,6 +27,7 @@ struct TempleListRow: View {
         .accessibilityElement(children: .combine)
         .accessibilityLabel(rowAccessibilityLabel)
         .task(id: temple.id) {
+            thumbnailURL = nil
             thumbnailURL = await TempleImageService.shared.imageURLs(for: temple).first
         }
     }

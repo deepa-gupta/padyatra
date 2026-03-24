@@ -60,6 +60,7 @@ struct TempleDetailView: View {
             vm.loadVisits()
         }
         .task(id: vm.temple.id) {
+            imageURLs = []        // clear immediately so previous temple's images don't flash
             imagesLoaded = false
             imageURLs = await TempleImageService.shared.imageURLs(for: vm.temple)
             imagesLoaded = true

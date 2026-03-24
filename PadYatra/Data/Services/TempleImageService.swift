@@ -45,20 +45,23 @@ final class TempleImageService {
     private nonisolated static func fetchAll(for temple: Temple) async -> [URL] {
         var urls: [URL] = []
 
-        // 1. Pre-verified URL from build pipeline — most accurate, use directly
+        // 1. remoteHeroURL from JSON — fetched during build pipeline against the
+        //    exact Wikipedia article identified for this temple. Most accurate.
         if let heroString = temple.images.remoteHeroURL,
            let heroURL = URL(string: heroString) {
             urls.append(heroURL)
         }
 
-        // 2. Wikipedia via exact stored article URL — no name search, no ambiguity
-        if let hero = await fetchWikipediaHero(temple) {
-            if !urls.contains(hero) { urls.append(hero) }
+        // 2. Wikipedia via the stored sourceURL — exact article, no text search.
+        //    Only adds a URL if it differs from remoteHeroURL (avoids duplicates).
+        if let hero = await fetchWikipediaHero(temple), !urls.contains(hero) {
+            urls.append(hero)
         }
 
-        // 3. Unsplash — include city + state in query to reduce wrong-temple matches
-        let unsplashURLs = await fetchUnsplash(temple)
-        urls.append(contentsOf: unsplashURLs)
+        // Unsplash intentionally excluded: keyword tagging is user-defined and
+        // routinely returns photos of the wrong temple, valley, or deity.
+        // We return an empty array for unverified temples so the UI shows
+        // "No photos available" rather than a misleading image.
 
         return urls
     }
@@ -109,33 +112,4 @@ final class TempleImageService {
         return comps.url
     }
 
-    // MARK: - Unsplash (location-specific query)
-
-    private nonisolated static func fetchUnsplash(_ temple: Temple) async -> [URL] {
-        // Build a specific query: "Temple Name City State temple"
-        // More specific than just the temple name → fewer wrong-location results
-        let query = "\(temple.name) \(temple.location.city) \(temple.location.state) temple"
-        guard
-            let encoded = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),
-            let url = URL(string: "https://api.unsplash.com/search/photos?query=\(encoded)&per_page=4&client_id=\(unsplashKey)")
-        else { return [] }
-
-        guard let (data, _) = try? await URLSession.shared.data(from: url) else { return [] }
-
-        struct UnsplashResponse: Decodable {
-            struct Photo: Decodable {
-                struct Urls: Decodable { let regular: String }
-                let urls: Urls
-            }
-            let results: [Photo]
-        }
-
-        guard let result = try? JSONDecoder().decode(UnsplashResponse.self, from: data) else { return [] }
-        return result.results.compactMap { URL(string: $0.urls.regular) }
-    }
-
-    // MARK: - Constants
-
-    // swiftlint:disable:next line_length
-    private nonisolated static let unsplashKey = "X2BkzLjefkhQBAJmkv0Tnzf0xH7mktzQVPpd2juqELk"
 }
