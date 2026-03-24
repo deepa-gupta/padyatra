@@ -191,23 +191,6 @@
       "achievementID": null
     },
     {
-      "id": "c_pancha_kailash",
-      "name": "Pancha Kailash",
-      "description": "Temples belonging to the Pancha Kailash pilgrimage circuit or classification.",
-      "iconAssetName": "cloud.fill",
-      "color": "#7F8C8D",
-      "deity": "Shiva",
-      "sortOrder": 8,
-      "templeIDs": [
-        "t_adi_kailash",
-        "t_kailash",
-        "t_kedarnath",
-        "t_manimahesh_kailash",
-        "t_tungnath"
-      ],
-      "achievementID": null
-    },
-    {
       "id": "c_pancha_badri",
       "name": "Pancha Badri",
       "description": "Temples belonging to the Pancha Badri pilgrimage circuit or classification.",
@@ -5571,60 +5554,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple,_Kolhapur"
     },
     {
-      "id": "t_keezhaperumpallam_temple_keezhperumpalla",
-      "slug": "keezhaperumpallam-temple-keezhperumpallam",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Keezhaperumpallam Temple",
-      "alternateName": null,
-      "deity": "Mangal (Mars)",
-      "location": {
-        "latitude": null,
-        "longitude": null,
-        "city": "Keezhperumpallam",
-        "district": "Thanjavur",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_nava_graha"
-      ],
-      "description": "Keezhaperumpallam Temple is a Hindu temple located in Keezhperumpallam, Tamil Nadu, India, dedicated to Mangal (Mars). It dates to the Chola Period.",
-      "shortDescription": "Keezhaperumpallam Temple is a Hindu temple located in Keezhperumpallam, Tamil Nadu, India, dedicated to Mangal (Mars).",
-      "facts": {
-        "established": "10th century CE",
-        "dynasty": "Chola Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_keezhaperumpallam_temple_keezhperumpalla_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_keezhaperumpallam_temple_keezhperumpalla_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_ujani_shakti_peetha",
       "slug": "ujani-shakti-peetha-ujani",
       "legacyIDs": [],
@@ -8257,7 +8186,6 @@
         "c_largest",
         "c_major_pilgrimage",
         "c_oldest_functioning",
-        "c_pancha_kailash",
         "c_pancha_kedar",
         "c_riverbank"
       ],
@@ -8422,67 +8350,6 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Nandaprayag"
-    },
-    {
-      "id": "t_kanak_prayag",
-      "slug": "kanak-prayag-kanak-prayag",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Kanak Prayag",
-      "alternateName": null,
-      "deity": "Shiva",
-      "location": {
-        "latitude": null,
-        "longitude": null,
-        "city": "Kanak Prayag",
-        "district": "Uttarakhand",
-        "state": "Uttarakhand",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_pancha_prayag"
-      ],
-      "description": "Kanak Prayag is a Hindu temple located in Kanak Prayag, Uttarakhand, India, dedicated to Shiva. It dates to the Early Medieval Period.",
-      "shortDescription": "Kanak Prayag is a Hindu temple located in Kanak Prayag, Uttarakhand, India, dedicated to Shiva.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_kanak_prayag_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_kanak_prayag_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
     },
     {
       "id": "t_karnaprayag",
@@ -10393,67 +10260,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Omkareshwar_Temple"
     },
     {
-      "id": "t_adi_kailash",
-      "slug": "adi-kailash-temple-chhota-kailash",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Adi Kailash Temple",
-      "alternateName": null,
-      "deity": "Shiva",
-      "location": {
-        "latitude": null,
-        "longitude": null,
-        "city": "Chhota Kailash",
-        "district": "Kinnaur",
-        "state": "Himachal Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_pancha_kailash"
-      ],
-      "description": "Adi Kailash Temple is a Hindu temple located in Chhota Kailash, Himachal Pradesh, India, dedicated to Shiva. It dates to the Early Medieval Period.",
-      "shortDescription": "Adi Kailash Temple is a Hindu temple located in Chhota Kailash, Himachal Pradesh, India, dedicated to Shiva.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_adi_kailash_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_adi_kailash_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_kalahasti",
       "slug": "kalahasti-temple-srikalahasti",
       "legacyIDs": [],
@@ -10637,67 +10443,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Ghrishneshwar_Temple"
     },
     {
-      "id": "t_kailash",
-      "slug": "kailash-temple-mount-kailash",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Kailash Temple",
-      "alternateName": null,
-      "deity": "Shiva",
-      "location": {
-        "latitude": null,
-        "longitude": null,
-        "city": "Mount Kailash",
-        "district": "Ladakh/Tibet",
-        "state": "Tibet",
-        "country": "China",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_pancha_kailash"
-      ],
-      "description": "Kailasanathar Temple is the name of several temples and ancient religious sites found in Southeastern India, all dedicated to the deity Shiva in its form of Kailasanathar or Kailashanatha (transl. Lord of the Kailasha). The designation refers to the Mount Kailash, which is the primary abode of Shiva.",
-      "shortDescription": "Kailasanathar Temple is the name of several temples and ancient religious sites found in Southeastern India, all dedicated to the…",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Ancient Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_kailash_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_kailash_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Kailasanathar_Temple"
-    },
-    {
       "id": "t_kalpeshwar",
       "slug": "kalpeshwar-temple-urgam",
       "legacyIDs": [],
@@ -10818,67 +10563,6 @@
       "significance": "jyotirlinga",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Mallikarjuna_Temple,_Srisailam"
-    },
-    {
-      "id": "t_manimahesh_kailash",
-      "slug": "manimahesh-kailash-temple-manimahesh",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Manimahesh Kailash Temple",
-      "alternateName": null,
-      "deity": "Shiva",
-      "location": {
-        "latitude": 32.394952,
-        "longitude": 76.637294,
-        "city": "Manimahesh",
-        "district": "Bhaderwah",
-        "state": "Himachal Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_pancha_kailash"
-      ],
-      "description": "Manimahesh Kailash Temple is a Hindu temple located in Manimahesh, Himachal Pradesh, India, dedicated to Shiva. It dates to the Early Medieval Period.",
-      "shortDescription": "Manimahesh Kailash Temple is a Hindu temple located in Manimahesh, Himachal Pradesh, India, dedicated to Shiva.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_manimahesh_kailash_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_manimahesh_kailash_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
     },
     {
       "id": "t_nageshwar",
@@ -11107,7 +10791,7 @@
         "heroImageName": "t_thiruvaalangadu_vadaranyeswarar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_thiruvaalangadu_vadaranyeswarar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Tiruvalangadu6.jpg"
       },
       "festivals": [
         {
@@ -11127,7 +10811,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Sri_Vadaranyeswarar_Temple"
     },
     {
       "id": "t_thirunelveli_nellaiappar",
@@ -11168,7 +10852,7 @@
         "heroImageName": "t_thirunelveli_nellaiappar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_thirunelveli_nellaiappar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nellaiappar_temple_tower.jpg/1280px-Nellaiappar_temple_tower.jpg"
       },
       "festivals": [
         {
@@ -11188,7 +10872,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Nellaiappar_Temple"
     },
     {
       "id": "t_rudranath",
@@ -11395,7 +11079,6 @@
         "pincode": null
       },
       "categoryIDs": [
-        "c_pancha_kailash",
         "c_pancha_kedar"
       ],
       "description": "Tungnath Temple is a Hindu temple located in Tungnath, Uttarakhand, India, dedicated to Shiva. It dates to the Early Medieval Period.",
@@ -13468,7 +13151,8 @@
         "c_major_pilgrimage",
         "c_pancha_badri",
         "c_riverbank",
-        "c_swayambhu_vishnu"
+        "c_swayambhu_vishnu",
+        "c_char_dham"
       ],
       "description": "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu. It is located in the town of Badrinath in Chamoli district of Uttarakhand, India. The temple is one of the 108 Divya Desams, sacred to Vaishnavism, where Vishnu is worshipped as Badrinath. Due to extreme weather conditions in the Himalayas, the temple is open for six months each year, from late April to early November. It is one of the most visited pilgrimage centers of India, having recorded 2.8 million (28 lakh) visits in just 2 months in 2022. It is one of the Char Dham pilgrimage sites.",
       "shortDescription": "Badarinath Temple, also known as Badarinarayana Temple, is a Hindu temple dedicated to Vishnu.",
@@ -13843,9 +13527,7 @@
         "address": null,
         "pincode": null
       },
-      "categoryIDs": [
-        "c_char_dham"
-      ],
+      "categoryIDs": [],
       "description": "Parashurama Temple is a Hindu temple located in Badrinath, Uttarakhand, India, dedicated to Vishnu. It dates to the Early Medieval Period.",
       "shortDescription": "Parashurama Temple is a Hindu temple located in Badrinath, Uttarakhand, India, dedicated to Vishnu.",
       "facts": {
@@ -13925,7 +13607,7 @@
         "heroImageName": "t_adi_badri_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_adi_badri_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Adi_Badri.jpg"
       },
       "festivals": [
         {
@@ -13945,7 +13627,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Sapta_Badri"
     },
     {
       "id": "t_ardha_badri",
@@ -15442,6 +15124,52 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Madhyamaheshwar"
+    },
+    {
+      "id": "t_vishnuprayag",
+      "slug": "vishnuprayag-chamoli",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Vishnuprayag",
+      "alternateName": null,
+      "deity": "Vishnu",
+      "location": {
+        "latitude": 30.5625,
+        "longitude": 79.57527778,
+        "city": "Vishnuprayag",
+        "district": "Chamoli",
+        "state": "Uttarakhand",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_pancha_prayag"
+      ],
+      "description": "Vishnuprayag is the southernmost and first of the five Pancha Prayag confluences on the Alaknanda River in Uttarakhand, India, where the Dhauliganga meets the Alaknanda at an elevation of 1,372 m.",
+      "shortDescription": "Southernmost of the five Pancha Prayag confluences, where the Dhauliganga meets the Alaknanda.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": null,
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 1372,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_vishnuprayag_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_vishnuprayag_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Dhauliganga_at_Vishnuprayag.jpg"
+      },
+      "festivals": [],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Vishnuprayag"
     }
   ]
 }
