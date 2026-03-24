@@ -43,27 +43,21 @@ final class TempleImageService {
     // MARK: - Aggregator
 
     private nonisolated static func fetchAll(for temple: Temple) async -> [URL] {
-        var urls: [URL] = []
-
-        // 1. remoteHeroURL from JSON — fetched during build pipeline against the
-        //    exact Wikipedia article identified for this temple. Most accurate.
+        // remoteHeroURL and fetchWikipediaHero both resolve the same Wikipedia article
+        // (one is the original image, the other a resized thumbnail). Using both would
+        // show the same photo twice. Use remoteHeroURL when available; only call the
+        // live Wikipedia API as a fallback for temples without a pre-baked URL.
         if let heroString = temple.images.remoteHeroURL,
            let heroURL = URL(string: heroString) {
-            urls.append(heroURL)
+            return [heroURL]
         }
 
-        // 2. Wikipedia via the stored sourceURL — exact article, no text search.
-        //    Only adds a URL if it differs from remoteHeroURL (avoids duplicates).
-        if let hero = await fetchWikipediaHero(temple), !urls.contains(hero) {
-            urls.append(hero)
+        if let hero = await fetchWikipediaHero(temple) {
+            return [hero]
         }
 
-        // Unsplash intentionally excluded: keyword tagging is user-defined and
-        // routinely returns photos of the wrong temple, valley, or deity.
-        // We return an empty array for unverified temples so the UI shows
-        // "No photos available" rather than a misleading image.
-
-        return urls
+        // No verified image found — caller shows "No photos available".
+        return []
     }
 
     // MARK: - Wikipedia (exact article URL)
