@@ -8079,7 +8079,7 @@
         "heroImageName": "t_ekambareswarar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_ekambareswarar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Ekambareswarar5.jpg/1200px-Ekambareswarar5.jpg"
       },
       "festivals": [
         {
@@ -8099,7 +8099,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Ekambareswarar_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Ekambareswarar_Temple_(Kanchipuram)"
     },
     {
       "id": "t_mahakaleshwar",
