@@ -1,0 +1,63 @@
+# ── Xcode ──────────────────────────────────────────────────────────────────
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# ── Swift Package Manager ───────────────────────────────────────────────────
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# ── CocoaPods ───────────────────────────────────────────────────────────────
+Pods/
+*.xcworkspace
+!default.xcworkspace
+
+# ── SwiftData / CoreData stores ─────────────────────────────────────────────
+# These live in the app sandbox (simulator or device) and are never in the
+# project directory — but guard here in case any are accidentally exported.
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.store
+
+# ── Secrets & config ────────────────────────────────────────────────────────
+*.env
+.env
+Secrets.swift
+secrets.swift
+APIKeys.swift
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Simulator logs / crash reports ──────────────────────────────────────────
+*.crash
+
+# ── Fastlane ────────────────────────────────────────────────────────────────
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ── Claude agent worktrees ──────────────────────────────────────────────────
+.claude/worktrees/

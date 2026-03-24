@@ -28,6 +28,12 @@ struct PadYatraApp: App {
                 .environmentObject(locationService)
                 .modelContainer(PersistenceController.shared.container)
                 .onAppear {
+                    // One-time dev wipe — remove once new data is loaded
+                    if !UserDefaults.standard.bool(forKey: "dev.dataWipedV4") {
+                        PersistenceController.shared.wipeAllData()
+                        UserDefaults.standard.set(true, forKey: "dev.dataWipedV4")
+                    }
+
                     let context = PersistenceController.shared.container.mainContext
                     Task {
                         await templeDataService.load(modelContext: context)
