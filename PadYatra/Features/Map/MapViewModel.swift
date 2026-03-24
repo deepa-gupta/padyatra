@@ -22,7 +22,7 @@ final class MapViewModel: ObservableObject {
     // MARK: - Dependencies
 
     private let dataService: TempleDataService
-    private let locationService: LocationService
+    let locationService: LocationService
     private let logger = Logger(subsystem: "com.padyatra", category: "MapViewModel")
 
     // MARK: - Constants

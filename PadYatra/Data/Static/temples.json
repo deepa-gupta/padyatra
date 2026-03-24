@@ -6,7 +6,10 @@
       "id": "c_jyotirlinga",
       "name": "Jyotirlinga",
       "description": "Temples belonging to the Jyotirlinga pilgrimage circuit or classification.",
-      "icon": "flame.fill",
+      "iconAssetName": "flame.fill",
+      "color": "#FF6B35",
+      "deity": "Shiva",
+      "sortOrder": 0,
       "templeIDs": [
         "t_bhimashankar",
         "t_grishneshwar",
@@ -27,7 +30,10 @@
       "id": "c_shakti_peetha",
       "name": "Shakti Peetha",
       "description": "Temples belonging to the Shakti Peetha pilgrimage circuit or classification.",
-      "icon": "sparkles",
+      "iconAssetName": "sparkles",
+      "color": "#8B1A4A",
+      "deity": "Shakti",
+      "sortOrder": 1,
       "templeIDs": [
         "t_amba_mata",
         "t_ambaji",
@@ -76,7 +82,7 @@
         "t_tulja_bhavani",
         "t_ugratara",
         "t_ujani_shakti_peetha",
-        "t_vaishno_devi_temple_katra",
+        "t_vaishno_devi",
         "t_vimala"
       ],
       "achievementID": "a_shakti_peetha_complete"
@@ -85,7 +91,10 @@
       "id": "c_char_dham",
       "name": "Char Dham",
       "description": "Temples belonging to the Char Dham pilgrimage circuit or classification.",
-      "icon": "building.columns.fill",
+      "iconAssetName": "building.columns.fill",
+      "color": "#DAA520",
+      "deity": "Vishnu",
+      "sortOrder": 2,
       "templeIDs": [
         "t_dwarkadhish",
         "t_jagannath",
@@ -98,7 +107,10 @@
       "id": "c_chota_char_dham",
       "name": "Chota Char Dham",
       "description": "Temples belonging to the Chota Char Dham pilgrimage circuit or classification.",
-      "icon": "mountain.2.fill",
+      "iconAssetName": "mountain.2.fill",
+      "color": "#5C8A3C",
+      "deity": "Vishnu",
+      "sortOrder": 3,
       "templeIDs": [
         "t_badrinath",
         "t_gangotri",
@@ -111,7 +123,10 @@
       "id": "c_ashta_vinayaka",
       "name": "Ashta Vinayaka",
       "description": "Temples belonging to the Ashta Vinayaka pilgrimage circuit or classification.",
-      "icon": "seal.fill",
+      "iconAssetName": "seal.fill",
+      "color": "#E87722",
+      "deity": "Ganesha",
+      "sortOrder": 4,
       "templeIDs": [
         "t_ballaleshwar",
         "t_chintamani",
@@ -128,7 +143,10 @@
       "id": "c_pancha_kedar",
       "name": "Pancha Kedar",
       "description": "Temples belonging to the Pancha Kedar pilgrimage circuit or classification.",
-      "icon": "snowflake",
+      "iconAssetName": "snowflake",
+      "color": "#4A90D9",
+      "deity": "Shiva",
+      "sortOrder": 5,
       "templeIDs": [
         "t_badrinath",
         "t_kalpeshwar",
@@ -142,7 +160,10 @@
       "id": "c_pancha_bhoota_linga",
       "name": "Pancha Bhoota Linga",
       "description": "Temples belonging to the Pancha Bhoota Linga pilgrimage circuit or classification.",
-      "icon": "flame",
+      "iconAssetName": "flame",
+      "color": "#C0392B",
+      "deity": "Shiva",
+      "sortOrder": 6,
       "templeIDs": [
         "t_annamalaiyar",
         "t_chidambaram_nataraja",
@@ -156,7 +177,10 @@
       "id": "c_pancha_sabhai",
       "name": "Pancha Sabhai",
       "description": "Temples belonging to the Pancha Sabhai pilgrimage circuit or classification.",
-      "icon": "music.note",
+      "iconAssetName": "music.note",
+      "color": "#9B59B6",
+      "deity": "Shiva",
+      "sortOrder": 7,
       "templeIDs": [
         "t_chidambaram_nataraja",
         "t_kutralanathar",
@@ -170,7 +194,10 @@
       "id": "c_pancha_kailash",
       "name": "Pancha Kailash",
       "description": "Temples belonging to the Pancha Kailash pilgrimage circuit or classification.",
-      "icon": "cloud.fill",
+      "iconAssetName": "cloud.fill",
+      "color": "#7F8C8D",
+      "deity": "Shiva",
+      "sortOrder": 8,
       "templeIDs": [
         "t_adi_kailash",
         "t_kailash",
@@ -184,7 +211,10 @@
       "id": "c_pancha_badri",
       "name": "Pancha Badri",
       "description": "Temples belonging to the Pancha Badri pilgrimage circuit or classification.",
-      "icon": "leaf.fill",
+      "iconAssetName": "leaf.fill",
+      "color": "#27AE60",
+      "deity": "Vishnu",
+      "sortOrder": 9,
       "templeIDs": [
         "t_adi_badri",
         "t_ardha_badri",
@@ -198,7 +228,10 @@
       "id": "c_pancha_prayag",
       "name": "Pancha Prayag",
       "description": "Temples belonging to the Pancha Prayag pilgrimage circuit or classification.",
-      "icon": "water.waves",
+      "iconAssetName": "water.waves",
+      "color": "#2980B9",
+      "deity": "Ganga",
+      "sortOrder": 10,
       "templeIDs": [
         "t_devprayag",
         "t_kanak_prayag",
@@ -212,7 +245,10 @@
       "id": "c_pancha_narasimha",
       "name": "Pancha Narasimha",
       "description": "Temples belonging to the Pancha Narasimha pilgrimage circuit or classification.",
-      "icon": "shield.fill",
+      "iconAssetName": "shield.fill",
+      "color": "#E67E22",
+      "deity": "Vishnu",
+      "sortOrder": 11,
       "templeIDs": [
         "t_ahobilam_narasimha",
         "t_sholingur_narasimha",
@@ -226,7 +262,10 @@
       "id": "c_nava_graha",
       "name": "Nava Graha",
       "description": "Temples belonging to the Nava Graha pilgrimage circuit or classification.",
-      "icon": "moon.stars.fill",
+      "iconAssetName": "moon.stars.fill",
+      "color": "#2C3E50",
+      "deity": null,
+      "sortOrder": 12,
       "templeIDs": [
         "t_alangudi",
         "t_avur",
@@ -243,7 +282,10 @@
       "id": "c_nava_tirupati",
       "name": "Nava Tirupati",
       "description": "Temples belonging to the Nava Tirupati pilgrimage circuit or classification.",
-      "icon": "star.fill",
+      "iconAssetName": "star.fill",
+      "color": "#F39C12",
+      "deity": "Vishnu",
+      "sortOrder": 13,
       "templeIDs": [
         "t_alwarthirunagari",
         "t_thirukkurungudi",
@@ -261,7 +303,10 @@
       "id": "c_sapta_puri",
       "name": "Sapta Puri",
       "description": "Temples belonging to the Sapta Puri pilgrimage circuit or classification.",
-      "icon": "7.circle.fill",
+      "iconAssetName": "7.circle.fill",
+      "color": "#8E44AD",
+      "deity": null,
+      "sortOrder": 14,
       "templeIDs": [
         "t_dwarkadhish",
         "t_ekambareswarar",
@@ -277,7 +322,10 @@
       "id": "c_rama_circuit",
       "name": "Rama Circuit",
       "description": "Temples belonging to the Rama Circuit pilgrimage circuit or classification.",
-      "icon": "figure.walk",
+      "iconAssetName": "figure.walk",
+      "color": "#3498DB",
+      "deity": "Rama",
+      "sortOrder": 15,
       "templeIDs": [
         "t_chitrakoot_ram",
         "t_hanuman_garhi",
@@ -295,7 +343,10 @@
       "id": "c_krishna_circuit",
       "name": "Krishna Circuit",
       "description": "Temples belonging to the Krishna Circuit pilgrimage circuit or classification.",
-      "icon": "music.note",
+      "iconAssetName": "music.note",
+      "color": "#1ABC9C",
+      "deity": "Krishna",
+      "sortOrder": 16,
       "templeIDs": [
         "t_bankey_bihari",
         "t_dwarkadhish",
@@ -313,7 +364,10 @@
       "id": "c_hanuman_circuit",
       "name": "Hanuman Circuit",
       "description": "Temples belonging to the Hanuman Circuit pilgrimage circuit or classification.",
-      "icon": "figure.arms.open",
+      "iconAssetName": "figure.arms.open",
+      "color": "#E74C3C",
+      "deity": "Hanuman",
+      "sortOrder": 17,
       "templeIDs": [
         "t_anjaneya_swamy",
         "t_hanuman_garhi",
@@ -331,7 +385,10 @@
       "id": "c_unesco",
       "name": "UNESCO World Heritage",
       "description": "Temples belonging to the UNESCO World Heritage pilgrimage circuit or classification.",
-      "icon": "star.circle.fill",
+      "iconAssetName": "star.circle.fill",
+      "color": "#F1C40F",
+      "deity": null,
+      "sortOrder": 18,
       "templeIDs": [
         "t_brihadeeswarar",
         "t_elephanta_caves",
@@ -348,7 +405,10 @@
       "id": "c_rock_cut",
       "name": "Rock-cut Temple",
       "description": "Temples belonging to the Rock-cut Temple pilgrimage circuit or classification.",
-      "icon": "diamond.fill",
+      "iconAssetName": "diamond.fill",
+      "color": "#95A5A6",
+      "deity": null,
+      "sortOrder": 19,
       "templeIDs": [
         "t_ajanta_caves",
         "t_badami_cave_temples",
@@ -366,7 +426,10 @@
       "id": "c_cave_temple",
       "name": "Cave Temple",
       "description": "Temples belonging to the Cave Temple pilgrimage circuit or classification.",
-      "icon": "circle.hexagonpath.fill",
+      "iconAssetName": "circle.hexagonpath.fill",
+      "color": "#7D6608",
+      "deity": null,
+      "sortOrder": 20,
       "templeIDs": [
         "t_ajanta_caves",
         "t_arjunas_penance_monolithic_relief",
@@ -385,7 +448,10 @@
       "id": "c_hilltop",
       "name": "Hilltop Temple",
       "description": "Temples belonging to the Hilltop Temple pilgrimage circuit or classification.",
-      "icon": "mountain.2.fill",
+      "iconAssetName": "mountain.2.fill",
+      "color": "#5D6D7E",
+      "deity": null,
+      "sortOrder": 21,
       "templeIDs": [
         "t_badrinath",
         "t_chamundi_hill",
@@ -396,7 +462,7 @@
         "t_naina_devi",
         "t_parashurama_temple_parashurama_hill",
         "t_tirumala_venkateswara_temple_tirumala",
-        "t_vaishno_devi_temple_katra"
+        "t_vaishno_devi"
       ],
       "achievementID": null
     },
@@ -404,7 +470,10 @@
       "id": "c_riverbank",
       "name": "Riverbank Temple",
       "description": "Temples belonging to the Riverbank Temple pilgrimage circuit or classification.",
-      "icon": "water.waves",
+      "iconAssetName": "water.waves",
+      "color": "#1A5276",
+      "deity": null,
+      "sortOrder": 22,
       "templeIDs": [
         "t_badrinath",
         "t_chhatarpur_vishnu",
@@ -423,7 +492,10 @@
       "id": "c_chola",
       "name": "Chola Temple",
       "description": "Temples belonging to the Chola Temple pilgrimage circuit or classification.",
-      "icon": "building.2.fill",
+      "iconAssetName": "building.2.fill",
+      "color": "#A04000",
+      "deity": null,
+      "sortOrder": 23,
       "templeIDs": [
         "t_airavatesvara",
         "t_brihadeeswarar",
@@ -439,7 +511,10 @@
       "id": "c_pallava",
       "name": "Pallava Temple",
       "description": "Temples belonging to the Pallava Temple pilgrimage circuit or classification.",
-      "icon": "building.2.fill",
+      "iconAssetName": "building.2.fill",
+      "color": "#784212",
+      "deity": null,
+      "sortOrder": 24,
       "templeIDs": [
         "t_kailasanathar",
         "t_krishna_mandapam",
@@ -454,7 +529,10 @@
       "id": "c_hoysala",
       "name": "Hoysala Temple",
       "description": "Temples belonging to the Hoysala Temple pilgrimage circuit or classification.",
-      "icon": "building.2.fill",
+      "iconAssetName": "building.2.fill",
+      "color": "#6E2F1A",
+      "deity": null,
+      "sortOrder": 25,
       "templeIDs": [
         "t_amrutesvara",
         "t_chennakesava_temple_belur",
@@ -469,7 +547,10 @@
       "id": "c_vijayanagara",
       "name": "Vijayanagara Temple",
       "description": "Temples belonging to the Vijayanagara Temple pilgrimage circuit or classification.",
-      "icon": "building.2.fill",
+      "iconAssetName": "building.2.fill",
+      "color": "#922B21",
+      "deity": null,
+      "sortOrder": 26,
       "templeIDs": [
         "t_achyutaraya",
         "t_hazara_rama",
@@ -484,7 +565,10 @@
       "id": "c_chandela",
       "name": "Chandela Temple",
       "description": "Temples belonging to the Chandela Temple pilgrimage circuit or classification.",
-      "icon": "building.2.fill",
+      "iconAssetName": "building.2.fill",
+      "color": "#7B241C",
+      "deity": null,
+      "sortOrder": 27,
       "templeIDs": [
         "t_chaturbhuj",
         "t_devi_jagadambi",
@@ -499,7 +583,10 @@
       "id": "c_solanki",
       "name": "Solanki Temple",
       "description": "Temples belonging to the Solanki Temple pilgrimage circuit or classification.",
-      "icon": "building.2.fill",
+      "iconAssetName": "building.2.fill",
+      "color": "#873600",
+      "deity": null,
+      "sortOrder": 28,
       "templeIDs": [
         "t_dilwara_temples",
         "t_modhera_sun",
@@ -513,7 +600,10 @@
       "id": "c_swayambhu_vishnu",
       "name": "Swayambhu Vishnu",
       "description": "Temples belonging to the Swayambhu Vishnu pilgrimage circuit or classification.",
-      "icon": "seal.fill",
+      "iconAssetName": "seal.fill",
+      "color": "#1F618D",
+      "deity": "Vishnu",
+      "sortOrder": 29,
       "templeIDs": [
         "t_anantha_padmanabhaswamy",
         "t_badrinath",
@@ -530,7 +620,10 @@
       "id": "c_iskcon",
       "name": "ISKCON Temple",
       "description": "Temples belonging to the ISKCON Temple pilgrimage circuit or classification.",
-      "icon": "person.3.fill",
+      "iconAssetName": "person.3.fill",
+      "color": "#FFC300",
+      "deity": "Krishna",
+      "sortOrder": 30,
       "templeIDs": [
         "t_iskcon_temple_bangalore",
         "t_iskcon_temple_chennai",
@@ -549,7 +642,10 @@
       "id": "c_ancient_1000",
       "name": "Ancient Temple",
       "description": "Temples belonging to the Ancient Temple pilgrimage circuit or classification.",
-      "icon": "clock.fill",
+      "iconAssetName": "clock.fill",
+      "color": "#6C3483",
+      "deity": null,
+      "sortOrder": 31,
       "templeIDs": [
         "t_brihadeeswarar",
         "t_hoysaleswara",
@@ -568,7 +664,10 @@
       "id": "c_largest",
       "name": "Largest Temples",
       "description": "Temples belonging to the Largest Temples pilgrimage circuit or classification.",
-      "icon": "building.fill",
+      "iconAssetName": "building.fill",
+      "color": "#117A65",
+      "deity": null,
+      "sortOrder": 32,
       "templeIDs": [
         "t_annamalaiyar",
         "t_badrinath",
@@ -585,7 +684,10 @@
       "id": "c_tallest_tower",
       "name": "Tallest Temple Tower",
       "description": "Temples belonging to the Tallest Temple Tower pilgrimage circuit or classification.",
-      "icon": "arrow.up.circle.fill",
+      "iconAssetName": "arrow.up.circle.fill",
+      "color": "#0E6655",
+      "deity": null,
+      "sortOrder": 33,
       "templeIDs": [
         "t_annamalaiyar",
         "t_brihadeeswarar",
@@ -600,7 +702,10 @@
       "id": "c_oldest_functioning",
       "name": "Oldest Functioning",
       "description": "Temples belonging to the Oldest Functioning pilgrimage circuit or classification.",
-      "icon": "calendar.circle.fill",
+      "iconAssetName": "calendar.circle.fill",
+      "color": "#4A235A",
+      "deity": null,
+      "sortOrder": 34,
       "templeIDs": [
         "t_annamalaiyar",
         "t_bhadrakali",
@@ -619,7 +724,10 @@
       "id": "c_major_pilgrimage",
       "name": "Major Pilgrimage Center",
       "description": "Temples belonging to the Major Pilgrimage Center pilgrimage circuit or classification.",
-      "icon": "person.3.fill",
+      "iconAssetName": "person.3.fill",
+      "color": "#B7950B",
+      "deity": null,
+      "sortOrder": 35,
       "templeIDs": [
         "t_amarnath_cave",
         "t_badrinath",
@@ -630,7 +738,7 @@
         "t_rameswaram_ramanathaswamy_temple_rameswa",
         "t_somnath_temple_somnath",
         "t_tirumala_venkateswara_temple_tirupati",
-        "t_vaishno_devi_temple_katra"
+        "t_vaishno_devi"
       ],
       "achievementID": null
     },
@@ -638,7 +746,10 @@
       "id": "c_modern_pilgrimage",
       "name": "Modern Pilgrimage Site",
       "description": "Temples belonging to the Modern Pilgrimage Site pilgrimage circuit or classification.",
-      "icon": "mappin.circle.fill",
+      "iconAssetName": "mappin.circle.fill",
+      "color": "#2E86C1",
+      "deity": null,
+      "sortOrder": 36,
       "templeIDs": [
         "t_iskcon_temple_bangalore",
         "t_kanch",
@@ -649,7 +760,7 @@
         "t_sabarimala",
         "t_shirdi_sai_baba",
         "t_tirumala_venkateswara_temple_tirumala",
-        "t_vaishno_devi_temple_katra"
+        "t_vaishno_devi"
       ],
       "achievementID": null
     },
@@ -657,7 +768,10 @@
       "id": "c_new_landmark",
       "name": "New Landmark Temple",
       "description": "Temples belonging to the New Landmark Temple pilgrimage circuit or classification.",
-      "icon": "flag.fill",
+      "iconAssetName": "flag.fill",
+      "color": "#1E8449",
+      "deity": null,
+      "sortOrder": 37,
       "templeIDs": [
         "t_akshardham",
         "t_baps_swaminarayan",
@@ -671,6 +785,116 @@
         "t_sri_sathya_sai_baba"
       ],
       "achievementID": null
+    }
+  ],
+  "achievements": [
+    {
+      "id": "a_jyotirlinga_complete",
+      "categoryID": "c_jyotirlinga",
+      "name": "Complete Jyotirlinga",
+      "description": "Visit all temples in the Jyotirlinga pilgrimage circuit.",
+      "iconAssetName": "flame.fill",
+      "rarity": "legendary",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#FF6B35"
+      }
+    },
+    {
+      "id": "a_shakti_peetha_complete",
+      "categoryID": "c_shakti_peetha",
+      "name": "Complete Shakti Peetha",
+      "description": "Visit all temples in the Shakti Peetha pilgrimage circuit.",
+      "iconAssetName": "sparkles",
+      "rarity": "legendary",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#8B1A4A"
+      }
+    },
+    {
+      "id": "a_char_dham_complete",
+      "categoryID": "c_char_dham",
+      "name": "Complete Char Dham",
+      "description": "Visit all temples in the Char Dham pilgrimage circuit.",
+      "iconAssetName": "building.columns.fill",
+      "rarity": "legendary",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#DAA520"
+      }
+    },
+    {
+      "id": "a_chota_char_dham_complete",
+      "categoryID": "c_chota_char_dham",
+      "name": "Complete Chota Char Dham",
+      "description": "Visit all temples in the Chota Char Dham pilgrimage circuit.",
+      "iconAssetName": "mountain.2.fill",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#5C8A3C"
+      }
+    },
+    {
+      "id": "a_ashta_vinayaka_complete",
+      "categoryID": "c_ashta_vinayaka",
+      "name": "Complete Ashta Vinayaka",
+      "description": "Visit all temples in the Ashta Vinayaka pilgrimage circuit.",
+      "iconAssetName": "seal.fill",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#E87722"
+      }
+    },
+    {
+      "id": "a_pancha_kedar_complete",
+      "categoryID": "c_pancha_kedar",
+      "name": "Complete Pancha Kedar",
+      "description": "Visit all temples in the Pancha Kedar pilgrimage circuit.",
+      "iconAssetName": "snowflake",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#4A90D9"
+      }
+    },
+    {
+      "id": "a_pancha_badri_complete",
+      "categoryID": "c_pancha_badri",
+      "name": "Complete Pancha Badri",
+      "description": "Visit all temples in the Pancha Badri pilgrimage circuit.",
+      "iconAssetName": "leaf.fill",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#27AE60"
+      }
+    },
+    {
+      "id": "a_nava_graha_complete",
+      "categoryID": "c_nava_graha",
+      "name": "Complete Nava Graha",
+      "description": "Visit all temples in the Nava Graha pilgrimage circuit.",
+      "iconAssetName": "moon.stars.fill",
+      "rarity": "rare",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#2C3E50"
+      }
+    },
+    {
+      "id": "a_sapta_puri_complete",
+      "categoryID": "c_sapta_puri",
+      "name": "Complete Sapta Puri",
+      "description": "Visit all temples in the Sapta Puri pilgrimage circuit.",
+      "iconAssetName": "7.circle.fill",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#8E44AD"
+      }
     }
   ],
   "temples": [
@@ -5352,8 +5576,8 @@
       "alternateName": null,
       "deity": "Krishna",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 13.083694,
+        "longitude": 80.270186,
         "city": "Chennai",
         "district": "Chennai",
         "state": "Tamil Nadu",
@@ -5413,8 +5637,8 @@
       "alternateName": null,
       "deity": "Mahalakshmi (Ambabai)",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 16.694858,
+        "longitude": 74.222895,
         "city": "Kolhapur",
         "district": "Kolhapur",
         "state": "Maharashtra",
@@ -5521,8 +5745,8 @@
       "alternateName": null,
       "deity": "Mangal Chandika",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 23.540506,
+        "longitude": 87.897248,
         "city": "Ujani",
         "district": "Bardhaman",
         "state": "West Bengal",
@@ -5575,8 +5799,8 @@
       "alternateName": null,
       "deity": "Mangalagauri",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 24.796436,
+        "longitude": 85.007956,
         "city": "Gaya",
         "district": "Gaya",
         "state": "Bihar",
@@ -5629,8 +5853,8 @@
       "alternateName": null,
       "deity": "Manibandh (Gayatri)",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 26.487647,
+        "longitude": 74.557848,
         "city": "Pushkar",
         "district": "Ajmer",
         "state": "Rajasthan",
@@ -5683,8 +5907,8 @@
       "alternateName": null,
       "deity": "Maya Devi (Shakti)",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 29.912351,
+        "longitude": 78.008718,
         "city": "Haridwar",
         "district": "Haridwar",
         "state": "Uttarakhand",
@@ -5744,8 +5968,8 @@
       "alternateName": null,
       "deity": "Naina Devi",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 31.641723,
+        "longitude": 76.816932,
         "city": "Naina Devi",
         "district": "Bilaspur",
         "state": "Himachal Pradesh",
@@ -5799,8 +6023,8 @@
       "alternateName": null,
       "deity": "Nandikeshwari",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 23.94931,
+        "longitude": 87.68189,
         "city": "Sainthia",
         "district": "Birbhum",
         "state": "West Bengal",
@@ -5853,8 +6077,8 @@
       "alternateName": null,
       "deity": "Narasimha",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 15.133751,
+        "longitude": 78.674882,
         "city": "Ahobilam",
         "district": "Nandyal",
         "state": "Andhra Pradesh",
@@ -6069,8 +6293,8 @@
       "alternateName": null,
       "deity": "Narasimha",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 16.815205,
+        "longitude": 80.124262,
         "city": "Vedadri",
         "district": "Krishna",
         "state": "Andhra Pradesh",
@@ -6177,8 +6401,8 @@
       "alternateName": null,
       "deity": "Patan Devi",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 25.609324,
+        "longitude": 85.123525,
         "city": "Patna",
         "district": "Patna",
         "state": "Bihar",
@@ -6231,8 +6455,8 @@
       "alternateName": null,
       "deity": "Radha-Krishna",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 27.572089,
+        "longitude": 77.672038,
         "city": "Vrindavan",
         "district": "Mathura",
         "state": "Uttar Pradesh",
@@ -6292,8 +6516,8 @@
       "alternateName": null,
       "deity": "Radha-Krishna",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 22.653077,
+        "longitude": 88.380596,
         "city": "Baranagar",
         "district": "Kolkata",
         "state": "West Bengal",
@@ -6353,8 +6577,8 @@
       "alternateName": null,
       "deity": "Radha-Krishna",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 25.755105,
+        "longitude": 81.581029,
         "city": "Kunda",
         "district": "Mathura",
         "state": "Uttar Pradesh",
@@ -6414,8 +6638,8 @@
       "alternateName": null,
       "deity": "Radha-Krishna",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 27.575373,
+        "longitude": 77.693804,
         "city": "Vrindavan",
         "district": "Mathura",
         "state": "Uttar Pradesh",
@@ -6475,8 +6699,8 @@
       "alternateName": null,
       "deity": "Radha-Krishna",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 26.831544,
+        "longitude": 75.749789,
         "city": "Jaipur",
         "district": "Jaipur",
         "state": "Rajasthan",
@@ -6536,8 +6760,8 @@
       "alternateName": null,
       "deity": "Radha-Krishna",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 22.572646,
+        "longitude": 88.363895,
         "city": "Kolkata",
         "district": "Kolkata",
         "state": "West Bengal",
@@ -6597,8 +6821,8 @@
       "alternateName": null,
       "deity": "Rama",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 26.799071,
+        "longitude": 82.205232,
         "city": "Ayodhya",
         "district": "Ayodhya",
         "state": "Uttar Pradesh",
@@ -6652,8 +6876,8 @@
       "alternateName": null,
       "deity": "Rama",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 25.217139,
+        "longitude": 81.104593,
         "city": "Chitrakoot",
         "district": "Chitrakoot",
         "state": "Uttar Pradesh",
@@ -7522,7 +7746,7 @@
       "sourceURL": null
     },
     {
-      "id": "t_vaishno_devi_temple_katra",
+      "id": "t_vaishno_devi",
       "slug": "vaishno-devi-temple-katra",
       "legacyIDs": [],
       "isActive": true,
@@ -7530,8 +7754,8 @@
       "alternateName": null,
       "deity": "Shakti",
       "location": {
-        "latitude": 32.992486,
-        "longitude": 74.931813,
+        "latitude": 33.0299,
+        "longitude": 74.9482,
         "city": "Katra",
         "district": "Reasi",
         "state": "Jammu & Kashmir",
@@ -7542,7 +7766,8 @@
       "categoryIDs": [
         "c_hilltop",
         "c_major_pilgrimage",
-        "c_modern_pilgrimage"
+        "c_modern_pilgrimage",
+        "c_shakti_peetha"
       ],
       "description": "Vaishno Devi Temple, also known as the Shri Mata Vaishno Devi Temple and Vaishno Devi Bhavan, is a Hindu temple in Katra, Reasi district, Jammu and Kashmir, India. Dedicated to Vaishno Devi, a manifestation of godesses Mahakali, Mahalakshmi, and Mahasarasvati, it is on Trikuta mountain at an elevation of 5,200 feet (1,500 meters). The Shakti tradition considers it to be a Shakti Pitha. The temple is 43 km from the main city of Jammu and 29 km from the district headquarters Reasi town.",
       "shortDescription": "Vaishno Devi Temple, also known as the Shri Mata Vaishno Devi Temple and Vaishno Devi Bhavan, is a Hindu temple in Katra, Reasi di…",
@@ -7559,9 +7784,9 @@
         "darshanaTimings": null
       },
       "images": {
-        "heroImageName": "t_vaishno_devi_temple_katra_hero",
+        "heroImageName": "t_vaishno_devi_hero",
         "galleryImageNames": [],
-        "thumbnailImageName": "t_vaishno_devi_temple_katra_thumb",
+        "thumbnailImageName": "t_vaishno_devi_thumb",
         "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mata_Vaishno_Devi_Bhawan.jpg"
       },
       "festivals": [
@@ -7580,7 +7805,7 @@
           "significance": "high"
         }
       ],
-      "significance": "other",
+      "significance": "shaktipeeth",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Vaishno_Devi_Temple"
     },
@@ -12715,60 +12940,6 @@
       "significance": "shaktipeeth",
       "isUNESCO": false,
       "sourceURL": null
-    },
-    {
-      "id": "t_vaishno_devi_temple_katra",
-      "slug": "vaishno-devi-temple-katra",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Vaishno Devi Temple",
-      "alternateName": null,
-      "deity": "Vaishno Devi",
-      "location": {
-        "latitude": 32.992486,
-        "longitude": 74.931813,
-        "city": "Katra",
-        "district": "Reasi",
-        "state": "Jammu and Kashmir",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_shakti_peetha"
-      ],
-      "description": "Vaishno Devi Temple, also known as the Shri Mata Vaishno Devi Temple and Vaishno Devi Bhavan, is a Hindu temple in Katra, Reasi district, Jammu and Kashmir, India. Dedicated to Vaishno Devi, a manifestation of godesses Mahakali, Mahalakshmi, and Mahasarasvati, it is on Trikuta mountain at an elevation of 5,200 feet (1,500 meters). The Shakti tradition considers it to be a Shakti Pitha. The temple is 43 km from the main city of Jammu and 29 km from the district headquarters Reasi town.",
-      "shortDescription": "Vaishno Devi Temple, also known as the Shri Mata Vaishno Devi Temple and Vaishno Devi Bhavan, is a Hindu temple in Katra, Reasi di…",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_vaishno_devi_temple_katra_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_vaishno_devi_temple_katra_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mata_Vaishno_Devi_Bhawan.jpg"
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "shaktipeeth",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Vaishno_Devi_Temple"
     },
     {
       "id": "t_lepakshi_veerabhadra_cave",

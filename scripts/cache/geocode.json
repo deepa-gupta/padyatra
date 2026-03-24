@@ -316,16 +316,43 @@
     "lat": 18.520012,
     "lon": 73.879478
   },
-  "t_iskcon_temple_chennai": null,
-  "t_mahalakshmi": null,
+  "t_iskcon_temple_chennai": {
+    "lat": 13.083694,
+    "lon": 80.270186
+  },
+  "t_mahalakshmi": {
+    "lat": 16.694858,
+    "lon": 74.222895
+  },
   "t_keezhaperumpallam_temple_keezhperumpalla": null,
-  "t_ujani_shakti_peetha": null,
-  "t_mangalagauri": null,
-  "t_manibandh_shakti_peetha": null,
-  "t_maya_devi": null,
-  "t_naina_devi": null,
-  "t_nandikeshwari": null,
-  "t_ahobilam_narasimha": null,
+  "t_ujani_shakti_peetha": {
+    "lat": 23.540506,
+    "lon": 87.897248
+  },
+  "t_mangalagauri": {
+    "lat": 24.796436,
+    "lon": 85.007956
+  },
+  "t_manibandh_shakti_peetha": {
+    "lat": 26.487647,
+    "lon": 74.557848
+  },
+  "t_maya_devi": {
+    "lat": 29.912351,
+    "lon": 78.008718
+  },
+  "t_naina_devi": {
+    "lat": 31.641723,
+    "lon": 76.816932
+  },
+  "t_nandikeshwari": {
+    "lat": 23.94931,
+    "lon": 87.68189
+  },
+  "t_ahobilam_narasimha": {
+    "lat": 15.133751,
+    "lon": 78.674882
+  },
   "t_simhachalam": {
     "lat": 17.7664,
     "lon": 83.2505
@@ -335,17 +362,47 @@
     "lat": 17.5892,
     "lon": 78.9446
   },
-  "t_vedadri_narasimha": null,
+  "t_vedadri_narasimha": {
+    "lat": 16.815205,
+    "lon": 80.124262
+  },
   "t_parashurama_temple_parashurama_hill": null,
-  "t_patan_devi": null,
-  "t_prem": null,
-  "t_shree_radha_krishna": null,
-  "t_jagadguru_kripaluji_maharaj": null,
-  "t_iskcon_temple_vrindavan": null,
-  "t_iskcon_temple_jaipur": null,
-  "t_iskcon_temple_kolkata": null,
-  "t_ram_janmabhoomi": null,
-  "t_chitrakoot_ram": null,
+  "t_patan_devi": {
+    "lat": 25.609324,
+    "lon": 85.123525
+  },
+  "t_prem": {
+    "lat": 27.572089,
+    "lon": 77.672038
+  },
+  "t_shree_radha_krishna": {
+    "lat": 22.653077,
+    "lon": 88.380596
+  },
+  "t_jagadguru_kripaluji_maharaj": {
+    "lat": 25.755105,
+    "lon": 81.581029
+  },
+  "t_iskcon_temple_vrindavan": {
+    "lat": 27.575373,
+    "lon": 77.693804
+  },
+  "t_iskcon_temple_jaipur": {
+    "lat": 26.831544,
+    "lon": 75.749789
+  },
+  "t_iskcon_temple_kolkata": {
+    "lat": 22.572646,
+    "lon": 88.363895
+  },
+  "t_ram_janmabhoomi": {
+    "lat": 26.799071,
+    "lon": 82.205232
+  },
+  "t_chitrakoot_ram": {
+    "lat": 25.217139,
+    "lon": 81.104593
+  },
   "t_nandigram": null,
   "t_hazara_rama": {
     "lat": 15.317797,
@@ -865,5 +922,9 @@
     "lat": 31.0167,
     "lon": 78.45
   },
-  "t_kshirgram_yogadya": null
+  "t_kshirgram_yogadya": null,
+  "t_vaishno_devi": {
+    "lat": 33.0299,
+    "lon": 74.9482
+  }
 }

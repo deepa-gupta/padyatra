@@ -89,7 +89,10 @@ struct MapView: View {
                 .presentationDetents([.medium, .large])
                 .presentationDragIndicator(.visible)
         }
-        .onAppear { vm.reload() }
+        .onAppear {
+            vm.reload()
+            vm.locationService.requestWhenInUsePermission()
+        }
         .onChange(of: vm.filterMode) { vm.reload() }
         .onChange(of: vm.selectedCategoryID) { vm.reload() }
     }

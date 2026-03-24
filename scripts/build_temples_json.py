@@ -65,45 +65,46 @@ CAT_SLUGS = {
     "New Landmark Temple (2000+)":  "c_new_landmark",
 }
 
+# (name, iconAssetName, achievementID, color, deity, rarity)
 CAT_META = {
-    "c_jyotirlinga":         ("Jyotirlinga",           "flame.fill",            "a_jyotirlinga_complete"),
-    "c_shakti_peetha":       ("Shakti Peetha",          "sparkles",              "a_shakti_peetha_complete"),
-    "c_char_dham":           ("Char Dham",              "building.columns.fill", "a_char_dham_complete"),
-    "c_chota_char_dham":     ("Chota Char Dham",        "mountain.2.fill",       "a_chota_char_dham_complete"),
-    "c_ashta_vinayaka":      ("Ashta Vinayaka",         "seal.fill",             "a_ashta_vinayaka_complete"),
-    "c_pancha_kedar":        ("Pancha Kedar",           "snowflake",             "a_pancha_kedar_complete"),
-    "c_pancha_bhoota_linga": ("Pancha Bhoota Linga",   "flame",                 None),
-    "c_pancha_sabhai":       ("Pancha Sabhai",          "music.note",            None),
-    "c_pancha_kailash":      ("Pancha Kailash",         "cloud.fill",            None),
-    "c_pancha_badri":        ("Pancha Badri",           "leaf.fill",             "a_pancha_badri_complete"),
-    "c_pancha_prayag":       ("Pancha Prayag",          "water.waves",           None),
-    "c_pancha_narasimha":    ("Pancha Narasimha",       "shield.fill",           None),
-    "c_nava_graha":          ("Nava Graha",             "moon.stars.fill",       "a_nava_graha_complete"),
-    "c_nava_tirupati":       ("Nava Tirupati",          "star.fill",             None),
-    "c_sapta_puri":          ("Sapta Puri",             "7.circle.fill",         "a_sapta_puri_complete"),
-    "c_rama_circuit":        ("Rama Circuit",           "figure.walk",           None),
-    "c_krishna_circuit":     ("Krishna Circuit",        "music.note",            None),
-    "c_hanuman_circuit":     ("Hanuman Circuit",        "figure.arms.open",      None),
-    "c_unesco":              ("UNESCO World Heritage",  "star.circle.fill",      None),
-    "c_rock_cut":            ("Rock-cut Temple",        "diamond.fill",          None),
-    "c_cave_temple":         ("Cave Temple",            "circle.hexagonpath.fill", None),
-    "c_hilltop":             ("Hilltop Temple",         "mountain.2.fill",       None),
-    "c_riverbank":           ("Riverbank Temple",       "water.waves",           None),
-    "c_chola":               ("Chola Temple",           "building.2.fill",       None),
-    "c_pallava":             ("Pallava Temple",         "building.2.fill",       None),
-    "c_hoysala":             ("Hoysala Temple",         "building.2.fill",       None),
-    "c_vijayanagara":        ("Vijayanagara Temple",    "building.2.fill",       None),
-    "c_chandela":            ("Chandela Temple",        "building.2.fill",       None),
-    "c_solanki":             ("Solanki Temple",         "building.2.fill",       None),
-    "c_swayambhu_vishnu":    ("Swayambhu Vishnu",       "seal.fill",             None),
-    "c_iskcon":              ("ISKCON Temple",          "person.3.fill",         None),
-    "c_ancient_1000":        ("Ancient Temple",         "clock.fill",            None),
-    "c_largest":             ("Largest Temples",        "building.fill",         None),
-    "c_tallest_tower":       ("Tallest Temple Tower",   "arrow.up.circle.fill",  None),
-    "c_oldest_functioning":  ("Oldest Functioning",     "calendar.circle.fill",  None),
-    "c_major_pilgrimage":    ("Major Pilgrimage Center","person.3.fill",         None),
-    "c_modern_pilgrimage":   ("Modern Pilgrimage Site", "mappin.circle.fill",    None),
-    "c_new_landmark":        ("New Landmark Temple",    "flag.fill",             None),
+    "c_jyotirlinga":         ("Jyotirlinga",            "flame.fill",              "a_jyotirlinga_complete",    "#FF6B35", "Shiva",   "legendary"),
+    "c_shakti_peetha":       ("Shakti Peetha",           "sparkles",                "a_shakti_peetha_complete",  "#8B1A4A", "Shakti",  "legendary"),
+    "c_char_dham":           ("Char Dham",               "building.columns.fill",   "a_char_dham_complete",      "#DAA520", "Vishnu",  "legendary"),
+    "c_chota_char_dham":     ("Chota Char Dham",         "mountain.2.fill",         "a_chota_char_dham_complete","#5C8A3C", "Vishnu",  "epic"),
+    "c_ashta_vinayaka":      ("Ashta Vinayaka",          "seal.fill",               "a_ashta_vinayaka_complete", "#E87722", "Ganesha", "epic"),
+    "c_pancha_kedar":        ("Pancha Kedar",            "snowflake",               "a_pancha_kedar_complete",   "#4A90D9", "Shiva",   "epic"),
+    "c_pancha_bhoota_linga": ("Pancha Bhoota Linga",    "flame",                   None,                        "#C0392B", "Shiva",   "epic"),
+    "c_pancha_sabhai":       ("Pancha Sabhai",           "music.note",              None,                        "#9B59B6", "Shiva",   "rare"),
+    "c_pancha_kailash":      ("Pancha Kailash",          "cloud.fill",              None,                        "#7F8C8D", "Shiva",   "epic"),
+    "c_pancha_badri":        ("Pancha Badri",            "leaf.fill",               "a_pancha_badri_complete",   "#27AE60", "Vishnu",  "epic"),
+    "c_pancha_prayag":       ("Pancha Prayag",           "water.waves",             None,                        "#2980B9", "Ganga",   "rare"),
+    "c_pancha_narasimha":    ("Pancha Narasimha",        "shield.fill",             None,                        "#E67E22", "Vishnu",  "rare"),
+    "c_nava_graha":          ("Nava Graha",              "moon.stars.fill",         "a_nava_graha_complete",     "#2C3E50", None,      "rare"),
+    "c_nava_tirupati":       ("Nava Tirupati",           "star.fill",               None,                        "#F39C12", "Vishnu",  "rare"),
+    "c_sapta_puri":          ("Sapta Puri",              "7.circle.fill",           "a_sapta_puri_complete",     "#8E44AD", None,      "epic"),
+    "c_rama_circuit":        ("Rama Circuit",            "figure.walk",             None,                        "#3498DB", "Rama",    "rare"),
+    "c_krishna_circuit":     ("Krishna Circuit",         "music.note",              None,                        "#1ABC9C", "Krishna", "rare"),
+    "c_hanuman_circuit":     ("Hanuman Circuit",         "figure.arms.open",        None,                        "#E74C3C", "Hanuman", "rare"),
+    "c_unesco":              ("UNESCO World Heritage",   "star.circle.fill",        None,                        "#F1C40F", None,      "epic"),
+    "c_rock_cut":            ("Rock-cut Temple",         "diamond.fill",            None,                        "#95A5A6", None,      "common"),
+    "c_cave_temple":         ("Cave Temple",             "circle.hexagonpath.fill", None,                        "#7D6608", None,      "common"),
+    "c_hilltop":             ("Hilltop Temple",          "mountain.2.fill",         None,                        "#5D6D7E", None,      "common"),
+    "c_riverbank":           ("Riverbank Temple",        "water.waves",             None,                        "#1A5276", None,      "common"),
+    "c_chola":               ("Chola Temple",            "building.2.fill",         None,                        "#A04000", None,      "common"),
+    "c_pallava":             ("Pallava Temple",          "building.2.fill",         None,                        "#784212", None,      "common"),
+    "c_hoysala":             ("Hoysala Temple",          "building.2.fill",         None,                        "#6E2F1A", None,      "common"),
+    "c_vijayanagara":        ("Vijayanagara Temple",     "building.2.fill",         None,                        "#922B21", None,      "common"),
+    "c_chandela":            ("Chandela Temple",         "building.2.fill",         None,                        "#7B241C", None,      "common"),
+    "c_solanki":             ("Solanki Temple",          "building.2.fill",         None,                        "#873600", None,      "common"),
+    "c_swayambhu_vishnu":    ("Swayambhu Vishnu",        "seal.fill",               None,                        "#1F618D", "Vishnu",  "rare"),
+    "c_iskcon":              ("ISKCON Temple",           "person.3.fill",           None,                        "#FFC300", "Krishna", "common"),
+    "c_ancient_1000":        ("Ancient Temple",          "clock.fill",              None,                        "#6C3483", None,      "common"),
+    "c_largest":             ("Largest Temples",         "building.fill",           None,                        "#117A65", None,      "rare"),
+    "c_tallest_tower":       ("Tallest Temple Tower",    "arrow.up.circle.fill",    None,                        "#0E6655", None,      "rare"),
+    "c_oldest_functioning":  ("Oldest Functioning",      "calendar.circle.fill",    None,                        "#4A235A", None,      "rare"),
+    "c_major_pilgrimage":    ("Major Pilgrimage Center", "person.3.fill",           None,                        "#B7950B", None,      "common"),
+    "c_modern_pilgrimage":   ("Modern Pilgrimage Site",  "mappin.circle.fill",      None,                        "#2E86C1", None,      "common"),
+    "c_new_landmark":        ("New Landmark Temple",     "flag.fill",               None,                        "#1E8449", None,      "common"),
 }
 
 SIG_MAP = {
@@ -201,7 +202,9 @@ for row in rows:
     # Normalise key: lowercase + remove common suffixes for better matching
     norm_name = re.sub(r"\s+(temple|mandir|mata|devi|kovil|peeth|shrine)$", "",
                        name.lower().strip(), flags=re.I)
-    key = (norm_name, city.lower(), state.lower())
+    norm_state = state.lower().replace(" & ", " and ").replace("&", "and")
+    norm_city  = city.lower().strip()
+    key = (norm_name, norm_city, norm_state)
     if key not in temples_map:
         temples_map[key] = {
             "name": name,
@@ -364,15 +367,33 @@ for t in unique_temples:
             cat_temple_ids[cat_id].append(t["_id"])
 
 categories = []
-for cat_id, (cat_name, icon, achievement_id) in CAT_META.items():
+achievements = []
+for sort_idx, (cat_id, meta) in enumerate(CAT_META.items()):
+    cat_name, icon, achievement_id, color, deity, rarity = meta
     categories.append({
         "id":            cat_id,
         "name":          cat_name,
         "description":   f"Temples belonging to the {cat_name} pilgrimage circuit or classification.",
-        "icon":          icon,
+        "iconAssetName": icon,
+        "color":         color,
+        "deity":         deity,
+        "sortOrder":     sort_idx,
         "templeIDs":     sorted(cat_temple_ids.get(cat_id, [])),
         "achievementID": achievement_id,
     })
+    if achievement_id:
+        achievements.append({
+            "id":           achievement_id,
+            "categoryID":   cat_id,
+            "name":         f"Complete {cat_name}",
+            "description":  f"Visit all temples in the {cat_name} pilgrimage circuit.",
+            "iconAssetName": icon,
+            "rarity":       rarity,
+            "colors": {
+                "locked":   "#9E9E9E",
+                "unlocked": color,
+            },
+        })
 
 # ── Step 5: Build temple objects ──────────────────────────────────────────────
 print("Step 5: Building temple objects...")
@@ -458,10 +479,11 @@ for t in unique_temples:
 # ── Step 6: Write JSON ────────────────────────────────────────────────────────
 print("Step 6: Writing temples.json...")
 output = {
-    "version":     4,
-    "lastUpdated": "2026-03-23",
-    "categories":  categories,
-    "temples":     temples_out,
+    "version":      4,
+    "lastUpdated":  "2026-03-23",
+    "categories":   categories,
+    "achievements": achievements,
+    "temples":      temples_out,
 }
 OUT.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
 

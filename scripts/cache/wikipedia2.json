@@ -1783,5 +1783,12 @@
     "lon": null,
     "image_url": null,
     "source_url": null
+  },
+  "t_vaishno_devi": {
+    "extract": "Vaishno Devi Temple, also known as the Shri Mata Vaishno Devi Temple and Vaishno Devi Bhavan, is a Hindu temple in Katra, Reasi district, Jammu and Kashmir, India. Dedicated to Vaishno Devi, a manifestation of godesses Mahakali, Mahalakshmi, and Mahasarasvati, it is on Trikuta mountain at an elevation of 5,200 feet (1,500 meters). The Shakti tradition considers it to be a Shakti Pitha. The temple is 43 km from the main city of Jammu and 29 km from the district headquarters Reasi town. The temple is governed by the Shri Mata Vaishno Devi Shrine Board (SMVDSB) and has been chaired by the Governor of Jammu and Kashmir since August 1986.",
+    "lat": 33.0299,
+    "lon": 74.9482,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mata_Vaishno_Devi_Bhawan.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Vaishno_Devi_Temple"
   }
 }
