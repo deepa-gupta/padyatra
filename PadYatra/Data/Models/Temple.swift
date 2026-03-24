@@ -87,7 +87,7 @@ enum TempleSignificance: String, Codable, CaseIterable {
     case shaktipeeth
     case divyaDesam
     case charDham
-    case panchaKedar       = "panch_kedar"
+    case panchaKedar
     case ashtavinayak
     case other
 }
