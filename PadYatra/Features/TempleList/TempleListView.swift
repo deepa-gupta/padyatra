@@ -71,7 +71,10 @@ struct TempleListView: View {
             )
         }
         .tint(Color.brandSaffron)
-        .onAppear { recompute() }
+        .onAppear {
+            dataService.rebuildVisitedSet(from: allVisits)
+            recompute()
+        }
         .onChange(of: vm.filterMode) { recompute() }
         .onChange(of: vm.searchText) { recompute() }
         .onChange(of: vm.selectedCategoryID) { recompute() }

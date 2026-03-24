@@ -37,8 +37,14 @@ struct ProfileView: View {
             .navigationBarTitleDisplayMode(.large)
         }
         .tint(Color.brandSaffron)
-        .onAppear { reload() }
-        .onChange(of: allVisits) { reload() }
+        .onAppear {
+            dataService.rebuildVisitedSet(from: allVisits)
+            reload()
+        }
+        .onChange(of: allVisits) { _, visits in
+            dataService.rebuildVisitedSet(from: visits)
+            reload()
+        }
     }
 
     // MARK: - Hero Section

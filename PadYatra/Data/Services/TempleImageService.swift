@@ -2,18 +2,21 @@
 // Resolves image URLs for a temple from verified sources only.
 // We never show images unless we are confident they show the correct temple.
 //
-// Priority order:
-//   1. remoteHeroURL in the JSON — pre-verified during build pipeline (exact article match)
-//   2. Wikipedia REST API        — via temple's stored sourceURL (exact article, not a search)
-//   3. Unsplash                  — searched with name + city + state for specificity
+// Two resolution tiers:
+//   • thumbnailURL(for:) — 330 px image for list rows (low memory cost)
+//   • imageURLs(for:)    — up to 5 full-resolution images for the detail gallery
+//
+// Priority order for both tiers:
+//   1. remoteHeroURL in the JSON — pre-verified at build time
+//   2. Wikipedia REST API        — via temple's stored sourceURL (exact article)
 //
 // Wikimedia Commons text-search is intentionally excluded: a name-only search
 // ("Ganesh Temple") reliably returns images of the wrong temple.
 //
-// If all sources return nothing, callers must show a "no photos" state rather
-// than a placeholder that implies a photo exists.
+// Caches use NSCache so iOS can evict entries under memory pressure.
 import Foundation
 import OSLog
+import UIKit
 
 // MARK: - TempleImageService
 
@@ -21,54 +24,139 @@ import OSLog
 final class TempleImageService {
 
     static let shared = TempleImageService()
-    private init() {}
 
-    // MARK: - State
+    private init() {
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(handleMemoryWarning),
+            name: UIApplication.didReceiveMemoryWarningNotification,
+            object: nil
+        )
+    }
 
-    private var urlCache: [String: [URL]] = [:]
+    // MARK: - Caches (NSCache auto-evicts on memory pressure)
+
+    private let galleryCache = NSCache<NSString, NSArray>()   // [URL]
+    private let thumbCache   = NSCache<NSString, NSURL>()     // URL?
     private let logger = Logger(subsystem: "com.padyatra", category: "TempleImageService")
 
     // MARK: - Public
 
-    /// Returns verified image URLs for a temple.
+    /// Returns a single small (~330 px) URL for use in list row thumbnails.
+    /// Returns nil when no verified image is available.
+    func thumbnailURL(for temple: Temple) async -> URL? {
+        let key = temple.id as NSString
+        if let cached = thumbCache.object(forKey: key) { return cached as URL }
+        let url = await Self.fetchThumbnail(for: temple)
+        if let url { thumbCache.setObject(url as NSURL, forKey: key) }
+        logger.debug("'\(temple.id)' thumbnail: \(url?.absoluteString ?? "none")")
+        return url
+    }
+
+    /// Returns verified image URLs for the detail gallery (up to 5, full resolution).
     /// Returns an empty array — not a placeholder — when no photos are found.
     func imageURLs(for temple: Temple) async -> [URL] {
-        if let cached = urlCache[temple.id] { return cached }
-        let urls = await Self.fetchAll(for: temple)
-        urlCache[temple.id] = urls
-        logger.debug("'\(temple.id)': \(urls.count) image(s) found")
+        let key = temple.id as NSString
+        if let cached = galleryCache.object(forKey: key) as? [URL] { return cached }
+        let urls = await Self.fetchGallery(for: temple)
+        galleryCache.setObject(urls as NSArray, forKey: key)
+        logger.debug("'\(temple.id)': \(urls.count) gallery image(s)")
         return urls
     }
 
-    // MARK: - Aggregator
+    // MARK: - Memory
 
-    private nonisolated static func fetchAll(for temple: Temple) async -> [URL] {
-        // remoteHeroURL and fetchWikipediaHero both resolve the same Wikipedia article
-        // (one is the original image, the other a resized thumbnail). Using both would
-        // show the same photo twice. Use remoteHeroURL when available; only call the
-        // live Wikipedia API as a fallback for temples without a pre-baked URL.
+    @objc private func handleMemoryWarning() {
+        galleryCache.removeAllObjects()
+        thumbCache.removeAllObjects()
+        logger.warning("Memory warning — image URL caches cleared.")
+    }
+
+    // MARK: - Thumbnail (330 px)
+
+    private nonisolated static func fetchThumbnail(for temple: Temple) async -> URL? {
+        if let heroString = temple.images.remoteHeroURL {
+            return widenWikimediaThumb(heroString, width: 330)
+                ?? URL(string: heroString)
+        }
+        guard
+            let sourceURL = temple.sourceURL,
+            let title = sourceURL.components(separatedBy: "/wiki/").last,
+            !title.isEmpty
+        else { return nil }
+        return await fetchWikipediaSummaryHero(title, width: 330)
+    }
+
+    // MARK: - Gallery (up to 5 images, ~1280 px)
+
+    private nonisolated static func fetchGallery(for temple: Temple) async -> [URL] {
         if let heroString = temple.images.remoteHeroURL,
            let heroURL = URL(string: heroString) {
             return [heroURL]
         }
+        guard
+            let sourceURL = temple.sourceURL,
+            let title = sourceURL.components(separatedBy: "/wiki/").last,
+            !title.isEmpty
+        else { return [] }
 
-        if let hero = await fetchWikipediaHero(temple) {
+        if let mediaURLs = await fetchWikipediaMediaList(title), !mediaURLs.isEmpty {
+            return mediaURLs
+        }
+        if let hero = await fetchWikipediaSummaryHero(title, width: 1200) {
             return [hero]
         }
-
-        // No verified image found — caller shows "No photos available".
         return []
     }
 
-    // MARK: - Wikipedia (exact article URL)
+    // MARK: - Wikipedia media-list (multiple images)
 
-    private nonisolated static func fetchWikipediaHero(_ temple: Temple) async -> URL? {
-        guard
-            let sourceURL = temple.sourceURL,
-            let articleTitle = sourceURL.components(separatedBy: "/wiki/").last,
-            !articleTitle.isEmpty
+    private nonisolated static func fetchWikipediaMediaList(_ articleTitle: String) async -> [URL]? {
+        guard let apiURL = URL(string: "https://en.wikipedia.org/api/rest_v1/page/media-list/\(articleTitle)")
         else { return nil }
 
+        var request = URLRequest(url: apiURL)
+        request.setValue("PadYatra/1.0 (iOS; contact@padyatra.com)", forHTTPHeaderField: "User-Agent")
+
+        guard
+            let (data, response) = try? await URLSession.shared.data(for: request),
+            (response as? HTTPURLResponse)?.statusCode == 200
+        else { return nil }
+
+        struct MediaList: Decodable {
+            struct Item: Decodable {
+                struct SrcEntry: Decodable { let src: String; let scale: String }
+                let title: String
+                let type: String
+                let srcset: [SrcEntry]?
+            }
+            let items: [Item]
+        }
+
+        guard let mediaList = try? JSONDecoder().decode(MediaList.self, from: data) else { return nil }
+
+        let blocked = ["map", "plan", "flag", "logo", "seal", "coat_of_arms", "location", ".svg"]
+
+        let urls = mediaList.items
+            .filter { item in
+                guard item.type == "image", !(item.srcset?.isEmpty ?? true) else { return false }
+                let lower = item.title.lowercased()
+                return !blocked.contains(where: { lower.contains($0) })
+            }
+            .compactMap { item -> URL? in
+                let src = item.srcset?.first(where: { $0.scale == "2x" })?.src
+                    ?? item.srcset?.last?.src
+                guard let src else { return nil }
+                let absolute = src.hasPrefix("//") ? "https:" + src : src
+                return URL(string: absolute)
+            }
+
+        return Array(urls.prefix(5))
+    }
+
+    // MARK: - Wikipedia summary (single image)
+
+    private nonisolated static func fetchWikipediaSummaryHero(_ articleTitle: String, width: Int) async -> URL? {
         guard let apiURL = URL(string: "https://en.wikipedia.org/api/rest_v1/page/summary/\(articleTitle)")
         else { return nil }
 
@@ -88,11 +176,13 @@ final class TempleImageService {
         guard let summary = try? JSONDecoder().decode(WikiSummary.self, from: data) else { return nil }
 
         if let thumbSource = summary.thumbnail?.source,
-           let widened = widenWikimediaThumb(thumbSource, width: 1200) {
+           let widened = widenWikimediaThumb(thumbSource, width: width) {
             return widened
         }
         return summary.originalimage.flatMap { URL(string: $0.source) }
     }
+
+    // MARK: - Wikimedia URL sizing
 
     private nonisolated static func widenWikimediaThumb(_ source: String, width: Int) -> URL? {
         guard var comps = URLComponents(string: source) else { return nil }

@@ -3635,7 +3635,7 @@
         "heroImageName": "t_jagatpita_brahma_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_jagatpita_brahma_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Brahma_Temple%2C_Pushkar.jpg/1200px-Brahma_Temple%2C_Pushkar.jpg"
       },
       "festivals": [
         {
@@ -3648,7 +3648,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Brahma_Temple,_Pushkar"
     },
     {
       "id": "t_sri_sathya_sai_baba",
@@ -6107,7 +6107,7 @@
         "heroImageName": "t_ahobilam_narasimha_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_ahobilam_narasimha_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Upper_Ahobilam_temple_Gopuram_02.jpg/1200px-Upper_Ahobilam_temple_Gopuram_02.jpg"
       },
       "festivals": [
         {
@@ -6120,7 +6120,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Ahobilam"
     },
     {
       "id": "t_simhachalam",
@@ -12980,7 +12980,7 @@
         "heroImageName": "t_lepakshi_veerabhadra_cave_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_lepakshi_veerabhadra_cave_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Veerabhadra_Temple_Tower.JPG/1200px-Veerabhadra_Temple_Tower.JPG"
       },
       "festivals": [
         {
@@ -12993,7 +12993,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Veerabhadra_Temple,_Lepakshi"
     },
     {
       "id": "t_vimala",

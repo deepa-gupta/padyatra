@@ -10,6 +10,8 @@ struct AchievementsGridView: View {
     @StateObject private var vm: AchievementsViewModel
     @Query private var allVisits: [TempleVisit]
 
+    private let dataService: TempleDataService
+
     // MARK: - Layout
 
     private let columns = [
@@ -20,6 +22,7 @@ struct AchievementsGridView: View {
     // MARK: - Init
 
     init(dataService: TempleDataService, achievementService: AchievementService) {
+        self.dataService = dataService
         _vm = StateObject(
             wrappedValue: AchievementsViewModel(
                 dataService: dataService,
@@ -64,8 +67,14 @@ struct AchievementsGridView: View {
                 vm.finishReveal(for: achievement)
             }
         }
-        .onAppear { vm.reload() }
-        .onChange(of: allVisits) { vm.reload() }
+        .onAppear {
+            dataService.rebuildVisitedSet(from: allVisits)
+            vm.reload()
+        }
+        .onChange(of: allVisits) { _, visits in
+            dataService.rebuildVisitedSet(from: visits)
+            vm.reload()
+        }
     }
 
     // MARK: - Helpers
