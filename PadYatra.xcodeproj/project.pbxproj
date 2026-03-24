@@ -58,6 +58,7 @@
 		B6D9A146E44B21A044BF9850 /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF56C1E8992E4F8258E4262 /* Date+Formatting.swift */; };
 		C083B3539AD615845E07F4F8 /* AchievementServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F01547B90F2F3A9908590D4 /* AchievementServiceTests.swift */; };
 		C3DB7E3C841C4C2F6C4A0B65 /* PadYatraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E0A9D73D5E4618BDFD1B6E /* PadYatraApp.swift */; };
+		C97DEF59C77A3C7EC101F2F0 /* TempleImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A49E41C7E24EB3C8982F1 /* TempleImageService.swift */; };
 		E97F75809BA897BB33917D55 /* VisitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1754D83E12980867DA54B /* VisitService.swift */; };
 		EDDA75294ED381050812A828 /* VisitedBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0882AB97AE098D9FEC69D668 /* VisitedBadge.swift */; };
 		EFA355A3313A673D29D45C4A /* TempleFactsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD57CBF8756A39E8E0E8BE /* TempleFactsGrid.swift */; };
@@ -131,6 +132,7 @@
 		D5ABCEEBEC9E426B318149EB /* VisitServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitServiceTests.swift; sourceTree = "<group>"; };
 		DB45CAD8D73FC64E23649F46 /* TempleDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDetailViewModel.swift; sourceTree = "<group>"; };
 		EE8627B41063BF55BF098626 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		F17A49E41C7E24EB3C8982F1 /* TempleImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleImageService.swift; sourceTree = "<group>"; };
 		F4D3B1CD71878AA8ECCAED79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F76CA63CB9548BDC8B1F8289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F81B040C6871176DA167D315 /* PadYatra.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PadYatra.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,6 +193,7 @@
 				894CAD3E0C0A0D734D641146 /* LocationService.swift */,
 				1B0DF66685311F9C2D865801 /* RemoteDataService.swift */,
 				BF3CB09DBABE00E08E9B6382 /* TempleDataService.swift */,
+				F17A49E41C7E24EB3C8982F1 /* TempleImageService.swift */,
 				66B1754D83E12980867DA54B /* VisitService.swift */,
 			);
 			path = Services;
@@ -509,6 +512,7 @@
 				A4FD18D6882A704CD394A4F6 /* TempleFilterBar.swift in Sources */,
 				942623A750E381AB26925A3A /* TempleFilterMode.swift in Sources */,
 				1EF45CC9D64AFDE08B555CB6 /* TempleHeroGallery.swift in Sources */,
+				C97DEF59C77A3C7EC101F2F0 /* TempleImageService.swift in Sources */,
 				4ED15FB90B173E0D330456B3 /* TempleListRow.swift in Sources */,
 				ACF7E85EB5BF0C14EAA0280E /* TempleListView.swift in Sources */,
 				3996DDB06D42090EDC1A6D48 /* TempleListViewModel.swift in Sources */,

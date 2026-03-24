@@ -59,7 +59,7 @@ struct TempleFactsGrid: View {
         }
 
         if let photographyAllowed = facts.photographyAllowed {
-            let icon = photographyAllowed ? "camera" : "camera.slash"
+            let icon = photographyAllowed ? "camera" : "video.slash"
             let label = photographyAllowed ? "Photography allowed" : "No photography"
             items.append(FactItem(id: "photography", icon: icon, label: label))
         }
@@ -111,7 +111,6 @@ struct TempleFactChip: View {
             Text(label)
                 .font(.caption)
                 .foregroundStyle(Color.brandEarthBrown)
-                .lineLimit(2)
                 .fixedSize(horizontal: false, vertical: true)
 
             Spacer(minLength: 0)

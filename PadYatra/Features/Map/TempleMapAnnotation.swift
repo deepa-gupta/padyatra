@@ -56,12 +56,14 @@ final class TempleMarkerView: MKMarkerAnnotationView {
 
     private func configure() {
         guard let templeAnnotation = annotation as? TempleAnnotation else {
+            glyphText = nil
             glyphImage = UIImage(systemName: "building.columns")
             markerTintColor = UIColor(Color.brandTempleGrey)
             return
         }
 
-        glyphImage = UIImage(systemName: "figure.walk")
+        glyphImage = nil
+        glyphText = "ॐ"
 
         if templeAnnotation.isVisited {
             markerTintColor = UIColor(Color.brandVisited)

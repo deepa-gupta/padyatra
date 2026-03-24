@@ -1,12 +1,14 @@
 // TempleHeroGallery.swift
 // Full-width paged image strip for the temple detail hero.
+// Images are loaded remotely via AsyncImage; shows a branded gradient
+// placeholder while loading or if no URLs are available.
 import SwiftUI
 
 // MARK: - TempleHeroGallery
 
 struct TempleHeroGallery: View {
 
-    let images: TempleImages
+    let imageURLs: [URL]
     let templeName: String
 
     // MARK: - Constants
@@ -16,34 +18,38 @@ struct TempleHeroGallery: View {
     // MARK: - Body
 
     var body: some View {
-        let allImages = allImageNames()
-
-        TabView {
-            ForEach(Array(allImages.enumerated()), id: \.offset) { index, imageName in
-                imageSlide(named: imageName, index: index, total: allImages.count)
+        if imageURLs.isEmpty {
+            placeholderGradient
+        } else {
+            TabView {
+                ForEach(Array(imageURLs.enumerated()), id: \.offset) { index, url in
+                    imageSlide(url: url, index: index, total: imageURLs.count)
+                }
             }
+            .tabViewStyle(.page(indexDisplayMode: .automatic))
+            .frame(height: galleryHeight)
+            .clipped()
         }
-        .tabViewStyle(.page(indexDisplayMode: .automatic))
-        .frame(height: galleryHeight)
-        .clipped()
     }
 
     // MARK: - Slide
 
     @ViewBuilder
-    private func imageSlide(named imageName: String, index: Int, total: Int) -> some View {
-        if let uiImage = UIImage(named: imageName) {
-            Image(uiImage: uiImage)
-                .resizable()
-                .scaledToFill()
-                .frame(maxWidth: .infinity)
-                .frame(height: galleryHeight)
-                .clipped()
-                .accessibilityLabel("\(templeName) — photo \(index + 1) of \(total)")
-        } else {
-            placeholderGradient
-                .accessibilityLabel("\(templeName) — photo \(index + 1) of \(total)")
+    private func imageSlide(url: URL, index: Int, total: Int) -> some View {
+        AsyncImage(url: url) { phase in
+            switch phase {
+            case .success(let image):
+                image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(maxWidth: .infinity)
+                    .frame(height: galleryHeight)
+                    .clipped()
+            default:
+                placeholderGradient
+            }
         }
+        .accessibilityLabel("\(templeName) — photo \(index + 1) of \(total)")
     }
 
     // MARK: - Placeholder
@@ -62,28 +68,13 @@ struct TempleHeroGallery: View {
                 .foregroundStyle(Color.white.opacity(0.7))
         )
     }
-
-    // MARK: - Helpers
-
-    /// Returns hero image followed by gallery images, deduplicating as needed.
-    private func allImageNames() -> [String] {
-        var result = [images.heroImageName]
-        for name in images.galleryImageNames where name != images.heroImageName {
-            result.append(name)
-        }
-        return result
-    }
 }
 
 // MARK: - Preview
 
 #Preview("Temple Hero Gallery") {
     TempleHeroGallery(
-        images: TempleImages(
-            heroImageName: "somnath_hero",
-            galleryImageNames: ["somnath_gallery_1", "somnath_gallery_2"],
-            thumbnailImageName: "somnath_thumb"
-        ),
+        imageURLs: [],
         templeName: "Somnath Temple"
     )
 }

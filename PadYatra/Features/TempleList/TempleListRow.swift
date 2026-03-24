@@ -7,6 +7,8 @@ struct TempleListRow: View {
     let temple: Temple
     let isVisited: Bool
 
+    @State private var thumbnailURL: URL?
+
     // MARK: - Constants
 
     private let thumbnailSize: CGFloat = 56
@@ -24,35 +26,35 @@ struct TempleListRow: View {
         .padding(.vertical, AppSpacing.xs)
         .accessibilityElement(children: .combine)
         .accessibilityLabel(rowAccessibilityLabel)
+        .task(id: temple.id) {
+            thumbnailURL = await TempleImageService.shared.imageURLs(for: temple).first
+        }
     }
 
     // MARK: - Subviews
 
     @ViewBuilder
     private var thumbnail: some View {
-        let imageName = temple.images.thumbnailImageName
-
-        if let uiImage = UIImage(named: imageName) {
-            Image(uiImage: uiImage)
-                .resizable()
-                .scaledToFill()
-                .frame(width: thumbnailSize, height: thumbnailSize)
-                .clipShape(RoundedRectangle(cornerRadius: thumbnailCornerRadius))
-        } else {
-            // Placeholder gradient when the asset is not bundled yet
-            LinearGradient(
-                colors: [Color.brandSaffron, Color.brandPeach],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-            .frame(width: thumbnailSize, height: thumbnailSize)
-            .clipShape(RoundedRectangle(cornerRadius: thumbnailCornerRadius))
-            .overlay(
-                Image(systemName: "building.columns")
-                    .foregroundStyle(Color.white.opacity(0.8))
-                    .font(.title3)
-            )
+        AsyncImage(url: thumbnailURL) { phase in
+            if case .success(let image) = phase {
+                image
+                    .resizable()
+                    .scaledToFill()
+            } else {
+                LinearGradient(
+                    colors: [Color.brandSaffron, Color.brandPeach],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+                .overlay(
+                    Image(systemName: "building.columns")
+                        .foregroundStyle(Color.white.opacity(0.8))
+                        .font(.title3)
+                )
+            }
         }
+        .frame(width: thumbnailSize, height: thumbnailSize)
+        .clipShape(RoundedRectangle(cornerRadius: thumbnailCornerRadius))
     }
 
     @ViewBuilder
