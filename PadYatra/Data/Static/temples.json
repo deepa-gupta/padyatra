@@ -96,9 +96,9 @@
       "deity": "Vishnu",
       "sortOrder": 2,
       "templeIDs": [
+        "t_badrinath",
         "t_dwarkadhish",
         "t_jagannath",
-        "t_parashurama_temple_badrinath",
         "t_rameswaram_ramanathaswamy_temple_rameswa"
       ],
       "achievementID": "a_char_dham_complete"
@@ -217,10 +217,10 @@
       "sortOrder": 10,
       "templeIDs": [
         "t_devprayag",
-        "t_kanak_prayag",
         "t_karnaprayag",
         "t_nandaprayag",
-        "t_rudraprayag"
+        "t_rudraprayag",
+        "t_vishnuprayag"
       ],
       "achievementID": null
     },
@@ -251,13 +251,14 @@
       "sortOrder": 12,
       "templeIDs": [
         "t_alangudi",
-        "t_avur",
         "t_kanjanur",
         "t_keezhaperumpallam_temple_keezhaperumpall",
-        "t_keezhaperumpallam_temple_keezhperumpalla",
         "t_suryanar",
+        "t_swetharanyeswarar",
         "t_thingalur",
-        "t_thirunallar"
+        "t_thirunallar",
+        "t_tirunageswaram",
+        "t_vaitheeswaran_koil"
       ],
       "achievementID": "a_nava_graha_complete"
     },
@@ -271,14 +272,14 @@
       "sortOrder": 13,
       "templeIDs": [
         "t_alwarthirunagari",
-        "t_thirukkurungudi",
+        "t_aravindalochanar",
+        "t_devapiran",
+        "t_srivaikuntanathan",
+        "t_then_thiruperai",
         "t_thirukolur",
-        "t_thirumalisai",
-        "t_thirunagari",
-        "t_thirunangur",
-        "t_thirupathisaram",
         "t_thirupulingudi",
-        "t_thiruvanparis"
+        "t_tirukulandhai",
+        "t_varagunamangai"
       ],
       "achievementID": null
     },
