@@ -1,5 +1,6 @@
 // VisitHistorySection.swift
 // Shows all recorded visits for a temple with swipe-to-delete and tap-to-edit.
+// Each row also has a share button that generates a visit card via VisitShareService.
 import SwiftUI
 
 // MARK: - VisitHistorySection
@@ -52,11 +53,9 @@ struct VisitHistorySection: View {
     private var visitList: some View {
         VStack(spacing: AppSpacing.xs) {
             ForEach(vm.visits) { visit in
-                VisitRow(visit: visit)
+                VisitRow(temple: vm.temple, visit: visit)
                     .contentShape(Rectangle())
-                    .onTapGesture {
-                        editingVisit = visit
-                    }
+                    .onTapGesture { editingVisit = visit }
                     .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                         Button(role: .destructive) {
                             vm.deleteVisit(visit)
@@ -90,9 +89,13 @@ struct VisitHistorySection: View {
 
 // MARK: - VisitRow
 
-private struct VisitRow: View {
+struct VisitRow: View {
 
+    let temple: Temple
     let visit: TempleVisit
+
+    @State private var shareItem: ShareableImage? = nil
+    @State private var isPreparingShare: Bool = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.xs) {
@@ -103,9 +106,22 @@ private struct VisitRow: View {
 
                 Spacer()
 
-                if visit.isGPSVerified {
-                    GPSVerifiedChip()
+                if visit.isGPSVerified { GPSVerifiedChip() }
+
+                // Share button
+                Button {
+                    Task { await generateShareCard() }
+                } label: {
+                    if isPreparingShare {
+                        ProgressView().scaleEffect(0.7)
+                    } else {
+                        Image(systemName: "square.and.arrow.up")
+                            .font(.caption)
+                            .foregroundStyle(Color.brandTempleGrey)
+                    }
                 }
+                .disabled(isPreparingShare)
+                .accessibilityLabel("Share this visit")
             }
 
             StarRatingView(rating: visit.rating ?? 0)
@@ -114,8 +130,13 @@ private struct VisitRow: View {
                 Text(notes)
                     .font(.caption)
                     .foregroundStyle(Color.brandEarthBrown.opacity(0.75))
-                    .lineLimit(1)
+                    .lineLimit(2)
                     .truncationMode(.tail)
+            }
+
+            if !visit.photoAssetIDs.isEmpty {
+                VisitPhotoStrip(assetIDs: visit.photoAssetIDs)
+                    .padding(.top, AppSpacing.xs)
             }
         }
         .padding(AppSpacing.sm)
@@ -127,21 +148,41 @@ private struct VisitRow: View {
         )
         .accessibilityElement(children: .combine)
         .accessibilityLabel(rowAccessibilityLabel)
+        .sheet(item: $shareItem) { shareable in
+            ActivityViewController(data: shareable.data)
+                .ignoresSafeArea()
+        }
+    }
+
+    // MARK: - Share Card Generation
+
+    private func generateShareCard() async {
+        isPreparingShare = true
+        defer { isPreparingShare = false }
+        guard let data = await VisitShareService.generateCard(temple: temple, visit: visit) else { return }
+        shareItem = ShareableImage(data: data)
     }
 
     private var rowAccessibilityLabel: String {
         var parts = ["Visit on \(visit.visitedAt.shortVisitDisplay)"]
-        if let rating = visit.rating {
-            parts.append("\(rating) out of 5 stars")
-        }
-        if let notes = visit.notes, !notes.isEmpty {
-            parts.append("Notes: \(notes)")
-        }
-        if visit.isGPSVerified {
-            parts.append("GPS verified")
-        }
+        if let rating = visit.rating { parts.append("\(rating) out of 5 stars") }
+        if let notes = visit.notes, !notes.isEmpty { parts.append("Notes: \(notes)") }
+        if visit.isGPSVerified { parts.append("GPS verified") }
         return parts.joined(separator: ". ")
     }
+}
+
+// MARK: - ActivityViewController
+
+private struct ActivityViewController: UIViewControllerRepresentable {
+    let data: Data
+
+    func makeUIViewController(context: Context) -> UIActivityViewController {
+        let image = UIImage(data: data) ?? UIImage()
+        return UIActivityViewController(activityItems: [image], applicationActivities: nil)
+    }
+
+    func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
 }
 
 // MARK: - GPSVerifiedChip
@@ -162,6 +203,12 @@ private struct GPSVerifiedChip: View {
         .clipShape(Capsule())
         .accessibilityLabel("GPS verified visit")
     }
+}
+
+// MARK: - ShareableImage + Identifiable
+
+extension ShareableImage: Identifiable {
+    var id: Int { data.hashValue }
 }
 
 // MARK: - Preview

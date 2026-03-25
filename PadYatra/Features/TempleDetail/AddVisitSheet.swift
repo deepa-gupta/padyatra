@@ -17,6 +17,8 @@ struct AddVisitSheet: View {
     @State private var rating: Int = 0
     @State private var notes: String = ""
     @State private var isGPSVerified: Bool = false
+    @State private var selectedAssetIDs: [String] = []
+    @State private var showingPhotoPicker: Bool = false
 
     // MARK: - Constants
 
@@ -31,6 +33,7 @@ struct AddVisitSheet: View {
                 dateSection
                 ratingSection
                 notesSection
+                photoSection
                 if locationService.userLocation != nil {
                     gpsSection
                 }
@@ -41,22 +44,22 @@ struct AddVisitSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel") {
-                        dismiss()
-                    }
-                    .foregroundStyle(Color.brandEarthBrown)
+                    Button("Cancel") { dismiss() }
+                        .foregroundStyle(Color.brandEarthBrown)
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Save") {
-                        save()
-                    }
-                    .font(.body.weight(.semibold))
-                    .foregroundStyle(Color.brandSaffron)
+                    Button("Save") { save() }
+                        .font(.body.weight(.semibold))
+                        .foregroundStyle(Color.brandSaffron)
                 }
             }
-            .onAppear {
-                autoSetGPS()
+            .sheet(isPresented: $showingPhotoPicker) {
+                PhotoPickerRepresentable { ids in
+                    selectedAssetIDs = ids
+                }
+                .ignoresSafeArea()
             }
+            .onAppear { autoSetGPS() }
         }
     }
 
@@ -95,16 +98,33 @@ struct AddVisitSheet: View {
 
     private var notesSection: some View {
         Section {
-            TextField(
-                "Notes",
-                text: $notes,
-                axis: .vertical
-            )
-            .lineLimit(3...8)
-            .foregroundStyle(Color.brandEarthBrown)
-            .tint(Color.brandSaffron)
+            TextField("Notes", text: $notes, axis: .vertical)
+                .lineLimit(3...8)
+                .foregroundStyle(Color.brandEarthBrown)
+                .tint(Color.brandSaffron)
         } header: {
             FormSectionHeader(text: "Notes (optional)")
+        }
+        .listRowBackground(Color.brandWarmCream)
+    }
+
+    private var photoSection: some View {
+        Section {
+            if !selectedAssetIDs.isEmpty {
+                VisitPhotoStrip(assetIDs: selectedAssetIDs)
+                    .padding(.vertical, AppSpacing.xs)
+            }
+            Button {
+                showingPhotoPicker = true
+            } label: {
+                Label(
+                    selectedAssetIDs.isEmpty ? "Add Photos" : "Change Photos (\(selectedAssetIDs.count))",
+                    systemImage: "photo.on.rectangle.angled"
+                )
+                .foregroundStyle(Color.brandSaffron)
+            }
+        } header: {
+            FormSectionHeader(text: "Photos (optional)")
         }
         .listRowBackground(Color.brandWarmCream)
     }
@@ -138,6 +158,7 @@ struct AddVisitSheet: View {
         vm.markVisited(
             notes: effectiveNotes.isEmpty ? nil : effectiveNotes,
             rating: rating == 0 ? nil : rating,
+            photoAssetIDs: selectedAssetIDs,
             isGPSVerified: isGPSVerified
         )
         dismiss()

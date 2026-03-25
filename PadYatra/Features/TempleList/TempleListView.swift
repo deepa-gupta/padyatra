@@ -1,6 +1,5 @@
 // TempleListView.swift
-// Lists all temples with search, filter, and section grouping.
-// Navigation leads to TempleDetailView (placeholder Text until that file is written).
+// Lists all temples with search, filter, section grouping, and search history.
 import SwiftUI
 import SwiftData
 import OSLog
@@ -14,7 +13,9 @@ struct TempleListView: View {
     // MARK: - State
 
     @StateObject private var vm: TempleListViewModel
+    @StateObject private var searchHistory = SearchHistoryService()
     @Query private var allVisits: [TempleVisit]
+    @Environment(\.isSearching) private var isSearching
 
     // MARK: - Private
 
@@ -27,8 +28,6 @@ struct TempleListView: View {
 
     // MARK: - Init
 
-    /// Designated initialiser — injects the VM so that environment objects are
-    /// available before StateObject initialisation.
     init(
         dataService: TempleDataService,
         locationService: LocationService,
@@ -59,6 +58,18 @@ struct TempleListView: View {
 
                 Divider()
 
+                // Search history chips — shown when search bar is active and query is empty
+                if isSearching && vm.searchText.isEmpty && !searchHistory.queries.isEmpty {
+                    SearchHistoryView(
+                        queries: searchHistory.queries,
+                        onSelect: { query in
+                            vm.searchText = query
+                        },
+                        onClear: { searchHistory.clear() }
+                    )
+                    Divider()
+                }
+
                 templeList
             }
             .navigationTitle("Temples")
@@ -69,6 +80,10 @@ struct TempleListView: View {
                 placement: .navigationBarDrawer(displayMode: .always),
                 prompt: "Search temples…"
             )
+            .onSubmit(of: .search) {
+                let q = vm.searchText.trimmingCharacters(in: .whitespaces)
+                if !q.isEmpty { searchHistory.record(q) }
+            }
         }
         .tint(Color.brandSaffron)
         .onAppear {
@@ -102,7 +117,9 @@ struct TempleListView: View {
                                             temple: temple,
                                             visitService: visitService,
                                             achievementService: achievementService
-                                        )
+                                        ),
+                                        visitService: visitService,
+                                        achievementService: achievementService
                                     )
                                 } label: {
                                     TempleListRow(

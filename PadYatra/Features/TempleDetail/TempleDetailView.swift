@@ -9,61 +9,92 @@ struct TempleDetailView: View {
 
     @StateObject var vm: TempleDetailViewModel
     @EnvironmentObject var locationService: LocationService
+    @EnvironmentObject var dataService: TempleDataService
+
+    // Injected so SimilarTemplesSection can navigate to new detail views
+    var visitService: VisitService? = nil
+    var achievementService: AchievementService? = nil
+
     @State private var imageURLs: [URL] = []
     @State private var imagesLoaded = false
+    @State private var similarTemples: [Temple] = []
 
     // MARK: - Body
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 0) {
-                TempleHeroGallery(imageURLs: imageURLs, templeName: vm.temple.name, isLoaded: imagesLoaded)
+        ZStack(alignment: .bottom) {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 0) {
+                    TempleHeroGallery(imageURLs: imageURLs, templeName: vm.temple.name, isLoaded: imagesLoaded)
 
-                VStack(alignment: .leading, spacing: AppSpacing.lg) {
-                    titleBlock
-                    locationRow
+                    VStack(alignment: .leading, spacing: AppSpacing.lg) {
+                        titleBlock
+                        locationRow
 
-                    Divider().padding(.vertical, AppSpacing.xs)
-
-                    TempleFactsGrid(facts: vm.temple.facts)
-
-                    Divider().padding(.vertical, AppSpacing.xs)
-
-                    descriptionText
-
-                    if !vm.temple.festivals.isEmpty {
                         Divider().padding(.vertical, AppSpacing.xs)
-                        TempleFestivalSection(festivals: vm.temple.festivals)
+
+                        TempleFactsGrid(facts: vm.temple.facts)
+
+                        Divider().padding(.vertical, AppSpacing.xs)
+
+                        descriptionText
+
+                        if !vm.temple.festivals.isEmpty {
+                            Divider().padding(.vertical, AppSpacing.xs)
+                            TempleFestivalSection(festivals: vm.temple.festivals)
+                        }
+
+                        Divider().padding(.vertical, AppSpacing.xs)
+
+                        VisitHistorySection(vm: vm)
+
+                        if !similarTemples.isEmpty, let vs = visitService, let as_ = achievementService {
+                            Divider().padding(.vertical, AppSpacing.xs)
+                            SimilarTemplesSection(
+                                temples: similarTemples,
+                                visitService: vs,
+                                achievementService: as_
+                            )
+                        }
                     }
-
-                    Divider().padding(.vertical, AppSpacing.xs)
-
-                    VisitHistorySection(vm: vm)
+                    .padding(.horizontal, AppSpacing.md)
+                    .padding(.vertical, AppSpacing.lg)
                 }
-                .padding(.horizontal, AppSpacing.md)
-                .padding(.vertical, AppSpacing.lg)
+            }
+
+            // Achievement unlock toast
+            if !vm.newlyUnlockedAchievements.isEmpty {
+                AchievementToastView(achievements: vm.newlyUnlockedAchievements)
+                    .transition(.move(edge: .bottom).combined(with: .opacity))
+                    .zIndex(1)
             }
         }
+        .animation(.spring(response: 0.4, dampingFraction: 0.8), value: vm.newlyUnlockedAchievements.isEmpty)
         .background(Color.brandWarmCream.ignoresSafeArea())
         .navigationTitle(vm.temple.name)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
-            ToolbarItem(placement: .primaryAction) {
-                visitButton
-            }
+            ToolbarItem(placement: .primaryAction) { visitButton }
         }
         .sheet(isPresented: $vm.showingAddVisit, onDismiss: { vm.loadVisits() }) {
             AddVisitSheet(vm: vm)
                 .environmentObject(locationService)
         }
-        .onAppear {
-            vm.loadVisits()
-        }
+        .onAppear { vm.loadVisits() }
         .task(id: vm.temple.id) {
-            imageURLs = []        // clear immediately so previous temple's images don't flash
+            imageURLs = []
             imagesLoaded = false
+            similarTemples = vm.similarTemples(from: dataService)
             imageURLs = await TempleImageService.shared.imageURLs(for: vm.temple)
             imagesLoaded = true
+        }
+        .onChange(of: vm.newlyUnlockedAchievements) { _, newValue in
+            guard !newValue.isEmpty else { return }
+            HapticService.heavyImpact()
+            Task {
+                try? await Task.sleep(for: .seconds(3))
+                withAnimation { vm.dismissUnlockToast() }
+            }
         }
     }
 
@@ -266,9 +297,11 @@ enum PreviewFixtures {
 #Preview("Temple Detail View") {
     @Previewable @StateObject var vm = TempleDetailViewModel.preview()
     @Previewable @StateObject var locationService = LocationService()
+    @Previewable @StateObject var dataService = TempleDataService()
 
     NavigationStack {
         TempleDetailView(vm: vm)
             .environmentObject(locationService)
+            .environmentObject(dataService)
     }
 }

@@ -18,7 +18,9 @@ struct VisitEditView: View {
     @State private var visitedAt: Date
     @State private var rating: Int
     @State private var notes: String
+    @State private var selectedAssetIDs: [String]
     @State private var showingDeleteAlert: Bool = false
+    @State private var showingPhotoPicker: Bool = false
 
     private let logger = Logger(subsystem: "com.padyatra", category: "VisitEditView")
 
@@ -30,6 +32,7 @@ struct VisitEditView: View {
         _visitedAt = State(initialValue: visit.visitedAt)
         _rating = State(initialValue: visit.rating ?? 0)
         _notes = State(initialValue: visit.notes ?? "")
+        _selectedAssetIDs = State(initialValue: visit.photoAssetIDs)
     }
 
     // MARK: - Body
@@ -40,6 +43,7 @@ struct VisitEditView: View {
                 dateSection
                 ratingSection
                 notesSection
+                photoSection
                 deleteSection
             }
             .scrollContentBackground(.hidden)
@@ -48,18 +52,20 @@ struct VisitEditView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel") {
-                        dismiss()
-                    }
-                    .foregroundStyle(Color.brandEarthBrown)
+                    Button("Cancel") { dismiss() }
+                        .foregroundStyle(Color.brandEarthBrown)
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Save") {
-                        save()
-                    }
-                    .font(.body.weight(.semibold))
-                    .foregroundStyle(Color.brandSaffron)
+                    Button("Save") { save() }
+                        .font(.body.weight(.semibold))
+                        .foregroundStyle(Color.brandSaffron)
                 }
+            }
+            .sheet(isPresented: $showingPhotoPicker) {
+                PhotoPickerRepresentable { ids in
+                    selectedAssetIDs = ids
+                }
+                .ignoresSafeArea()
             }
             .alert("Delete This Visit?", isPresented: $showingDeleteAlert) {
                 Button("Delete", role: .destructive) {
@@ -108,16 +114,33 @@ struct VisitEditView: View {
 
     private var notesSection: some View {
         Section {
-            TextField(
-                "Notes",
-                text: $notes,
-                axis: .vertical
-            )
-            .lineLimit(3...8)
-            .foregroundStyle(Color.brandEarthBrown)
-            .tint(Color.brandSaffron)
+            TextField("Notes", text: $notes, axis: .vertical)
+                .lineLimit(3...8)
+                .foregroundStyle(Color.brandEarthBrown)
+                .tint(Color.brandSaffron)
         } header: {
             FormSectionHeader(text: "Notes (optional)")
+        }
+        .listRowBackground(Color.brandWarmCream)
+    }
+
+    private var photoSection: some View {
+        Section {
+            if !selectedAssetIDs.isEmpty {
+                VisitPhotoStrip(assetIDs: selectedAssetIDs)
+                    .padding(.vertical, AppSpacing.xs)
+            }
+            Button {
+                showingPhotoPicker = true
+            } label: {
+                Label(
+                    selectedAssetIDs.isEmpty ? "Add Photos" : "Change Photos (\(selectedAssetIDs.count))",
+                    systemImage: "photo.on.rectangle.angled"
+                )
+                .foregroundStyle(Color.brandSaffron)
+            }
+        } header: {
+            FormSectionHeader(text: "Photos (optional)")
         }
         .listRowBackground(Color.brandWarmCream)
     }
@@ -147,7 +170,8 @@ struct VisitEditView: View {
             visit,
             visitedAt: visitedAt,
             notes: effectiveNotes.isEmpty ? nil : effectiveNotes,
-            rating: rating == 0 ? nil : rating
+            rating: rating == 0 ? nil : rating,
+            photoAssetIDs: selectedAssetIDs
         )
         dismiss()
     }

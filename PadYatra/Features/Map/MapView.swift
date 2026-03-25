@@ -79,7 +79,9 @@ struct MapView: View {
                         temple: temple,
                         visitService: visitService,
                         achievementService: achievementService
-                    )
+                    ),
+                    visitService: visitService,
+                    achievementService: achievementService
                 )
             }
             .presentationDetents([.large])

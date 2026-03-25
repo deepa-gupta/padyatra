@@ -69,6 +69,7 @@ final class VisitService {
         visitedAt: Date,
         notes: String? = nil,
         rating: Int? = nil,
+        photoAssetIDs: [String] = [],
         isGPSVerified: Bool = false
     ) throws -> TempleVisit {
         if let r = rating {
@@ -79,6 +80,7 @@ final class VisitService {
             visitedAt: visitedAt,
             notes: notes,
             rating: rating,
+            photoAssetIDs: photoAssetIDs,
             isGPSVerified: isGPSVerified
         )
         modelContext.insert(visit)
@@ -92,14 +94,16 @@ final class VisitService {
         _ visit: TempleVisit,
         visitedAt: Date? = nil,
         notes: String? = nil,
-        rating: Int? = nil
+        rating: Int? = nil,
+        photoAssetIDs: [String]? = nil
     ) throws {
         if let r = rating {
             guard (1...5).contains(r) else { throw VisitServiceError.invalidRating(r) }
         }
-        if let date = visitedAt { visit.visitedAt = date }
-        if let notes = notes    { visit.notes = notes }
-        if let rating = rating  { visit.rating = rating }
+        if let date = visitedAt         { visit.visitedAt = date }
+        if let notes = notes            { visit.notes = notes }
+        if let rating = rating          { visit.rating = rating }
+        if let photos = photoAssetIDs   { visit.photoAssetIDs = photos }
         visit.lastEditedAt = .now
         try rebuildAndSync()
         logger.info("Updated visit \(visit.id) for temple '\(visit.templeID)'.")

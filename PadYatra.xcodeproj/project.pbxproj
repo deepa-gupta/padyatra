@@ -9,35 +9,46 @@
 /* Begin PBXBuildFile section */
 		0603DCEBFF78A4E385EDB2B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D3B1CD71878AA8ECCAED79 /* CoreLocation.framework */; };
 		08840CFF6B316EB4942C1057 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D51CF1FD102D57A0FE57359 /* WidgetKit.framework */; };
+		0A564AD896BB5A540F19ED57 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8354F0780435A0C61AB5E20 /* HapticService.swift */; };
 		0D4A19ECBB8BBA8560ABE746 /* temples.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D8DEFD1214C5A29C37D57E2 /* temples.json */; };
+		114F422D8DB97B256FD92023 /* AchievementToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154A4616841A855731286BA2 /* AchievementToastView.swift */; };
 		11BDF50853BE16D186D193D5 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46C642EC7C3E604D3086949 /* CloudKit.framework */; };
 		12D6B6C9494091B70BD07CB9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531DA71FD57C9E2D5CBD52E /* ProfileView.swift */; };
+		1B8C41819CFE72291F80571B /* AchievementToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154A4616841A855731286BA2 /* AchievementToastView.swift */; };
 		1BCB91E829E1EE2454A4A605 /* AchievementsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632A059523FF5EE4B78C2FF /* AchievementsGridView.swift */; };
 		1EF45CC9D64AFDE08B555CB6 /* TempleHeroGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F92D26570213D22EE2E958 /* TempleHeroGallery.swift */; };
 		226627A7236291FF7193C67F /* Color+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337C3DF5DA39768018421FF /* Color+Brand.swift */; };
 		22F4738C3A095D1EA0D35D9B /* VisitHistorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF5E48093C9B9C70227145C /* VisitHistorySection.swift */; };
+		241046B1A631A7B13A96863F /* VisitShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EB4322A8D923BC6E3F667E /* VisitShareCardView.swift */; };
 		24464C0E4ABE739C203C51CE /* TempleMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFCA83CA594562D787A875 /* TempleMapAnnotation.swift */; };
 		26573F0A073E4EC59B1D655A /* TempleDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3CB09DBABE00E08E9B6382 /* TempleDataService.swift */; };
 		29A263948AEF85A96C4FEC8A /* AchievementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC71FC0E56E8C409BF813C69 /* AchievementsViewModel.swift */; };
 		30036345DD4CA06F59713A88 /* AchievementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193F67105E3596B2771F2C9 /* AchievementService.swift */; };
+		30DC4921800007FECDBC6545 /* SearchHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA764C868705889999AA0579 /* SearchHistoryService.swift */; };
 		31EEA24F2C6160F65BF4C788 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F3F08D4158B6C43DE3771E /* PersistenceController.swift */; };
 		3596B858186E4DAD09E53977 /* VisitEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35073115477BD0FC56BAE195 /* VisitEditView.swift */; };
 		38942151AB6AD367BC15D9BB /* MapFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA21A452E4BEBB1C273EA870 /* MapFilterSheet.swift */; };
 		3996DDB06D42090EDC1A6D48 /* TempleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A0736D83F4ED61FA4F86A /* TempleListViewModel.swift */; };
+		41D04C8984462A5339754C5C /* VisitShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B24E00A5F4291A9E1DFCAC /* VisitShareService.swift */; };
 		452662475A007DC97C71982F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E47CE2912BB25D666C1452 /* MapView.swift */; };
 		4571722197375F4E87708B3A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B4FD00F6FCAAC7305A0390 /* EventKit.framework */; };
+		490C4254AB29BADCCCBBFF56 /* PhotoPickerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3344B788395BA3A0F1AD8DF /* PhotoPickerRepresentable.swift */; };
 		4C00D7D8CB3FDBB2505AFADB /* TempleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E6E2C4FFE9A1BEADFBDE0 /* TempleDetailView.swift */; };
 		4D0542F1C59185D61D09D7B4 /* TempleVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA871285E30E35077ECF334 /* TempleVisit.swift */; };
 		4DE2FE66606F0D37DA055A44 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8627B41063BF55BF098626 /* StatsView.swift */; };
 		4ED15FB90B173E0D330456B3 /* TempleListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FAC15682889FA4DCAC9816 /* TempleListRow.swift */; };
 		504BE7FCB138EB6D5005F9EF /* Temple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688BECFD8CCE2FE11589FF5 /* Temple.swift */; };
 		523C9BE18575CEC55D69E173 /* FormSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB85E2CFD8502883BC9DDF0 /* FormSectionHeader.swift */; };
+		5647424BBE37B87D3A8B0E02 /* SearchHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1406ABCC537D5B8534C2E /* SearchHistoryView.swift */; };
 		5660A6E65AF559E597BFD3F4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707037FC0A0A04A1F626EA30 /* MapViewModel.swift */; };
 		608B29C6F218270D0F8F7AFB /* TempleDataValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CFC66E8ACD0C9232B8495 /* TempleDataValidator.swift */; };
 		63FE65531BD416A3E8664B1B /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70420A36B5B3A369726F6C51 /* AppTheme.swift */; };
 		649755E7691704E98DFA24B8 /* AddVisitSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83D9730C506C4C941A1E32 /* AddVisitSheet.swift */; };
+		64F045689DF8A8401AB1A34A /* SearchHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1406ABCC537D5B8534C2E /* SearchHistoryView.swift */; };
+		686E47FC88B40F41F8AC67E9 /* CloudKitSyncMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD4ED1B9C1657580440FBC /* CloudKitSyncMonitor.swift */; };
 		733FD9E35B27869C074F54C7 /* FilterPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE58C47CADB455389AA2E40 /* FilterPill.swift */; };
 		7470BC2F1574A03A69516D33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D761BFFE06E210238F843F /* MapKit.framework */; };
+		7B6540DCA44CEA0830009294 /* VisitShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EB4322A8D923BC6E3F667E /* VisitShareCardView.swift */; };
 		7F9FC2D9AFDECAB2A6F72BAD /* AchievementCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF71E081AC8DFD254D35E22 /* AchievementCardView.swift */; };
 		8765231FDAC523C9C8785579 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900106EB9C342A1846882D5D /* ProfileViewModel.swift */; };
 		880710FFDA5FE4DBBAD1F414 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F70B7AB77B7833E50FF46A9 /* ProgressBar.swift */; };
@@ -55,16 +66,25 @@
 		A977135DDF794E681D361764 /* TempleDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CDE3D36933F4CB0BF711F4 /* TempleDataServiceTests.swift */; };
 		ACF7E85EB5BF0C14EAA0280E /* TempleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCAC93759B61153E7369289 /* TempleListView.swift */; };
 		AEEA865B1711F032F089874B /* TempleDataValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B0BD2DB19233B8BA2E508 /* TempleDataValidatorTests.swift */; };
+		B4484123B729933982A9CCB0 /* VisitPhotoStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB874F92A02B09E5DF532810 /* VisitPhotoStrip.swift */; };
 		B45F3047B3DC0CA21E27BF80 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CAD3E0C0A0D734D641146 /* LocationService.swift */; };
 		B5397C9280DB6FDBCA86E6E9 /* RemoteDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DF66685311F9C2D865801 /* RemoteDataService.swift */; };
 		B6D9A146E44B21A044BF9850 /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF56C1E8992E4F8258E4262 /* Date+Formatting.swift */; };
 		C083B3539AD615845E07F4F8 /* AchievementServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F01547B90F2F3A9908590D4 /* AchievementServiceTests.swift */; };
 		C3DB7E3C841C4C2F6C4A0B65 /* PadYatraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E0A9D73D5E4618BDFD1B6E /* PadYatraApp.swift */; };
+		C4C749FC87AE0542C4E6438E /* SimilarTemplesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE440A1AB2BD180EB3AAEEF /* SimilarTemplesSection.swift */; };
 		C97DEF59C77A3C7EC101F2F0 /* TempleImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A49E41C7E24EB3C8982F1 /* TempleImageService.swift */; };
+		CF65460AA04C4BD98B4457AC /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8354F0780435A0C61AB5E20 /* HapticService.swift */; };
+		E2234771AA7A722937EF4060 /* SimilarTemplesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE440A1AB2BD180EB3AAEEF /* SimilarTemplesSection.swift */; };
+		E57540849C3088B1B0361277 /* CloudKitSyncMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD4ED1B9C1657580440FBC /* CloudKitSyncMonitor.swift */; };
 		E97F75809BA897BB33917D55 /* VisitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1754D83E12980867DA54B /* VisitService.swift */; };
 		EDDA75294ED381050812A828 /* VisitedBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0882AB97AE098D9FEC69D668 /* VisitedBadge.swift */; };
 		EFA355A3313A673D29D45C4A /* TempleFactsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD57CBF8756A39E8E0E8BE /* TempleFactsGrid.swift */; };
 		F253061D8532B715872D0441 /* VisitServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ABCEEBEC9E426B318149EB /* VisitServiceTests.swift */; };
+		F41B4C9583CA256C78E0BC8E /* VisitPhotoStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB874F92A02B09E5DF532810 /* VisitPhotoStrip.swift */; };
+		F5B7456C839EB649D9CC36E0 /* PhotoPickerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3344B788395BA3A0F1AD8DF /* PhotoPickerRepresentable.swift */; };
+		F6764C5D9E33D1D92611D2BC /* VisitShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B24E00A5F4291A9E1DFCAC /* VisitShareService.swift */; };
+		F8074730B28196D496996D6C /* SearchHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA764C868705889999AA0579 /* SearchHistoryService.swift */; };
 		FEA95EF6FBD6AC67B8CFE582 /* CategoryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073893DDA94BF644473BEBB4 /* CategoryTag.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,11 +106,13 @@
 		0FB85E2CFD8502883BC9DDF0 /* FormSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormSectionHeader.swift; sourceTree = "<group>"; };
 		1193F67105E3596B2771F2C9 /* AchievementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementService.swift; sourceTree = "<group>"; };
 		13D761BFFE06E210238F843F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		154A4616841A855731286BA2 /* AchievementToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AchievementToastView.swift; path = PadYatra/Shared/Components/AchievementToastView.swift; sourceTree = SOURCE_ROOT; };
 		1B0DF66685311F9C2D865801 /* RemoteDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataService.swift; sourceTree = "<group>"; };
 		1F01547B90F2F3A9908590D4 /* AchievementServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementServiceTests.swift; sourceTree = "<group>"; };
 		1F70B7AB77B7833E50FF46A9 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		23B10F82F814CAB78CE3BFF9 /* TempleFilterMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleFilterMode.swift; sourceTree = "<group>"; };
 		24F3F08D4158B6C43DE3771E /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		31E1406ABCC537D5B8534C2E /* SearchHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchHistoryView.swift; path = PadYatra/Features/TempleList/SearchHistoryView.swift; sourceTree = SOURCE_ROOT; };
 		35073115477BD0FC56BAE195 /* VisitEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitEditView.swift; sourceTree = "<group>"; };
 		3D8DEFD1214C5A29C37D57E2 /* temples.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = temples.json; sourceTree = "<group>"; };
 		42FAC15682889FA4DCAC9816 /* TempleListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleListRow.swift; sourceTree = "<group>"; };
@@ -118,29 +140,37 @@
 		8632A059523FF5EE4B78C2FF /* AchievementsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsGridView.swift; sourceTree = "<group>"; };
 		894CAD3E0C0A0D734D641146 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		8BAECDC3F5C1FADCFAB6488C /* ScratchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchCardView.swift; sourceTree = "<group>"; };
+		8FDD4ED1B9C1657580440FBC /* CloudKitSyncMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudKitSyncMonitor.swift; path = PadYatra/Data/Services/CloudKitSyncMonitor.swift; sourceTree = SOURCE_ROOT; };
 		900106EB9C342A1846882D5D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		91B4FD00F6FCAAC7305A0390 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		91F92D26570213D22EE2E958 /* TempleHeroGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleHeroGallery.swift; sourceTree = "<group>"; };
 		9EE58C47CADB455389AA2E40 /* FilterPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPill.swift; sourceTree = "<group>"; };
+		A3344B788395BA3A0F1AD8DF /* PhotoPickerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoPickerRepresentable.swift; path = PadYatra/Shared/Components/PhotoPickerRepresentable.swift; sourceTree = SOURCE_ROOT; };
 		A45B0BD2DB19233B8BA2E508 /* TempleDataValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDataValidatorTests.swift; sourceTree = "<group>"; };
 		A46C642EC7C3E604D3086949 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		A9EB4322A8D923BC6E3F667E /* VisitShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VisitShareCardView.swift; path = PadYatra/Features/TempleDetail/VisitShareCardView.swift; sourceTree = SOURCE_ROOT; };
 		AC2CFC66E8ACD0C9232B8495 /* TempleDataValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDataValidator.swift; sourceTree = "<group>"; };
 		AFF71E081AC8DFD254D35E22 /* AchievementCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCardView.swift; sourceTree = "<group>"; };
 		B4D4162A9FDA5F83444CBD95 /* TempleCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleCategory.swift; sourceTree = "<group>"; };
+		B8354F0780435A0C61AB5E20 /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HapticService.swift; path = PadYatra/Shared/Components/HapticService.swift; sourceTree = SOURCE_ROOT; };
 		BBCD57CBF8756A39E8E0E8BE /* TempleFactsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleFactsGrid.swift; sourceTree = "<group>"; };
+		BBE440A1AB2BD180EB3AAEEF /* SimilarTemplesSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimilarTemplesSection.swift; path = PadYatra/Features/TempleDetail/SimilarTemplesSection.swift; sourceTree = SOURCE_ROOT; };
 		BC71FC0E56E8C409BF813C69 /* AchievementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewModel.swift; sourceTree = "<group>"; };
 		BDAFCA83CA594562D787A875 /* TempleMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleMapAnnotation.swift; sourceTree = "<group>"; };
 		BECE9DD0034AB96652709726 /* PadYatra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PadYatra.entitlements; sourceTree = "<group>"; };
 		BF3CB09DBABE00E08E9B6382 /* TempleDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDataService.swift; sourceTree = "<group>"; };
 		CA21A452E4BEBB1C273EA870 /* MapFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFilterSheet.swift; sourceTree = "<group>"; };
+		D0B24E00A5F4291A9E1DFCAC /* VisitShareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VisitShareService.swift; path = PadYatra/Features/TempleDetail/VisitShareService.swift; sourceTree = SOURCE_ROOT; };
 		D5ABCEEBEC9E426B318149EB /* VisitServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitServiceTests.swift; sourceTree = "<group>"; };
 		DB45CAD8D73FC64E23649F46 /* TempleDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDetailViewModel.swift; sourceTree = "<group>"; };
+		EA764C868705889999AA0579 /* SearchHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchHistoryService.swift; path = PadYatra/Shared/Services/SearchHistoryService.swift; sourceTree = SOURCE_ROOT; };
 		EE8627B41063BF55BF098626 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		F17A49E41C7E24EB3C8982F1 /* TempleImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleImageService.swift; sourceTree = "<group>"; };
 		F4D3B1CD71878AA8ECCAED79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F76CA63CB9548BDC8B1F8289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F81B040C6871176DA167D315 /* PadYatra.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PadYatra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA45BA43C82D904247AEC335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB874F92A02B09E5DF532810 /* VisitPhotoStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VisitPhotoStrip.swift; path = PadYatra/Shared/Components/VisitPhotoStrip.swift; sourceTree = SOURCE_ROOT; };
 		FDA871285E30E35077ECF334 /* TempleVisit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleVisit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -373,6 +403,16 @@
 				96BAADD09E72208117D33F13 /* PadYatraTests */,
 				EE5DEF33F7BA9907A471593A /* Frameworks */,
 				F04532D57C1D77DAE5698FEF /* Products */,
+				8FDD4ED1B9C1657580440FBC /* CloudKitSyncMonitor.swift */,
+				BBE440A1AB2BD180EB3AAEEF /* SimilarTemplesSection.swift */,
+				A9EB4322A8D923BC6E3F667E /* VisitShareCardView.swift */,
+				D0B24E00A5F4291A9E1DFCAC /* VisitShareService.swift */,
+				31E1406ABCC537D5B8534C2E /* SearchHistoryView.swift */,
+				154A4616841A855731286BA2 /* AchievementToastView.swift */,
+				B8354F0780435A0C61AB5E20 /* HapticService.swift */,
+				A3344B788395BA3A0F1AD8DF /* PhotoPickerRepresentable.swift */,
+				FB874F92A02B09E5DF532810 /* VisitPhotoStrip.swift */,
+				EA764C868705889999AA0579 /* SearchHistoryService.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -531,6 +571,16 @@
 				22F4738C3A095D1EA0D35D9B /* VisitHistorySection.swift in Sources */,
 				E97F75809BA897BB33917D55 /* VisitService.swift in Sources */,
 				EDDA75294ED381050812A828 /* VisitedBadge.swift in Sources */,
+				E57540849C3088B1B0361277 /* CloudKitSyncMonitor.swift in Sources */,
+				C4C749FC87AE0542C4E6438E /* SimilarTemplesSection.swift in Sources */,
+				7B6540DCA44CEA0830009294 /* VisitShareCardView.swift in Sources */,
+				41D04C8984462A5339754C5C /* VisitShareService.swift in Sources */,
+				64F045689DF8A8401AB1A34A /* SearchHistoryView.swift in Sources */,
+				114F422D8DB97B256FD92023 /* AchievementToastView.swift in Sources */,
+				CF65460AA04C4BD98B4457AC /* HapticService.swift in Sources */,
+				490C4254AB29BADCCCBBFF56 /* PhotoPickerRepresentable.swift in Sources */,
+				B4484123B729933982A9CCB0 /* VisitPhotoStrip.swift in Sources */,
+				30DC4921800007FECDBC6545 /* SearchHistoryService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +592,16 @@
 				A977135DDF794E681D361764 /* TempleDataServiceTests.swift in Sources */,
 				AEEA865B1711F032F089874B /* TempleDataValidatorTests.swift in Sources */,
 				F253061D8532B715872D0441 /* VisitServiceTests.swift in Sources */,
+				686E47FC88B40F41F8AC67E9 /* CloudKitSyncMonitor.swift in Sources */,
+				E2234771AA7A722937EF4060 /* SimilarTemplesSection.swift in Sources */,
+				241046B1A631A7B13A96863F /* VisitShareCardView.swift in Sources */,
+				F6764C5D9E33D1D92611D2BC /* VisitShareService.swift in Sources */,
+				5647424BBE37B87D3A8B0E02 /* SearchHistoryView.swift in Sources */,
+				1B8C41819CFE72291F80571B /* AchievementToastView.swift in Sources */,
+				0A564AD896BB5A540F19ED57 /* HapticService.swift in Sources */,
+				F5B7456C839EB649D9CC36E0 /* PhotoPickerRepresentable.swift in Sources */,
+				F41B4C9583CA256C78E0BC8E /* VisitPhotoStrip.swift in Sources */,
+				F8074730B28196D496996D6C /* SearchHistoryService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +626,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/PadYatra/Data/Services",
+					"$(SRCROOT)/PadYatra/Features/TempleDetail",
+					"$(SRCROOT)/PadYatra/Features/TempleList",
+					"$(SRCROOT)/PadYatra/Shared/Components",
+					"$(SRCROOT)/PadYatra/Shared/Services",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.padyatra.tests;
 				SDKROOT = iphoneos;
@@ -712,6 +779,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/PadYatra/Data/Services",
+					"$(SRCROOT)/PadYatra/Features/TempleDetail",
+					"$(SRCROOT)/PadYatra/Features/TempleList",
+					"$(SRCROOT)/PadYatra/Shared/Components",
+					"$(SRCROOT)/PadYatra/Shared/Services",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.padyatra.app;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 6.0;
@@ -729,6 +803,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/PadYatra/Data/Services",
+					"$(SRCROOT)/PadYatra/Features/TempleDetail",
+					"$(SRCROOT)/PadYatra/Features/TempleList",
+					"$(SRCROOT)/PadYatra/Shared/Components",
+					"$(SRCROOT)/PadYatra/Shared/Services",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.padyatra.tests;
 				SDKROOT = iphoneos;
@@ -751,6 +832,13 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/PadYatra/Data/Services",
+					"$(SRCROOT)/PadYatra/Features/TempleDetail",
+					"$(SRCROOT)/PadYatra/Features/TempleList",
+					"$(SRCROOT)/PadYatra/Shared/Components",
+					"$(SRCROOT)/PadYatra/Shared/Services",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.padyatra.app;
 				SDKROOT = iphoneos;

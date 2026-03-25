@@ -16,6 +16,10 @@ struct ContentView: View {
     @State private var achievementService: AchievementService
     @State private var visitService: VisitService
 
+    // MARK: - Sync Monitor
+
+    @StateObject private var syncMonitor = CloudKitSyncMonitor()
+
     // MARK: - Init
 
     init(modelContext: ModelContext, dataService: TempleDataService) {
@@ -67,6 +71,33 @@ struct ContentView: View {
                 }
         }
         .tint(Color.brandSaffron)
+        .overlay(alignment: .topTrailing) {
+            if syncMonitor.isSyncing {
+                CloudSyncIndicator()
+                    .padding(.top, 56)
+                    .padding(.trailing, 16)
+                    .transition(.opacity)
+                    .animation(.easeInOut(duration: 0.3), value: syncMonitor.isSyncing)
+            }
+        }
+    }
+}
+
+// MARK: - CloudSyncIndicator
+
+private struct CloudSyncIndicator: View {
+    var body: some View {
+        HStack(spacing: 4) {
+            ProgressView()
+                .scaleEffect(0.6)
+                .tint(Color.brandTempleGrey)
+            Text("Syncing…")
+                .font(.caption2.weight(.medium))
+                .foregroundStyle(Color.brandTempleGrey)
+        }
+        .padding(.horizontal, 8)
+        .padding(.vertical, 4)
+        .background(.thinMaterial, in: Capsule())
     }
 }
 

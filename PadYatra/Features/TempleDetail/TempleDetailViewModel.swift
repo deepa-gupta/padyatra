@@ -52,8 +52,8 @@ final class TempleDetailViewModel: ObservableObject {
 
     // MARK: - Mark Visited
 
-    /// Records a new visit and checks for newly unlocked achievements.
-    func markVisited(notes: String?, rating: Int?, isGPSVerified: Bool) {
+    /// Records a new visit, fires haptic, and checks for newly unlocked achievements.
+    func markVisited(notes: String?, rating: Int?, photoAssetIDs: [String] = [], isGPSVerified: Bool) {
         let resolvedNotes = notes?.trimmingCharacters(in: .whitespacesAndNewlines)
         let effectiveNotes = resolvedNotes?.isEmpty == false ? resolvedNotes : nil
         let effectiveRating = rating == 0 ? nil : rating
@@ -64,8 +64,10 @@ final class TempleDetailViewModel: ObservableObject {
                 visitedAt: .now,
                 notes: effectiveNotes,
                 rating: effectiveRating,
+                photoAssetIDs: photoAssetIDs,
                 isGPSVerified: isGPSVerified
             )
+            HapticService.success()
             loadVisits()
             checkForUnlocks()
             logger.info("Visit added for '\(self.temple.id)'.")
@@ -77,10 +79,11 @@ final class TempleDetailViewModel: ObservableObject {
 
     // MARK: - Delete Visit
 
-    /// Deletes an existing visit and reloads the visit list.
+    /// Deletes an existing visit, fires haptic, and reloads the visit list.
     func deleteVisit(_ visit: TempleVisit) {
         do {
             try visitService.deleteVisit(visit)
+            HapticService.warning()
             loadVisits()
             logger.info("Deleted visit \(visit.id) for '\(self.temple.id)'.")
         } catch {
@@ -92,7 +95,7 @@ final class TempleDetailViewModel: ObservableObject {
     // MARK: - Update Visit
 
     /// Updates an existing visit's fields and reloads.
-    func update(_ visit: TempleVisit, visitedAt: Date, notes: String?, rating: Int?) {
+    func update(_ visit: TempleVisit, visitedAt: Date, notes: String?, rating: Int?, photoAssetIDs: [String]? = nil) {
         let resolvedNotes = notes?.trimmingCharacters(in: .whitespacesAndNewlines)
         let effectiveNotes = resolvedNotes?.isEmpty == false ? resolvedNotes : nil
         let effectiveRating = rating == 0 ? nil : rating
@@ -102,7 +105,8 @@ final class TempleDetailViewModel: ObservableObject {
                 visit,
                 visitedAt: visitedAt,
                 notes: effectiveNotes,
-                rating: effectiveRating
+                rating: effectiveRating,
+                photoAssetIDs: photoAssetIDs
             )
             loadVisits()
             logger.info("Updated visit \(visit.id) for '\(self.temple.id)'.")
@@ -110,6 +114,40 @@ final class TempleDetailViewModel: ObservableObject {
             self.error = error.localizedDescription
             logger.error("Failed to update visit \(visit.id): \(error.localizedDescription)")
         }
+    }
+
+    // MARK: - Toast Dismiss
+
+    /// Clears the newly-unlocked achievements list (called after toast auto-dismiss).
+    func dismissUnlockToast() {
+        newlyUnlockedAchievements = []
+    }
+
+    // MARK: - Similar Temples
+
+    /// Returns up to 5 temples sharing a category with this temple.
+    /// Falls back to same-state temples if no category matches are found.
+    func similarTemples(from dataService: TempleDataService) -> [Temple] {
+        var results: [Temple] = []
+        var seen = Set<String>([temple.id])
+
+        for categoryID in temple.categoryIDs {
+            for candidate in dataService.templesByCategory[categoryID] ?? [] {
+                guard !seen.contains(candidate.id) else { continue }
+                seen.insert(candidate.id)
+                results.append(candidate)
+                if results.count == 5 { return results }
+            }
+        }
+
+        if results.isEmpty {
+            results = (dataService.templesByState[temple.location.state] ?? [])
+                .filter { $0.id != temple.id }
+                .prefix(5)
+                .map { $0 }
+        }
+
+        return results
     }
 
     // MARK: - Private
