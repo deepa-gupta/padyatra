@@ -90,23 +90,34 @@ final class TempleImageService {
     // MARK: - Gallery (up to 5 images, ~1280 px)
 
     private nonisolated static func fetchGallery(for temple: Temple) async -> [URL] {
+        var urls: [URL] = []
+
+        // Always start with the pre-verified hero image
         if let heroString = temple.images.remoteHeroURL,
            let heroURL = URL(string: heroString) {
-            return [heroURL]
+            urls.append(heroURL)
         }
-        guard
-            let sourceURL = temple.sourceURL,
-            let title = sourceURL.components(separatedBy: "/wiki/").last,
-            !title.isEmpty
-        else { return [] }
 
-        if let mediaURLs = await fetchWikipediaMediaList(title), !mediaURLs.isEmpty {
-            return mediaURLs
+        // Fetch the Wikipedia media-list regardless of whether we already have a hero
+        if let sourceURL = temple.sourceURL,
+           let title = sourceURL.components(separatedBy: "/wiki/").last,
+           !title.isEmpty {
+
+            if let mediaURLs = await fetchWikipediaMediaList(title), !mediaURLs.isEmpty {
+                // Append only URLs not already present (dedup hero vs media-list)
+                let existing = Set(urls.map(\.absoluteString))
+                for url in mediaURLs where !existing.contains(url.absoluteString) {
+                    urls.append(url)
+                    if urls.count == 5 { break }
+                }
+            } else if urls.isEmpty,
+                      let hero = await fetchWikipediaSummaryHero(title, width: 1200) {
+                // Fallback: summary hero only if we have nothing at all
+                urls.append(hero)
+            }
         }
-        if let hero = await fetchWikipediaSummaryHero(title, width: 1200) {
-            return [hero]
-        }
-        return []
+
+        return urls
     }
 
     // MARK: - Wikipedia media-list (multiple images)
