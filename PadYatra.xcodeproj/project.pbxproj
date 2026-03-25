@@ -9,17 +9,14 @@
 /* Begin PBXBuildFile section */
 		0603DCEBFF78A4E385EDB2B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D3B1CD71878AA8ECCAED79 /* CoreLocation.framework */; };
 		08840CFF6B316EB4942C1057 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D51CF1FD102D57A0FE57359 /* WidgetKit.framework */; };
-		0A564AD896BB5A540F19ED57 /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8354F0780435A0C61AB5E20 /* HapticService.swift */; };
 		0D4A19ECBB8BBA8560ABE746 /* temples.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D8DEFD1214C5A29C37D57E2 /* temples.json */; };
 		114F422D8DB97B256FD92023 /* AchievementToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154A4616841A855731286BA2 /* AchievementToastView.swift */; };
 		11BDF50853BE16D186D193D5 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46C642EC7C3E604D3086949 /* CloudKit.framework */; };
 		12D6B6C9494091B70BD07CB9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531DA71FD57C9E2D5CBD52E /* ProfileView.swift */; };
-		1B8C41819CFE72291F80571B /* AchievementToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154A4616841A855731286BA2 /* AchievementToastView.swift */; };
 		1BCB91E829E1EE2454A4A605 /* AchievementsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632A059523FF5EE4B78C2FF /* AchievementsGridView.swift */; };
 		1EF45CC9D64AFDE08B555CB6 /* TempleHeroGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F92D26570213D22EE2E958 /* TempleHeroGallery.swift */; };
 		226627A7236291FF7193C67F /* Color+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8337C3DF5DA39768018421FF /* Color+Brand.swift */; };
 		22F4738C3A095D1EA0D35D9B /* VisitHistorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF5E48093C9B9C70227145C /* VisitHistorySection.swift */; };
-		241046B1A631A7B13A96863F /* VisitShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EB4322A8D923BC6E3F667E /* VisitShareCardView.swift */; };
 		24464C0E4ABE739C203C51CE /* TempleMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAFCA83CA594562D787A875 /* TempleMapAnnotation.swift */; };
 		26573F0A073E4EC59B1D655A /* TempleDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3CB09DBABE00E08E9B6382 /* TempleDataService.swift */; };
 		29A263948AEF85A96C4FEC8A /* AchievementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC71FC0E56E8C409BF813C69 /* AchievementsViewModel.swift */; };
@@ -39,13 +36,11 @@
 		4ED15FB90B173E0D330456B3 /* TempleListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FAC15682889FA4DCAC9816 /* TempleListRow.swift */; };
 		504BE7FCB138EB6D5005F9EF /* Temple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688BECFD8CCE2FE11589FF5 /* Temple.swift */; };
 		523C9BE18575CEC55D69E173 /* FormSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB85E2CFD8502883BC9DDF0 /* FormSectionHeader.swift */; };
-		5647424BBE37B87D3A8B0E02 /* SearchHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1406ABCC537D5B8534C2E /* SearchHistoryView.swift */; };
 		5660A6E65AF559E597BFD3F4 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707037FC0A0A04A1F626EA30 /* MapViewModel.swift */; };
 		608B29C6F218270D0F8F7AFB /* TempleDataValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CFC66E8ACD0C9232B8495 /* TempleDataValidator.swift */; };
 		63FE65531BD416A3E8664B1B /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70420A36B5B3A369726F6C51 /* AppTheme.swift */; };
 		649755E7691704E98DFA24B8 /* AddVisitSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83D9730C506C4C941A1E32 /* AddVisitSheet.swift */; };
 		64F045689DF8A8401AB1A34A /* SearchHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1406ABCC537D5B8534C2E /* SearchHistoryView.swift */; };
-		686E47FC88B40F41F8AC67E9 /* CloudKitSyncMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD4ED1B9C1657580440FBC /* CloudKitSyncMonitor.swift */; };
 		733FD9E35B27869C074F54C7 /* FilterPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE58C47CADB455389AA2E40 /* FilterPill.swift */; };
 		7470BC2F1574A03A69516D33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D761BFFE06E210238F843F /* MapKit.framework */; };
 		7B6540DCA44CEA0830009294 /* VisitShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EB4322A8D923BC6E3F667E /* VisitShareCardView.swift */; };
@@ -68,6 +63,7 @@
 		AEEA865B1711F032F089874B /* TempleDataValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B0BD2DB19233B8BA2E508 /* TempleDataValidatorTests.swift */; };
 		B4484123B729933982A9CCB0 /* VisitPhotoStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB874F92A02B09E5DF532810 /* VisitPhotoStrip.swift */; };
 		B45F3047B3DC0CA21E27BF80 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894CAD3E0C0A0D734D641146 /* LocationService.swift */; };
+		B47047888BC01EC6BBD68B13 /* TempleDetailPreviewFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C4B1B8C61499C78FB705E /* TempleDetailPreviewFixtures.swift */; };
 		B5397C9280DB6FDBCA86E6E9 /* RemoteDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0DF66685311F9C2D865801 /* RemoteDataService.swift */; };
 		B6D9A146E44B21A044BF9850 /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF56C1E8992E4F8258E4262 /* Date+Formatting.swift */; };
 		C083B3539AD615845E07F4F8 /* AchievementServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F01547B90F2F3A9908590D4 /* AchievementServiceTests.swift */; };
@@ -75,16 +71,11 @@
 		C4C749FC87AE0542C4E6438E /* SimilarTemplesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE440A1AB2BD180EB3AAEEF /* SimilarTemplesSection.swift */; };
 		C97DEF59C77A3C7EC101F2F0 /* TempleImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A49E41C7E24EB3C8982F1 /* TempleImageService.swift */; };
 		CF65460AA04C4BD98B4457AC /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8354F0780435A0C61AB5E20 /* HapticService.swift */; };
-		E2234771AA7A722937EF4060 /* SimilarTemplesSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE440A1AB2BD180EB3AAEEF /* SimilarTemplesSection.swift */; };
 		E57540849C3088B1B0361277 /* CloudKitSyncMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDD4ED1B9C1657580440FBC /* CloudKitSyncMonitor.swift */; };
 		E97F75809BA897BB33917D55 /* VisitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B1754D83E12980867DA54B /* VisitService.swift */; };
 		EDDA75294ED381050812A828 /* VisitedBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0882AB97AE098D9FEC69D668 /* VisitedBadge.swift */; };
 		EFA355A3313A673D29D45C4A /* TempleFactsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCD57CBF8756A39E8E0E8BE /* TempleFactsGrid.swift */; };
 		F253061D8532B715872D0441 /* VisitServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ABCEEBEC9E426B318149EB /* VisitServiceTests.swift */; };
-		F41B4C9583CA256C78E0BC8E /* VisitPhotoStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB874F92A02B09E5DF532810 /* VisitPhotoStrip.swift */; };
-		F5B7456C839EB649D9CC36E0 /* PhotoPickerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3344B788395BA3A0F1AD8DF /* PhotoPickerRepresentable.swift */; };
-		F6764C5D9E33D1D92611D2BC /* VisitShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B24E00A5F4291A9E1DFCAC /* VisitShareService.swift */; };
-		F8074730B28196D496996D6C /* SearchHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA764C868705889999AA0579 /* SearchHistoryService.swift */; };
 		FEA95EF6FBD6AC67B8CFE582 /* CategoryTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073893DDA94BF644473BEBB4 /* CategoryTag.swift */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +140,7 @@
 		A45B0BD2DB19233B8BA2E508 /* TempleDataValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDataValidatorTests.swift; sourceTree = "<group>"; };
 		A46C642EC7C3E604D3086949 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		A9EB4322A8D923BC6E3F667E /* VisitShareCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VisitShareCardView.swift; path = PadYatra/Features/TempleDetail/VisitShareCardView.swift; sourceTree = SOURCE_ROOT; };
+		AA4C4B1B8C61499C78FB705E /* TempleDetailPreviewFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TempleDetailPreviewFixtures.swift; path = PadYatra/Features/TempleDetail/TempleDetailPreviewFixtures.swift; sourceTree = SOURCE_ROOT; };
 		AC2CFC66E8ACD0C9232B8495 /* TempleDataValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDataValidator.swift; sourceTree = "<group>"; };
 		AFF71E081AC8DFD254D35E22 /* AchievementCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCardView.swift; sourceTree = "<group>"; };
 		B4D4162A9FDA5F83444CBD95 /* TempleCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleCategory.swift; sourceTree = "<group>"; };
@@ -413,6 +405,7 @@
 				A3344B788395BA3A0F1AD8DF /* PhotoPickerRepresentable.swift */,
 				FB874F92A02B09E5DF532810 /* VisitPhotoStrip.swift */,
 				EA764C868705889999AA0579 /* SearchHistoryService.swift */,
+				AA4C4B1B8C61499C78FB705E /* TempleDetailPreviewFixtures.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -581,6 +574,7 @@
 				490C4254AB29BADCCCBBFF56 /* PhotoPickerRepresentable.swift in Sources */,
 				B4484123B729933982A9CCB0 /* VisitPhotoStrip.swift in Sources */,
 				30DC4921800007FECDBC6545 /* SearchHistoryService.swift in Sources */,
+				B47047888BC01EC6BBD68B13 /* TempleDetailPreviewFixtures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,16 +586,6 @@
 				A977135DDF794E681D361764 /* TempleDataServiceTests.swift in Sources */,
 				AEEA865B1711F032F089874B /* TempleDataValidatorTests.swift in Sources */,
 				F253061D8532B715872D0441 /* VisitServiceTests.swift in Sources */,
-				686E47FC88B40F41F8AC67E9 /* CloudKitSyncMonitor.swift in Sources */,
-				E2234771AA7A722937EF4060 /* SimilarTemplesSection.swift in Sources */,
-				241046B1A631A7B13A96863F /* VisitShareCardView.swift in Sources */,
-				F6764C5D9E33D1D92611D2BC /* VisitShareService.swift in Sources */,
-				5647424BBE37B87D3A8B0E02 /* SearchHistoryView.swift in Sources */,
-				1B8C41819CFE72291F80571B /* AchievementToastView.swift in Sources */,
-				0A564AD896BB5A540F19ED57 /* HapticService.swift in Sources */,
-				F5B7456C839EB649D9CC36E0 /* PhotoPickerRepresentable.swift in Sources */,
-				F41B4C9583CA256C78E0BC8E /* VisitPhotoStrip.swift in Sources */,
-				F8074730B28196D496996D6C /* SearchHistoryService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
