@@ -18,7 +18,7 @@ struct VisitEditView: View {
     @State private var visitedAt: Date
     @State private var rating: Int
     @State private var notes: String
-    @State private var selectedAssetIDs: [String]
+    @State private var selectedPhotoData: [Data]
     @State private var showingDeleteAlert: Bool = false
     @State private var showingPhotoPicker: Bool = false
 
@@ -32,7 +32,7 @@ struct VisitEditView: View {
         _visitedAt = State(initialValue: visit.visitedAt)
         _rating = State(initialValue: visit.rating ?? 0)
         _notes = State(initialValue: visit.notes ?? "")
-        _selectedAssetIDs = State(initialValue: visit.photoAssetIDs)
+        _selectedPhotoData = State(initialValue: visit.photoData)
     }
 
     // MARK: - Body
@@ -62,8 +62,8 @@ struct VisitEditView: View {
                 }
             }
             .sheet(isPresented: $showingPhotoPicker) {
-                PhotoPickerRepresentable { ids in
-                    selectedAssetIDs = ids
+                PhotoPickerRepresentable { data in
+                    selectedPhotoData = data
                 }
                 .ignoresSafeArea()
             }
@@ -126,15 +126,15 @@ struct VisitEditView: View {
 
     private var photoSection: some View {
         Section {
-            if !selectedAssetIDs.isEmpty {
-                VisitPhotoStrip(assetIDs: selectedAssetIDs)
+            if !selectedPhotoData.isEmpty {
+                VisitPhotoStrip(photoData: selectedPhotoData)
                     .padding(.vertical, AppSpacing.xs)
             }
             Button {
                 showingPhotoPicker = true
             } label: {
                 Label(
-                    selectedAssetIDs.isEmpty ? "Add Photos" : "Change Photos (\(selectedAssetIDs.count))",
+                    selectedPhotoData.isEmpty ? "Add Photos" : "Change Photos (\(selectedPhotoData.count))",
                     systemImage: "photo.on.rectangle.angled"
                 )
                 .foregroundStyle(Color.brandSaffron)
@@ -171,7 +171,7 @@ struct VisitEditView: View {
             visitedAt: visitedAt,
             notes: effectiveNotes.isEmpty ? nil : effectiveNotes,
             rating: rating == 0 ? nil : rating,
-            photoAssetIDs: selectedAssetIDs
+            photoData: selectedPhotoData
         )
         dismiss()
     }

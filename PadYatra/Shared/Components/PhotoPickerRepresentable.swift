@@ -1,7 +1,7 @@
 // PhotoPickerRepresentable.swift
 // UIViewControllerRepresentable wrapping PHPickerViewController.
-// Returns [String] — PHAsset local identifiers — not UIImages.
-// The identifier is what we persist; the image is loaded on demand via PHImageManager.
+// Loads UIImage directly from NSItemProvider and returns JPEG Data.
+// No Photos library permission required.
 import SwiftUI
 import PhotosUI
 
@@ -9,8 +9,8 @@ import PhotosUI
 
 struct PhotoPickerRepresentable: UIViewControllerRepresentable {
 
-    /// Receives the selected PHAsset local identifiers.
-    let onPick: ([String]) -> Void
+    /// Receives JPEG-compressed image data for the selected photos.
+    let onPick: ([Data]) -> Void
 
     var selectionLimit: Int = 10
 
@@ -19,10 +19,9 @@ struct PhotoPickerRepresentable: UIViewControllerRepresentable {
     }
 
     func makeUIViewController(context: Context) -> PHPickerViewController {
-        var config = PHPickerConfiguration(photoLibrary: .shared())
+        var config = PHPickerConfiguration()   // no photoLibrary: — avoids permission prompt
         config.selectionLimit = selectionLimit
         config.filter = .images
-        // .ordered preserves selection order and populates result.assetIdentifier
         config.selection = .ordered
 
         let picker = PHPickerViewController(configuration: config)
@@ -36,16 +35,47 @@ struct PhotoPickerRepresentable: UIViewControllerRepresentable {
 
     final class Coordinator: NSObject, PHPickerViewControllerDelegate {
 
-        let onPick: ([String]) -> Void
+        let onPick: ([Data]) -> Void
 
-        init(onPick: @escaping ([String]) -> Void) {
+        init(onPick: @escaping ([Data]) -> Void) {
             self.onPick = onPick
         }
 
         func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
             picker.dismiss(animated: true)
-            let ids = results.compactMap(\.assetIdentifier)
-            onPick(ids)
+            guard !results.isEmpty else { onPick([]); return }
+
+            Task {
+                var dataItems: [Data] = []
+                for result in results {
+                    guard result.itemProvider.canLoadObject(ofClass: UIImage.self) else { continue }
+                    let image = await withCheckedContinuation { (cont: CheckedContinuation<UIImage?, Never>) in
+                        result.itemProvider.loadObject(ofClass: UIImage.self) { object, _ in
+                            cont.resume(returning: object as? UIImage)
+                        }
+                    }
+                    guard let image,
+                          let data = image.scaledForStorage().jpegData(compressionQuality: 0.8)
+                    else { continue }
+                    dataItems.append(data)
+                }
+                await MainActor.run { self.onPick(dataItems) }
+            }
         }
+    }
+}
+
+// MARK: - UIImage resize helper
+
+private extension UIImage {
+    /// Scales down to a maximum dimension of 1200 px while preserving aspect ratio.
+    /// Returns self unchanged when already within bounds.
+    func scaledForStorage(maxDimension: CGFloat = 1200) -> UIImage {
+        let longest = max(size.width, size.height)
+        guard longest > maxDimension else { return self }
+        let scale = maxDimension / longest
+        let newSize = CGSize(width: size.width * scale, height: size.height * scale)
+        let renderer = UIGraphicsImageRenderer(size: newSize)
+        return renderer.image { _ in draw(in: CGRect(origin: .zero, size: newSize)) }
     }
 }

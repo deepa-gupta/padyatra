@@ -134,8 +134,8 @@ struct VisitRow: View {
                     .truncationMode(.tail)
             }
 
-            if !visit.photoAssetIDs.isEmpty {
-                VisitPhotoStrip(assetIDs: visit.photoAssetIDs)
+            if !visit.photoData.isEmpty {
+                VisitPhotoStrip(photoData: visit.photoData)
                     .padding(.top, AppSpacing.xs)
             }
         }

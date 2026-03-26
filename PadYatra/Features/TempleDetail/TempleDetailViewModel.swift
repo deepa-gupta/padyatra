@@ -53,7 +53,7 @@ final class TempleDetailViewModel: ObservableObject {
     // MARK: - Mark Visited
 
     /// Records a new visit, fires haptic, and checks for newly unlocked achievements.
-    func markVisited(notes: String?, rating: Int?, photoAssetIDs: [String] = [], isGPSVerified: Bool) {
+    func markVisited(notes: String?, rating: Int?, photoData: [Data] = [], isGPSVerified: Bool) {
         let resolvedNotes = notes?.trimmingCharacters(in: .whitespacesAndNewlines)
         let effectiveNotes = resolvedNotes?.isEmpty == false ? resolvedNotes : nil
         let effectiveRating = rating == 0 ? nil : rating
@@ -64,7 +64,7 @@ final class TempleDetailViewModel: ObservableObject {
                 visitedAt: .now,
                 notes: effectiveNotes,
                 rating: effectiveRating,
-                photoAssetIDs: photoAssetIDs,
+                photoData: photoData,
                 isGPSVerified: isGPSVerified
             )
             HapticService.success()
@@ -95,7 +95,7 @@ final class TempleDetailViewModel: ObservableObject {
     // MARK: - Update Visit
 
     /// Updates an existing visit's fields and reloads.
-    func update(_ visit: TempleVisit, visitedAt: Date, notes: String?, rating: Int?, photoAssetIDs: [String]? = nil) {
+    func update(_ visit: TempleVisit, visitedAt: Date, notes: String?, rating: Int?, photoData: [Data]? = nil) {
         let resolvedNotes = notes?.trimmingCharacters(in: .whitespacesAndNewlines)
         let effectiveNotes = resolvedNotes?.isEmpty == false ? resolvedNotes : nil
         let effectiveRating = rating == 0 ? nil : rating
@@ -106,7 +106,7 @@ final class TempleDetailViewModel: ObservableObject {
                 visitedAt: visitedAt,
                 notes: effectiveNotes,
                 rating: effectiveRating,
-                photoAssetIDs: photoAssetIDs
+                photoData: photoData
             )
             loadVisits()
             logger.info("Updated visit \(visit.id) for '\(self.temple.id)'.")

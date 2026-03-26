@@ -1,22 +1,21 @@
 // VisitPhotoStrip.swift
-// Horizontal strip of thumbnails loaded from PHAsset local identifiers.
-// Uses PHImageManager for fast, cached thumbnail delivery.
+// Horizontal strip of thumbnails rendered from stored JPEG Data.
+// No Photos library permission required.
 import SwiftUI
-import Photos
 
 // MARK: - VisitPhotoStrip
 
 struct VisitPhotoStrip: View {
 
-    let assetIDs: [String]
+    let photoData: [Data]
 
     private let thumbSize: CGFloat = 72
 
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: AppSpacing.xs) {
-                ForEach(assetIDs, id: \.self) { id in
-                    PhotoThumb(assetID: id, size: thumbSize)
+                ForEach(Array(photoData.enumerated()), id: \.offset) { _, data in
+                    PhotoThumb(data: data, size: thumbSize)
                 }
             }
         }
@@ -27,10 +26,10 @@ struct VisitPhotoStrip: View {
 
 private struct PhotoThumb: View {
 
-    let assetID: String
+    let data: Data
     let size: CGFloat
 
-    @State private var image: UIImage? = nil
+    private var image: UIImage? { UIImage(data: data) }
 
     var body: some View {
         Group {
@@ -48,38 +47,5 @@ private struct PhotoThumb: View {
         }
         .frame(width: size, height: size)
         .clipShape(RoundedRectangle(cornerRadius: AppRadius.sm))
-        .task(id: assetID) {
-            image = await loadThumbnail(for: assetID, size: CGSize(width: size * 3, height: size * 3))
-        }
-    }
-
-    private func loadThumbnail(for id: String, size: CGSize) async -> UIImage? {
-        // PHImageManager requires read authorization even though PHPicker does not.
-        let status = await PHPhotoLibrary.requestAuthorization(for: .readWrite)
-        guard status == .authorized || status == .limited else { return nil }
-
-        return await withCheckedContinuation { continuation in
-            let results = PHAsset.fetchAssets(withLocalIdentifiers: [id], options: nil)
-            guard let asset = results.firstObject else {
-                continuation.resume(returning: nil)
-                return
-            }
-            let options = PHImageRequestOptions()
-            options.deliveryMode = .fastFormat   // single callback — avoids double-resume
-            options.isNetworkAccessAllowed = true
-            options.isSynchronous = false
-
-            var resumed = false
-            PHImageManager.default().requestImage(
-                for: asset,
-                targetSize: size,
-                contentMode: .aspectFill,
-                options: options
-            ) { image, _ in
-                guard !resumed else { return }
-                resumed = true
-                continuation.resume(returning: image)
-            }
-        }
     }
 }

@@ -24,8 +24,9 @@ final class TempleVisit {
     /// Optional star rating 1–5. nil means unrated.
     var rating: Int?
 
-    /// Asset identifiers for photos stored in the user's photo library.
-    var photoAssetIDs: [String]
+    /// JPEG-compressed thumbnails (≤1200 px) picked by the user.
+    /// Stored as Data so no Photos library permission is required.
+    var photoData: [Data]
 
     /// True when the visit was recorded with GPS confirmation at or near the temple.
     var isGPSVerified: Bool
@@ -37,7 +38,7 @@ final class TempleVisit {
         visitedAt: Date = .now,
         notes: String? = nil,
         rating: Int? = nil,
-        photoAssetIDs: [String] = [],
+        photoData: [Data] = [],
         isGPSVerified: Bool = false
     ) {
         self.id = UUID()
@@ -46,7 +47,7 @@ final class TempleVisit {
         self.lastEditedAt = .now
         self.notes = notes
         self.rating = rating
-        self.photoAssetIDs = photoAssetIDs
+        self.photoData = photoData
         self.isGPSVerified = isGPSVerified
     }
 }
