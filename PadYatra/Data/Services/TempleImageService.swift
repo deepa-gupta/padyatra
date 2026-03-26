@@ -126,7 +126,7 @@ final class TempleImageService {
         guard let apiURL = URL(string: "https://en.wikipedia.org/api/rest_v1/page/media-list/\(articleTitle)")
         else { return nil }
 
-        var request = URLRequest(url: apiURL)
+        var request = URLRequest(url: apiURL, timeoutInterval: 10)
         request.setValue("PadYatra/1.0 (iOS; contact@padyatra.com)", forHTTPHeaderField: "User-Agent")
 
         guard
@@ -171,7 +171,7 @@ final class TempleImageService {
         guard let apiURL = URL(string: "https://en.wikipedia.org/api/rest_v1/page/summary/\(articleTitle)")
         else { return nil }
 
-        var request = URLRequest(url: apiURL)
+        var request = URLRequest(url: apiURL, timeoutInterval: 10)
         request.setValue("PadYatra/1.0 (iOS; contact@padyatra.com)", forHTTPHeaderField: "User-Agent")
 
         guard

@@ -2,6 +2,7 @@
 // Business logic for the temple list: filtering, grouping, sorting.
 // Filter predicate lives in TempleDataService.applyFilter (shared with MapViewModel).
 import Foundation
+import Combine
 import OSLog
 
 // MARK: - TempleListViewModel
@@ -14,56 +15,76 @@ final class TempleListViewModel: ObservableObject {
     @Published var filterMode: TempleFilterMode = .all
     @Published var searchText: String = ""
     @Published var selectedCategoryID: String? = nil
-    @Published private(set) var displayedTemples: [Temple] = []
     @Published private(set) var displayedSections: [(title: String, temples: [Temple])] = []
+
+    // MARK: - Cached Derived State
+
+    /// Sorted once after load — categories never change at runtime.
+    private(set) lazy var availableCategories: [TempleCategory] = {
+        dataService.categories.sorted { $0.sortOrder < $1.sortOrder }
+    }()
 
     // MARK: - Dependencies
 
     private let dataService: TempleDataService
     private let locationService: LocationService
     private let logger = Logger(subsystem: "com.padyatra", category: "TempleListViewModel")
+    private var cancellables = Set<AnyCancellable>()
 
     // MARK: - Init
 
     init(dataService: TempleDataService, locationService: LocationService) {
         self.dataService = dataService
         self.locationService = locationService
+        setupAutoRecompute()
     }
 
     // MARK: - Public API
 
-    var availableCategories: [TempleCategory] {
-        dataService.categories.sorted { $0.sortOrder < $1.sortOrder }
+    /// Explicit trigger used by the view on first appear and when visits change.
+    /// (Filter/search changes are handled internally via Combine.)
+    func recompute() {
+        let sections = buildSections()
+        displayedSections = sections
+        logger.debug("TempleListViewModel recomputed: \(sections.count) sections")
     }
 
-    /// Rebuilds displayedSections. Call on appear and whenever filter state or visits change.
-    func recompute() {
-        // 1. Search
+    // MARK: - Combine Auto-Recompute
+
+    private func setupAutoRecompute() {
+        // Search text: debounce 300 ms so typing doesn't recompute on every character.
+        let debouncedSearch = $searchText
+            .debounce(for: .milliseconds(300), scheduler: RunLoop.main)
+            .map { _ in () }
+
+        // Filter mode + category: respond immediately (these are tap-driven, not typing).
+        let filterChange = Publishers.CombineLatest($filterMode, $selectedCategoryID)
+            .dropFirst()          // skip the initial emission on subscription
+            .map { _ in () }
+
+        // Merge both streams; one sink calls recompute.
+        debouncedSearch
+            .merge(with: filterChange)
+            .sink { [weak self] in self?.recompute() }
+            .store(in: &cancellables)
+    }
+
+    // MARK: - Private Grouping
+
+    private func buildSections() -> [(title: String, temples: [Temple])] {
         var pool = dataService.temples
         let query = searchText.trimmingCharacters(in: .whitespaces).lowercased()
         if !query.isEmpty {
             pool = pool.filter { $0.name.lowercased().contains(query) }
         }
-
-        // 2. Shared filter predicate (visited/category/etc.) via TempleDataService
         pool = dataService.applyFilter(to: pool, mode: filterMode, categoryID: selectedCategoryID)
 
-        // 3. Group for display — grouping strategy depends on mode
-        let sections: [(title: String, temples: [Temple])]
         switch filterMode {
-        case .nearMe:
-            sections = nearMeSections(from: pool)
-        case .byCategory:
-            sections = categorySections(from: pool)
-        default:
-            sections = groupedByState(pool)
+        case .nearMe:     return nearMeSections(from: pool)
+        case .byCategory: return categorySections(from: pool)
+        default:          return groupedByState(pool)
         }
-
-        displayedSections = sections
-        displayedTemples = sections.flatMap { $0.temples }
     }
-
-    // MARK: - Private Grouping Helpers
 
     private func groupedByState(_ temples: [Temple]) -> [(title: String, temples: [Temple])] {
         var byState: [String: [Temple]] = [:]
@@ -76,16 +97,14 @@ final class TempleListViewModel: ObservableObject {
     }
 
     private func categorySections(from pool: [Temple]) -> [(title: String, temples: [Temple])] {
-        let categories = dataService.categories.sorted { $0.sortOrder < $1.sortOrder }
+        let categories = availableCategories
 
-        // Single category selected — one section, already filtered by applyFilter
         if let selectedID = selectedCategoryID,
            let category = categories.first(where: { $0.id == selectedID }) {
             let temples = pool.sorted { $0.name < $1.name }
             return temples.isEmpty ? [] : [(title: category.name, temples: temples)]
         }
 
-        // All categories — one section per category (temples may appear in multiple)
         return categories.compactMap { category in
             let temples = pool.filter { category.templeIDs.contains($0.id) }
                               .sorted { $0.name < $1.name }

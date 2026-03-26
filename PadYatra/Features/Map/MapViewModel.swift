@@ -1,6 +1,7 @@
 // MapViewModel.swift
 // Business logic for the map tab: region tracking, filter modes, and visible temple filtering.
 import MapKit
+import Combine
 import OSLog
 
 @MainActor
@@ -12,7 +13,7 @@ final class MapViewModel: ObservableObject {
     @Published var cameraRegion: MKCoordinateRegion = MapViewModel.indiaRegion
     @Published private(set) var visibleTemples: [Temple] = []
 
-    /// Filter state
+    /// Filter state — combined in setupAutoReload so ONE change = ONE reload.
     @Published var filterMode: TempleFilterMode = .all
     @Published var selectedCategoryID: String? = nil
 
@@ -24,6 +25,7 @@ final class MapViewModel: ObservableObject {
     private let dataService: TempleDataService
     let locationService: LocationService
     private let logger = Logger(subsystem: "com.padyatra", category: "MapViewModel")
+    private var cancellables = Set<AnyCancellable>()
 
     // MARK: - Constants
 
@@ -32,19 +34,23 @@ final class MapViewModel: ObservableObject {
         span: MKCoordinateSpan(latitudeDelta: 25.0, longitudeDelta: 22.0)
     )
 
+    // MARK: - Cached
+
+    /// Sorted once — categories are static after load.
+    private(set) lazy var availableCategories: [TempleCategory] = {
+        dataService.categories.sorted { $0.sortOrder < $1.sortOrder }
+    }()
+
     // MARK: - Init
 
     init(dataService: TempleDataService, locationService: LocationService) {
         self.dataService = dataService
         self.locationService = locationService
-        self.visibleTemples = dataService.temples
+        visibleTemples = dataService.temples
+        setupAutoReload()
     }
 
     // MARK: - Public API
-
-    var availableCategories: [TempleCategory] {
-        dataService.categories.sorted { $0.sortOrder < $1.sortOrder }
-    }
 
     func isVisited(_ temple: Temple) -> Bool {
         dataService.visitedTempleIDs.contains(temple.id)
@@ -74,16 +80,30 @@ final class MapViewModel: ObservableObject {
         applyFilter(in: region)
     }
 
-    /// Rebuilds the visible list — call on appear and whenever filter state changes.
+    /// Explicit reload — call on appear.
     func reload() {
         applyFilter(in: cameraRegion)
         logger.info("MapViewModel reloaded: \(self.visibleTemples.count) temples visible.")
     }
 
+    // MARK: - Combine Auto-Reload
+
+    private func setupAutoReload() {
+        // Coalesce filterMode + selectedCategoryID into a SINGLE reload.
+        // Without this, tapping a category filter (which changes both) fires reload() twice.
+        Publishers.CombineLatest($filterMode, $selectedCategoryID)
+            .dropFirst()     // skip initial subscription emission
+            .map { _ in () }
+            .sink { [weak self] in
+                guard let self else { return }
+                self.applyFilter(in: self.cameraRegion)
+            }
+            .store(in: &cancellables)
+    }
+
     // MARK: - Private
 
     private func applyFilter(in region: MKCoordinateRegion) {
-        // Shared filter predicate via TempleDataService — same logic as the list
         let pool = dataService.applyFilter(to: dataService.temples, mode: filterMode, categoryID: selectedCategoryID)
         visibleTemples = clipped(pool, to: region)
         logger.debug("Filter=\(self.filterMode.rawValue) — \(self.visibleTemples.count) temples visible.")

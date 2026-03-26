@@ -95,8 +95,8 @@ struct MapView: View {
             vm.reload()
             vm.locationService.requestWhenInUsePermission()
         }
-        .onChange(of: vm.filterMode) { vm.reload() }
-        .onChange(of: vm.selectedCategoryID) { vm.reload() }
+        // filterMode + selectedCategoryID changes are handled inside MapViewModel
+        // via a CombineLatest subscription — no double-reload on category tap.
     }
 
     // MARK: - Filter FAB

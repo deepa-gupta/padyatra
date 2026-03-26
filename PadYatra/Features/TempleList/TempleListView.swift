@@ -2,7 +2,6 @@
 // Lists all temples with search, filter, section grouping, and search history.
 import SwiftUI
 import SwiftData
-import OSLog
 
 struct TempleListView: View {
 
@@ -16,10 +15,6 @@ struct TempleListView: View {
     @StateObject private var searchHistory = SearchHistoryService()
     @Query private var allVisits: [TempleVisit]
     @Environment(\.isSearching) private var isSearching
-
-    // MARK: - Private
-
-    private let logger = Logger(subsystem: "com.padyatra", category: "TempleListView")
 
     // MARK: - Dependencies (passed in for detail navigation)
 
@@ -87,15 +82,17 @@ struct TempleListView: View {
         }
         .tint(Color.brandSaffron)
         .onAppear {
+            // Rebuild visited set and trigger initial list population.
+            // Filter/search/category changes are handled inside TempleListViewModel
+            // via Combine subscriptions (with 300ms debounce on search).
             dataService.rebuildVisitedSet(from: allVisits)
-            recompute()
+            vm.recompute()
         }
-        .onChange(of: vm.filterMode) { recompute() }
-        .onChange(of: vm.searchText) { recompute() }
-        .onChange(of: vm.selectedCategoryID) { recompute() }
         .onChange(of: allVisits) { _, visits in
+            // Visits are a @Query — only the view can observe them.
+            // Rebuild the O(1) visited set, then recompute filter results.
             dataService.rebuildVisitedSet(from: visits)
-            recompute()
+            vm.recompute()
         }
     }
 
@@ -184,12 +181,6 @@ struct TempleListView: View {
         .background(Color.brandWarmCream)
     }
 
-    // MARK: - Helpers
-
-    private func recompute() {
-        vm.recompute()
-        logger.debug("TempleListView recomputed sections: \(vm.displayedSections.count)")
-    }
 }
 
 // MARK: - Preview
