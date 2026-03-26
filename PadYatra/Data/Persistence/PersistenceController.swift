@@ -15,6 +15,8 @@ final class PersistenceController: @unchecked Sendable {
 
     let container: ModelContainer
 
+    private static let logger = Logger(subsystem: "com.padyatra", category: "PersistenceController")
+
     init(inMemory: Bool = false) {
         let schema = Schema([TempleVisit.self, AchievementReveal.self])
 
@@ -30,9 +32,39 @@ final class PersistenceController: @unchecked Sendable {
                 schema: schema,
                 cloudKitDatabase: .automatic
             )
-            // force-unwrap: configuration is controlled by us; failure here is a
-            // programming error that must be caught in development, not swallowed.
-            container = try! ModelContainer(for: schema, configurations: [config]) // swiftlint:disable:this force_try
+            // Attempt to open the store. If migration fails (e.g. a schema rename
+            // such as photoAssetIDs → photoData that SwiftData cannot auto-migrate),
+            // delete the local store and recreate it. CloudKit will re-sync records
+            // from iCloud on the next launch; any local-only records are lost, but
+            // that's preferable to a hard crash on every launch.
+            do {
+                container = try ModelContainer(for: schema, configurations: [config])
+            } catch {
+                Self.logger.error("ModelContainer failed to load (\(error)); wiping local store and retrying.")
+                Self.deleteStoreFiles(for: config)
+                // force-unwrap: if it fails again after a wipe, it's a programming error.
+                container = try! ModelContainer(for: schema, configurations: [config]) // swiftlint:disable:this force_try
+            }
+        }
+    }
+
+    // MARK: - Store file deletion
+
+    /// Removes all SQLite files associated with a ModelConfiguration so a fresh
+    /// store can be created. Safe to call only after a migration failure.
+    private static func deleteStoreFiles(for config: ModelConfiguration) {
+        let base = config.url
+        let companions = [base,
+                          base.appendingPathExtension("shm"),
+                          base.appendingPathExtension("wal")]
+        for url in companions {
+            do {
+                try FileManager.default.removeItem(at: url)
+                logger.info("Deleted store file: \(url.lastPathComponent)")
+            } catch {
+                // File may not exist (e.g. .shm/.wal not yet created) — ignore.
+                logger.debug("Could not delete \(url.lastPathComponent): \(error.localizedDescription)")
+            }
         }
     }
 
