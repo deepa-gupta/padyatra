@@ -104,9 +104,9 @@ final class TempleImageService {
            !title.isEmpty {
 
             if let mediaURLs = await fetchWikipediaMediaList(title), !mediaURLs.isEmpty {
-                // Append only URLs not already present (dedup hero vs media-list)
-                let existing = Set(urls.map(\.absoluteString))
-                for url in mediaURLs where !existing.contains(url.absoluteString) {
+                // Dedup by Wikimedia filename (px-prefix varies between hero and media-list)
+                let existingKeys = Set(urls.map { wikimediaFileKey($0) })
+                for url in mediaURLs where !existingKeys.contains(wikimediaFileKey(url)) {
                     urls.append(url)
                     if urls.count == 5 { break }
                 }
@@ -193,7 +193,18 @@ final class TempleImageService {
         return summary.originalimage.flatMap { URL(string: $0.source) }
     }
 
-    // MARK: - Wikimedia URL sizing
+    // MARK: - Wikimedia URL helpers
+
+    /// Returns a size-independent key for a Wikimedia image URL.
+    /// For URLs ending in `NNNpx-Filename.jpg` the key is `Filename.jpg`,
+    /// allowing deduplication across thumbnail sizes.
+    private nonisolated static func wikimediaFileKey(_ url: URL) -> String {
+        let last = url.lastPathComponent
+        if let range = last.range(of: "px-") {
+            return String(last[range.upperBound...])
+        }
+        return last
+    }
 
     private nonisolated static func widenWikimediaThumb(_ source: String, width: Int) -> URL? {
         guard var comps = URLComponents(string: source) else { return nil }
