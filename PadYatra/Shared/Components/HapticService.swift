@@ -5,6 +5,7 @@ import UIKit
 
 // MARK: - HapticService
 
+@MainActor
 enum HapticService {
 
     /// Use after a successful save (visit logged, data updated).

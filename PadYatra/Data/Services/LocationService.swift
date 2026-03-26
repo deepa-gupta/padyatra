@@ -21,7 +21,7 @@ final class LocationService: NSObject, ObservableObject {
     // MARK: - Init
 
     override init() {
-        authorizationStatus = CLLocationManager.authorizationStatus()
+        authorizationStatus = manager.authorizationStatus
         super.init()
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyHundredMeters
