@@ -61,16 +61,19 @@ private struct PhotoThumb: View {
                 return
             }
             let options = PHImageRequestOptions()
-            options.deliveryMode = .opportunistic
+            options.deliveryMode = .fastFormat   // single callback — avoids double-resume
             options.isNetworkAccessAllowed = true
             options.isSynchronous = false
 
+            var resumed = false
             PHImageManager.default().requestImage(
                 for: asset,
                 targetSize: size,
                 contentMode: .aspectFill,
                 options: options
             ) { image, _ in
+                guard !resumed else { return }
+                resumed = true
                 continuation.resume(returning: image)
             }
         }
