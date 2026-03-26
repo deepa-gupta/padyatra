@@ -54,7 +54,11 @@ private struct PhotoThumb: View {
     }
 
     private func loadThumbnail(for id: String, size: CGSize) async -> UIImage? {
-        await withCheckedContinuation { continuation in
+        // PHImageManager requires read authorization even though PHPicker does not.
+        let status = await PHPhotoLibrary.requestAuthorization(for: .readWrite)
+        guard status == .authorized || status == .limited else { return nil }
+
+        return await withCheckedContinuation { continuation in
             let results = PHAsset.fetchAssets(withLocalIdentifiers: [id], options: nil)
             guard let asset = results.firstObject else {
                 continuation.resume(returning: nil)

@@ -52,6 +52,7 @@ private struct SimilarTempleCard: View {
     let isVisited: Bool
 
     @State private var thumbURL: URL? = nil
+    @State private var thumbResolved = false
 
     private let cardWidth: CGFloat = 120
     private let imageHeight: CGFloat = 80
@@ -65,7 +66,13 @@ private struct SimilarTempleCard: View {
                 case .failure:
                     placeholderGradient
                 default:
-                    placeholderGradient.overlay(ProgressView().tint(.white).scaleEffect(0.7))
+                    // Only spin while the URL lookup is still in flight.
+                    // Once resolved, a nil URL means no image — show gradient only.
+                    if thumbResolved {
+                        placeholderGradient
+                    } else {
+                        placeholderGradient.overlay(ProgressView().tint(.white).scaleEffect(0.7))
+                    }
                 }
             }
             .frame(width: cardWidth, height: imageHeight)
@@ -94,6 +101,7 @@ private struct SimilarTempleCard: View {
         .frame(width: cardWidth)
         .task(id: temple.id) {
             thumbURL = await TempleImageService.shared.thumbnailURL(for: temple)
+            thumbResolved = true
         }
     }
 
