@@ -21,9 +21,11 @@ final class LocationService: NSObject, ObservableObject {
     // MARK: - Init
 
     override init() {
-        authorizationStatus = manager.authorizationStatus
+        // Start with .notDetermined; setting manager.delegate below triggers
+        // locationManagerDidChangeAuthorization immediately with the real status.
+        authorizationStatus = .notDetermined
         super.init()
-        manager.delegate = self
+        manager.delegate = self              // triggers delegate callback synchronously
         manager.desiredAccuracy = kCLLocationAccuracyHundredMeters
         manager.distanceFilter = 100 // metres — avoid excessive updates
     }
