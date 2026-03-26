@@ -72,7 +72,7 @@ struct TempleHeroGallery: View {
         brandedBase
             .overlay(
                 VStack(spacing: AppSpacing.sm) {
-                    Image(systemName: "photo.slash")
+                    Image(systemName: "photo")
                         .font(.system(size: 36))
                         .foregroundStyle(Color.white.opacity(0.8))
                     Text("No photos available for \(templeName)")
