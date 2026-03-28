@@ -576,7 +576,7 @@
         "t_naimisaranya_chakra_narayan",
         "t_pushkar_varaha",
         "t_srimushnam_bhu_varaha_swamy",
-        "t_srirangam_ranganathaswamy",
+        "t_ranganathaswamy",
         "t_tirumala_venkateswara_temple_tirumala",
         "t_tirunarayanapuram_cheluvanarayana_swamy"
       ],
@@ -13127,10 +13127,12 @@
     {
       "id": "t_ranganathaswamy",
       "slug": "ranganathaswamy-temple-srirangam",
-      "legacyIDs": [],
+      "legacyIDs": [
+        "t_srirangam_ranganathaswamy"
+      ],
       "isActive": true,
       "name": "Ranganathaswamy Temple",
-      "alternateName": null,
+      "alternateName": "Srirangam Temple",
       "deity": "Vishnu",
       "location": {
         "latitude": 10.862717,
@@ -13144,14 +13146,15 @@
       },
       "categoryIDs": [
         "c_largest",
-        "c_tallest_tower"
+        "c_tallest_tower",
+        "c_swayambhu_vishnu"
       ],
       "description": "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of Lakshmi). The temple is located in Srirangam, Tiruchirapalli, Tamil Nadu, India. Constructed in the Tamil architectural style, the temple is glorified by the Tamil poet-saints called the Alvars in their canon, the Naalayira Divya Prabhandam, and has the unique distinction of being the foremost among the 108 Divya Desams dedicated to the god Vishnu.",
       "shortDescription": "The Ranganathaswamy Temple is a Hindu temple dedicated to Ranganathar (a form of Vishnu) and his consort Ranganayaki (a form of La…",
       "facts": {
         "established": "9th–10th century CE",
         "dynasty": "Pallava/Medieval Period",
-        "architectureStyle": "[[Architecture of Tamil Nadu",
+        "architectureStyle": "Dravidian (Tamil Nadu)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
@@ -13809,67 +13812,6 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Anantha_Padmanabha_Swamy_Temple"
-    },
-    {
-      "id": "t_srirangam_ranganathaswamy",
-      "slug": "srirangam-ranganathaswamy-temple-srirangam",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Srirangam Ranganathaswamy Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 10.857331,
-        "longitude": 78.693085,
-        "city": "Srirangam",
-        "district": "Tiruchirappalli",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_swayambhu_vishnu"
-      ],
-      "description": "Srirangam Ranganathaswamy Temple is a Hindu temple located in Srirangam, Tamil Nadu, India, dedicated to Vishnu. It dates to the Early Medieval / Chola Period.",
-      "shortDescription": "Srirangam Ranganathaswamy Temple is a Hindu temple located in Srirangam, Tamil Nadu, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "Ancient (early references before 7th century CE)",
-        "dynasty": "Early Medieval / Chola Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_srirangam_ranganathaswamy_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_srirangam_ranganathaswamy_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
     },
     {
       "id": "t_thirukolur",
