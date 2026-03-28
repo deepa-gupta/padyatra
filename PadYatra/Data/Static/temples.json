@@ -13779,11 +13779,11 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "Anantha Padmanabhaswamy Temple",
-      "alternateName": null,
+      "alternateName": "Padmanabhaswamy Temple",
       "deity": "Vishnu",
       "location": {
-        "latitude": 8.488227,
-        "longitude": 76.947551,
+        "latitude": 8.48278,
+        "longitude": 76.94361,
         "city": "Thiruvananthapuram",
         "district": "Thiruvananthapuram",
         "state": "Kerala",
@@ -13794,45 +13794,59 @@
       "categoryIDs": [
         "c_swayambhu_vishnu"
       ],
-      "description": "Anandha Padmanabha Swamy Temple is a Hindu temple in India. It is located within the Kulattur taluk of Pudukottai district of the state of Tamil Nadu and is a lesser known one of the 108 Divya Desams dedicated to the Hindu deity Anantha Padmanabhaswamy\n(Vishnu). It dates back roughly to the late eighth or early ninth century AD. The temple is known for two rock cut temples, one dedicated to Shiva and the other to Vishnu. There is a huge underground behind the 6th room. It is directly connected to kings palace.",
-      "shortDescription": "Anandha Padmanabha Swamy Temple is a Hindu temple in India.",
+      "description": "At the heart of Thiruvananthapuram rests one of India's most sacred shrines. Its deity reclines in eternal yogic sleep on Ananta the cosmic serpent — a massive murti of 12,008 shaligrama stones. Brahma blooms from Vishnu's navel, visible only through three separate doorways. Beneath lie legendary subterranean vaults: five opened by Supreme Court order in 2011 revealed an estimated $22 billion in gold and jewels, the largest such hoard in recorded history; the enigmatic Vault B remains sealed. The Travancore royal family, self-declared servants of Padmanabha, have been stewards for centuries.",
+      "shortDescription": "Vishnu temple in Thiruvananthapuram with a colossal reclining deity, legendary treasure vaults, and Travancore royal stewardship.",
       "facts": {
-        "established": "Ancient (major reconstruction 16th century CE)",
-        "dynasty": "Medieval Period",
-        "architectureStyle": null,
+        "established": "8th century CE",
+        "dynasty": "Travancore",
+        "architectureStyle": "Kerala-Dravidian",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Men: dhoti only (bare-chested). Women: saree or ankle-length skirt with full-sleeved top. No jeans or Western clothes.",
+        "photographyAllowed": false,
+        "entryFee": "Free (Special Darshan ₹150–₹500)",
+        "darshanaTimings": "3:15 AM – 12:00 PM, 5:00 PM – 7:20 PM (multiple sessions)"
       },
       "images": {
         "heroImageName": "t_anantha_padmanabhaswamy_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_anantha_padmanabhaswamy_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Padmanabhaswamy_Temple_Gopuram%2C_eastern_view.JPG"
       },
       "festivals": [
         {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
+          "name": "Painkuni Utsavam",
+          "approximateMonth": 3,
           "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "description": "10-day festival with flag hoisting, palli vetta hunt, and aarattu sea procession.",
           "significance": "high"
         },
         {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
+          "name": "Alpasi Utsavam",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "10-day festival with deity processions on successive vahanas and final Aarattu.",
           "significance": "high"
+        },
+        {
+          "name": "Lakshadeepam",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "One lakh oil lamps lit; grand procession closing the Murajapam Vedic chanting cycle.",
+          "significance": "high"
+        },
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine-night celebration with special sevas and cultural performances.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Anantha_Padmanabha_Swamy_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Padmanabhaswamy_Temple"
     },
     {
       "id": "t_thirukolur",
