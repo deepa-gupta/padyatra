@@ -339,12 +339,11 @@
         "t_anjaneya_swamy",
         "t_hanuman_garhi",
         "t_hanuman_mandir_hampi",
-        "t_hanuman_temple_salasar",
         "t_hanuman_tok",
         "t_mahavir",
-        "t_salasar_balaji",
         "t_sankat_mochan_hanuman",
-        "t_shree_hanuman"
+        "t_shree_hanuman",
+        "t_salasar_balaji"
       ],
       "achievementID": null
     },
@@ -2692,14 +2691,14 @@
       "slug": "kishkindha-anjaneya-temple-hampi",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Kishkindha Anjaneya Temple",
-      "alternateName": null,
-      "deity": "Hanuman",
+      "name": "Anjeyanadri Hanuman Temple",
+      "alternateName": "Anjaneyadri Betta Temple",
+      "deity": "Hanuman (Anjaneya)",
       "location": {
         "latitude": 15.3358,
         "longitude": 76.46102,
-        "city": "Hampi",
-        "district": "Ballari",
+        "city": "Hanumanahalli",
+        "district": "Koppal",
         "state": "Karnataka",
         "country": "India",
         "address": null,
@@ -2708,11 +2707,11 @@
       "categoryIDs": [
         "c_rama_circuit"
       ],
-      "description": "Kishkindha Anjaneya Temple is a Hindu temple located in Hampi, Karnataka, India, dedicated to Hanuman. It dates to the Hoysala / Vijayanagara Period.",
-      "shortDescription": "Kishkindha Anjaneya Temple is a Hindu temple located in Hampi, Karnataka, India, dedicated to Hanuman.",
+      "description": "Anjeyanadri Hill (Anjaneyadri Betta) in Hanumanahalli near Hampi, Karnataka, is revered as the birthplace of the Hindu deity Hanuman, who was born here to Anjana and is thus called Anjaneya — 'son of Anjana'. The hilltop Hanuman temple, reached by approximately 575 steps, houses a rock-carved idol of Lord Hanuman along with shrines of Rama, Sita, and Anjana in the surrounding area. The hill stands within the ancient Kishkinda region of the Ramayana and overlooks the spectacular Hampi landscape and the Tungabhadra River below.",
+      "shortDescription": "Hilltop temple on the hill traditionally identified as Hanuman's birthplace, with 575 steps and a rock-carved idol, overlooking Hampi.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Hoysala / Vijayanagara Period",
+        "established": "Ancient (Ramayana tradition)",
+        "dynasty": "Vijayanagara period",
         "architectureStyle": null,
         "openingMonth": null,
         "closingMonth": null,
@@ -2726,7 +2725,7 @@
         "heroImageName": "t_kishkindha_anjaneya_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_kishkindha_anjaneya_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/38/Panorama_of_Hampi_from_Anjaneyadri_hill.jpg"
       },
       "festivals": [
         {
@@ -2739,7 +2738,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Anjeyanadri_Hill"
     },
     {
       "id": "t_sankat_mochan_hanuman",
@@ -2850,60 +2849,6 @@
       "sourceURL": null
     },
     {
-      "id": "t_hanuman_temple_salasar",
-      "slug": "hanuman-temple-salasar",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Hanuman Temple",
-      "alternateName": null,
-      "deity": "Hanuman",
-      "location": {
-        "latitude": 27.72585,
-        "longitude": 74.724257,
-        "city": "Salasar",
-        "district": "Churu",
-        "state": "Rajasthan",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_hanuman_circuit"
-      ],
-      "description": "Hanuman Temple may refer to these temples in India dedicated to the Hindu deity Hanuman:",
-      "shortDescription": "Hanuman Temple may refer to these temples in India dedicated to the Hindu deity Hanuman:",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_hanuman_temple_salasar_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_hanuman_temple_salasar_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Hanuman Jayanti",
-          "approximateMonth": 4,
-          "isLunar": true,
-          "description": "Celebration of Hanuman's birth with special poojas, recitation of Hanuman Chalisa and processions.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Hanuman_Temple"
-    },
-    {
       "id": "t_shree_hanuman",
       "slug": "shree-hanuman-mandir-chitrakoot",
       "legacyIDs": [],
@@ -2962,14 +2907,14 @@
       "slug": "hanuman-mandir-hampi",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Hanuman Mandir",
-      "alternateName": null,
-      "deity": "Hanuman",
+      "name": "Yantrodharaka Hanuman Temple",
+      "alternateName": "Pranadeva Temple",
+      "deity": "Pranadeva (Hanuman)",
       "location": {
         "latitude": 15.3358,
         "longitude": 76.46102,
         "city": "Hampi",
-        "district": "Ballari",
+        "district": "Vijayanagara",
         "state": "Karnataka",
         "country": "India",
         "address": null,
@@ -2978,11 +2923,11 @@
       "categoryIDs": [
         "c_hanuman_circuit"
       ],
-      "description": "Hanuman Mandir may refer to these Hindu mandirs (temples) dedicated to the Hindu deity Hanuman in India:",
-      "shortDescription": "Hanuman Mandir may refer to these Hindu mandirs (temples) dedicated to the Hindu deity Hanuman in India:",
+      "description": "The Yantrodharaka Hanuman Temple (also known as Pranadeva Temple) stands atop Malyavana Hill on the banks of the Tungabhadra River in Hampi, Karnataka, and is traditionally identified as the spot where Rama and Hanuman first met. The shrine was eulogised by Vyasaraya, the great 15th-century Madhva saint and poet, who installed the yantra (sacred diagram) beneath the idol — giving the temple its name, 'Yantrodharaka' meaning 'Bearer of the Yantra'. A Kodandarama Temple stands adjacent, and the hilltop location offers sweeping views over the UNESCO World Heritage landscape of Hampi.",
+      "shortDescription": "15th-century hilltop Hanuman temple at the legendary spot where Rama and Hanuman first met, eulogised by the Madhva saint Vyasaraya.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Hoysala / Vijayanagara Period",
+        "established": "15th century CE",
+        "dynasty": "Vijayanagara Empire",
         "architectureStyle": null,
         "openingMonth": null,
         "closingMonth": null,
@@ -2996,20 +2941,20 @@
         "heroImageName": "t_hanuman_mandir_hampi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_hanuman_mandir_hampi_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sri_Yantrodharaka_Hanuman_Temple%2C_Hampi.jpg"
       },
       "festivals": [
         {
           "name": "Hanuman Jayanti",
           "approximateMonth": 4,
           "isLunar": true,
-          "description": "Celebration of Hanuman's birth with special poojas, recitation of Hanuman Chalisa and processions.",
+          "description": "Celebration of Hanuman's birth with special poojas and Hanuman Chalisa recitations.",
           "significance": "high"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Hanuman_Mandir"
+      "sourceURL": "https://en.wikipedia.org/wiki/Yantrodharaka_Hanuman_Temple,_Hampi"
     },
     {
       "id": "t_hanuman_tok",
@@ -3118,60 +3063,6 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Mahavir_Mandir"
-    },
-    {
-      "id": "t_salasar_balaji",
-      "slug": "salasar-balaji-temple-salasar",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Salasar Balaji Temple",
-      "alternateName": null,
-      "deity": "Hanuman",
-      "location": {
-        "latitude": 27.72585,
-        "longitude": 74.724257,
-        "city": "Salasar",
-        "district": "Churu",
-        "state": "Rajasthan",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_hanuman_circuit"
-      ],
-      "description": "Salasar Balaji Temple is a Hindu temple for the devotees of Hindu god Hanuman. It is located in the town of Salasar near Sujangarh, in Churu district of Rajasthan, India. The Hanuman Temple is situated right in the heart of Salasar town. Every year two big fairs are organized during the months of Chaitra (March–April) and Ashwin (September - October).",
-      "shortDescription": "Salasar Balaji Temple is a Hindu temple for the devotees of Hindu god Hanuman.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_salasar_balaji_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_salasar_balaji_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Salasar_balaji_02.jpg"
-      },
-      "festivals": [
-        {
-          "name": "Hanuman Jayanti",
-          "approximateMonth": 4,
-          "isLunar": true,
-          "description": "Celebration of Hanuman's birth with special poojas, recitation of Hanuman Chalisa and processions.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Salasar_Balaji_Temple"
     },
     {
       "id": "t_hanuman_temple_anjaneri",
@@ -4869,12 +4760,12 @@
       "slug": "nidhivan-temple-vrindavan",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Nidhivan Temple",
-      "alternateName": null,
-      "deity": "Krishna",
+      "name": "Nidhivan",
+      "alternateName": "Tulsi Forest",
+      "deity": "Radha Krishna",
       "location": {
-        "latitude": 27.575373,
-        "longitude": 77.693804,
+        "latitude": 27.583269,
+        "longitude": 77.697643,
         "city": "Vrindavan",
         "district": "Mathura",
         "state": "Uttar Pradesh",
@@ -4885,11 +4776,11 @@
       "categoryIDs": [
         "c_krishna_circuit"
       ],
-      "description": "Nidhivan Temple is a Hindu temple located in Vrindavan, Uttar Pradesh, India, dedicated to Krishna. It dates to the Medieval Period.",
-      "shortDescription": "Nidhivan Temple is a Hindu temple located in Vrindavan, Uttar Pradesh, India, dedicated to Krishna.",
+      "description": "Nidhivan is a sacred grove of intertwined Tulasi trees in Vrindavan, revered as the nightly site of Radha and Krishna's rasa-lila with the Gopikas. The grove is barricaded at dusk — devotees believe no person or animal left inside survives the night. The shrine of Rang Mahal within is said to be the divine bedroom where Radha and Krishna rest after their dance.",
+      "shortDescription": "Sacred Vrindavan grove believed to be the nightly site of Radha and Krishna's rasa-lila, barricaded at sunset to protect its divine sanctity.",
       "facts": {
         "established": "Ancient",
-        "dynasty": "Medieval Period",
+        "dynasty": "Radha-Vallabha Sampradaya",
         "architectureStyle": null,
         "openingMonth": null,
         "closingMonth": null,
@@ -4903,27 +4794,41 @@
         "heroImageName": "t_nidhivan_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_nidhivan_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/34/Nidhivan.jpg"
       },
       "festivals": [
         {
-          "name": "Janmashtami",
+          "name": "Krishna Janmashtami",
           "approximateMonth": 8,
           "isLunar": true,
-          "description": "Celebration of Krishna's birth with midnight prayers, devotional singing and fasting.",
+          "description": "Celebration of Krishna's birth with all-night kirtans and rasa-lila performances.",
           "significance": "high"
         },
         {
           "name": "Radhashtami",
-          "approximateMonth": 9,
+          "approximateMonth": 8,
           "isLunar": true,
-          "description": "Birth anniversary of Radha, celebrated with special devotional programmes.",
-          "significance": "medium"
+          "description": "Celebration of Radha's birthday with special abhishekas and decorations.",
+          "significance": "high"
+        },
+        {
+          "name": "Holi",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Vrindavan Holi is celebrated for an extended period; Nidhivan hosts special lathmar and phoolon ki Holi events.",
+          "significance": "high"
+        },
+        {
+          "name": "Sharad Purnima",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Autumn full-moon night believed to be when Krishna plays the flute and the rasa-lila is most intense.",
+          "significance": "high"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Nidhivan,_Vrindavan"
     },
     {
       "id": "t_krishna",
@@ -6661,27 +6566,27 @@
       "slug": "nandigram-temple-nandigram",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Nandigram Temple",
-      "alternateName": null,
-      "deity": "Rama",
+      "name": "Bharat Mandir, Nandigram",
+      "alternateName": "Bharatkund",
+      "deity": "Bharata (with Rama Padukas)",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 26.65,
+        "longitude": 82.15,
         "city": "Nandigram",
-        "district": "Raebareli",
+        "district": "Ayodhya",
         "state": "Uttar Pradesh",
         "country": "India",
         "address": null,
-        "pincode": null
+        "pincode": "224202"
       },
       "categoryIDs": [
         "c_rama_circuit"
       ],
-      "description": "Nandigram Temple is a Hindu temple located in Nandigram, Uttar Pradesh, India, dedicated to Rama. It dates to the Early Medieval Period.",
-      "shortDescription": "Nandigram Temple is a Hindu temple located in Nandigram, Uttar Pradesh, India, dedicated to Rama.",
+      "description": "Nandigram, known by its ancient name Bharatkund, is a sacred village in the Sohawal tehsil of Ayodhya district, Uttar Pradesh, approximately 19 km south of Ayodhya city. It is revered in the Ramayana tradition as the place where Prince Bharata, refusing to rule from the capital in his brother Rama's absence, placed Rama's padukas (sandals) on the throne and administered the kingdom in symbolic regency from this village. The Bharat Mandir and the sacred Bharat Sarovar (kund) here draw pilgrims from across India who honour Bharata's legendary devotion and renunciation.",
+      "shortDescription": "Sacred village where Prince Bharata governed during Rama's exile, enshrining Rama's padukas on the throne as an act of unwavering devotion.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
+        "established": "Ancient (Treta Yuga, Valmiki Ramayana)",
+        "dynasty": "Ikshvaku / Suryavansha",
         "architectureStyle": null,
         "openingMonth": null,
         "closingMonth": null,
@@ -6695,7 +6600,7 @@
         "heroImageName": "t_nandigram_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_nandigram_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/9/90/Bharat_mandir%2C_Nandigram_near_ayodhya.jpg"
       },
       "festivals": [
         {
@@ -6708,7 +6613,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Nandigram,_Ayodhya"
     },
     {
       "id": "t_hazara_rama",
@@ -6982,18 +6887,18 @@
     },
     {
       "id": "t_sita_ramachandraswamy",
-      "slug": "sita-ramachandraswamy-temple-tirupati",
+      "slug": "sita-ramachandraswamy-temple-bhadrachalam",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Sita Ramachandraswamy Temple",
-      "alternateName": null,
+      "name": "Sri Sita Ramachandraswamy Temple",
+      "alternateName": "Bhadrachalam Temple",
       "deity": "Rama & Sita",
       "location": {
-        "latitude": 13.631637,
-        "longitude": 79.423171,
-        "city": "Tirupati",
-        "district": "Tirupati",
-        "state": "Andhra Pradesh",
+        "latitude": 17.66692,
+        "longitude": 80.88276,
+        "city": "Bhadrachalam",
+        "district": "Bhadradri Kothagudem",
+        "state": "Telangana",
         "country": "India",
         "address": null,
         "pincode": null
@@ -7001,38 +6906,52 @@
       "categoryIDs": [
         "c_rama_circuit"
       ],
-      "description": "Sita Ramachandraswamy Temple is a Hindu temple located in Tirupati, Andhra Pradesh, India, dedicated to Rama & Sita. It dates to the Medieval Period.",
-      "shortDescription": "Sita Ramachandraswamy Temple is a Hindu temple located in Tirupati, Andhra Pradesh, India, dedicated to Rama & Sita.",
+      "description": "Revered as Dakshina Ayodhya, Bhadrachalam is where the saint-poet Kancherla Gopanna diverted Golconda Sultanate treasury funds to build this temple — and spent 12 years in prison for it, composing devotional songs to Rama that are still sung here today. Legend holds that Rama himself appeared before the Sultan in the form of gold coins to secure Gopanna's release.",
+      "shortDescription": "Revered as Dakshina Ayodhya, this Godavari-bank temple houses Vaikuntha Rama with Sita and Lakshmana and was built by the saint-poet Bhadrachala Ramadasu in the 17th century.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Medieval Period",
-        "architectureStyle": null,
+        "established": "17th century CE",
+        "dynasty": "Golconda Sultanate era (built by Kancherla Gopanna)",
+        "architectureStyle": "Dravidian (Pancharatra Agama)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (Sarva Darshan); special sevas available",
+        "darshanaTimings": "Morning: 5:00 AM–12:00 PM; Evening: 3:00 PM–9:00 PM"
       },
       "images": {
         "heroImageName": "t_sita_ramachandraswamy_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_sita_ramachandraswamy_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/c2/A_View_of_Bhadrachalam_Gopuram.JPG"
       },
       "festivals": [
         {
-          "name": "Ram Navami",
+          "name": "Srirama Navami Brahmotsavam",
           "approximateMonth": 4,
           "isLunar": true,
-          "description": "Celebration of Rama's birth with special poojas, Ramayana recitations and processions.",
+          "description": "The grandest annual festival, climaxing with the Sri Sitarama Thirukalyana Mahotsavam — the symbolic marriage of Rama and Sita on Ram Navami eve.",
           "significance": "high"
+        },
+        {
+          "name": "Vaikuntha Ekadashi",
+          "approximateMonth": 12,
+          "isLunar": true,
+          "description": "Celebrated with opening of the Vaikuntha Dwaram (northern gateway) and all-night devotional vigil.",
+          "significance": "high"
+        },
+        {
+          "name": "Vijayadashami",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Dasara celebrations with processions and special abhishekas.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Sita_Ramachandraswamy_Temple,_Bhadrachalam"
     },
     {
       "id": "t_ramdevra",
@@ -11833,8 +11752,8 @@
       "slug": "sitamarhi-temple-sitamarhi",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Sitamarhi Temple",
-      "alternateName": null,
+      "name": "Janaki Sthan, Sitamarhi",
+      "alternateName": "Punaura Dham",
       "deity": "Sita",
       "location": {
         "latitude": 26.594284,
@@ -11849,11 +11768,11 @@
       "categoryIDs": [
         "c_rama_circuit"
       ],
-      "description": "Sitamarhi Temple is a Hindu temple located in Sitamarhi, Bihar, India, dedicated to Sita. It dates to the Early Medieval Period.",
-      "shortDescription": "Sitamarhi Temple is a Hindu temple located in Sitamarhi, Bihar, India, dedicated to Sita.",
+      "description": "Sitamarhi is revered as the birthplace of goddess Sita — the place where King Janaka found the infant Sita while ploughing a field, as told in the Valmiki Ramayana. The city's very name means 'Sita's dwelling', and Janaki Sthan marks the exact spot, drawing pilgrims for the annual Janaki Vivah ceremony that re-enacts the marriage of Rama and Sita.",
+      "shortDescription": "Sacred birthplace of goddess Sita, where Janaki Sthan marks the spot where King Janaka found the infant Sita, drawing pilgrims from across India.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
+        "established": "Ancient (referenced in Valmiki Ramayana)",
+        "dynasty": "Mauryan period rock-cut sanctuary nearby",
         "architectureStyle": null,
         "openingMonth": null,
         "closingMonth": null,
@@ -11867,20 +11786,34 @@
         "heroImageName": "t_sitamarhi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_sitamarhi_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Sitamarhi6.JPG"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
+          "name": "Ram Navami",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Large Ramanavami fair in spring with special poojas, processions and trade fair — one of the biggest in Bihar.",
+          "significance": "high"
+        },
+        {
+          "name": "Janaki Vivah",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Annual ceremony at Janaki Sthan commemorating the marriage of Rama and Sita.",
+          "significance": "high"
+        },
+        {
+          "name": "Sama Chakeva",
+          "approximateMonth": 11,
           "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "description": "Winter festival celebrating brother-sister relationships, unique to Mithila culture.",
           "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Sitamarhi"
     },
     {
       "id": "t_sugandha_shakti_peetha",
@@ -14891,6 +14824,60 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Devapiran_temple"
+    },
+    {
+      "id": "t_salasar_balaji",
+      "slug": "salasar-balaji-temple-salasar",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Salasar Balaji Temple",
+      "alternateName": null,
+      "deity": "Hanuman",
+      "location": {
+        "latitude": 27.72585,
+        "longitude": 74.724257,
+        "city": "Salasar",
+        "district": "Churu",
+        "state": "Rajasthan",
+        "country": "India",
+        "address": null,
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_hanuman_circuit"
+      ],
+      "description": "Salasar Balaji Temple is a Hindu temple for the devotees of Hindu god Hanuman. It is located in the town of Salasar near Sujangarh, in Churu district of Rajasthan, India. The Hanuman Temple is situated right in the heart of Salasar town. Every year two big fairs are organized during the months of Chaitra (March–April) and Ashwin (September - October).",
+      "shortDescription": "Salasar Balaji Temple is a Hindu temple for the devotees of Hindu god Hanuman.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": "Early Medieval Period",
+        "architectureStyle": null,
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": null,
+        "photographyAllowed": null,
+        "entryFee": null,
+        "darshanaTimings": null
+      },
+      "images": {
+        "heroImageName": "t_salasar_balaji_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_salasar_balaji_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Salasar_balaji_02.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Hanuman Jayanti",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Celebration of Hanuman's birth with special poojas, recitation of Hanuman Chalisa and processions.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Salasar_Balaji_Temple"
     }
   ]
 }
