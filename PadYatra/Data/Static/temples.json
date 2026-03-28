@@ -3501,19 +3501,19 @@
         "c_oldest_functioning",
         "c_riverbank"
       ],
-      "description": "The Jagannath Temple is a Hindu temple dedicated to Jagannath, a form of Vishnu. It is located in Puri, Odisha, on the eastern coast of India. As per temple records, King Indradyumna of Avanti built the main temple. The present temple complex was rebuilt from the eleventh century onwards on the site of the earlier shrines, excluding the main Jagannath temple, and was begun by Anantavarman Chodaganga, the first ruler of the Eastern Ganga dynasty. Many of the temple rituals are based on Shabari Tantras which are evolved from tribal beliefs respectively.",
-      "shortDescription": "The Jagannath Temple is a Hindu temple dedicated to Jagannath, a form of Vishnu.",
+      "description": "Built in the Kalinga style by Anantavarman Chodaganga of the Eastern Ganga dynasty in the 12th century, the Jagannath Temple in Puri is among India's most revered shrines — and one of the four Char Dham. Lord Jagannath, along with siblings Balabhadra and Subhadra, is enshrined on the jewelled Ratnabedi platform as deities carved from sacred neem wood. Entry is restricted to Hindus. The temple's Rath Yatra — when the three deities ride massive wooden chariots through Puri's Grand Road — is one of the largest annual religious gatherings on earth.",
+      "shortDescription": "A 12th-century Kalinga-style Char Dham temple in Puri housing Lord Jagannath, famed for the annual Rath Yatra chariot festival — one of the world's largest religious processions.",
       "facts": {
         "established": "12th century CE",
-        "dynasty": "Medieval Period",
-        "architectureStyle": "Kalinga Architecture",
+        "dynasty": "Eastern Ganga",
+        "architectureStyle": "Kalinga (Rekha Deula)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": 65,
-        "dresscode": null,
+        "dresscode": "Traditional Indian attire; no jeans, shorts or western wear; Hindus only",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "5:30 AM – 1:00 PM, 4:00 PM – 9:00 PM"
       },
       "images": {
         "heroImageName": "t_jagannath_hero",
@@ -3523,17 +3523,24 @@
       },
       "festivals": [
         {
-          "name": "Janmashtami",
-          "approximateMonth": 8,
+          "name": "Rath Yatra",
+          "approximateMonth": 7,
           "isLunar": true,
-          "description": "Celebration of Krishna's birth with midnight prayers, devotional singing and fasting.",
+          "description": "The iconic chariot festival when Jagannath, Balabhadra and Subhadra ride giant wooden chariots down Puri's Grand Road — one of the world's largest annual religious processions.",
           "significance": "high"
         },
         {
-          "name": "Radhashtami",
-          "approximateMonth": 9,
+          "name": "Snana Yatra",
+          "approximateMonth": 6,
           "isLunar": true,
-          "description": "Birth anniversary of Radha, celebrated with special devotional programmes.",
+          "description": "The ritual bathing of the deities on the full moon of Jyeshtha; after bathing they rest in seclusion before Rath Yatra.",
+          "significance": "high"
+        },
+        {
+          "name": "Chandan Yatra",
+          "approximateMonth": 5,
+          "isLunar": false,
+          "description": "A 42-day spring festival during which the deities are taken on a boat on the Narendra tank and anointed with sandalwood paste.",
           "significance": "medium"
         }
       ],
