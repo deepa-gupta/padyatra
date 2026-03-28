@@ -5486,38 +5486,52 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Mangalagauri Temple is a Hindu temple located in Gaya, Bihar, India, dedicated to Mangalagauri. It dates to the Early Medieval Period.",
-      "shortDescription": "Mangalagauri Temple is a Hindu temple located in Gaya, Bihar, India, dedicated to Mangalagauri.",
+      "description": "Perched atop Mangalagauri Hill in the ancient pilgrimage city of Gaya, this Maha Shakti Peetha marks where the breast of Goddess Sati fell — a symbol of divine nourishment and cosmic motherhood. The hillside sanctum is deliberately intimate; only two to five worshippers may enter at a time, creating an atmosphere of intense personal devotion. An Akhand Deep burns ceaselessly within, and subsidiary shrines to Kali, Ganesha, Hanuman and Shiva surround the main goddess.",
+      "shortDescription": "A Maha Shakti Peetha atop Mangalagauri Hill in Gaya, marking where Sati's breast fell — worshipped as the nourishing form of the Divine Mother.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "1459 CE",
+        "dynasty": "Medieval Period",
+        "architectureStyle": "Nagara / Kalinga",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (VIP pass ₹250)",
+        "darshanaTimings": "5:00 AM – 1:00 PM, 3:00 PM – 10:00 PM"
       },
       "images": {
         "heroImageName": "t_mangalagauri_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_mangalagauri_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/32/Mangala_Gauri_Temple_at_Gaya%2C_Bihar.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "name": "Navratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The most sacred period at the temple, with massive crowds on Maha Ashtami. Both Shardiya and Chaitra Navratri are observed.",
+          "significance": "high"
+        },
+        {
+          "name": "Chaitra Navratri",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Spring Navratri celebrated with special poojas and devotional gatherings.",
+          "significance": "high"
+        },
+        {
+          "name": "Shravan Mondays",
+          "approximateMonth": 7,
+          "isLunar": true,
+          "description": "Each Monday of the holy month of Shravan draws large numbers of devotees for special worship.",
           "significance": "medium"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Mangla_Gauri_Temple"
     },
     {
       "id": "t_manibandh_shakti_peetha",
