@@ -9888,45 +9888,45 @@
       "categoryIDs": [
         "c_major_pilgrimage"
       ],
-      "description": "Amarnath Cave Temple is a Hindu temple located in Amarnath, Jammu & Kashmir, India, dedicated to Shiva. It dates to the Early Medieval Period.",
-      "shortDescription": "Amarnath Cave Temple is a Hindu temple located in Amarnath, Jammu & Kashmir, India, dedicated to Shiva.",
+      "description": "At 3,888 m in the Himalayas, Amarnath is a cave shrine where meltwater dripping from a 40-metre limestone roof freezes into a natural ice stalagmite worshipped as the Swayambhu Shiva lingam. The lingam waxes through summer as Himalayan snow melts, then recedes — nearby formations are identified as Parvati and Ganesha. Mentioned in the 6th-century Nilamata Purana, the cave is accessible only during the Shravani Mela (late June to mid-August) and draws hundreds of thousands of pilgrims each year.",
+      "shortDescription": "A Himalayan cave shrine at 3,888 m where a naturally forming ice stalagmite is worshipped as the Swayambhu Shiva lingam, open only during the summer Yatra season.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
+        "established": "6th century CE (textual record)",
+        "dynasty": "Kashmiri patronage",
+        "architectureStyle": "Natural cave (Swayambhu)",
+        "openingMonth": 7,
+        "closingMonth": 8,
+        "altitude": 3888,
+        "dresscode": "Warm/waterproof clothing essential; no religious dress code",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "₹120–220 (RFID registration)",
+        "darshanaTimings": "Daylight hours during Yatra season (Jul–Aug)"
       },
       "images": {
         "heroImageName": "t_amarnath_cave_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_amarnath_cave_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/2/25/Amarnath_47.JPG"
       },
       "festivals": [
         {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
+          "name": "Shravani Mela",
+          "approximateMonth": 7,
           "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "description": "The 45–62 day annual pilgrimage season when the ice lingam is at its fullest; hundreds of thousands trek via Pahalgam or Baltal to the cave.",
           "significance": "high"
         },
         {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
+          "name": "Shravani Purnima",
+          "approximateMonth": 8,
           "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
+          "description": "The full moon of Shraavana — traditionally the closing day of the Amarnath Yatra and the peak of the pilgrimage.",
+          "significance": "high"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Amarnath_Temple"
     },
     {
       "id": "t_varanasi_kashi_vishwanath",
