@@ -7213,38 +7213,52 @@
       "categoryIDs": [
         "c_modern_pilgrimage"
       ],
-      "description": "Shirdi Sai Baba Temple is a Hindu temple located in Shirdi, Maharashtra, India, dedicated to Sai Baba. It dates to the Modern Period.",
-      "shortDescription": "Shirdi Sai Baba Temple is a Hindu temple located in Shirdi, Maharashtra, India, dedicated to Sai Baba.",
+      "description": "The Shri Saibaba Samadhi Mandir is built over the sacred resting place of Sai Baba of Shirdi, a saint venerated by Hindus, Muslims and Zoroastrians alike. Originally the Buti Wada — a stone mansion built by Nagpur millionaire Gopalrao Buti between 1915 and 1918 — it became Sai Baba's samadhi on 15 October 1918, his Mahasamadhi day. The marble shrine now draws an estimated 60,000 pilgrims daily, rising to over 200,000 during major festivals.",
+      "shortDescription": "Built over Sai Baba's samadhi, Shirdi's marble-and-gold shrine draws 60,000 pilgrims daily and is one of India's most visited pilgrimage sites.",
       "facts": {
-        "established": "20th century CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
+        "established": "1918 CE",
+        "dynasty": "Modern",
+        "architectureStyle": "Hemadpanthi / marble interior",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Modest attire; no shorts or sleeveless tops",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (special darshan ₹300)",
+        "darshanaTimings": "5:30 AM – 10:30 PM"
       },
       "images": {
         "heroImageName": "t_shirdi_sai_baba_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_shirdi_sai_baba_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Sai_baba_samadhi_mandir_.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
+          "name": "Vijayadashami / Punyatithi",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Marks the anniversary of Sai Baba's Mahasamadhi (15 October 1918) — the most sacred day at Shirdi, drawing hundreds of thousands of devotees.",
+          "significance": "high"
+        },
+        {
+          "name": "Ram Navami",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "A major festival at Shirdi since Sai Baba's own time, celebrated with special poojas and massive pilgrimages.",
+          "significance": "high"
+        },
+        {
+          "name": "Guru Purnima",
+          "approximateMonth": 7,
+          "isLunar": true,
+          "description": "Full moon of Ashadha celebrated in honour of the Guru — one of the most important occasions at the Samadhi Mandir.",
+          "significance": "high"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Shri_Sai_Baba_Temple,_Shirdi"
     },
     {
       "id": "t_saptashrungi",
