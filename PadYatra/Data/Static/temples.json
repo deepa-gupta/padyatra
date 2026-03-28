@@ -11219,18 +11219,18 @@
       "categoryIDs": [
         "c_unesco"
       ],
-      "description": "Pattadakal, on the west bank of the Malaprabha River in Karnataka, flourished between the 7th and 8th centuries CE as a royal coronation site of the Chalukya dynasty. Its ten temples — nine Hindu and one Jain — showcase a unique synthesis of Nagara (northern) and Dravidian (southern) architectural styles, earning UNESCO World Heritage status in 1987. The Virupaksha Temple, built by Queen Lokmahadevi to celebrate her husband's victory, is the largest. Together with nearby Badami and Aihole, Pattadakal is the crucible where India's two great temple architecture traditions converged.",
-      "shortDescription": "A UNESCO World Heritage Site of 10 Chalukya temples representing the fusion of Nagara and Dravidian architecture on the banks of the Malaprabha River.",
+      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as "the apogee of an eclectic art," a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship — a continuum from 8th-century queens to pilgrims today.",
+      "shortDescription": "UNESCO World Heritage complex of 7th–8th century Chalukya temples blending Nagara and Dravidian styles, Karnataka.",
       "facts": {
         "established": "7th–8th century CE",
         "dynasty": "Chalukyas of Badami",
-        "architectureStyle": "Chalukya (Nagara and Dravidian fusion)",
+        "architectureStyle": "Chalukya (Nagara, Dravidian, and Vesara)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": true,
-        "entryFee": "₹40 (Indians), ₹600 (foreign nationals)",
+        "entryFee": "₹35 (Indians), ₹550 (foreign nationals)",
         "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
@@ -11244,14 +11244,21 @@
           "name": "Pattadakal Dance Festival",
           "approximateMonth": 1,
           "isLunar": false,
-          "description": "Annual classical dance festival held against the backdrop of the ancient Chalukya temples.",
+          "description": "Classical Indian dance performances in temple courtyards with craft fair.",
           "significance": "high"
         },
         {
           "name": "Mahashivratri",
           "approximateMonth": 2,
           "isLunar": true,
-          "description": "Special poojas and vigils at the Shiva temples within the complex.",
+          "description": "Night vigil and worship at Virupaksha and Mallikarjuna temples.",
+          "significance": "high"
+        },
+        {
+          "name": "Virupaksha Temple Car Festival",
+          "approximateMonth": 3,
+          "isLunar": false,
+          "description": "Annual chariot procession at the living Virupaksha temple.",
           "significance": "high"
         }
       ],
@@ -11280,18 +11287,18 @@
       "categoryIDs": [
         "c_ancient_1000"
       ],
-      "description": "Pattadakal, on the west bank of the Malaprabha River in Karnataka, flourished between the 7th and 8th centuries CE as a royal coronation site of the Chalukya dynasty. Its ten temples — nine Hindu and one Jain — showcase a unique synthesis of Nagara (northern) and Dravidian (southern) architectural styles, earning UNESCO World Heritage status in 1987. The Virupaksha Temple, built by Queen Lokmahadevi to celebrate her husband's victory, is the largest. Together with nearby Badami and Aihole, Pattadakal is the crucible where India's two great temple architecture traditions converged.",
-      "shortDescription": "A complex of 10 Chalukya-era temples representing the fusion of Nagara and Dravidian architecture; a UNESCO World Heritage Site.",
+      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as "the apogee of an eclectic art," a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship — a continuum from 8th-century queens to pilgrims today.",
+      "shortDescription": "Complex of 7th–8th century Chalukya temples blending Nagara, Dravidian and Vesara styles; part of a UNESCO World Heritage Site.",
       "facts": {
         "established": "7th–8th century CE",
         "dynasty": "Chalukyas of Badami",
-        "architectureStyle": "Chalukya (Nagara and Dravidian fusion)",
+        "architectureStyle": "Chalukya (Nagara, Dravidian, and Vesara)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": true,
-        "entryFee": "₹40 (Indians), ₹600 (foreign nationals)",
+        "entryFee": "₹35 (Indians), ₹550 (foreign nationals)",
         "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
@@ -11305,14 +11312,21 @@
           "name": "Pattadakal Dance Festival",
           "approximateMonth": 1,
           "isLunar": false,
-          "description": "Annual classical dance festival held against the backdrop of the ancient Chalukya temples.",
+          "description": "Classical Indian dance performances in temple courtyards with craft fair.",
           "significance": "high"
         },
         {
           "name": "Mahashivratri",
           "approximateMonth": 2,
           "isLunar": true,
-          "description": "Special poojas and vigils at the Shiva temples within the complex.",
+          "description": "Night vigil and worship at Virupaksha and Mallikarjuna temples.",
+          "significance": "high"
+        },
+        {
+          "name": "Virupaksha Temple Car Festival",
+          "approximateMonth": 3,
+          "isLunar": false,
+          "description": "Annual chariot procession at the living Virupaksha temple.",
           "significance": "high"
         }
       ],
@@ -11709,40 +11723,40 @@
         "c_ancient_1000",
         "c_unesco"
       ],
-      "description": "Khajuraho Group of Temples is a Hindu temple located in Khajuraho, Madhya Pradesh, India, dedicated to Shiva/Vishnu/Jain. It dates to the Chandela Period.",
-      "shortDescription": "Khajuraho Group of Temples is a Hindu temple located in Khajuraho, Madhya Pradesh, India, dedicated to Shiva/Vishnu/Jain.",
+      "description": "Rising from the plains of Madhya Pradesh, Khajuraho is one of the world's great artistic enigmas — a medieval city where the sacred and sensual are inseparable. Built by the Chandela dynasty between the 9th and 11th centuries, the temples once numbered 85; roughly 25 survive today, their towering shikhara spires still intact. Their outer walls teem with thousands of carvings including the famous erotic scenes scholars read as tantric initiations — desire as a threshold on the journey inward. Inside each sanctuary the imagery gives way to stillness. A UNESCO World Heritage Site since 1986.",
+      "shortDescription": "UNESCO-listed Chandela temples in Madhya Pradesh, famed for exquisite erotic and devotional stone carvings across towering Nagara shikharas.",
       "facts": {
-        "established": "950–1050 CE",
-        "dynasty": "Chandela Period",
-        "architectureStyle": null,
+        "established": "9th–11th century CE",
+        "dynasty": "Chandela (Rajput)",
+        "architectureStyle": "Chandela (Nagara)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Modest attire recommended; remove shoes before entering active temples",
+        "photographyAllowed": true,
+        "entryFee": "₹35 (Indians), ₹750 (foreign nationals); Eastern & Southern Groups free",
+        "darshanaTimings": "8:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_khajuraho_group_of_temples_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_khajuraho_group_of_temples_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Kandariya_Mahadev_Temple_at_Khajuraho.JPG"
       },
       "festivals": [
+        {
+          "name": "Khajuraho Dance Festival",
+          "approximateMonth": 2,
+          "isLunar": false,
+          "description": "Week-long open-air classical dance festival set against illuminated temple facades.",
+          "significance": "high"
+        },
         {
           "name": "Mahashivratri",
           "approximateMonth": 2,
           "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "description": "10-day fair and night-long Shiva worship at Matangeshwar Temple.",
           "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
         }
       ],
       "significance": "other",
