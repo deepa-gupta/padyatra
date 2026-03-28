@@ -7460,64 +7460,71 @@
     },
     {
       "id": "t_kanchi_kamakoti_peetham_new",
-      "slug": "kanchi-kamakoti-peetham-new-temple-kanchipuram",
+      "slug": "kanchi-kamakoti-peetham-kanchipuram",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Kanchi Kamakoti Peetham New Temple",
-      "alternateName": null,
-      "deity": "Shakti",
+      "name": "Kanchi Kamakoti Peetham",
+      "alternateName": "Sri Kanchi Kamakoti Peetam",
+      "deity": "Kamakshi",
       "location": {
-        "latitude": 12.964716,
-        "longitude": 79.983969,
+        "latitude": 12.8415,
+        "longitude": 79.703,
         "city": "Kanchipuram",
         "district": "Kanchipuram",
         "state": "Tamil Nadu",
         "country": "India",
-        "address": null,
-        "pincode": null
+        "address": "Kamakshi Amman Sannathi Street, Kanchipuram",
+        "pincode": "631502"
       },
       "categoryIDs": [
         "c_new_landmark"
       ],
-      "description": "Kanchi Kamakoti Peetham New Temple is a Hindu temple located in Kanchipuram, Tamil Nadu, India, dedicated to Shakti. It dates to the Modern Period.",
-      "shortDescription": "Kanchi Kamakoti Peetham New Temple is a Hindu temple located in Kanchipuram, Tamil Nadu, India, dedicated to Shakti.",
+      "description": "Nestled in the ancient temple city of Kanchipuram, the Sri Kanchi Kamakoti Peetham is one of Hinduism's most venerable Advaita Vedanta institutions, traditionally ascribed to Adi Shankaracharya. For centuries it has been a living centre of Vedic learning and Sanskrit scholarship, its spiritual identity woven intimately with the goddess Kamakshi. The Peetham rose to global prominence under its 68th Shankaracharya, Sri Chandrashekharendra Saraswati, who is widely revered as a saint.",
+      "shortDescription": "One of Hinduism's most venerable Advaita Vedanta institutions in Kanchipuram, traditionally founded by Adi Shankaracharya and inseparable from the goddess Kamakshi.",
       "facts": {
-        "established": "2004 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
+        "established": "482 BCE (tradition)",
+        "dynasty": "Advaita Vedanta lineage",
+        "architectureStyle": "Dravidian",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Traditional attire; dhoti/saree mandatory for Abhishekam",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "5:30 AM – 8:45 PM"
       },
       "images": {
         "heroImageName": "t_kanchi_kamakoti_peetham_new_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_kanchi_kamakoti_peetham_new_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/0/06/Entrance_gopuram_of_Kanchi_Kamakoti_Peetam%2C_Advaita_Hindu_monastery.jpg"
       },
       "festivals": [
         {
-          "name": "Navratri",
+          "name": "Navaratri",
           "approximateMonth": 10,
           "isLunar": true,
-          "description": "Nine nights of the goddess with special poojas, fasting and celebrations.",
+          "description": "Nine nights of special worship of Kamakshi with elaborate rituals, recitations and cultural programmes.",
           "significance": "high"
         },
         {
-          "name": "Durga Puja",
-          "approximateMonth": 10,
+          "name": "Shankara Jayanthi",
+          "approximateMonth": 5,
           "isLunar": true,
-          "description": "Five-day festival with idol worship, cultural programmes and immersion.",
+          "description": "Celebration of Adi Shankaracharya's birth with Vedic recitations, discourses and special poojas.",
+          "significance": "high"
+        },
+        {
+          "name": "Thai Chariot Festival",
+          "approximateMonth": 2,
+          "isLunar": false,
+          "description": "Annual temple car festival in the Tamil month of Masi drawing large crowds through the streets of Kanchipuram.",
           "significance": "high"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Kanchi_Kamakoti_Peetham"
     },
     {
       "id": "t_patan_rani_ki_vav",
