@@ -1467,38 +1467,59 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Srisailam Bhramaramba Temple is a Hindu temple located in Srisailam, Andhra Pradesh, India, dedicated to Bhramaramba. It dates to the Vijayanagara Period.",
-      "shortDescription": "Srisailam Bhramaramba Temple is a Hindu temple located in Srisailam, Andhra Pradesh, India, dedicated to Bhramaramba.",
+      "description": "Deep in the Nallamala forest on the banks of the Krishna River, Bhramaramba — 'Mother of Bees' — is enshrined as one of the 18 Maha Shakti Peethas, where Sati's throat is believed to have fallen. This fierce form of Parvati takes her name from the legend in which she manifested as a swarm of black bees to slay the demon Arunasura. Sharing a walled complex with the Mallikarjuna Jyotirlinga, Srisailam is uniquely the only site in India that is simultaneously a Jyotirlinga and an 18 Maha Shakti Peetha.",
+      "shortDescription": "A forest Shakti Peetha where Parvati as Bhramaramba — 'Mother of Bees' — is worshipped where Sati's throat fell; the only site in India that is both a Jyotirlinga and a Maha Shakti Peetha.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Vijayanagara Period",
-        "architectureStyle": null,
+        "established": "2nd century CE",
+        "dynasty": "Vijayanagara Empire",
+        "architectureStyle": "Dravidian",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Traditional Indian attire; dhoti/saree mandatory for Sparsha Darshan",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (token darshan)",
+        "darshanaTimings": "6:00 AM – 10:00 PM"
       },
       "images": {
         "heroImageName": "t_srisailam_bhramaramba_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_srisailam_bhramaramba_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sri_Mallikarjuna_Swami_and_Sri_Bhramaramba_Devi.jpg"
       },
       "festivals": [
         {
-          "name": "Ram Navami",
-          "approximateMonth": 4,
+          "name": "Navaratri",
+          "approximateMonth": 10,
           "isLunar": true,
-          "description": "Celebration of Rama's birth with special poojas, Ramayana recitations and processions.",
+          "description": "The premier festival for Bhramaramba Devi, celebrated over nine nights with flowers, lamps, sweets and elaborate processions in honour of the goddess.",
           "significance": "high"
+        },
+        {
+          "name": "Dasara",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Celebrated in honour of Bhramaramba with special sevas and large gatherings of devotees.",
+          "significance": "high"
+        },
+        {
+          "name": "Maha Shivaratri Brahmotsavam",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Eleven-day festival honouring both Mallikarjuna and Bhramaramba with abhishekams, processions and night-long worship.",
+          "significance": "high"
+        },
+        {
+          "name": "Karthika Masam",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Month-long lamp festival with daily special poojas and deepothsavam for both deities.",
+          "significance": "medium"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Mallikarjuna_Temple,_Srisailam"
     },
     {
       "id": "t_kali_temple_biraja_peetha",
