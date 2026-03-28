@@ -13941,11 +13941,11 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "Srimushnam Bhu Varaha Swamy Temple",
-      "alternateName": null,
+      "alternateName": "Bhu Varaha Swamy Temple",
       "deity": "Vishnu",
       "location": {
-        "latitude": 11.401355,
-        "longitude": 79.404592,
+        "latitude": 11.4011,
+        "longitude": 79.4040,
         "city": "Srimushnam",
         "district": "Cuddalore",
         "state": "Tamil Nadu",
@@ -13956,45 +13956,59 @@
       "categoryIDs": [
         "c_swayambhu_vishnu"
       ],
-      "description": "Srimushnam Bhu Varaha Swamy Temple is a Hindu temple located in Srimushnam, Tamil Nadu, India, dedicated to Vishnu. It dates to the Early Medieval Period.",
-      "shortDescription": "Srimushnam Bhu Varaha Swamy Temple is a Hindu temple located in Srimushnam, Tamil Nadu, India, dedicated to Vishnu.",
+      "description": "At Srimushnam stands one of the eight swayambhu Vishnu kshetras — shrines where Vishnu is believed to have self-manifested, ungiven by human hands. This is the only shrine in that sacred group where Vishnu is venerated solely in his Varaha form — the cosmic boar who plunged into primordial waters to rescue Bhu Devi from the demon Hiranyaksha. After slaying the asura, Vishnu granted his dying wish and turned southward; so the deity's boar head still gazes south while his body welcomes devotees from the west. The sweat that fell from Varaha during that cosmic battle is said to have formed the temple tank, the Nithya Pushkarani.",
+      "shortDescription": "One of eight swayambhu Vishnu shrines in India; the only one enshrining Varaha the boar-avatar, at Srimushnam, Cuddalore, Tamil Nadu.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "10th century CE",
+        "dynasty": "Medieval Chola; expanded by Thanjavur Nayaks",
+        "architectureStyle": "Dravidian",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Traditional attire required",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 12:00 PM, 4:00 PM – 8:30 PM"
       },
       "images": {
         "heroImageName": "t_srimushnam_bhu_varaha_swamy_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_srimushnam_bhu_varaha_swamy_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Srimushnam.jpg"
       },
       "festivals": [
+        {
+          "name": "Vaikasi Chariot Festival",
+          "approximateMonth": 5,
+          "isLunar": true,
+          "description": "Grand chariot festival; the most prominent annual event of the temple.",
+          "significance": "high"
+        },
+        {
+          "name": "Masi Brahmotsavam",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "7-day chariot procession through Srimushnam villages.",
+          "significance": "high"
+        },
         {
           "name": "Vaikuntha Ekadashi",
           "approximateMonth": 12,
           "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "description": "Northern gopuram (Paramapatha Vassal) opened only on this sacred day.",
           "significance": "high"
         },
         {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
+          "name": "Chithirai Brahmotsavam",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Second major brahmotsavam with float festival drawing large crowds.",
           "significance": "high"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Bhu_Varaha_Swamy_temple"
     },
     {
       "id": "t_pushkar_varaha",
@@ -14017,45 +14031,52 @@
       "categoryIDs": [
         "c_swayambhu_vishnu"
       ],
-      "description": "Pushkar Varaha Temple is a Hindu temple located in Pushkar, Rajasthan, India, dedicated to Vishnu. It dates to the Ancient / Maratha Period.",
-      "shortDescription": "Pushkar Varaha Temple is a Hindu temple located in Pushkar, Rajasthan, India, dedicated to Vishnu.",
+      "description": "Perched above the sacred Pushkar Sarovar, the Varaha temple is among the oldest and most venerated shrines in Rajasthan — a towering brick-red structure rising on a plinth of thirty steps, guarded by life-size Dwarpalas and carved pillars bearing Garuda. It enshrines Varaha, Vishnu's cosmic boar avatar who plunged into the primordial ocean to rescue the Earth goddess from the demon Hiranyaksha. The surrounding lake is Tirtha-Guru — teacher of all pilgrimage waters — and Pushkar itself is Tirtha-Raja, king of sacred sites. Bathing here on Kartik Purnima is said to sever the cycle of rebirth.",
+      "shortDescription": "Ancient Varaha shrine above Pushkar Lake — Rajasthan's holiest town, Tirtha-Raja (king of sacred sites), famed for the great Kartik Purnima fair.",
       "facts": {
-        "established": "Ancient (rebuilt 18th century CE)",
-        "dynasty": "Ancient / Maratha Period",
-        "architectureStyle": null,
+        "established": "12th century CE (rebuilt 18th century after Mughal destruction)",
+        "dynasty": "Chauhan; rebuilt by Marathas",
+        "architectureStyle": "Marwadi-Rajasthani (carved pillars, chhatris, raised plinth)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Modest attire; remove footwear at ghats",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 12:00 PM, 4:00 PM – 8:00 PM"
       },
       "images": {
         "heroImageName": "t_pushkar_varaha_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_pushkar_varaha_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/6/60/Pushkar_Lake_Ghats_Rajasthan_India.jpg"
       },
       "festivals": [
         {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
+          "name": "Pushkar Mela",
+          "approximateMonth": 11,
           "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "description": "Annual 5-day camel fair drawing 200,000+ pilgrims; one of India's greatest fairs.",
           "significance": "high"
         },
         {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
+          "name": "Kartik Purnima",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Full moon bathing in Pushkar Lake; believed to grant moksha.",
           "significance": "high"
+        },
+        {
+          "name": "Prabodhini Ekadashi",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Marks Vishnu's awakening and opens the Pushkar Mela week.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Pushkar"
     },
     {
       "id": "t_group_of_monuments_at_hampi",
