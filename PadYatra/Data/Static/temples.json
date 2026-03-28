@@ -2544,32 +2544,46 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Guhyeshwari Temple (Nepali: गुह्येश्वरी मन्दिर), also spelled Guheswari or Gujeshwari, is a Hindu temple in Kathmandu, Nepal. The temple is a Shakta pitha and is about 1km east of Pashupati Kshetra and is located on the southern bank of the Bagmati River. It is an important pilgrimage destination especially for Tantric worshipers. King Pratap Malla renovated this temple in the 17th century.\nThe Devi Bhagavata Purana mentions this temple in its list of sacred places of Adishakti and refers to the deity of Nepal as Guhyakali.",
-      "shortDescription": "Guhyeshwari Temple (Nepali: गुह्येश्वरी मन्दिर), also spelled Guheswari or Gujeshwari, is a Hindu temple in Kathmandu, Nepal.",
+      "description": "On the sacred southern bank of the Bagmati River, Guhyeshwari enshrines Parvati in her most esoteric form — Guhyeshwari, 'the secret goddess.' Revered as one of the 51 Shakti Peethas, tradition holds that the knees of Sati fell here. Built in the Lichhavi era and renovated by King Pratap Malla in 1653, the temple is a centre of Tantric worship; its inner sanctum is restricted to Hindus, deepening its air of mystery. The Devi Bhagavata Purana venerates this site as Guhyakali, Nepal's own face of the divine feminine.",
+      "shortDescription": "A Tantric Shakti Peetha on the Bagmati River where Parvati is worshipped in her secret form, Guhyeshwari — believed to mark where Sati's knees fell.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Licchavi Period",
-        "architectureStyle": "Newar Architecture",
+        "established": "17th century (renovated)",
+        "dynasty": "Lichhavi / Malla",
+        "architectureStyle": "Nepali Pagoda",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Modest attire; non-Hindus not permitted inside",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (Hindus only)",
+        "darshanaTimings": "5:00 AM – 7:00 PM"
       },
       "images": {
         "heroImageName": "t_guhyeshwari_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_guhyeshwari_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Guhyeshwari_Temple_Pashupatinath_Kathmandu_Nepal_Rajesh_Dhungana_%283%29.jpg"
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Guhyeshwari_Temple_Primises_01.JPG"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
+          "name": "Navratri / Dashain",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The most significant festival; the royal family traditionally worshipped here after a ritual bath in the Bagmati. Special pujas are performed throughout the nine nights.",
+          "significance": "high"
+        },
+        {
+          "name": "Maha Shivaratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Large pilgrimage from the nearby Pashupatinath complex extends to Guhyeshwari, with night-long worship.",
+          "significance": "high"
+        },
+        {
+          "name": "Guhyeshwari Fair",
+          "approximateMonth": 11,
           "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "description": "Annual fair held at the temple grounds drawing devotees from across Nepal.",
           "significance": "medium"
         }
       ],
@@ -12163,38 +12177,45 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Ugratara Temple is a Hindu temple located in Guwahati, Assam, India, dedicated to Ugratara. It dates to the Early Medieval Period.",
-      "shortDescription": "Ugratara Temple is a Hindu temple located in Guwahati, Assam, India, dedicated to Ugratara.",
+      "description": "Built by Ahom King Siva Singh in 1725 AD on the western bank of the sacred Jor Pukhuri tank, Ugratara Devalaya is one of Guwahati's foremost Shakti Peethas — believed to mark where Sati's navel fell. Uniquely, the sanctum holds no idol; a small water-filled pit is worshipped as the fierce goddess Tara. Designed in the Nilachala style with a towering shikhara, the temple sustained damage in the 1897 Great Assam Earthquake and was subsequently restored.",
+      "shortDescription": "An Ahom-built Shakti Peetha in Guwahati where a water-filled pit, rather than any idol, is venerated as the fierce goddess Tara.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "1725 AD",
+        "dynasty": "Ahom Kingdom",
+        "architectureStyle": "Nilachala",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "5:30 AM – 8:00 PM"
       },
       "images": {
         "heroImageName": "t_ugratara_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_ugratara_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ugratara_Devalaya_01.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
+          "name": "Navratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The main festival of the temple, celebrated with elaborate rituals, prayers and processions over nine nights.",
+          "significance": "high"
+        },
+        {
+          "name": "Durga Puja",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Grand five-day celebration during which the temple is illuminated and special poojas are performed with great fervour.",
+          "significance": "high"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Ugratara_Devalaya"
     },
     {
       "id": "t_mithila_shakti_peetha",
@@ -12387,25 +12408,25 @@
         "c_cave_temple",
         "c_rock_cut"
       ],
-      "description": "The Undavalli Caves are monolithic Indian rock-cut architecture, located in Guntur district in the Indian state of Andhra Pradesh. The caves are located south west of Vijayawada. They were carved out of solid sandstone hills in the 4th–5th centuries CE, primarily during the Vishnukundina dynasty era. It is one of the centrally protected Monuments of National Importance.",
-      "shortDescription": "The Undavalli Caves are monolithic Indian rock-cut architecture, located in Guntur district in the Indian state of Andhra Pradesh.",
+      "description": "Hewn directly from a sandstone hillside overlooking the Krishna River, the Undavalli Caves are one of the finest examples of early Indian rock-cut architecture. Originally a Jain retreat, the complex was adapted by Buddhist monks before evolving into a Hindu site under the Vishnukundina kings. The centrepiece is a four-storeyed cave temple — 29 m long — whose second floor shelters a magnificent 5-metre reclining Vishnu carved from a single block of granite. Pilastered facades and shrines to the Hindu Trinity make this a layered artistic landmark of the Deccan.",
+      "shortDescription": "A 4th–5th century CE multi-storeyed rock-cut temple complex near Vijayawada, housing a monumental reclining Vishnu carved from a single granite block.",
       "facts": {
         "established": "4th–5th century CE",
-        "dynasty": "Ancient Period",
-        "architectureStyle": null,
+        "dynasty": "Vishnukundina",
+        "architectureStyle": "Gupta rock-cut",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "₹25",
+        "darshanaTimings": "9:00 AM – 5:30 PM"
       },
       "images": {
         "heroImageName": "t_undavalli_caves_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_undavalli_caves_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/4/47/Undavalli_Caves%2C_Vijayawada%2C_Guntur%2C_Andhra_Pradesh%2C_India_%282018%29_1.jpg"
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/8/80/Undavalli_Caves%2C_Vijayawada.JPG"
       },
       "festivals": [
         {
