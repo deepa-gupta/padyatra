@@ -657,7 +657,6 @@
       "templeIDs": [
         "t_annamalaiyar",
         "t_brihadeeswarar",
-        "t_chokkanatha_temple_srirangam",
         "t_meenakshi_amman",
         "t_ranganathaswamy",
         "t_sri_ranganathaswamy"
@@ -10658,7 +10657,7 @@
         "heroImageName": "t_meenakshi_amman_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_meenakshi_amman_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/e/e9/An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg"
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Meenakshi_Amman_Temple%2C_Madurai.JPG"
       },
       "festivals": [
         {
@@ -13162,67 +13161,6 @@
       "significance": "charDham",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Badrinath_Temple"
-    },
-    {
-      "id": "t_chokkanatha_temple_srirangam",
-      "slug": "chokkanatha-temple-srirangam-srirangam",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Chokkanatha Temple (Srirangam)",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 10.857331,
-        "longitude": 78.693085,
-        "city": "Srirangam",
-        "district": "Tiruchirapalli",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_tallest_tower"
-      ],
-      "description": "Chokkanatha Temple (Srirangam) is a Hindu temple located in Srirangam, Tamil Nadu, India, dedicated to Vishnu. It dates to the Pallava/Medieval Period.",
-      "shortDescription": "Chokkanatha Temple (Srirangam) is a Hindu temple located in Srirangam, Tamil Nadu, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "9th–10th century CE",
-        "dynasty": "Pallava/Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_chokkanatha_temple_srirangam_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_chokkanatha_temple_srirangam_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
     },
     {
       "id": "t_sri_ranganathaswamy",
