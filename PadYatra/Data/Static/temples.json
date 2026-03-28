@@ -13575,11 +13575,11 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "Naimisaranya Chakra Narayan Temple",
-      "alternateName": null,
+      "alternateName": "Shri Naimishnath Vishnu Temple",
       "deity": "Vishnu",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 27.0613,
+        "longitude": 80.4933,
         "city": "Naimisaranya",
         "district": "Sitapur",
         "state": "Uttar Pradesh",
@@ -13590,45 +13590,59 @@
       "categoryIDs": [
         "c_swayambhu_vishnu"
       ],
-      "description": "Naimisaranya Chakra Narayan Temple is a Hindu temple located in Naimisaranya, Uttar Pradesh, India, dedicated to Vishnu. It dates to the Ancient Period.",
-      "shortDescription": "Naimisaranya Chakra Narayan Temple is a Hindu temple located in Naimisaranya, Uttar Pradesh, India, dedicated to Vishnu.",
+      "description": "Deep in the ancient forest of Naimisaranya, 88,000 sages once gathered for a twelve-year yajna where Suta Goswami recited all eighteen Puranas — a moment scriptures call the cradle of Hindu sacred knowledge. At the heart of this forest stands the Naimishnath Vishnu shrine, where Lord Vishnu is said to have self-manifested. Here too lies the Chakra Tirth — a round sacred pond formed when Vishnu's Sudarshana Chakra plunged into the earth, its waters spiralling in a mystical circular flow. As Divya Desam #68, sung by Thirumangai Alvar, it holds singular sanctity in Vaishnavism.",
+      "shortDescription": "Swayambhu Vishnu shrine at Naimisaranya; Divya Desam #68; sacred site of Puranic recitation and the mythic Chakra Tirth whirlpool.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Ancient Period",
-        "architectureStyle": null,
+        "established": "~7th century CE",
+        "dynasty": "Gupta era; renovated under King Harsha",
+        "architectureStyle": "Mixed South and North Indian",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Modest traditional attire required",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "5:00 AM – 12:00 PM, 4:00 PM – 9:00 PM"
       },
       "images": {
         "heroImageName": "t_naimisaranya_chakra_narayan_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_naimisaranya_chakra_narayan_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Cakratirtham.jpg"
       },
       "festivals": [
         {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
+          "name": "Kartik Purnima",
+          "approximateMonth": 11,
           "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "description": "Sacred bathing fair; massive pilgrimage to the Chakra Tirth.",
           "significance": "high"
         },
         {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
+          "name": "Akshaya Tritiya",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Largest annual gathering; auspicious puja at the swayambhu shrine.",
           "significance": "high"
+        },
+        {
+          "name": "Makar Sankranti",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "Holy dip in Chakra Tirth marks the solar new year.",
+          "significance": "high"
+        },
+        {
+          "name": "Janmashtami",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Krishna's birth celebrated with devotional programmes.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Shri_Naimishnath_Vishnu_Temple"
     },
     {
       "id": "t_tirunarayanapuram_cheluvanarayana_swamy",
