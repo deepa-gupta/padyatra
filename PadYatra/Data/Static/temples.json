@@ -12038,57 +12038,78 @@
     },
     {
       "id": "t_baps_swaminarayan",
-      "slug": "baps-swaminarayan-mandir-ahmedabad",
+      "slug": "swaminarayan-akshardham-gandhinagar",
       "legacyIDs": [],
       "isActive": true,
-      "name": "BAPS Swaminarayan Mandir",
-      "alternateName": null,
+      "name": "Swaminarayan Akshardham",
+      "alternateName": "BAPS Swaminarayan Mandir, Gandhinagar",
       "deity": "Swaminarayan",
       "location": {
-        "latitude": 23.032822,
-        "longitude": 72.525377,
-        "city": "Ahmedabad",
-        "district": "Ahmedabad",
+        "latitude": 23.0315,
+        "longitude": 72.6057,
+        "city": "Gandhinagar",
+        "district": "Gandhinagar",
         "state": "Gujarat",
         "country": "India",
-        "address": null,
-        "pincode": null
+        "address": "Sector 20, J Road, Gandhinagar 382020",
+        "pincode": "382020"
       },
       "categoryIDs": [
         "c_new_landmark"
       ],
-      "description": "BAPS Swaminarayan Mandir is a Hindu temple located in Ahmedabad, Gujarat, India, dedicated to Swaminarayan. It dates to the Modern Period.",
-      "shortDescription": "BAPS Swaminarayan Mandir is a Hindu temple located in Ahmedabad, Gujarat, India, dedicated to Swaminarayan.",
+      "description": "Built over 13 years without a single piece of steel or iron, Swaminarayan Akshardham rises from 6,000 tonnes of intricately carved pink Rajasthani sandstone. The central mandir stands 108 ft tall with 17 domes, 97 carved pillars and 264 sculpted figures, all created by BAPS artisans under Pramukh Swami Maharaj and inaugurated in 1992. Spread across 23 acres, the complex combines a traditional mandir with cultural exhibitions, a water show and gardens.",
+      "shortDescription": "A monumental 1992 BAPS temple in Gandhinagar built entirely from carved pink sandstone — no steel or iron — standing 108 ft tall with 17 domes and 264 sculpted figures.",
       "facts": {
-        "established": "2002 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
+        "established": "1992 CE",
+        "dynasty": "Modern",
+        "architectureStyle": "Nagara / Maru-Gurjara",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Shoulders and knees must be covered; free wrap provided",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (exhibitions ₹60)",
+        "darshanaTimings": "9:30 AM – 6:30 PM (closed Mondays)"
       },
       "images": {
         "heroImageName": "t_baps_swaminarayan_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_baps_swaminarayan_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/7/77/Akshardham_Gandhinagar_Gujarat.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "name": "Swaminarayan Jayanti",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Birthday of Bhagwan Swaminarayan, celebrated with special abhishek, poojas and cultural programmes.",
+          "significance": "high"
+        },
+        {
+          "name": "Diwali",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Festival of lights with 10,000 lamps illuminating the complex, followed by Annakut (new year offering) the next day.",
+          "significance": "high"
+        },
+        {
+          "name": "Navratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of devotion with special poojas and cultural events at the complex.",
+          "significance": "high"
+        },
+        {
+          "name": "Janmashtami",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Celebration of Lord Krishna's birth with midnight poojas and devotional programmes.",
           "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_(Gandhinagar)"
     },
     {
       "id": "t_tara_tarini",
