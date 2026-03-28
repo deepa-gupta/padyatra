@@ -9768,13 +9768,13 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "Annamalaiyar Temple",
-      "alternateName": null,
+      "alternateName": "Arunachalesvara Temple",
       "deity": "Shiva",
       "location": {
-        "latitude": 9.539867,
-        "longitude": 77.61979,
-        "city": "Thiruvannamalai",
-        "district": "Thiruvannamalai",
+        "latitude": 12.2317,
+        "longitude": 79.0675,
+        "city": "Tiruvannamalai",
+        "district": "Tiruvannamalai",
         "state": "Tamil Nadu",
         "country": "India",
         "address": null,
@@ -9786,19 +9786,19 @@
         "c_pancha_bhoota_linga",
         "c_tallest_tower"
       ],
-      "description": "The Arunachalesvara Temple or Annamalaiyar Temple, is a Hindu temple dedicated to Shiva and Parvati, located at the foothills of the Arunachala hill in Tiruvannamalai, Tamil Nadu, India. It is regarded as one of the significant temples in the Tamil Shaivite tradition. It is one of the Pancha Bhuta Sthalams and is associated with the element of fire (Agni) among the five natural elements.",
-      "shortDescription": "The Arunachalesvara Temple or Annamalaiyar Temple, is a Hindu temple dedicated to Shiva and Parvati, located at the foothills of t…",
+      "description": "Standing at the base of sacred Arunachala hill, the Annamalaiyar Temple is one of the Pancha Bhuta Sthalams — Shiva enshrined as the cosmic element of Fire (Agni). Spanning 10 hectares, it ranks among India's largest temple complexes, with four towering gopurams, the tallest rising 66 m across 11 stories. A thousand-pillared hall and vast mandapams fill its precincts. Every full moon, thousands of devotees walk barefoot 14 km around the sacred hill in the ancient practice of Girivalam. The temple's Karthigai Deepam festival draws millions when a beacon of fire is lit atop the hill.",
+      "shortDescription": "A Pancha Bhuta Sthaiam of Fire (Agni), this vast 10-hectare Shiva complex at the foot of sacred Arunachala hill is famed for Karthigai Deepam.",
       "facts": {
         "established": "9th century CE",
-        "dynasty": "Chola Period",
-        "architectureStyle": "Tamil architecture",
+        "dynasty": "Chola, Vijayanagara",
+        "architectureStyle": "Dravidian (Vijayanagara)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Traditional attire required; no shorts or sleeveless",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (special darshan ₹50)",
+        "darshanaTimings": "5:30 AM – 12:30 PM, 3:30 PM – 9:00 PM"
       },
       "images": {
         "heroImageName": "t_annamalaiyar_hero",
@@ -9808,11 +9808,32 @@
       },
       "festivals": [
         {
+          "name": "Karthigai Deepam",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "A beacon fire lit atop Arunachala hill visible for miles; millions attend the 17-day festival.",
+          "significance": "high"
+        },
+        {
           "name": "Mahashivratri",
           "approximateMonth": 2,
           "isLunar": true,
           "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
           "significance": "high"
+        },
+        {
+          "name": "Panguni Uthiram",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Celestial wedding festival with special kalyana urchavam for six days.",
+          "significance": "medium"
+        },
+        {
+          "name": "Navarathri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of celebrations with special poojas for the goddess.",
+          "significance": "medium"
         },
         {
           "name": "Shravan Month",
