@@ -6530,33 +6530,47 @@
         "c_rama_circuit",
         "c_sapta_puri"
       ],
-      "description": "Ram Janmabhoomi Temple is a Hindu temple located in Ayodhya, Uttar Pradesh, India, dedicated to Rama. It dates to the Treta Yuga tradition / Modern Reconstruction.",
-      "shortDescription": "Ram Janmabhoomi Temple is a Hindu temple located in Ayodhya, Uttar Pradesh, India, dedicated to Rama.",
+      "description": "Ram Mandir stands at the heart of one of India's most consequential religious disputes — the Ram Janmabhoomi conflict — resolved by the Supreme Court in 2019. Designed in the Nagara style by architect Chandrakant Sompura, the three-storeyed pink sandstone structure soars 161 feet and was consecrated on 22 January 2024 in a ceremony presided over by the Prime Minister. The presiding deity is Ram Lalla — the infant form of Rama — installed at his mythological birthplace.",
+      "shortDescription": "A monumental Nagara-style temple consecrated in January 2024, built on the site revered as the birthplace of Lord Ram after a landmark Supreme Court verdict.",
       "facts": {
-        "established": "Ancient (reconstructed 2020–2024)",
-        "dynasty": "Treta Yuga tradition / Modern Reconstruction",
-        "architectureStyle": null,
+        "established": "2024 CE",
+        "dynasty": "Modern",
+        "architectureStyle": "Nagara",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Shoulders and knees covered; modest traditional attire",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (e-pass required)",
+        "darshanaTimings": "6:30 AM – 11:30 AM, 2:00 PM – 9:30 PM"
       },
       "images": {
         "heroImageName": "t_ram_janmabhoomi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_ram_janmabhoomi_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Ram_Janmbhoomi_Mandir%2C_Ayodhya_Dham.jpg"
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Shri_Ram_Janambhoomi_Mandir%2C_Ayodhya.jpg"
       },
       "festivals": [
         {
           "name": "Ram Navami",
           "approximateMonth": 4,
           "isLunar": true,
-          "description": "Celebration of Rama's birth with special poojas, Ramayana recitations and processions.",
+          "description": "The most sacred day at the temple — Lord Ram's birthday celebrated with Prana Pratishtha poojas, Ramayana recitations and massive pilgrimages to Ayodhya.",
           "significance": "high"
+        },
+        {
+          "name": "Deepotsav",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Ayodhya's grand Diwali celebration with lakhs of earthen lamps illuminating the ghats and the entire temple complex.",
+          "significance": "high"
+        },
+        {
+          "name": "Vivah Panchami",
+          "approximateMonth": 12,
+          "isLunar": true,
+          "description": "Celebration of the divine wedding of Ram and Sita with elaborate rituals and processions.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
