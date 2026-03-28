@@ -1398,11 +1398,11 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "Bhawani Temple (Chandranath Peetha)",
-      "alternateName": null,
+      "alternateName": "Chandranath Temple",
       "deity": "Bhavani",
       "location": {
-        "latitude": 22.619982,
-        "longitude": 91.656984,
+        "latitude": 22.63,
+        "longitude": 91.68,
         "city": "Sitakunda",
         "district": "Chattogram",
         "state": "Chattogram",
@@ -1413,38 +1413,38 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Bhawani Temple (Chandranath Peetha) is a Hindu temple located in Sitakunda, Chattogram, India, dedicated to Bhavani. It dates to the Early Medieval Period.",
-      "shortDescription": "Bhawani Temple (Chandranath Peetha) is a Hindu temple located in Sitakunda, Chattogram, India, dedicated to Bhavani.",
+      "description": "Rising dramatically above Sitakunda's plains, Chandranath Temple crowns a forested hilltop 315 metres above sea level in southeastern Bangladesh. It is doubly sacred — a Shakti Peetha where the right arm of Goddess Sati fell, and a Shaiva seat where Shiva is worshipped as Chandranath. References appear in the medieval text Nigamkalpataru, and the Tripura kingdom endowed the temple nearly 800 years ago. Every spring, over a million pilgrims ascend its stone steps for the Shiva Chaturdashi fair, one of Bangladesh's largest Hindu gatherings.",
+      "shortDescription": "A hilltop Shakti Peetha in Sitakunda, Bangladesh — doubly sacred as the spot where Sati's right arm fell and as a revered Shaiva seat of Chandranath.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "11th century CE",
+        "dynasty": "Tripura Kingdom",
+        "architectureStyle": "Bengali regional",
         "openingMonth": null,
         "closingMonth": null,
-        "altitude": null,
+        "altitude": 315,
         "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_bhawani_temple_chandranath_peetha_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_bhawani_temple_chandranath_peetha_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Aerial_View_of_Chandranath_Hill_and_Temple.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
+          "name": "Shiva Chaturdashi Fair",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "A 10-day pilgrimage festival drawing over a million devotees to climb the hill; one of the largest Hindu gatherings in Bangladesh, culminating on Dol Purnima.",
+          "significance": "high"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Chandranath_Temple"
     },
     {
       "id": "t_srisailam_bhramaramba",
