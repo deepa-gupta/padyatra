@@ -5062,62 +5062,76 @@
         "t_iskcon_mayapur"
       ],
       "isActive": true,
-      "name": "ISKCON Temple Mayapur",
-      "alternateName": null,
-      "deity": "Krishna",
+      "name": "Temple of the Vedic Planetarium",
+      "alternateName": "ISKCON Mayapur",
+      "deity": "Radha-Krishna",
       "location": {
-        "latitude": 23.423424,
-        "longitude": 88.390808,
+        "latitude": 23.4232,
+        "longitude": 88.3883,
         "city": "Mayapur",
         "district": "Nadia",
         "state": "West Bengal",
         "country": "India",
         "address": null,
-        "pincode": null
+        "pincode": "741313"
       },
       "categoryIDs": [
         "c_iskcon",
         "c_new_landmark"
       ],
-      "description": "ISKCON Temple Mayapur is a Hindu temple located in Mayapur, West Bengal, India, dedicated to Krishna. It dates to the Modern Period.",
-      "shortDescription": "ISKCON Temple Mayapur is a Hindu temple located in Mayapur, West Bengal, India, dedicated to Krishna.",
+      "description": "Rising 340 feet above the sacred floodplains where the Ganges meets the Jalangi, the Temple of the Vedic Planetarium is unlike any structure attempted in the modern era. Its Capitol-inspired dome shelters a cosmological universe drawn from the Srimad Bhagavatam — a spiralling Vedic cosmos with Mount Meru at its centre. Conceived by Srila Prabhupada in 1976 and built upon land identified as the birthplace of Sri Chaitanya Mahaprabhu, it is under construction since 2009. During Gaura Purnima, hundreds of thousands of devotees from every continent circumambulate in night-long sankirtan.",
+      "shortDescription": "The world's largest temple under construction — a Vedic cosmological wonder rising 340 ft above Sri Chaitanya's sacred birthplace.",
       "facts": {
-        "established": "1975 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
+        "established": "2009 CE",
+        "dynasty": null,
+        "architectureStyle": "Contemporary Neo-Vedic with Capitol-style dome",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Shoulders and knees must be covered",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "4:30 AM – 1:00 PM, 4:00 PM – 8:30 PM"
       },
       "images": {
         "heroImageName": "t_iskcon_temple_mayapur_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_iskcon_temple_mayapur_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/2/20/Chandrodaya_Mandir_Under_Construction_-_Temple_Of_Vedic_Planetarium_-_ISKCON_Campus_-_Mayapur_-_Nadia_2017-08-15_1904.JPG"
       },
       "festivals": [
+        {
+          "name": "Gaura Purnima",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "10-day global pilgrimage marking Sri Chaitanya's appearance; hundreds of thousands attend.",
+          "significance": "high"
+        },
         {
           "name": "Janmashtami",
           "approximateMonth": 8,
           "isLunar": true,
-          "description": "Celebration of Krishna's birth with midnight prayers, devotional singing and fasting.",
+          "description": "Krishna's birth midnight celebration with abhisheka, kirtana, and cultural events.",
           "significance": "high"
         },
         {
-          "name": "Radhashtami",
-          "approximateMonth": 9,
+          "name": "Nityananda Trayodashi",
+          "approximateMonth": 2,
           "isLunar": true,
-          "description": "Birth anniversary of Radha, celebrated with special devotional programmes.",
+          "description": "Appearance day of Lord Nityananda, especially significant near his birthplace.",
+          "significance": "high"
+        },
+        {
+          "name": "Kartika Parikrama",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Month-long pilgrimage walks around Navadwipa with lakhs of devotees.",
           "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Temple_of_the_Vedic_Planetarium"
     },
     {
       "id": "t_iskcon_temple_mumbai",
@@ -5247,60 +5261,74 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "ISKCON Temple Pune",
-      "alternateName": null,
-      "deity": "Krishna",
+      "alternateName": "New Vedic Cultural Center",
+      "deity": "Radha-Krishna",
       "location": {
-        "latitude": 18.520012,
-        "longitude": 73.879478,
+        "latitude": 18.4479,
+        "longitude": 73.8806,
         "city": "Pune",
         "district": "Pune",
         "state": "Maharashtra",
         "country": "India",
-        "address": null,
-        "pincode": null
+        "address": "Katraj-Kondhwa Road, Kondhwa",
+        "pincode": "411048"
       },
       "categoryIDs": [
         "c_iskcon"
       ],
-      "description": "ISKCON Temple Pune is a Hindu temple located in Pune, Maharashtra, India, dedicated to Krishna. It dates to the Modern Period.",
-      "shortDescription": "ISKCON Temple Pune is a Hindu temple located in Pune, Maharashtra, India, dedicated to Krishna.",
+      "description": "Nestled in the hills of Kondhwa on Pune's southern edge, the New Vedic Cultural Center is far more than a place of worship. Three golden altars blaze with the gold-plated forms of Sri Sri Radha Vrindavanchandra, Sri Sri Gaura-Nitai, and Sri Sri Jagannath-Baldev-Subhadra, their brilliance amplified by cascading chandeliers and ceiling murals depicting Krishna's eternal pastimes. Vedic aesthetics drawn from Jagannath Puri and Tirupati converge here, inspiring awe and inner stillness. The ceaseless sound of kirtana fills the marble halls, drawing thousands of seekers each day.",
+      "shortDescription": "Pune's grandest ISKCON temple — three gold-plated altars, Vedic murals and ceaseless kirtan draw thousands of Krishna devotees daily.",
       "facts": {
-        "established": "1986 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
+        "established": "2013 CE",
+        "dynasty": null,
+        "architectureStyle": "Vedic classical with gold-plated altars, carved pillars and mural paintings",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Modest attire covering shoulders and legs; traditional wear preferred",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "4:30 AM – 8:45 PM (multiple sessions)"
       },
       "images": {
         "heroImageName": "t_iskcon_temple_pune_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_iskcon_temple_pune_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/3a/ISKONNVCC_09.JPG"
       },
       "festivals": [
         {
           "name": "Janmashtami",
           "approximateMonth": 8,
           "isLunar": true,
-          "description": "Celebration of Krishna's birth with midnight prayers, devotional singing and fasting.",
+          "description": "Grand midnight celebration of Krishna's birth with kirtana and abhisheka.",
+          "significance": "high"
+        },
+        {
+          "name": "Gaura Purnima",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Birth anniversary of Sri Chaitanya Mahaprabhu with processions and all-night kirtan.",
           "significance": "high"
         },
         {
           "name": "Radhashtami",
           "approximateMonth": 9,
           "isLunar": true,
-          "description": "Birth anniversary of Radha, celebrated with special devotional programmes.",
+          "description": "Appearance day of Srimati Radharani with elaborate floral decoration.",
+          "significance": "high"
+        },
+        {
+          "name": "Ratha Yatra",
+          "approximateMonth": 7,
+          "isLunar": true,
+          "description": "Chariot procession of Lord Jagannath through the streets of Pune.",
           "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/ISKCON_Temple,_Pune"
     },
     {
       "id": "t_iskcon_temple_chennai",
@@ -6337,60 +6365,81 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "ISKCON Temple Vrindavan",
-      "alternateName": null,
+      "alternateName": "Sri Sri Krishna Balaram Mandir",
       "deity": "Radha-Krishna",
       "location": {
-        "latitude": 27.575373,
-        "longitude": 77.693804,
+        "latitude": 27.5724,
+        "longitude": 77.6778,
         "city": "Vrindavan",
         "district": "Mathura",
         "state": "Uttar Pradesh",
         "country": "India",
-        "address": null,
-        "pincode": null
+        "address": "Raman Reti, ISKCON Temple Road",
+        "pincode": "281121"
       },
       "categoryIDs": [
         "c_iskcon"
       ],
-      "description": "ISKCON Temple Vrindavan is a Hindu temple located in Vrindavan, Uttar Pradesh, India, dedicated to Radha-Krishna. It dates to the Modern Period.",
-      "shortDescription": "ISKCON Temple Vrindavan is a Hindu temple located in Vrindavan, Uttar Pradesh, India, dedicated to Radha-Krishna.",
+      "description": "In the sacred dust of Vrindavan — where Krishna himself once played — stands Srila Prabhupada's masterwork: a gleaming white marble temple inaugurated on Ram Navami 1975 and now one of the holiest Vaishnava destinations in the world. Three altars house Krishna-Balaram, Radha-Shyamasundar with the gopis, and Gaura-Nitai. Pilgrims descend into a sunken courtyard shaded by an ancient tamal tree — believed to be the very species Krishna would rest beneath — and experience a timeless intimacy with the Divine that the chaos of modern Vrindavan cannot penetrate.",
+      "shortDescription": "Prabhupada's 1975 white marble masterpiece in Vrindavan — three sacred altars where Krishna and Balaram are worshipped together.",
       "facts": {
-        "established": "1977 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
+        "established": "1975 CE",
+        "dynasty": null,
+        "architectureStyle": "White marble Rajasthani-Vedic with intricately carved arches and domed spires",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Modest attire covering arms and legs; dhoti/kurta or saree/salwar recommended",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "4:10 AM – 12:45 PM, 4:30 PM – 8:45 PM"
       },
       "images": {
         "heroImageName": "t_iskcon_temple_vrindavan_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_iskcon_temple_vrindavan_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sri_Krishna_Balaram_Temple%2C_Vrindavan.JPG"
       },
       "festivals": [
         {
           "name": "Janmashtami",
           "approximateMonth": 8,
           "isLunar": true,
-          "description": "Celebration of Krishna's birth with midnight prayers, devotional singing and fasting.",
+          "description": "Midnight birth celebration of Krishna with massive kirtan and midnight abhisheka.",
+          "significance": "high"
+        },
+        {
+          "name": "Jhulan Yatra",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Five-day swing festival of Radha-Krishna with flower-adorned jhulans.",
+          "significance": "high"
+        },
+        {
+          "name": "Gaura Purnima",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Sri Chaitanya Mahaprabhu's appearance day with processions and night kirtan.",
           "significance": "high"
         },
         {
           "name": "Radhashtami",
           "approximateMonth": 9,
           "isLunar": true,
-          "description": "Birth anniversary of Radha, celebrated with special devotional programmes.",
+          "description": "Grand celebration of Radha's appearance with exquisite floral decorations.",
+          "significance": "high"
+        },
+        {
+          "name": "Kartika Deepotsava",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Month-long lamp festival of devotion in the sacred month of Kartika.",
           "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/ISKCON_Temple,_Vrindavan"
     },
     {
       "id": "t_iskcon_temple_jaipur",
@@ -11219,7 +11268,7 @@
       "categoryIDs": [
         "c_unesco"
       ],
-      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as "the apogee of an eclectic art," a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship — a continuum from 8th-century queens to pilgrims today.",
+      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as 'the apogee of an eclectic art,' a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship — a continuum from 8th-century queens to pilgrims today.",
       "shortDescription": "UNESCO World Heritage complex of 7th–8th century Chalukya temples blending Nagara and Dravidian styles, Karnataka.",
       "facts": {
         "established": "7th–8th century CE",
@@ -11287,7 +11336,7 @@
       "categoryIDs": [
         "c_ancient_1000"
       ],
-      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as "the apogee of an eclectic art," a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship — a continuum from 8th-century queens to pilgrims today.",
+      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as 'the apogee of an eclectic art,' a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship — a continuum from 8th-century queens to pilgrims today.",
       "shortDescription": "Complex of 7th–8th century Chalukya temples blending Nagara, Dravidian and Vesara styles; part of a UNESCO World Heritage Site.",
       "facts": {
         "established": "7th–8th century CE",
