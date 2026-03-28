@@ -9786,8 +9786,8 @@
         "c_pancha_bhoota_linga",
         "c_tallest_tower"
       ],
-      "description": "Standing at the base of sacred Arunachala hill, the Annamalaiyar Temple is one of the Pancha Bhuta Sthalams — Shiva enshrined as the cosmic element of Fire (Agni). Spanning 10 hectares, it ranks among India's largest temple complexes, with four towering gopurams, the tallest rising 66 m across 11 stories. A thousand-pillared hall and vast mandapams fill its precincts. Every full moon, thousands of devotees walk barefoot 14 km around the sacred hill in the ancient practice of Girivalam. The temple's Karthigai Deepam festival draws millions when a beacon of fire is lit atop the hill.",
-      "shortDescription": "A Pancha Bhuta Sthaiam of Fire (Agni), this vast 10-hectare Shiva complex at the foot of sacred Arunachala hill is famed for Karthigai Deepam.",
+      "description": "At the foot of the ancient red hill of Arunachala — believed by devotees to be Shiva himself made manifest on earth — this temple enshrines the Agni Lingam, the fire element among the Pancha Bhuta Sthalas. Legend holds that Shiva appeared here as an endless column of light blazing across all three worlds. Each year, millions converge for Karthigai Deepam, when a beacon of ghee and camphor is lit atop the hill as the full moon rises. Sages through the ages, most famously Ramana Maharshi, have declared Arunachala not merely sacred but Shiva's living form — a hill that is itself the guru.",
+      "shortDescription": "Pancha Bhuta Sthala enshrining Shiva as the Agni Lingam (fire element) at the sacred Arunachala hill; famed for Karthigai Deepam beacon festival.",
       "facts": {
         "established": "9th century CE",
         "dynasty": "Chola, Vijayanagara",
@@ -9829,17 +9829,17 @@
           "significance": "medium"
         },
         {
+          "name": "Arudra Darisanam",
+          "approximateMonth": 12,
+          "isLunar": true,
+          "description": "Celebration of Shiva's cosmic dance as Nataraja; lamps and special abhishekam.",
+          "significance": "medium"
+        },
+        {
           "name": "Navarathri",
           "approximateMonth": 10,
           "isLunar": true,
           "description": "Nine nights of celebrations with special poojas for the goddess.",
-          "significance": "medium"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
           "significance": "medium"
         }
       ],
