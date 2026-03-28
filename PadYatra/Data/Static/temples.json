@@ -13636,11 +13636,11 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "Tirunarayanapuram Cheluvanarayana Swamy Temple",
-      "alternateName": null,
+      "alternateName": "Cheluvanarayana Swamy Temple, Melukote",
       "deity": "Vishnu",
       "location": {
-        "latitude": 12.662405,
-        "longitude": 76.649649,
+        "latitude": 12.6602,
+        "longitude": 76.6475,
         "city": "Melukote",
         "district": "Mandya",
         "state": "Karnataka",
@@ -13651,27 +13651,34 @@
       "categoryIDs": [
         "c_swayambhu_vishnu"
       ],
-      "description": "Tirunarayanapuram Cheluvanarayana Swamy Temple is a Hindu temple located in Melukote, Karnataka, India, dedicated to Vishnu. It dates to the Hoysala Period.",
-      "shortDescription": "Tirunarayanapuram Cheluvanarayana Swamy Temple is a Hindu temple located in Melukote, Karnataka, India, dedicated to Vishnu.",
+      "description": "Among the most venerated Abhimana Kshetras of the Srivaishnava tradition, this temple at Melukote shelters a standing six-foot form of Vishnu said to have been given by Vishnu himself to Brahma for perpetual worship. Its processional idol carries a legend unlike any other: retrieved from Delhi by Ramanujacharya, it so captivated a Muslim princess that she followed it to Melukote and merged into the divine — now enshrined as Bibi Nachiyar at the Lord's feet, honoured alongside him to this day. The deity Ramapriya is said to have been venerated by both Rama and Krishna across the yugas.",
+      "shortDescription": "Ancient Dravidian Vishnu temple in Melukote, Karnataka — home to a self-manifested deity and the unique Bibi Nachiyar shrine.",
       "facts": {
-        "established": "Ancient (revived 11th–12th century CE)",
-        "dynasty": "Hoysala Period",
-        "architectureStyle": null,
+        "established": "11th century CE",
+        "dynasty": "Hoysala; established by Ramanujacharya",
+        "architectureStyle": "Dravidian",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Traditional attire recommended",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (Abhisheka Seva ₹800)",
+        "darshanaTimings": "6:30 AM – 1:00 PM, 4:00 PM – 8:30 PM"
       },
       "images": {
         "heroImageName": "t_tirunarayanapuram_cheluvanarayana_swamy_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_tirunarayanapuram_cheluvanarayana_swamy_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Cheluva_Narayana_Swamy_Temple.JPG"
       },
       "festivals": [
+        {
+          "name": "Vairamudi Brahmotsava",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "13-day festival; Lord adorned with diamond-studded crown, carried on golden Garuda at night.",
+          "significance": "high"
+        },
         {
           "name": "Vaikuntha Ekadashi",
           "approximateMonth": 12,
@@ -13680,16 +13687,16 @@
           "significance": "high"
         },
         {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
+          "name": "Kalyanotsava",
+          "approximateMonth": 7,
+          "isLunar": true,
+          "description": "Celestial wedding ritual of the Lord at the holy Kalyani tank.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Cheluvanarayana_Swamy_Temple"
     },
     {
       "id": "t_alwarthirunagari",
