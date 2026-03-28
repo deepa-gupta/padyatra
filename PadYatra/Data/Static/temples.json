@@ -11205,10 +11205,10 @@
       "isActive": true,
       "name": "Group of Monuments at Pattadakal",
       "alternateName": null,
-      "deity": "Shiva/Vishnu",
+      "deity": "Shiva",
       "location": {
-        "latitude": 15.951389,
-        "longitude": 75.814722,
+        "latitude": 15.9488,
+        "longitude": 75.8164,
         "city": "Pattadakal",
         "district": "Bagalkot",
         "state": "Karnataka",
@@ -11219,19 +11219,19 @@
       "categoryIDs": [
         "c_unesco"
       ],
-      "description": "Group of Monuments at Pattadakal is a Hindu temple located in Pattadakal, Karnataka, India, dedicated to Shiva/Vishnu. It dates to the Chalukya Period.",
-      "shortDescription": "Group of Monuments at Pattadakal is a Hindu temple located in Pattadakal, Karnataka, India, dedicated to Shiva/Vishnu.",
+      "description": "Pattadakal, on the west bank of the Malaprabha River in Karnataka, flourished between the 7th and 8th centuries CE as a royal coronation site of the Chalukya dynasty. Its ten temples — nine Hindu and one Jain — showcase a unique synthesis of Nagara (northern) and Dravidian (southern) architectural styles, earning UNESCO World Heritage status in 1987. The Virupaksha Temple, built by Queen Lokmahadevi to celebrate her husband's victory, is the largest. Together with nearby Badami and Aihole, Pattadakal is the crucible where India's two great temple architecture traditions converged.",
+      "shortDescription": "A UNESCO World Heritage Site of 10 Chalukya temples representing the fusion of Nagara and Dravidian architecture on the banks of the Malaprabha River.",
       "facts": {
         "established": "7th–8th century CE",
-        "dynasty": "Chalukya Period",
-        "architectureStyle": null,
+        "dynasty": "Chalukyas of Badami",
+        "architectureStyle": "Chalukya (Nagara and Dravidian fusion)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "photographyAllowed": true,
+        "entryFee": "₹40 (Indians), ₹600 (foreign nationals)",
+        "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_group_of_monuments_at_pattadakal_hero",
@@ -11241,18 +11241,18 @@
       },
       "festivals": [
         {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "name": "Pattadakal Dance Festival",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "Annual classical dance festival held against the backdrop of the ancient Chalukya temples.",
           "significance": "high"
         },
         {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
           "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
+          "description": "Special poojas and vigils at the Shiva temples within the complex.",
+          "significance": "high"
         }
       ],
       "significance": "other",
@@ -11266,10 +11266,10 @@
       "isActive": true,
       "name": "Pattadakal Temples",
       "alternateName": null,
-      "deity": "Shiva/Vishnu",
+      "deity": "Shiva",
       "location": {
-        "latitude": 15.948433,
-        "longitude": 75.81597,
+        "latitude": 15.9488,
+        "longitude": 75.8164,
         "city": "Pattadakal",
         "district": "Bagalkot",
         "state": "Karnataka",
@@ -11280,45 +11280,45 @@
       "categoryIDs": [
         "c_ancient_1000"
       ],
-      "description": "Pattadakal Temples is a Hindu temple located in Pattadakal, Karnataka, India, dedicated to Shiva/Vishnu. It dates to the Chalukya Period.",
-      "shortDescription": "Pattadakal Temples is a Hindu temple located in Pattadakal, Karnataka, India, dedicated to Shiva/Vishnu.",
+      "description": "Pattadakal, on the west bank of the Malaprabha River in Karnataka, flourished between the 7th and 8th centuries CE as a royal coronation site of the Chalukya dynasty. Its ten temples — nine Hindu and one Jain — showcase a unique synthesis of Nagara (northern) and Dravidian (southern) architectural styles, earning UNESCO World Heritage status in 1987. The Virupaksha Temple, built by Queen Lokmahadevi to celebrate her husband's victory, is the largest. Together with nearby Badami and Aihole, Pattadakal is the crucible where India's two great temple architecture traditions converged.",
+      "shortDescription": "A complex of 10 Chalukya-era temples representing the fusion of Nagara and Dravidian architecture; a UNESCO World Heritage Site.",
       "facts": {
         "established": "7th–8th century CE",
-        "dynasty": "Chalukya Period",
-        "architectureStyle": null,
+        "dynasty": "Chalukyas of Badami",
+        "architectureStyle": "Chalukya (Nagara and Dravidian fusion)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "photographyAllowed": true,
+        "entryFee": "₹40 (Indians), ₹600 (foreign nationals)",
+        "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_pattadakal_temples_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_pattadakal_temples_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/0/03/Pattadakal_000.JPG"
       },
       "festivals": [
+        {
+          "name": "Pattadakal Dance Festival",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "Annual classical dance festival held against the backdrop of the ancient Chalukya temples.",
+          "significance": "high"
+        },
         {
           "name": "Mahashivratri",
           "approximateMonth": 2,
           "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "description": "Special poojas and vigils at the Shiva temples within the complex.",
           "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
         }
       ],
       "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
+      "isUNESCO": true,
+      "sourceURL": "https://en.wikipedia.org/wiki/Pattadakal"
     },
     {
       "id": "t_badami_cave_temples",
