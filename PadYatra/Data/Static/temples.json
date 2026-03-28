@@ -6102,38 +6102,45 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Patan Devi Temple is a Hindu temple located in Patna, Bihar, India, dedicated to Patan Devi. It dates to the Early Medieval Period.",
-      "shortDescription": "Patan Devi Temple is a Hindu temple located in Patna, Bihar, India, dedicated to Patan Devi.",
+      "description": "Patan Devi is credited with giving Patna its very name, and stands as one of the city's oldest shrines. Two temples — Badi (Big) and Chhoti (Small) Patan Devi — form a dual Shakti Peetha complex where the right thigh of Goddess Sati is believed to have fallen. Images were reportedly installed by Man Singh, general of Emperor Akbar, lending the site a rare confluence of Brahmanical and Mughal heritage. Each morning and evening priests bathe the goddess, offer prasad and perform aarti to ringing bells.",
+      "shortDescription": "A twin Shakti Peetha complex in Patna that gave the city its name, marking where Sati's right thigh fell — one of Bihar's most ancient goddess shrines.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "9th–11th century CE",
+        "dynasty": "Mughal era",
+        "architectureStyle": "North Indian Brahmanical",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 10:00 PM"
       },
       "images": {
         "heroImageName": "t_patan_devi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_patan_devi_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Patan_Devi_Temple.JPG"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
+          "name": "Navratri (Sharad)",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The most important festival, with Saptami, Ashtami and Navami drawing enormous crowds; a large Vijayadashami mela is held nearby.",
+          "significance": "high"
+        },
+        {
+          "name": "Chaitra Navratri",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Spring Navratri celebrated with special poojas across both the Badi and Chhoti Patan Devi shrines.",
+          "significance": "high"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Patan_Devi"
     },
     {
       "id": "t_prem",
