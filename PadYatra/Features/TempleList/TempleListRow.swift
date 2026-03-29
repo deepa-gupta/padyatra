@@ -1,75 +1,142 @@
 // TempleListRow.swift
-// A single row in the temple list showing thumbnail, name/location, and visited badge.
+// Full-width editorial card for the temple list.
+// Hero image with gradient overlay, serif name, location strip.
 import SwiftUI
 
 struct TempleListRow: View {
 
     let temple: Temple
     let isVisited: Bool
+    /// Stagger delay for entrance animation — set by the list view based on index.
+    var animationDelay: Double = 0
 
-    @State private var thumbnailURL: URL?
+    @State private var heroURL: URL?
+    @State private var appeared = false
 
-    // MARK: - Constants
-
-    private let thumbnailSize: CGFloat = 56
-    private let thumbnailCornerRadius: CGFloat = AppRadius.sm
+    private let cardImageHeight: CGFloat = 200
 
     // MARK: - Body
 
     var body: some View {
-        HStack(spacing: AppSpacing.md) {
-            thumbnail
-            info
-            Spacer(minLength: 0)
-            VisitedBadge(isVisited: isVisited)
+        cardContent
+            .opacity(appeared ? 1 : 0)
+            .offset(y: appeared ? 0 : 20)
+            .onAppear {
+                withAnimation(
+                    .spring(response: 0.4, dampingFraction: 0.75)
+                    .delay(min(animationDelay, 0.3))
+                ) { appeared = true }
+            }
+            .task(id: temple.id) {
+                heroURL = await TempleImageService.shared.thumbnailURL(for: temple)
+            }
+    }
+
+    // MARK: - Card Shell
+
+    private var cardContent: some View {
+        VStack(spacing: 0) {
+            heroImage
+            bottomStrip
         }
-        .padding(.vertical, AppSpacing.xs)
+        .clipShape(RoundedRectangle(cornerRadius: AppRadius.lg))
+        .appShadow()
         .accessibilityElement(children: .combine)
         .accessibilityLabel(rowAccessibilityLabel)
-        .task(id: temple.id) {
-            thumbnailURL = await TempleImageService.shared.thumbnailURL(for: temple)
-        }
     }
 
-    // MARK: - Subviews
+    // MARK: - Hero Image
 
-    @ViewBuilder
-    private var thumbnail: some View {
-        AsyncImage(url: thumbnailURL) { phase in
-            if case .success(let image) = phase {
-                image
-                    .resizable()
-                    .scaledToFill()
-            } else {
-                LinearGradient(
-                    colors: [Color.brandSaffron, Color.brandPeach],
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
-                )
-                .overlay(
-                    Image(systemName: "building.columns")
-                        .foregroundStyle(Color.white.opacity(0.8))
-                        .font(.title3)
-                )
+    private var heroImage: some View {
+        ZStack {
+            AsyncImage(url: heroURL) { phase in
+                if case .success(let img) = phase {
+                    img.resizable().scaledToFill()
+                } else {
+                    LinearGradient(
+                        colors: [Color.brandSaffron, Color.brandPeach],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                    .overlay(
+                        Image(systemName: "building.columns")
+                            .font(.largeTitle)
+                            .foregroundStyle(Color.white.opacity(0.6))
+                    )
+                }
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .clipped()
+
+            // Dark gradient at bottom for text legibility
+            LinearGradient(
+                stops: [
+                    .init(color: .clear, location: 0.35),
+                    .init(color: Color.brandEarthBrown.opacity(0.72), location: 1)
+                ],
+                startPoint: .top,
+                endPoint: .bottom
+            )
+        }
+        .frame(height: cardImageHeight)
+        .overlay(alignment: .bottomLeading) { imageBottomInfo }
+        .overlay(alignment: .topTrailing) { imageTopBadges }
+    }
+
+    // MARK: - Image Overlays
+
+    private var imageBottomInfo: some View {
+        VStack(alignment: .leading, spacing: 2) {
+            Text(temple.name)
+                .font(AppFont.templeName)
+                .foregroundStyle(Color.white)
+                .lineLimit(2)
+                .shadow(color: .black.opacity(0.25), radius: 2, x: 0, y: 1)
+
+            Text(temple.deity)
+                .font(.caption.weight(.semibold))
+                .foregroundStyle(Color.white.opacity(0.85))
+        }
+        .padding(.horizontal, AppSpacing.md)
+        .padding(.bottom, AppSpacing.md)
+    }
+
+    private var imageTopBadges: some View {
+        Group {
+            if isVisited {
+                VisitedBadge(isVisited: true)
             }
         }
-        .frame(width: thumbnailSize, height: thumbnailSize)
-        .clipShape(RoundedRectangle(cornerRadius: thumbnailCornerRadius))
+        .padding(AppSpacing.sm)
     }
 
-    @ViewBuilder
-    private var info: some View {
-        VStack(alignment: .leading, spacing: AppSpacing.xs) {
-            Text(temple.name)
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(Color.brandEarthBrown)
-                .lineLimit(2)
+    // MARK: - Bottom Strip
+
+    private var bottomStrip: some View {
+        HStack(spacing: AppSpacing.xs) {
+            Image(systemName: "mappin.and.ellipse")
+                .font(.caption2)
+                .foregroundStyle(Color.brandSaffron)
 
             Text("\(temple.location.city), \(temple.location.state)")
-                .font(.caption)
+                .font(.caption2.weight(.medium))
                 .foregroundStyle(Color.brandTempleGrey)
-                .lineLimit(1)
+
+            Spacer()
+
+            if temple.isUNESCO {
+                Text("UNESCO")
+                    .font(.system(size: 9, weight: .bold))
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 6)
+                    .padding(.vertical, 2)
+                    .background(Color.brandGold)
+                    .clipShape(Capsule())
+            }
         }
+        .padding(.horizontal, AppSpacing.md)
+        .padding(.vertical, AppSpacing.sm)
+        .background(Color.white)
     }
 
     // MARK: - Accessibility
@@ -82,9 +149,9 @@ struct TempleListRow: View {
 
 // MARK: - Preview
 
-#Preview("Temple List Row") {
+#Preview("Temple List Row — Card") {
     let sampleTemple = Temple(
-        id: "somnath",
+        id: "t_somnath",
         slug: "somnath",
         legacyIDs: [],
         isActive: true,
@@ -101,7 +168,7 @@ struct TempleListRow: View {
             address: nil,
             pincode: nil
         ),
-        categoryIDs: ["jyotirlinga"],
+        categoryIDs: ["c_jyotirlinga"],
         description: "First of the twelve Jyotirlinga shrines.",
         shortDescription: "First Jyotirlinga.",
         facts: TempleFacts(
@@ -117,9 +184,9 @@ struct TempleListRow: View {
             darshanaTimings: "6:00 AM – 9:30 PM"
         ),
         images: TempleImages(
-            heroImageName: "somnath_hero",
+            heroImageName: "",
             galleryImageNames: [],
-            thumbnailImageName: "somnath_thumb",
+            thumbnailImageName: "",
             remoteHeroURL: nil
         ),
         festivals: [],
@@ -128,9 +195,10 @@ struct TempleListRow: View {
         sourceURL: nil
     )
 
-    List {
+    VStack(spacing: AppSpacing.md) {
         TempleListRow(temple: sampleTemple, isVisited: true)
         TempleListRow(temple: sampleTemple, isVisited: false)
     }
-    .listStyle(.plain)
+    .padding(AppSpacing.md)
+    .background(Color.brandWarmCream)
 }

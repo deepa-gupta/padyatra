@@ -1,5 +1,5 @@
 // ProfileView.swift
-// Profile tab: visit count hero, progress ring, stats grid, category breakdown, share button.
+// Profile tab: full-bleed gradient hero, stats grid, category progress, share button.
 import SwiftUI
 import SwiftData
 
@@ -24,17 +24,22 @@ struct ProfileView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(spacing: AppSpacing.lg) {
-                    heroSection
-                    statsGrid
-                    categorySection
-                    shareButton
+                VStack(spacing: 0) {
+                    gradientHeader
+
+                    VStack(spacing: AppSpacing.lg) {
+                        statsGrid
+                        categorySection
+                        shareButton
+                    }
+                    .padding(AppSpacing.md)
                 }
-                .padding(AppSpacing.md)
             }
+            .ignoresSafeArea(edges: .top)
             .background(Color.brandWarmCream)
-            .navigationTitle("My Journey")
-            .navigationBarTitleDisplayMode(.large)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbarBackground(.hidden, for: .navigationBar)
+            .toolbarColorScheme(.dark, for: .navigationBar)
         }
         .tint(Color.brandSaffron)
         .onAppear {
@@ -47,56 +52,69 @@ struct ProfileView: View {
         }
     }
 
-    // MARK: - Hero Section
+    // MARK: - Gradient Hero Header
 
-    private var heroSection: some View {
-        VStack(spacing: AppSpacing.md) {
-            ZStack {
-                // Track ring
-                Circle()
-                    .stroke(Color.brandTempleGrey.opacity(0.15), lineWidth: 16)
-                    .frame(width: 140, height: 140)
+    private var gradientHeader: some View {
+        ZStack(alignment: .bottom) {
+            // Background gradient extending to status bar
+            LinearGradient(
+                colors: [Color.brandDeepOrange, Color.brandSaffron, Color.brandPeach],
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
 
-                // Progress arc
-                Circle()
-                    .trim(from: 0, to: vm.visitFraction)
-                    .stroke(
-                        LinearGradient(
-                            colors: [Color.brandSaffron, Color.brandDeepOrange],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
-                        ),
-                        style: StrokeStyle(lineWidth: 16, lineCap: .round)
-                    )
-                    .frame(width: 140, height: 140)
-                    .rotationEffect(.degrees(-90))
-                    .animation(.easeOut(duration: 0.6), value: vm.visitFraction)
-
-                // Centre count
-                VStack(spacing: 0) {
-                    Text("\(vm.totalVisited)")
-                        .font(.system(size: 36, weight: .bold, design: .rounded))
-                        .foregroundStyle(Color.brandEarthBrown)
-                    Text("/ \(vm.totalTemples)")
-                        .font(.caption.weight(.semibold))
-                        .foregroundStyle(Color.brandTempleGrey)
-                }
+            // Content — rings + labels sit above safe area
+            VStack(spacing: AppSpacing.md) {
+                progressRing
+                headerLabels
             }
+            .padding(.bottom, AppSpacing.xl)
+            .padding(.top, AppSpacing.xxl + AppSpacing.lg)  // clears status bar + nav bar
+        }
+        .frame(minHeight: 300)
+    }
 
+    private var progressRing: some View {
+        ZStack {
+            // Track
+            Circle()
+                .stroke(Color.white.opacity(0.25), lineWidth: 14)
+                .frame(width: 130, height: 130)
+
+            // Progress arc
+            Circle()
+                .trim(from: 0, to: vm.visitFraction)
+                .stroke(
+                    Color.white,
+                    style: StrokeStyle(lineWidth: 14, lineCap: .round)
+                )
+                .frame(width: 130, height: 130)
+                .rotationEffect(.degrees(-90))
+                .animation(.easeOut(duration: 0.6), value: vm.visitFraction)
+
+            // Centre count
+            VStack(spacing: 0) {
+                Text("\(vm.totalVisited)")
+                    .font(.system(size: 34, weight: .bold, design: .rounded))
+                    .foregroundStyle(Color.white)
+                Text("/ \(vm.totalTemples)")
+                    .font(.caption.weight(.semibold))
+                    .foregroundStyle(Color.white.opacity(0.75))
+            }
+        }
+    }
+
+    private var headerLabels: some View {
+        VStack(spacing: AppSpacing.xs) {
             Text(visitHeadline)
                 .font(.title3.weight(.semibold))
-                .foregroundStyle(Color.brandEarthBrown)
+                .foregroundStyle(Color.white)
                 .multilineTextAlignment(.center)
 
             Text("Keep walking the sacred path 🙏")
                 .font(.subheadline)
-                .foregroundStyle(Color.brandTempleGrey)
+                .foregroundStyle(Color.white.opacity(0.8))
         }
-        .padding(AppSpacing.lg)
-        .frame(maxWidth: .infinity)
-        .background(Color.white.opacity(0.6))
-        .clipShape(RoundedRectangle(cornerRadius: AppRadius.lg))
-        .appShadow()
     }
 
     private var visitHeadline: String {
@@ -130,10 +148,7 @@ struct ProfileView: View {
 
     private var categorySection: some View {
         VStack(alignment: .leading, spacing: AppSpacing.sm) {
-            Text("Progress by Category")
-                .font(.headline)
-                .foregroundStyle(Color.brandEarthBrown)
-                .padding(.bottom, AppSpacing.xs)
+            SectionHeader(title: "Progress by Category")
 
             if vm.categoryProgress.isEmpty {
                 Text("No categories loaded yet.")
@@ -150,7 +165,7 @@ struct ProfileView: View {
                     }
                 }
                 .padding(AppSpacing.md)
-                .background(Color.white.opacity(0.6))
+                .background(.thinMaterial)
                 .clipShape(RoundedRectangle(cornerRadius: AppRadius.md))
                 .appShadow()
             }

@@ -31,6 +31,7 @@ struct StarRatingView: View {
                         if case .interactive(let binding) = mode {
                             // Allow tapping the same star to clear the rating (set to 0)
                             binding.wrappedValue = binding.wrappedValue == index ? 0 : index
+                            HapticService.lightImpact()
                         }
                     }
                     .accessibilityLabel("\(index) star\(index == 1 ? "" : "s")")

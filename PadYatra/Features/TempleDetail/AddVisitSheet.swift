@@ -161,6 +161,7 @@ struct AddVisitSheet: View {
             photoData: selectedPhotoData,
             isGPSVerified: isGPSVerified
         )
+        HapticService.success()
         dismiss()
     }
 

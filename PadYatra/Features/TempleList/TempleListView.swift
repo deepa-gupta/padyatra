@@ -57,9 +57,7 @@ struct TempleListView: View {
                 if isSearching && vm.searchText.isEmpty && !searchHistory.queries.isEmpty {
                     SearchHistoryView(
                         queries: searchHistory.queries,
-                        onSelect: { query in
-                            vm.searchText = query
-                        },
+                        onSelect: { query in vm.searchText = query },
                         onClear: { searchHistory.clear() }
                     )
                     Divider()
@@ -82,21 +80,16 @@ struct TempleListView: View {
         }
         .tint(Color.brandSaffron)
         .onAppear {
-            // Rebuild visited set and trigger initial list population.
-            // Filter/search/category changes are handled inside TempleListViewModel
-            // via Combine subscriptions (with 300ms debounce on search).
             dataService.rebuildVisitedSet(from: allVisits)
             vm.recompute()
         }
         .onChange(of: allVisits) { _, visits in
-            // Visits are a @Query — only the view can observe them.
-            // Rebuild the O(1) visited set, then recompute filter results.
             dataService.rebuildVisitedSet(from: visits)
             vm.recompute()
         }
     }
 
-    // MARK: - Subviews
+    // MARK: - Temple List
 
     @ViewBuilder
     private var templeList: some View {
@@ -104,33 +97,45 @@ struct TempleListView: View {
             if vm.displayedSections.isEmpty {
                 emptyState
             } else {
-                List {
-                    ForEach(vm.displayedSections, id: \.title) { section in
-                        Section(header: sectionHeader(section.title)) {
-                            ForEach(section.temples) { temple in
-                                NavigationLink {
-                                    TempleDetailView(
-                                        vm: TempleDetailViewModel(
-                                            temple: temple,
+                ScrollView {
+                    LazyVStack(spacing: AppSpacing.sm, pinnedViews: .sectionHeaders) {
+                        ForEach(vm.displayedSections, id: \.title) { section in
+                            Section {
+                                ForEach(
+                                    Array(section.temples.enumerated()),
+                                    id: \.element.id
+                                ) { index, temple in
+                                    NavigationLink {
+                                        TempleDetailView(
+                                            vm: TempleDetailViewModel(
+                                                temple: temple,
+                                                visitService: visitService,
+                                                achievementService: achievementService
+                                            ),
                                             visitService: visitService,
                                             achievementService: achievementService
-                                        ),
-                                        visitService: visitService,
-                                        achievementService: achievementService
-                                    )
-                                } label: {
-                                    TempleListRow(
-                                        temple: temple,
-                                        isVisited: dataService.visitedTempleIDs.contains(temple.id)
-                                    )
+                                        )
+                                    } label: {
+                                        TempleListRow(
+                                            temple: temple,
+                                            isVisited: dataService.visitedTempleIDs.contains(temple.id),
+                                            animationDelay: Double(index) * 0.04
+                                        )
+                                        .padding(.horizontal, AppSpacing.md)
+                                    }
+                                    .buttonStyle(CardPressStyle())
                                 }
-                                .listRowBackground(Color.white)
+                            } header: {
+                                SectionHeader(title: section.title)
+                                    .padding(.horizontal, AppSpacing.md)
+                                    .padding(.vertical, AppSpacing.sm)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                                    .background(Color.brandWarmCream)
                             }
                         }
                     }
+                    .padding(.bottom, AppSpacing.xl)
                 }
-                .listStyle(.plain)
-                .scrollContentBackground(.hidden)
                 .background(Color.brandWarmCream)
             }
         } else {
@@ -138,14 +143,7 @@ struct TempleListView: View {
         }
     }
 
-    @ViewBuilder
-    private func sectionHeader(_ title: String) -> some View {
-        Text(title)
-            .font(.caption.weight(.bold))
-            .foregroundStyle(Color.brandTempleGrey)
-            .textCase(.uppercase)
-            .padding(.vertical, AppSpacing.xs)
-    }
+    // MARK: - Empty & Loading States
 
     @ViewBuilder
     private var emptyState: some View {
@@ -180,7 +178,16 @@ struct TempleListView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.brandWarmCream)
     }
+}
 
+// MARK: - Card Press Style
+
+private struct CardPressStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.97 : 1.0)
+            .animation(.spring(response: 0.3, dampingFraction: 0.7), value: configuration.isPressed)
+    }
 }
 
 // MARK: - Preview

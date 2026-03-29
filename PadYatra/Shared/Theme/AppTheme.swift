@@ -114,4 +114,24 @@ extension View {
     func appShadow(_ style: AppShadow = .card) -> some View {
         shadow(color: style.color, radius: style.radius, x: style.x, y: style.y)
     }
+
+    /// Glass morphism section card — `.thinMaterial` background, large corner radius, card shadow.
+    func glassSection() -> some View {
+        self
+            .padding(AppSpacing.md)
+            .background(.thinMaterial)
+            .clipShape(RoundedRectangle(cornerRadius: AppRadius.lg))
+            .appShadow()
+    }
+}
+
+// MARK: - Typography
+
+/// Serif font tokens for temple display text.
+/// Uses the iOS system serif (New York) — zero bundle cost, editorial feel.
+enum AppFont {
+    /// Large temple name display — heroes, detail headings.
+    static let templeTitle = Font.system(.title2, design: .serif).weight(.semibold)
+    /// Temple name in list rows and cards.
+    static let templeName  = Font.system(.headline, design: .serif)
 }

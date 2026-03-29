@@ -25,41 +25,48 @@ struct TempleDetailView: View {
         ZStack(alignment: .bottom) {
             ScrollView {
                 VStack(alignment: .leading, spacing: 0) {
-                    TempleHeroGallery(imageURLs: imageURLs, templeName: vm.temple.name, isLoaded: imagesLoaded)
+                    TempleHeroGallery(
+                        imageURLs: imageURLs,
+                        templeName: vm.temple.name,
+                        isLoaded: imagesLoaded
+                    )
 
-                    VStack(alignment: .leading, spacing: AppSpacing.lg) {
+                    VStack(alignment: .leading, spacing: AppSpacing.md) {
                         titleBlock
                         locationRow
 
-                        Divider().padding(.vertical, AppSpacing.xs)
-
                         TempleFactsGrid(facts: vm.temple.facts)
-
-                        Divider().padding(.vertical, AppSpacing.xs)
+                            .glassSection()
 
                         descriptionText
+                            .glassSection()
 
                         if !vm.temple.festivals.isEmpty {
-                            Divider().padding(.vertical, AppSpacing.xs)
                             TempleFestivalSection(festivals: vm.temple.festivals)
+                                .glassSection()
                         }
 
-                        Divider().padding(.vertical, AppSpacing.xs)
-
                         VisitHistorySection(vm: vm)
+                            .glassSection()
 
-                        if !similarTemples.isEmpty, let vs = visitService, let as_ = achievementService {
-                            Divider().padding(.vertical, AppSpacing.xs)
+                        if !similarTemples.isEmpty,
+                           let vs = visitService,
+                           let as_ = achievementService {
                             SimilarTemplesSection(
                                 temples: similarTemples,
                                 visitService: vs,
                                 achievementService: as_
                             )
+                            .glassSection()
                         }
                     }
                     .padding(.horizontal, AppSpacing.md)
-                    .padding(.vertical, AppSpacing.lg)
+                    .padding(.top, AppSpacing.lg)
+                    .padding(.bottom, AppSpacing.xxl + AppSpacing.xl)
                 }
+            }
+            .safeAreaInset(edge: .bottom) {
+                fabArea
             }
 
             // Achievement unlock toast
@@ -73,9 +80,6 @@ struct TempleDetailView: View {
         .background(Color.brandWarmCream.ignoresSafeArea())
         .navigationTitle(vm.temple.name)
         .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            ToolbarItem(placement: .primaryAction) { visitButton }
-        }
         .sheet(isPresented: $vm.showingAddVisit, onDismiss: { vm.loadVisits() }) {
             AddVisitSheet(vm: vm)
                 .environmentObject(locationService)
@@ -104,7 +108,7 @@ struct TempleDetailView: View {
         VStack(alignment: .leading, spacing: AppSpacing.xs) {
             HStack(alignment: .top) {
                 Text(vm.temple.name)
-                    .font(.title.weight(.bold))
+                    .font(AppFont.templeTitle)
                     .foregroundStyle(Color.brandEarthBrown)
 
                 Spacer(minLength: AppSpacing.sm)
@@ -155,15 +159,45 @@ struct TempleDetailView: View {
             .lineSpacing(4)
     }
 
-    // MARK: - Visit Button
+    // MARK: - Floating Action Button
 
-    private var visitButton: some View {
-        Button {
-            vm.showingAddVisit = true
-        } label: {
-            Label("Visit", systemImage: "plus.circle.fill")
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(Color.brandSaffron)
+    private var fabArea: some View {
+        HStack {
+            Spacer()
+            fabButton
+            Spacer()
+        }
+        .padding(.vertical, AppSpacing.sm)
+        .background(
+            LinearGradient(
+                colors: [Color.brandWarmCream.opacity(0), Color.brandWarmCream.opacity(0.95)],
+                startPoint: .top,
+                endPoint: .bottom
+            )
+            .ignoresSafeArea(edges: .bottom)
+        )
+    }
+
+    private var fabButton: some View {
+        Button { vm.showingAddVisit = true } label: {
+            HStack(spacing: AppSpacing.sm) {
+                Image(systemName: "plus.circle.fill")
+                    .font(.body)
+                Text("Mark Visited")
+                    .font(.subheadline.weight(.semibold))
+            }
+            .foregroundStyle(.white)
+            .padding(.horizontal, AppSpacing.xl)
+            .padding(.vertical, AppSpacing.md)
+            .background(
+                LinearGradient(
+                    colors: [Color.brandSaffron, Color.brandDeepOrange],
+                    startPoint: .leading,
+                    endPoint: .trailing
+                )
+            )
+            .clipShape(Capsule())
+            .appShadow(.modal)
         }
         .accessibilityLabel("Log a visit to \(vm.temple.name)")
     }

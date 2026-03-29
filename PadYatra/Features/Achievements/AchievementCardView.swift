@@ -1,8 +1,8 @@
 // AchievementCardView.swift
 // Single card in the achievements grid. Three visual states:
-//   1. Locked — grey, shows progress bar
-//   2. Unlocked & unrevealed — saffron glow, "Scratch to Reveal!" shimmer
-//   3. Unlocked & revealed — full-colour stamp with rarity badge
+//   1. Locked — dot-grid pattern, progress bar
+//   2. Unlocked & unrevealed — saffron glow, shimmer
+//   3. Unlocked & revealed — category colour gradient, rarity badge
 import SwiftUI
 
 struct AchievementCardView: View {
@@ -12,9 +12,12 @@ struct AchievementCardView: View {
     let visitedCount: Int
     let isComplete: Bool
     let isRevealed: Bool
+    /// Stagger delay for entrance animation.
+    var animationDelay: Double = 0
     var onTap: () -> Void
 
     @State private var shimmerPhase: CGFloat = 0
+    @State private var appeared = false
 
     // MARK: - Body
 
@@ -23,6 +26,14 @@ struct AchievementCardView: View {
             cardContent
         }
         .buttonStyle(.plain)
+        .opacity(appeared ? 1 : 0)
+        .offset(y: appeared ? 0 : 20)
+        .onAppear {
+            withAnimation(
+                .spring(response: 0.4, dampingFraction: 0.75)
+                .delay(min(animationDelay, 0.3))
+            ) { appeared = true }
+        }
         .accessibilityLabel(accessibilityDescription)
         .accessibilityAddTraits(isComplete && !isRevealed ? .isButton : [])
     }
@@ -62,13 +73,44 @@ struct AchievementCardView: View {
         }
         .padding(AppSpacing.md)
         .frame(maxWidth: .infinity)
-        .background(Color.brandWarmCream)
+        .background(
+            ZStack {
+                Color.brandWarmCream
+                dotGridCanvas
+            }
+        )
         .clipShape(RoundedRectangle(cornerRadius: AppRadius.md))
         .overlay(
             RoundedRectangle(cornerRadius: AppRadius.md)
                 .stroke(Color.brandTempleGrey.opacity(0.2), lineWidth: 1)
         )
         .appShadow()
+    }
+
+    /// Sacred geometry dot pattern — repeating grid of 2px circles at 8px spacing.
+    private var dotGridCanvas: some View {
+        Canvas { context, size in
+            let spacing: CGFloat = 8
+            let dotRadius: CGFloat = 1
+            var y: CGFloat = spacing / 2
+            while y < size.height {
+                var x: CGFloat = spacing / 2
+                while x < size.width {
+                    let rect = CGRect(
+                        x: x - dotRadius,
+                        y: y - dotRadius,
+                        width: dotRadius * 2,
+                        height: dotRadius * 2
+                    )
+                    context.fill(
+                        Path(ellipseIn: rect),
+                        with: .color(Color.brandTempleGrey.opacity(0.18))
+                    )
+                    x += spacing
+                }
+                y += spacing
+            }
+        }
     }
 
     // MARK: - Unrevealed Card
@@ -105,9 +147,7 @@ struct AchievementCardView: View {
         )
         .shadow(color: Color.brandSaffron.opacity(0.35), radius: 10, x: 0, y: 0)
         .onAppear {
-            withAnimation(
-                .easeInOut(duration: 1.4).repeatForever(autoreverses: true)
-            ) {
+            withAnimation(.easeInOut(duration: 1.4).repeatForever(autoreverses: true)) {
                 shimmerPhase = 1
             }
         }
@@ -144,21 +184,24 @@ struct AchievementCardView: View {
         }
         .padding(AppSpacing.md)
         .frame(maxWidth: .infinity)
-        .background(
-            RoundedRectangle(cornerRadius: AppRadius.md)
-                .fill(
-                    LinearGradient(
-                        colors: [Color.brandWarmCream, Color.brandPeach.opacity(0.3)],
-                        startPoint: .top,
-                        endPoint: .bottom
-                    )
-                )
-        )
+        .background(revealedBackground)
         .overlay(
             RoundedRectangle(cornerRadius: AppRadius.md)
-                .stroke(Color.brandGold.opacity(0.5), lineWidth: 1.5)
+                .stroke(Color(hex: definition.colors.unlocked).opacity(0.4), lineWidth: 1.5)
         )
         .appShadow()
+    }
+
+    private var revealedBackground: some View {
+        let accent = Color(hex: definition.colors.unlocked)
+        return RoundedRectangle(cornerRadius: AppRadius.md)
+            .fill(
+                LinearGradient(
+                    colors: [accent.opacity(0.18), accent.opacity(0.05)],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+            )
     }
 
     private var rarityBadge: some View {
@@ -220,28 +263,16 @@ struct AchievementCardView: View {
 
     return HStack(spacing: AppSpacing.md) {
         AchievementCardView(
-            definition: lockedDef,
-            category: category,
-            visitedCount: 5,
-            isComplete: false,
-            isRevealed: false,
-            onTap: {}
+            definition: lockedDef, category: category,
+            visitedCount: 5, isComplete: false, isRevealed: false, onTap: {}
         )
         AchievementCardView(
-            definition: lockedDef,
-            category: category,
-            visitedCount: 12,
-            isComplete: true,
-            isRevealed: false,
-            onTap: {}
+            definition: lockedDef, category: category,
+            visitedCount: 12, isComplete: true, isRevealed: false, onTap: {}
         )
         AchievementCardView(
-            definition: lockedDef,
-            category: category,
-            visitedCount: 12,
-            isComplete: true,
-            isRevealed: true,
-            onTap: {}
+            definition: lockedDef, category: category,
+            visitedCount: 12, isComplete: true, isRevealed: true, onTap: {}
         )
     }
     .padding(AppSpacing.md)

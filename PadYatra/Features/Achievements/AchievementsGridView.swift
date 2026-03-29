@@ -1,5 +1,6 @@
 // AchievementsGridView.swift
-// 2-column grid of achievement cards. Manages the scratch-card reveal modal.
+// 2-column grid of achievement cards with a featured card at top.
+// Manages the scratch-card reveal modal.
 import SwiftUI
 import SwiftData
 
@@ -36,23 +37,38 @@ struct AchievementsGridView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                LazyVGrid(columns: columns, spacing: AppSpacing.md) {
-                    ForEach(vm.categoryProgress, id: \.category.id) { item in
-                        let definition = vm.definition(for: item.category)
-                        let revealed   = vm.isRevealed(for: item.category)
-
-                        AchievementCardView(
-                            definition: definition ?? placeholderDefinition(for: item.category),
-                            category: item.category,
-                            visitedCount: item.visited,
-                            isComplete: item.isComplete,
-                            isRevealed: revealed,
-                            onTap: {
-                                if item.isComplete && !revealed, let def = definition {
-                                    vm.beginReveal(for: def)
-                                }
-                            }
+                VStack(spacing: AppSpacing.md) {
+                    // Featured card: incomplete category closest to completion
+                    if let featured = featuredItem {
+                        FeaturedAchievementCard(
+                            category: featured.category,
+                            visitedCount: featured.visited,
+                            definition: vm.definition(for: featured.category)
                         )
+                    }
+
+                    LazyVGrid(columns: columns, spacing: AppSpacing.md) {
+                        ForEach(
+                            Array(vm.categoryProgress.enumerated()),
+                            id: \.element.category.id
+                        ) { index, item in
+                            let definition = vm.definition(for: item.category)
+                            let revealed   = vm.isRevealed(for: item.category)
+
+                            AchievementCardView(
+                                definition: definition ?? placeholderDefinition(for: item.category),
+                                category: item.category,
+                                visitedCount: item.visited,
+                                isComplete: item.isComplete,
+                                isRevealed: revealed,
+                                animationDelay: Double(index) * 0.04,
+                                onTap: {
+                                    if item.isComplete && !revealed, let def = definition {
+                                        vm.beginReveal(for: def)
+                                    }
+                                }
+                            )
+                        }
                     }
                 }
                 .padding(AppSpacing.md)
@@ -77,9 +93,21 @@ struct AchievementsGridView: View {
         }
     }
 
+    // MARK: - Featured Item
+
+    /// Returns the incomplete category with the highest visit fraction — purely presentational.
+    private var featuredItem: (category: TempleCategory, visited: Int, isComplete: Bool)? {
+        vm.categoryProgress
+            .filter { !$0.isComplete && $0.category.totalRequired > 0 }
+            .max {
+                Double($0.visited) / Double($0.category.totalRequired)
+                    < Double($1.visited) / Double($1.category.totalRequired)
+            }
+            .map { ($0.category, $0.visited, $0.isComplete) }
+    }
+
     // MARK: - Helpers
 
-    /// Returns a sensible placeholder so the grid never crashes if JSON is partially loaded.
     private func placeholderDefinition(for category: TempleCategory) -> AchievementDefinition {
         AchievementDefinition(
             id: category.achievementID ?? category.id,
