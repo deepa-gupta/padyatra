@@ -442,15 +442,15 @@
       "sortOrder": 22,
       "templeIDs": [
         "t_badrinath",
-        "t_chhatarpur_vishnu",
+        "t_chaturbhuj",
         "t_haridwar_har_ki_pauri",
         "t_jagannath",
+        "t_kashi_vishwanath",
         "t_kedarnath",
         "t_naimisharanya",
         "t_ram_ghat",
         "t_rameswaram_ramanathaswamy_temple_rameswa",
-        "t_triveni_sangam_prayag",
-        "t_varanasi_kashi_vishwanath"
+        "t_triveni_sangam_prayag"
       ],
       "achievementID": null
     },
@@ -467,7 +467,6 @@
         "t_brihadeeswarar",
         "t_chidambaram_nataraja",
         "t_gangaikonda_cholapuram",
-        "t_thanjavur_big",
         "t_thirunallar",
         "t_thiruvaiyaru"
       ],
@@ -487,6 +486,7 @@
         "t_pancha_rathas",
         "t_shore",
         "t_thiruporur",
+        "t_tiru_parameswara_vinnagaram",
         "t_varaha_cave"
       ],
       "achievementID": null
@@ -504,8 +504,7 @@
         "t_chennakesava_temple_belur",
         "t_chennakesava_temple_somnathpura",
         "t_hoysaleswara",
-        "t_kedareshwara",
-        "t_kesava"
+        "t_kedareshwara"
       ],
       "achievementID": null
     },
@@ -554,11 +553,20 @@
       "deity": null,
       "sortOrder": 28,
       "templeIDs": [
+        "t_bhadreshwar_jain_temple",
         "t_dilwara_temples",
+        "t_girnar_jain_temples",
+        "t_hutheesing_jain_temple",
+        "t_jagdish_temple_udaipur",
+        "t_kiradu_temples",
+        "t_kumbharia_jain_temples",
         "t_modhera_sun",
+        "t_navlakha_temple",
+        "t_palitana_temples",
         "t_patan_rani_ki_vav",
         "t_ranakpur_jain",
-        "t_siddheshwar"
+        "t_siddheshwar",
+        "t_taranga_jain_temple"
       ],
       "achievementID": null
     },
@@ -1963,8 +1971,8 @@
       "alternateName": null,
       "deity": "Durga",
       "location": {
-        "latitude": 12.305183,
-        "longitude": 76.655361,
+        "latitude": 12.2719,
+        "longitude": 76.6704,
         "city": "Mysuru",
         "district": "Mysore",
         "state": "Karnataka",
@@ -1975,32 +1983,46 @@
       "categoryIDs": [
         "c_hilltop"
       ],
-      "description": "Chamundi Hill Temple is a Hindu temple located in Mysuru, Karnataka, India, dedicated to Durga. It dates to the Medieval Period.",
-      "shortDescription": "Chamundi Hill Temple is a Hindu temple located in Mysuru, Karnataka, India, dedicated to Durga.",
+      "description": "Crowning the 3,300-foot Chamundi Hills above Mysuru, the Chamundeshwari Temple enshrines the fierce mother goddess who slew the buffalo demon Mahishasura on this very summit — an act that gave the city its name (Mahishooru → Mysuru). The original shrine is attributed to the 12th-century Hoysala dynasty; the seven-tiered gopuram was added under the Vijayanagara Empire, and a thousand-step staircase was laid in 1659. One of the 18 Shakti Pithas and known as Krouncha Pitha, the temple is deeply woven into the identity of the Mysuru royal family. The Mysore Dasara, Karnataka's state festival, begins and ends here in a pageant of gold, elephants, and devotion.",
+      "shortDescription": "Shakti Pitha atop Chamundi Hills where the goddess slew Mahishasura — the spiritual heart of the grand Mysore Dasara.",
       "facts": {
         "established": "12th century CE",
         "dynasty": "Medieval Period",
-        "architectureStyle": null,
+        "architectureStyle": "Dravidian (Hoysala origins; Vijayanagara gopuram)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Modest clothing; shoulders and legs covered",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (special darshan ₹30–100)",
+        "darshanaTimings": "7:30 AM – 2:00 PM, 3:30 PM – 6:00 PM, 7:30 PM – 9:00 PM"
       },
       "images": {
         "heroImageName": "t_chamundi_hill_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chamundi_hill_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Chamundeshwari_Temple%2C_Chamundi_hills_-_Mysuru%2C_Karnataka.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
+          "name": "Navaratri / Mysore Dasara",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Karnataka's state festival; nine nights of Navadurga alankara.",
+          "significance": "high"
+        },
+        {
+          "name": "Ashada Shukravara",
+          "approximateMonth": 7,
           "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "description": "Auspicious Fridays in Ashada month with special goddess worship.",
+          "significance": "high"
+        },
+        {
+          "name": "Ammanavara Vardhanthi",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Goddess's anniversary with special abhisheka and procession.",
           "significance": "medium"
         }
       ],
@@ -3612,8 +3634,8 @@
       "alternateName": null,
       "deity": "Jain",
       "location": {
-        "latitude": 24.851513,
-        "longitude": 79.925979,
+        "latitude": 24.8516,
+        "longitude": 79.9345,
         "city": "Khajuraho",
         "district": "Chhatarpur",
         "state": "Madhya Pradesh",
@@ -3624,19 +3646,19 @@
       "categoryIDs": [
         "c_chandela"
       ],
-      "description": "Parsvanath Jain Temple is a Hindu temple located in Khajuraho, Madhya Pradesh, India, dedicated to Jain. It dates to the Chandela Period.",
-      "shortDescription": "Parsvanath Jain Temple is a Hindu temple located in Khajuraho, Madhya Pradesh, India, dedicated to Jain.",
+      "description": "Rising above the eastern group of Khajuraho, this 10th-century Digambara Jain temple stands as the largest of all the Jain shrines in the complex. Commissioned around 950–970 CE during the reign of Chandela king Dhanga, it was originally consecrated to Adinatha before being rededicated to Parshvanatha. Its outer walls carry a remarkable duality — Jain celestial beings share space with Vaishnavite imagery. A 1011 VS inscription records donations from a merchant named Pahila. The temple harbors one of the oldest known 4×4 most-perfect magic squares, the famed 'Jaina square,' inscribed on its walls — a mathematical wonder woven into sacred stone.",
+      "shortDescription": "Largest Jain temple at Khajuraho, famed for its dual Hindu-Jain sculptural program and the ancient Jaina magic square inscription.",
       "facts": {
         "established": "950–1000 CE",
         "dynasty": "Chandela Period",
-        "architectureStyle": null,
+        "architectureStyle": "Nagara (Chandela)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Modest dress required",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (Eastern Group)",
+        "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_parsvanath_jain_hero",
@@ -3646,10 +3668,24 @@
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
+          "name": "Paryushana",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Jain festival of atonement, fasting, and non-violence.",
+          "significance": "high"
+        },
+        {
+          "name": "Mahavir Jayanti",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Birth anniversary of Lord Mahavira, celebrated with processions.",
+          "significance": "high"
+        },
+        {
+          "name": "Khajuraho Dance Festival",
+          "approximateMonth": 2,
           "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "description": "Classical dance performances against UNESCO temple backdrops.",
           "significance": "medium"
         }
       ],
@@ -7890,7 +7926,9 @@
     {
       "id": "t_kashi_vishwanath",
       "slug": "kashi-vishwanath-temple-varanasi",
-      "legacyIDs": [],
+      "legacyIDs": [
+        "t_varanasi_kashi_vishwanath"
+      ],
       "isActive": true,
       "name": "Kashi Vishwanath Temple",
       "alternateName": null,
@@ -7909,7 +7947,8 @@
         "c_jyotirlinga",
         "c_major_pilgrimage",
         "c_oldest_functioning",
-        "c_sapta_puri"
+        "c_sapta_puri",
+        "c_riverbank"
       ],
       "description": "Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva. It is located in Vishwanath Gali, in Varanasi, Uttar Pradesh, India. The temple is a Hindu pilgrimage site and is one of the twelve Jyotirlinga shrines. The presiding deity is known by the names Vishwanath and Vishweshwara (IAST: Viśvanātha and Viśveśvara), meaning Lord of the Universe.\nThe original temple, called the Adi Vishveshwar Temple, was demolished by Mohammad of Ghor during his invasion of India. Subsequently, the template was rebuilt by Man Singh I and Todar Mal under the emperor Akbar.",
       "shortDescription": "Kashi Vishwanath Temple is a Hindu temple dedicated to Shiva.",
@@ -9077,67 +9116,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Airavatesvara_Temple"
     },
     {
-      "id": "t_thanjavur_big",
-      "slug": "thanjavur-big-temple-thanjavur",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Thanjavur Big Temple",
-      "alternateName": null,
-      "deity": "Shiva",
-      "location": {
-        "latitude": 10.659037,
-        "longitude": 79.201428,
-        "city": "Thanjavur",
-        "district": "Thanjavur",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_chola"
-      ],
-      "description": "Thanjavur Big Temple is a Hindu temple located in Thanjavur, Tamil Nadu, India, dedicated to Shiva. It dates to the Chola Period.",
-      "shortDescription": "Thanjavur Big Temple is a Hindu temple located in Thanjavur, Tamil Nadu, India, dedicated to Shiva.",
-      "facts": {
-        "established": "1010 CE",
-        "dynasty": "Chola Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_thanjavur_big_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_thanjavur_big_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_chidambaram_nataraja",
       "slug": "chidambaram-nataraja-temple-chidambaram",
       "legacyIDs": [],
@@ -9209,8 +9187,8 @@
       "alternateName": null,
       "deity": "Shiva",
       "location": {
-        "latitude": 10.87972,
-        "longitude": 79.10393,
+        "latitude": 10.8833,
+        "longitude": 79.1000,
         "city": "Thiruvaiyaru",
         "district": "Thanjavur",
         "state": "Tamil Nadu",
@@ -9221,40 +9199,47 @@
       "categoryIDs": [
         "c_chola"
       ],
-      "description": "Thiruvaiyaru Temple is a Hindu temple located in Thiruvaiyaru, Tamil Nadu, India, dedicated to Shiva. It dates to the Chola Period.",
-      "shortDescription": "Thiruvaiyaru Temple is a Hindu temple located in Thiruvaiyaru, Tamil Nadu, India, dedicated to Shiva.",
+      "description": "On the banks of the Kaveri in Thiruvaiyaru, the Aiyarappar Temple venerates Shiva as the lord presiding over five sacred rivers: Vadavaru, Vennaaru, Vettaaru, Kudamuruttiyaaru, and Kaveri. The name itself encodes this identity — ai meaning five, aru meaning river in Tamil. Revered in the 7th-century Tevaram hymns of the Nayanar saint-poets and classified as a Paadal Petra Sthalam, this is known as Dakshina Kailasam — the Kailasa of the South. Inscriptions from the Chola, Pandya, Nayak, and Maratha eras attest to centuries of royal devotion. The temple is equally celebrated as the site of the annual Thyagaraja Aradhana, drawing the finest Carnatic musicians each January.",
+      "shortDescription": "Dakshina Kailasam on the Kaveri, where Shiva lords over five rivers and Carnatic music fills the air each January.",
       "facts": {
         "established": "11th century CE",
         "dynasty": "Chola Period",
-        "architectureStyle": null,
+        "architectureStyle": "Dravidian (Chola-period origins)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 11:00 AM, 4:00 PM – 8:30 PM"
       },
       "images": {
         "heroImageName": "t_thiruvaiyaru_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_thiruvaiyaru_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Aiyarappar_koyil_in_Thiruvaiyaru.jpg"
       },
       "festivals": [
         {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "name": "Thyagaraja Aradhana",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "Grand Carnatic music festival honoring saint-composer Thyagaraja.",
           "significance": "high"
         },
         {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
+          "name": "Maha Shivaratri",
+          "approximateMonth": 2,
           "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
+          "description": "All-night vigil and Shiva worship, major pilgrimage occasion.",
+          "significance": "high"
+        },
+        {
+          "name": "Panguni Uthiram",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Procession across seven shrines marking Nandi's sacred wedding.",
+          "significance": "high"
         }
       ],
       "significance": "other",
@@ -9270,8 +9255,8 @@
       "alternateName": null,
       "deity": "Shiva",
       "location": {
-        "latitude": 12.725856,
-        "longitude": 80.189518,
+        "latitude": 12.7254,
+        "longitude": 80.1890,
         "city": "Thiruporur",
         "district": "Kanchipuram",
         "state": "Tamil Nadu",
@@ -9282,39 +9267,46 @@
       "categoryIDs": [
         "c_pallava"
       ],
-      "description": "Thiruporur Temple is a Hindu temple located in Thiruporur, Tamil Nadu, India, dedicated to Shiva. It dates to the Pallava Period.",
-      "shortDescription": "Thiruporur Temple is a Hindu temple located in Thiruporur, Tamil Nadu, India, dedicated to Shiva.",
+      "description": "Situated 28 km from Chennai, the Thiruporur Kandaswamy Temple is one of the most revered shrines of Murugan in Tamil Nadu. The presiding deity Kandaswamy — a seven-foot standing granite form of Murugan bearing the Vel (divine spear) — is believed to bestow victory and protection. Legend holds that Murugan halted here after his cosmic victory over the demon Surapadman. The five-tiered rajagopuram soaring 70 feet anchors a four-acre complex where Valli and Deivaanai are enshrined. It draws enormous devotional crowds, especially during Kavadi-carrying festivals that turn the approach road into a river of faith.",
+      "shortDescription": "Ancient Murugan shrine 28 km from Chennai, famous for Kavadi festivals and the towering image of Kandaswamy bearing his Vel.",
       "facts": {
         "established": "8th century CE",
         "dynasty": "Pallava Period",
-        "architectureStyle": null,
+        "architectureStyle": "Dravidian",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Traditional dress preferred",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "6:30 AM – 12:30 PM, 3:30 PM – 8:00 PM"
       },
       "images": {
         "heroImageName": "t_thiruporur_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_thiruporur_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/39/Thiruporur_temple.jpg"
       },
       "festivals": [
         {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
+          "name": "Vaikasi Visakam",
+          "approximateMonth": 5,
           "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "description": "Murugan's birth star festival with grand procession and kavadi.",
           "significance": "high"
         },
         {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
+          "name": "Kanda Sashti",
+          "approximateMonth": 10,
           "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
+          "description": "Six-day festival marking Murugan's victory over Surapadman.",
+          "significance": "high"
+        },
+        {
+          "name": "Maasi Brahmotsavam",
+          "approximateMonth": 3,
+          "isLunar": false,
+          "description": "Annual chariot festival during Tamil month of Maasi.",
           "significance": "medium"
         }
       ],
@@ -9637,8 +9629,8 @@
       "alternateName": null,
       "deity": "Shiva",
       "location": {
-        "latitude": 24.851513,
-        "longitude": 79.925979,
+        "latitude": 24.8517,
+        "longitude": 79.9299,
         "city": "Khajuraho",
         "district": "Chhatarpur",
         "state": "Madhya Pradesh",
@@ -9649,39 +9641,46 @@
       "categoryIDs": [
         "c_chandela"
       ],
-      "description": "Vishvanath Temple may refer to any of the following temples dedicated to the Hindu god Shiva, who is also known as Viśvanātha:",
-      "shortDescription": "Vishvanath Temple may refer to any of the following temples dedicated to the Hindu god Shiva, who is also known as Viśvanātha:",
+      "description": "Commissioned by Chandela king Dhanga and completed around 999–1002 CE, the Vishvanatha Temple dedicated to Shiva — 'Lord of the Universe' — represents the apex of the Khajuraho stylistic arc. Conceived as a panchayatana complex with a principal shrine flanked by subsidiary shrines, a magnificent 2.2-metre Nandi faces the sanctum from the east. The sculptural program celebrates Shiva's cosmos — surasundaris, amorous couples, and celestial beings cover three bands in a vision of divine abundance that has drawn pilgrims for over a millennium.",
+      "shortDescription": "Chandela Shiva masterpiece at Khajuraho — near-perfect panchayatana layout with a 2.2 m Nandi and renowned sculptural friezes.",
       "facts": {
         "established": "1002–1035 CE",
         "dynasty": "Chandela Period",
-        "architectureStyle": null,
+        "architectureStyle": "Nagara / Chandela (panchayatana)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Modest dress recommended",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "₹40 (Indians), ₹600 (foreigners) — Western Group",
+        "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_vishvanath_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_vishvanath_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/7/75/Vishvanatha_Temple%2C_Khajuraho.jpg"
       },
       "festivals": [
         {
-          "name": "Mahashivratri",
+          "name": "Maha Shivaratri",
           "approximateMonth": 2,
           "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "description": "Grand Shiva worship night drawing thousands of pilgrims.",
           "significance": "high"
         },
         {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
+          "name": "Khajuraho Dance Festival",
+          "approximateMonth": 2,
+          "isLunar": false,
+          "description": "Week-long classical dance festival before temple backdrop.",
+          "significance": "high"
+        },
+        {
+          "name": "Kartik Purnima",
+          "approximateMonth": 11,
           "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
+          "description": "Full moon pilgrimage and lamp-lighting at Khajuraho temples.",
           "significance": "medium"
         }
       ],
@@ -10017,67 +10016,6 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Amarnath_Temple"
-    },
-    {
-      "id": "t_varanasi_kashi_vishwanath",
-      "slug": "varanasi-kashi-vishwanath-temple-varanasi",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Varanasi Kashi Vishwanath Temple",
-      "alternateName": null,
-      "deity": "Shiva",
-      "location": {
-        "latitude": 25.335649,
-        "longitude": 83.007629,
-        "city": "Varanasi",
-        "district": "Varanasi",
-        "state": "Uttar Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_riverbank"
-      ],
-      "description": "Varanasi Kashi Vishwanath Temple is a Hindu temple located in Varanasi, Uttar Pradesh, India, dedicated to Shiva. It dates to the Medieval Period.",
-      "shortDescription": "Varanasi Kashi Vishwanath Temple is a Hindu temple located in Varanasi, Uttar Pradesh, India, dedicated to Shiva.",
-      "facts": {
-        "established": "980 CE",
-        "dynasty": "Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_varanasi_kashi_vishwanath_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_varanasi_kashi_vishwanath_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
     },
     {
       "id": "t_arjunas_penance_monolithic_relief",
@@ -11576,8 +11514,8 @@
       "alternateName": null,
       "deity": "Shiva/Vishnu",
       "location": {
-        "latitude": 25.43813,
-        "longitude": 81.8338,
+        "latitude": 25.4358,
+        "longitude": 81.8836,
         "city": "Prayagraj",
         "district": "Prayagraj",
         "state": "Uttar Pradesh",
@@ -11588,40 +11526,47 @@
       "categoryIDs": [
         "c_riverbank"
       ],
-      "description": "Triveni Sangam Prayag is a Hindu temple located in Prayagraj, Uttar Pradesh, India, dedicated to Shiva/Vishnu. It dates to the Ancient Period.",
-      "shortDescription": "Triveni Sangam Prayag is a Hindu temple located in Prayagraj, Uttar Pradesh, India, dedicated to Shiva/Vishnu.",
+      "description": "At the city once called Prayaga — 'the place of sacrifice' — the sacred rivers Ganga, Yamuna, and the mythical Saraswati converge in the Triveni Sangam, the holiest confluence in Hinduism. The Ganga runs visibly clear, the Yamuna flows with a darker greenish hue, and the invisible Saraswati is said to join them from below. The Rigveda praises this meeting of rivers as a gateway to heaven. It is the principal site of the Kumbh Mela — the largest religious gathering on earth — with 660 million attendees recorded in 2025. The ashes of Mahatma Gandhi and several national leaders have been immersed here, linking sacred geography to the nation's memory.",
+      "shortDescription": "Where Ganga, Yamuna, and invisible Saraswati meet — the holiest confluence in Hinduism and the Kumbh Mela's sacred heart.",
       "facts": {
         "established": "Ancient",
         "dynasty": "Ancient Period",
-        "architectureStyle": null,
+        "architectureStyle": "Sacred river confluence / tirtha",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free (boat rides to confluence ₹200–500)",
+        "darshanaTimings": "Open throughout the day; most active at dawn"
       },
       "images": {
         "heroImageName": "t_triveni_sangam_prayag_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_triveni_sangam_prayag_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Triveni_Sangam_Prayagraj.jpg"
       },
       "festivals": [
         {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
+          "name": "Kumbh Mela",
+          "approximateMonth": 1,
           "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "description": "World's largest religious gathering every 12 years at the confluence.",
           "significance": "high"
         },
         {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
+          "name": "Magh Mela",
+          "approximateMonth": 1,
           "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
+          "description": "Annual month-long fair with ritual bathing during the month of Magh.",
+          "significance": "high"
+        },
+        {
+          "name": "Makar Sankranti Snan",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "Sacred dip on the solar transition into Capricorn, marks Kumbh start.",
+          "significance": "high"
         }
       ],
       "significance": "other",
@@ -12767,8 +12712,8 @@
       "alternateName": null,
       "deity": "Vishnu",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 12.2636,
+        "longitude": 76.9020,
         "city": "Somnathpura",
         "district": "Mysore",
         "state": "Karnataka",
@@ -12779,101 +12724,47 @@
       "categoryIDs": [
         "c_hoysala"
       ],
-      "description": "Chennakeshava Temple may refer to the following buildings in Karnataka, India:",
-      "shortDescription": "Chennakeshava Temple may refer to the following buildings in Karnataka, India:",
+      "description": "Consecrated in 1258 CE by Somanatha Dandanayaka, a general of Hoysala king Narasimha III, the Keshava Temple at Somanathapura represents the fully mature expression of Hoysala sacred architecture. Its trikuta (triple-shrined) layout with three towering stellate vimanas on a star-shaped jagati platform creates a visual rhythm of breathtaking complexity. Despite devastation by Malik Kafur in 1311, portions were restored under Vijayanagara and Mysuru Wodeyar patronage. Designated a UNESCO World Heritage Site in 2023 as part of the Sacred Ensembles of the Hoysalas, it sits serenely on the banks of the Kaveri.",
+      "shortDescription": "Perfectly proportioned Hoysala trikuta temple on the Kaveri — among the finest examples of medieval Indian temple sculpture.",
       "facts": {
         "established": "12th century CE",
         "dynasty": "Hoysala Period",
-        "architectureStyle": null,
+        "architectureStyle": "Hoysala (trikuta, star-shaped plan)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "₹25 (Indians), ₹300 (foreigners)",
+        "darshanaTimings": "9:00 AM – 5:30 PM (closed Fridays)"
       },
       "images": {
         "heroImageName": "t_chennakesava_temple_somnathpura_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chennakesava_temple_somnathpura_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Close_up_of_Hoysala_style_shrine_and_sikhara_with_decorative_molding_frieze_in_the_Chennakeshava_temple_at_Somanathapura.jpg"
       },
       "festivals": [
         {
           "name": "Vaikuntha Ekadashi",
           "approximateMonth": 12,
           "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "description": "Major Vishnu festival observed with fasting and night worship.",
           "significance": "high"
         },
         {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Chennakeshava_Temple"
-    },
-    {
-      "id": "t_kesava",
-      "slug": "kesava-temple-somanathpura",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Kesava Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": null,
-        "longitude": null,
-        "city": "Somanathpura",
-        "district": "Mysore",
-        "state": "Karnataka",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_hoysala"
-      ],
-      "description": "Chennakeshava Temple may refer to the following buildings in Karnataka, India:",
-      "shortDescription": "Chennakeshava Temple may refer to the following buildings in Karnataka, India:",
-      "facts": {
-        "established": "12th century CE",
-        "dynasty": "Hoysala Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_kesava_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_kesava_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
+          "name": "Janmashtami",
+          "approximateMonth": 8,
           "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "description": "Celebration of Lord Krishna's birth with devotional programs.",
           "significance": "high"
         },
         {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
+          "name": "Ugadi",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Kannada new year celebrated at the temple with special puja.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
@@ -12889,8 +12780,8 @@
       "alternateName": null,
       "deity": "Vishnu",
       "location": {
-        "latitude": 13.162874,
-        "longitude": 75.86029,
+        "latitude": 13.1638,
+        "longitude": 75.8713,
         "city": "Belur",
         "district": "Hassan",
         "state": "Karnataka",
@@ -12901,40 +12792,47 @@
       "categoryIDs": [
         "c_hoysala"
       ],
-      "description": "Chennakeshava Temple may refer to the following buildings in Karnataka, India:",
-      "shortDescription": "Chennakeshava Temple may refer to the following buildings in Karnataka, India:",
+      "description": "On the banks of the Yagachi River at Belur, the Chennakeshava Temple stands as one of the most extraordinary monuments of Hoysala art and faith. Commissioned in 1117 CE by King Vishnuvardhana to celebrate his victory over the Cholas at the Battle of Talakadu, it took three generations and 103 years to complete. Every surface carries intricately carved friezes narrating the Ramayana, Mahabharata, and Puranas; 118 inscriptions trace continuous patronage from the 12th century onward. A UNESCO World Heritage Site since 2023 under the Sacred Ensembles of the Hoysalas, it remains an active place of pilgrimage and worship.",
+      "shortDescription": "Hoysala masterpiece built over 103 years, its every surface narrating Hindu epics in stone — a UNESCO World Heritage Site since 2023.",
       "facts": {
         "established": "12th century CE",
         "dynasty": "Hoysala Period",
-        "architectureStyle": null,
+        "architectureStyle": "Hoysala (Karnata-Dravida)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
+        "dresscode": "Modest clothing required",
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "7:30 AM – 1:00 PM, 2:30 PM – 7:30 PM"
       },
       "images": {
         "heroImageName": "t_chennakesava_temple_belur_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chennakesava_temple_belur_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/35/ChennaKeshava_Temple%2C_Belur.JPG"
       },
       "festivals": [
         {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "name": "Rathotsava (Chariot Festival)",
+          "approximateMonth": 3,
+          "isLunar": false,
+          "description": "Two-day chariot procession of the deity through Belur.",
           "significance": "high"
         },
         {
           "name": "Brahmotsavam",
-          "approximateMonth": 9,
+          "approximateMonth": 3,
           "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
+          "description": "Grand multi-day festival of rituals, music, and offerings.",
           "significance": "high"
+        },
+        {
+          "name": "Vaikuntha Ekadashi",
+          "approximateMonth": 12,
+          "isLunar": true,
+          "description": "Sacred Ekadashi honoring Vishnu with fasting and night vigil.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
@@ -13066,9 +12964,11 @@
     {
       "id": "t_chaturbhuj",
       "slug": "chaturbhuj-temple-khajuraho",
-      "legacyIDs": [],
+      "legacyIDs": [
+        "t_chhatarpur_vishnu"
+      ],
       "isActive": true,
-      "name": "Chaturbhuj Temple",
+      "name": "Chaturbhuj Temple, Khajuraho",
       "alternateName": null,
       "deity": "Vishnu",
       "location": {
@@ -13082,42 +12982,43 @@
         "pincode": null
       },
       "categoryIDs": [
-        "c_chandela"
+        "c_chandela",
+        "c_riverbank"
       ],
-      "description": "Chaturbhuj Temple may refer to one of a number of  temples in India dedicated to chaturbhuja (four-armed) deities:",
-      "shortDescription": "Chaturbhuj Temple may refer to one of a number of  temples in India dedicated to chaturbhuja (four-armed) deities:",
+      "description": "Standing alone in the southern group of Khajuraho in Jatakari village, the Chaturbhuj Temple is one of the most spiritually serene shrines in the Chandela complex. Built around 1100 CE under king Yasovarman, it is uniquely distinguished as the only temple at Khajuraho entirely devoid of erotic sculpture, its walls instead carrying devotional figures and celestial imagery in quiet dignity. The sanctum houses a remarkable 2.7-metre standing Vishnu, commanding in its stillness. Part of the UNESCO World Heritage Site since 1986, it offers unhurried contemplation rarely found in the busy western group.",
+      "shortDescription": "Khajuraho's only temple fully free of erotic art, housing a majestic 2.7 m Vishnu — tranquil Vaishnava devotion amid UNESCO temples.",
       "facts": {
         "established": "1100 CE",
         "dynasty": "Chandela Period",
-        "architectureStyle": null,
+        "architectureStyle": "Nagara / Chandela",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "₹40 (Indians), ₹600 (foreigners) — Southern Group",
+        "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_chaturbhuj_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chaturbhuj_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/b/be/Chaturbhuj_Temple_Front_View.jpg"
       },
       "festivals": [
         {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "name": "Khajuraho Dance Festival",
+          "approximateMonth": 2,
+          "isLunar": false,
+          "description": "Classical Indian dance performed against UNESCO temple backdrops.",
           "significance": "high"
         },
         {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
+          "name": "Maha Shivaratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Regional pilgrimage and worship across Khajuraho complex.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
@@ -13448,67 +13349,6 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala"
-    },
-    {
-      "id": "t_chhatarpur_vishnu",
-      "slug": "chhatarpur-vishnu-temple-chhatarpur",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Chhatarpur Vishnu Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 24.760609,
-        "longitude": 79.678178,
-        "city": "Chhatarpur",
-        "district": "Chhatarpur",
-        "state": "Madhya Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_riverbank"
-      ],
-      "description": "Chhatarpur Vishnu Temple is a Hindu temple located in Chhatarpur, Madhya Pradesh, India, dedicated to Vishnu. It dates to the Medieval Period.",
-      "shortDescription": "Chhatarpur Vishnu Temple is a Hindu temple located in Chhatarpur, Madhya Pradesh, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "10th century CE",
-        "dynasty": "Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_chhatarpur_vishnu_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_chhatarpur_vishnu_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
     },
     {
       "id": "t_parashurama_temple_badrinath",
@@ -14244,8 +14084,8 @@
       "alternateName": null,
       "deity": "Vishnu/Shiva",
       "location": {
-        "latitude": 29.912351,
-        "longitude": 78.008718,
+        "latitude": 29.9567,
+        "longitude": 78.1708,
         "city": "Haridwar",
         "district": "Haridwar",
         "state": "Uttarakhand",
@@ -14256,40 +14096,47 @@
       "categoryIDs": [
         "c_riverbank"
       ],
-      "description": "Haridwar Har Ki Pauri Temple is a Hindu temple located in Haridwar, Uttarakhand, India, dedicated to Vishnu/Shiva. It dates to the Early Medieval Period.",
-      "shortDescription": "Haridwar Har Ki Pauri Temple is a Hindu temple located in Haridwar, Uttarakhand, India, dedicated to Vishnu/Shiva.",
+      "description": "Har Ki Pauri — 'the footsteps of Vishnu' — is the most sacred ghat on the Ganges in Haridwar, where the plains first receive the river descending from the Himalayas. At its heart lies the Brahmakund, believed to be the spot where drops of Amrit (the nectar of immortality) fell from Garuda's pitcher during the cosmic Samudra Manthan — making it the anchor of the Kumbh Mela. King Vikramaditya is said to have built the ghat in the 1st century BCE. Every dusk, the Ganga Aarti — lamps swirling in the hands of priests, their reflections rippling across the current — transforms the ghat into one of the most spiritually luminous spectacles on earth.",
+      "shortDescription": "Haridwar's holiest ghat where the Ganges meets the plains — site of the Kumbh Mela and the nightly Ganga Aarti at dusk.",
       "facts": {
         "established": "Ancient",
         "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "architectureStyle": "Sacred river ghat with shrines",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "entryFee": "Free",
+        "darshanaTimings": "Open all day; Ganga Aarti daily at dusk (approx. 6:00–7:00 PM)"
       },
       "images": {
         "heroImageName": "t_haridwar_har_ki_pauri_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_haridwar_har_ki_pauri_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Har_Ki_Pauri%2C_Haridwar.jpg"
       },
       "festivals": [
         {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
+          "name": "Kumbh Mela",
+          "approximateMonth": 1,
           "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "description": "Massive pilgrimage every 12 years; millions bathe at the Brahmakund.",
           "significance": "high"
         },
         {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
+          "name": "Ganga Dussehra",
+          "approximateMonth": 5,
+          "isLunar": true,
+          "description": "Celebrates descent of the Ganges; special bathing and rituals.",
           "significance": "high"
+        },
+        {
+          "name": "Vaisakhi",
+          "approximateMonth": 4,
+          "isLunar": false,
+          "description": "Harvest festival drawing pilgrims for a sacred dip in the Ganga.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
