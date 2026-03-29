@@ -363,7 +363,8 @@
         "t_group_of_monuments_at_pattadakal",
         "t_kailasa",
         "t_khajuraho_group_of_temples",
-        "t_konark_sun"
+        "t_konark_sun",
+        "t_patan_rani_ki_vav"
       ],
       "achievementID": null
     },
@@ -7651,11 +7652,11 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "Patan Rani ki Vav",
-      "alternateName": null,
-      "deity": "Shakti",
+      "alternateName": "Rani ki Vav",
+      "deity": "Vishnu",
       "location": {
-        "latitude": 23.773753,
-        "longitude": 71.679858,
+        "latitude": 23.8589,
+        "longitude": 72.1016,
         "city": "Patan",
         "district": "Patan",
         "state": "Gujarat",
@@ -7664,47 +7665,41 @@
         "pincode": null
       },
       "categoryIDs": [
-        "c_solanki"
+        "c_solanki",
+        "c_unesco"
       ],
-      "description": "Patan Rani ki Vav is a Hindu temple located in Patan, Gujarat, India, dedicated to Shakti. It dates to the Solanki Period.",
-      "shortDescription": "Patan Rani ki Vav is a Hindu temple located in Patan, Gujarat, India, dedicated to Shakti.",
+      "description": "Conceived as an inverted temple to water, Rani ki Vav descends seven breathtaking levels into the earth along the banks of the Saraswati River in Patan, Gujarat. Queen Udayamati commissioned it in the 11th century as an act of devotion to her late husband, King Bhimdev I of the Solanki dynasty. Every surface is alive with artistry: over 500 principal sculptures and a thousand minor carvings portray the full Hindu pantheon — Vishnu in his ten avatars, Shiva, Parvati, Saraswati — rendered in the finest Maru-Gurjara tradition. Buried under silt for centuries and reborn through excavation, it earned UNESCO World Heritage status in 2014 and graces the Indian ₹100 note.",
+      "shortDescription": "11th-century UNESCO stepwell in Patan, Gujarat — an inverted temple of 500+ sculptures built by Queen Udayamati.",
       "facts": {
-        "established": "11th century CE",
-        "dynasty": "Solanki Period",
-        "architectureStyle": null,
+        "established": "11th century CE (c. 1022–1064)",
+        "dynasty": "Chaulukya (Solanki)",
+        "architectureStyle": "Maru-Gurjara (Solanki)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
         "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "photographyAllowed": true,
+        "entryFee": "₹40 (Indians), ₹600 (foreigners)",
+        "darshanaTimings": "8:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_patan_rani_ki_vav_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_patan_rani_ki_vav_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Rani_Ki_Vav_%28Patan%2CGujarat%29.JPG"
       },
       "festivals": [
         {
-          "name": "Navratri",
-          "approximateMonth": 10,
-          "isLunar": true,
-          "description": "Nine nights of the goddess with special poojas, fasting and celebrations.",
-          "significance": "high"
-        },
-        {
-          "name": "Durga Puja",
-          "approximateMonth": 10,
-          "isLunar": true,
-          "description": "Five-day festival with idol worship, cultural programmes and immersion.",
-          "significance": "high"
+          "name": "Rani ki Vav Festival",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "Annual cultural fest with folk dance, music, and illuminated heritage walks.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
+      "isUNESCO": true,
+      "sourceURL": "https://en.wikipedia.org/wiki/Rani_ki_Vav"
     },
     {
       "id": "t_thirunallar",
@@ -9834,8 +9829,8 @@
         "c_pancha_bhoota_linga",
         "c_tallest_tower"
       ],
-      "description": "At the foot of the ancient red hill of Arunachala — believed by devotees to be Shiva himself made manifest on earth — this temple enshrines the Agni Lingam, the fire element among the Pancha Bhuta Sthalas. Legend holds that Shiva appeared here as an endless column of light blazing across all three worlds. Each year, millions converge for Karthigai Deepam, when a beacon of ghee and camphor is lit atop the hill as the full moon rises. Sages through the ages, most famously Ramana Maharshi, have declared Arunachala not merely sacred but Shiva's living form — a hill that is itself the guru.",
-      "shortDescription": "Pancha Bhuta Sthala enshrining Shiva as the Agni Lingam (fire element) at the sacred Arunachala hill; famed for Karthigai Deepam beacon festival.",
+      "description": "At the foot of the ancient red hill of Arunachala — believed by devotees to be Shiva himself made manifest on earth — this temple enshrines the Agni Lingam, the fire element among the Pancha Bhuta Sthalas. Legend holds that Shiva appeared here as an endless column of light, settling an eternal dispute between Brahma and Vishnu. Each year, millions converge for Karthigai Deepam, when a great beacon of ghee and camphor is lit atop the hill at the precise moment the full moon rises, making the entire sky glow. Sages through the ages, most famously Ramana Maharshi, have declared Arunachala not merely a sacred site but Shiva's living form — a hill that is itself the guru.",
+      "shortDescription": "Pancha Bhuta Sthala enshrining Shiva as the Agni Lingam at the sacred Arunachala hill, Tiruvannamalai.",
       "facts": {
         "established": "9th century CE",
         "dynasty": "Chola, Vijayanagara",
@@ -9845,7 +9840,7 @@
         "altitude": null,
         "dresscode": "Traditional attire required; no shorts or sleeveless",
         "photographyAllowed": null,
-        "entryFee": "Free (special darshan ₹50)",
+        "entryFee": "Free (Special Darshan ₹50, Abhishekam ₹250)",
         "darshanaTimings": "5:30 AM – 12:30 PM, 3:30 PM – 9:00 PM"
       },
       "images": {
@@ -9859,36 +9854,36 @@
           "name": "Karthigai Deepam",
           "approximateMonth": 11,
           "isLunar": true,
-          "description": "A beacon fire lit atop Arunachala hill visible for miles; millions attend the 17-day festival.",
+          "description": "Beacon of ghee lit atop Arunachala hill at full moon; millions attend.",
           "significance": "high"
         },
         {
-          "name": "Mahashivratri",
+          "name": "Maha Shivaratri",
           "approximateMonth": 2,
           "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "description": "All-night vigil honouring Shiva; major pilgrimage draw.",
           "significance": "high"
         },
         {
           "name": "Panguni Uthiram",
           "approximateMonth": 3,
           "isLunar": true,
-          "description": "Celestial wedding festival with special kalyana urchavam for six days.",
-          "significance": "medium"
+          "description": "6-day celestial wedding festival of Shiva and Parvati.",
+          "significance": "high"
         },
         {
           "name": "Arudra Darisanam",
           "approximateMonth": 12,
           "isLunar": true,
-          "description": "Celebration of Shiva's cosmic dance as Nataraja; lamps and special abhishekam.",
+          "description": "Celebration of Shiva's cosmic Nataraja dance.",
           "significance": "medium"
         },
         {
-          "name": "Navarathri",
-          "approximateMonth": 10,
+          "name": "Pournami Girivalam",
+          "approximateMonth": 0,
           "isLunar": true,
-          "description": "Nine nights of celebrations with special poojas for the goddess.",
-          "significance": "medium"
+          "description": "Monthly full-moon barefoot circumambulation of 14 km hill.",
+          "significance": "high"
         }
       ],
       "significance": "other",
@@ -11206,8 +11201,8 @@
       "categoryIDs": [
         "c_unesco"
       ],
-      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as 'the apogee of an eclectic art,' a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship — a continuum from 8th-century queens to pilgrims today.",
-      "shortDescription": "UNESCO World Heritage complex of 7th–8th century Chalukya temples blending Nagara and Dravidian styles, Karnataka.",
+      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as 'the apogee of an eclectic art,' a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side, their builders consciously borrowing from each other. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship. That continuum — from 8th-century queens to pilgrims today — is what makes Pattadakal irreplaceable.",
+      "shortDescription": "UNESCO World Heritage complex of 7th–8th century Chalukya temples blending Nagara, Dravidian, and Vesara styles, Karnataka.",
       "facts": {
         "established": "7th–8th century CE",
         "dynasty": "Chalukyas of Badami",
@@ -11217,7 +11212,7 @@
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": true,
-        "entryFee": "₹35 (Indians), ₹550 (foreign nationals)",
+        "entryFee": "₹35 (Indians), ₹550 (foreigners)",
         "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
@@ -11231,14 +11226,7 @@
           "name": "Pattadakal Dance Festival",
           "approximateMonth": 1,
           "isLunar": false,
-          "description": "Classical Indian dance performances in temple courtyards with craft fair.",
-          "significance": "high"
-        },
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "Night vigil and worship at Virupaksha and Mallikarjuna temples.",
+          "description": "Classical Indian dance in temple courtyards with craft fair.",
           "significance": "high"
         },
         {
@@ -11246,6 +11234,13 @@
           "approximateMonth": 3,
           "isLunar": false,
           "description": "Annual chariot procession at the living Virupaksha temple.",
+          "significance": "high"
+        },
+        {
+          "name": "Maha Shivaratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Night vigil and worship at Virupaksha and Mallikarjuna temples.",
           "significance": "high"
         }
       ],
@@ -11274,8 +11269,8 @@
       "categoryIDs": [
         "c_ancient_1000"
       ],
-      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as 'the apogee of an eclectic art,' a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship — a continuum from 8th-century queens to pilgrims today.",
-      "shortDescription": "Complex of 7th–8th century Chalukya temples blending Nagara, Dravidian and Vesara styles; part of a UNESCO World Heritage Site.",
+      "description": "Pattadakal stands as the crowning achievement of early medieval Indian temple-building — the place where rival schools of architecture met and merged. Two Chalukya queens commissioned its greatest temples to immortalise their husbands' military triumphs, turning victory into stone. UNESCO hailed it as 'the apogee of an eclectic art,' a living laboratory where northern Nagara towers and southern Dravidian vimanas were built side by side, their builders consciously borrowing from each other. The Virupaksha temple, modelled on the Kailasanatha at Kanchipuram, still receives active worship. That continuum — from 8th-century queens to pilgrims today — is what makes Pattadakal irreplaceable.",
+      "shortDescription": "UNESCO World Heritage complex of 7th–8th century Chalukya temples blending Nagara, Dravidian, and Vesara styles, Karnataka.",
       "facts": {
         "established": "7th–8th century CE",
         "dynasty": "Chalukyas of Badami",
@@ -11285,7 +11280,7 @@
         "altitude": null,
         "dresscode": null,
         "photographyAllowed": true,
-        "entryFee": "₹35 (Indians), ₹550 (foreign nationals)",
+        "entryFee": "₹35 (Indians), ₹550 (foreigners)",
         "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
@@ -11299,14 +11294,7 @@
           "name": "Pattadakal Dance Festival",
           "approximateMonth": 1,
           "isLunar": false,
-          "description": "Classical Indian dance performances in temple courtyards with craft fair.",
-          "significance": "high"
-        },
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "Night vigil and worship at Virupaksha and Mallikarjuna temples.",
+          "description": "Classical Indian dance in temple courtyards with craft fair.",
           "significance": "high"
         },
         {
@@ -11314,6 +11302,13 @@
           "approximateMonth": 3,
           "isLunar": false,
           "description": "Annual chariot procession at the living Virupaksha temple.",
+          "significance": "high"
+        },
+        {
+          "name": "Maha Shivaratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Night vigil and worship at Virupaksha and Mallikarjuna temples.",
           "significance": "high"
         }
       ],
