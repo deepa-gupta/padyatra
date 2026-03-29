@@ -212,13 +212,34 @@ final class TempleImageService {
     private nonisolated static func widenWikimediaThumb(_ source: String, width: Int) -> URL? {
         guard var comps = URLComponents(string: source) else { return nil }
         var parts = comps.path.components(separatedBy: "/")
-        guard let last = parts.last,
-              let pxRange = last.range(of: "px-"),
-              Int(last[last.startIndex..<pxRange.lowerBound]) != nil
-        else { return URL(string: source) }
-        parts[parts.count - 1] = "\(width)px-\(last[pxRange.upperBound...])"
-        comps.path = parts.joined(separator: "/")
-        return comps.url
+        guard let last = parts.last else { return URL(string: source) }
+
+        // Case 1: already a thumb URL — e.g. .../thumb/H/HA/File.jpg/320px-File.jpg
+        // Replace the existing NNNpx- prefix with the requested width.
+        if let pxRange = last.range(of: "px-"),
+           Int(last[last.startIndex..<pxRange.lowerBound]) != nil {
+            parts[parts.count - 1] = "\(width)px-\(last[pxRange.upperBound...])"
+            comps.path = parts.joined(separator: "/")
+            return comps.url
+        }
+
+        // Case 2: raw Commons file URL — e.g. .../commons/H/HA/File.jpg
+        // Convert to thumb URL by inserting "thumb" after the namespace segment
+        // and appending NNNpx-File.jpg.
+        // Wikimedia path: /wikipedia/commons/H/HA/File.jpg  (6 parts after split)
+        // Thumb path:     /wikipedia/commons/thumb/H/HA/File.jpg/NNNpx-File.jpg
+        let isRawCommons = comps.host?.contains("wikimedia.org") == true
+            && !parts.contains("thumb")
+            && last.contains(".")
+        if isRawCommons, let namespaceIdx = parts.firstIndex(of: "commons") {
+            var thumbParts = parts
+            thumbParts.insert("thumb", at: namespaceIdx + 1)
+            thumbParts.append("\(width)px-\(last)")
+            comps.path = thumbParts.joined(separator: "/")
+            return comps.url
+        }
+
+        return URL(string: source)
     }
 
 }
