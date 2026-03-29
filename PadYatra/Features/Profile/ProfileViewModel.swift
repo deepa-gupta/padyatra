@@ -12,6 +12,7 @@ final class ProfileViewModel: ObservableObject {
     @Published private(set) var totalTemples: Int = 0
     @Published private(set) var statesVisited: Int = 0
     @Published private(set) var achievementsEarned: Int = 0
+    @Published private(set) var earnedAchievementNames: [String] = []
     @Published private(set) var categoryProgress: [(name: String, visited: Int, total: Int)] = []
 
     // MARK: - Private
@@ -25,10 +26,11 @@ final class ProfileViewModel: ObservableObject {
         totalVisited   = dataService.visitedTempleIDs.count
         totalTemples   = dataService.temples.count
         statesVisited  = countStatesVisited(dataService: dataService)
-        achievementsEarned = countAchievementsEarned(
+        earnedAchievementNames = buildEarnedAchievementNames(
             dataService: dataService,
             achievementService: achievementService
         )
+        achievementsEarned = earnedAchievementNames.count
         categoryProgress = buildCategoryProgress(
             dataService: dataService,
             achievementService: achievementService
@@ -46,8 +48,18 @@ final class ProfileViewModel: ObservableObject {
 
     /// Share text for the ShareLink button.
     var shareText: String {
-        "I've visited \(totalVisited) of \(totalTemples) temples on my Pad Yatra journey! " +
-        "Exploring India's sacred heritage one shrine at a time. 🙏"
+        var lines: [String] = []
+        lines.append("I've visited \(totalVisited) of \(totalTemples) temples on my Pad Yatra journey, exploring \(statesVisited) state\(statesVisited == 1 ? "" : "s") across India! 🙏")
+
+        if !earnedAchievementNames.isEmpty {
+            lines.append("")
+            lines.append("🏆 Achievements earned (\(earnedAchievementNames.count)):")
+            lines.append(contentsOf: earnedAchievementNames.map { "• \($0)" })
+        }
+
+        lines.append("")
+        lines.append("Join me on the sacred path — download Pad Yatra!")
+        return lines.joined(separator: "\n")
     }
 
     // MARK: - Private Helpers
@@ -62,11 +74,17 @@ final class ProfileViewModel: ObservableObject {
         return states.count
     }
 
-    private func countAchievementsEarned(
+    private func buildEarnedAchievementNames(
         dataService: TempleDataService,
         achievementService: AchievementService
-    ) -> Int {
-        dataService.categories.filter { achievementService.isCompleted($0) }.count
+    ) -> [String] {
+        dataService.categories
+            .filter { achievementService.isCompleted($0) }
+            .compactMap { category -> String? in
+                guard let achievementID = category.achievementID else { return nil }
+                return dataService.achievements.first(where: { $0.id == achievementID })?.name
+                    ?? category.name
+            }
     }
 
     private func buildCategoryProgress(
