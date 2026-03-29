@@ -694,7 +694,6 @@
         "t_kanchi_kamakoti_peetham_new",
         "t_prem",
         "t_shree_radha_krishna",
-        "t_sri_ram",
         "t_sri_sathya_sai_baba"
       ],
       "achievementID": null
@@ -7001,60 +7000,6 @@
         "heroImageName": "t_ram_ghat_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_ram_ghat_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Ram Navami",
-          "approximateMonth": 4,
-          "isLunar": true,
-          "description": "Celebration of Rama's birth with special poojas, Ramayana recitations and processions.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
-      "id": "t_sri_ram",
-      "slug": "sri-ram-mandir-ayodhya",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Sri Ram Mandir",
-      "alternateName": null,
-      "deity": "Rama",
-      "location": {
-        "latitude": 26.79564,
-        "longitude": 82.194576,
-        "city": "Ayodhya",
-        "district": "Faizabad",
-        "state": "Uttar Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_new_landmark"
-      ],
-      "description": "Sri Ram Mandir is a Hindu temple located in Ayodhya, Uttar Pradesh, India, dedicated to Rama. It dates to the Modern Period.",
-      "shortDescription": "Sri Ram Mandir is a Hindu temple located in Ayodhya, Uttar Pradesh, India, dedicated to Rama.",
-      "facts": {
-        "established": "2024 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_sri_ram_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_sri_ram_thumb",
         "remoteHeroURL": null
       },
       "festivals": [
