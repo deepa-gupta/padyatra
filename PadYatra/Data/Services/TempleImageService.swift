@@ -84,7 +84,10 @@ final class TempleImageService {
             let title = sourceURL.components(separatedBy: "/wiki/").last,
             !title.isEmpty
         else { return nil }
-        return await fetchWikipediaSummaryHero(title, width: 330)
+
+        // Try summary first (fastest), then fall back to media-list first image
+        if let url = await fetchWikipediaSummaryHero(title, width: 330) { return url }
+        return await fetchWikipediaMediaList(title)?.first
     }
 
     // MARK: - Gallery (up to 5 images, ~1280 px)
