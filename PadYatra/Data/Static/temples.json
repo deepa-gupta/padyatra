@@ -941,32 +941,39 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Amba Mata Temple is a Hindu temple located in Jagat, Rajasthan, India, dedicated to Amba. It dates to the Early Medieval Period.",
-      "shortDescription": "Amba Mata Temple is a Hindu temple located in Jagat, Rajasthan, India, dedicated to Amba.",
+      "description": "The Ambika Mata Temple at Jagat, Rajasthan, is a 10th-century masterpiece of the Pratihara-Gurjara school — often called the Khajuraho of Rajasthan for its extraordinarily carved exterior panels depicting amorous couples, celestial beings, and battle scenes alongside devotional imagery. Built around 961 CE under the Paramara dynasty, the sanctum enshrines Ambika (the mother form of the goddess) with subsidiary shrines to Ganesha and the Sapta Matrikas. Though smaller than the great Khajuraho temples, the sculptural quality rivals them, and the temple's remote setting in the Aravalli foothills has preserved both stone and sanctity.",
+      "shortDescription": "A 10th-century Pratihara-Gurjara temple renowned for Khajuraho-style erotic and celestial carvings, tucked away in the Rajasthan hills.",
       "facts": {
-        "established": "10th century CE",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "961 CE",
+        "dynasty": "Paramara",
+        "architectureStyle": "Pratihara-Gurjara (Nagara)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Modest attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "Sunrise to sunset"
       },
       "images": {
         "heroImageName": "t_amba_mata_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_amba_mata_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jagat_Temple.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of goddess worship with special abhisheka to Ambika and large local pilgrimages.",
+          "significance": "high"
+        },
+        {
+          "name": "Chaitra Navaratri",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Spring Navaratri celebration with aarti and processions.",
           "significance": "medium"
         }
       ],
@@ -1561,7 +1568,7 @@
       "slug": "kali-temple-biraja-peetha-jajpur",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Kali Temple (Biraja Peetha)",
+      "name": "Biraja Temple (Shakti Peetha)",
       "alternateName": null,
       "deity": "Biraja (Girija)",
       "location": {
@@ -1577,32 +1584,46 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Kali Temple (Biraja Peetha) is a Hindu temple located in Jajpur, Odisha, India, dedicated to Biraja (Girija). It dates to the Early Medieval Period.",
-      "shortDescription": "Kali Temple (Biraja Peetha) is a Hindu temple located in Jajpur, Odisha, India, dedicated to Biraja (Girija).",
+      "description": "The Biraja Temple at Jajpur in Odisha is one of the most venerated of the 51 Shakti Peethas — tradition holds that the navel (nabhi) of Sati fell here, making it a seat of supreme creative power. The presiding goddess Viraja (a fierce form of Durga) is worshipped alongside Jagannatha and the Pancha Mahabhuta lingas. The present structure, built in the Kalinga style, stands on foundations far older — inscriptions reference the temple as early as the 7th century CE. Jajpur was the ancient capital of the Keshari dynasty and remains Odisha's most important Shakti centre.",
+      "shortDescription": "One of the 51 Shakti Peethas where Sati's navel fell — the supreme Shakti seat of Odisha in Kalinga architectural style.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "7th century CE (present structure medieval)",
+        "dynasty": "Keshari / Ganga dynasty",
+        "architectureStyle": "Kalinga (Deula)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Traditional attire; dhoti for men",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "5:00 AM – 9:00 PM"
       },
       "images": {
         "heroImageName": "t_kali_temple_biraja_peetha_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_kali_temple_biraja_peetha_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Biraja_Temple_Jajpur.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The most important festival — nine days of elaborate Shakti rituals, special alankara and mahaprasad distribution.",
+          "significance": "high"
+        },
+        {
+          "name": "Durga Puja",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Grand celebrations with idol processions and community feasts across Jajpur.",
+          "significance": "high"
+        },
+        {
+          "name": "Vijayadasami",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The tenth day of Navaratri marked with goddess procession and immersion.",
           "significance": "medium"
         }
       ],
@@ -2070,7 +2091,7 @@
       "slug": "jaintia-shakti-peetha-nartiang",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Jaintia Shakti Peetha",
+      "name": "Nartiang Durga Temple (Jayanti Peetha)",
       "alternateName": null,
       "deity": "Durga",
       "location": {
@@ -2086,33 +2107,40 @@
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Jaintia Shakti Peetha is a Hindu temple located in Nartiang, Meghalaya, India, dedicated to Durga. It dates to the Early Medieval Period.",
-      "shortDescription": "Jaintia Shakti Peetha is a Hindu temple located in Nartiang, Meghalaya, India, dedicated to Durga.",
+      "description": "Deep in the forested Jaintia Hills of Meghalaya, the Nartiang Durga Temple marks the spot where, according to Shakta tradition, the left thigh of Sati fell as Vishnu's Sudarshana Chakra severed her body. The presiding goddess is Jayanti — the victorious one. Once the royal shrine of the Jaintia kingdom, the temple complex includes a monolithic monolith field (Nartiang Monoliths) erected by Jaintia kings as memorial megaliths, creating an atmosphere unlike any other Shakti Peetha. The temple's remote northeastern setting and tribal-Hindu syncretism make it one of the more mystical of the 51 sacred seats.",
+      "shortDescription": "A Shakti Peetha in the misty Jaintia Hills of Meghalaya where Sati's left thigh fell — royal shrine of the ancient Jaintia kingdom.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "Ancient (medieval Jaintia kingdom)",
+        "dynasty": "Jaintia Kingdom",
+        "architectureStyle": "Bengali / tribal vernacular",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Modest attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_jaintia_shakti_peetha_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_jaintia_shakti_peetha_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Nartiang_Durga_Temple.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of Durga worship drawing pilgrims from across Meghalaya and Assam.",
+          "significance": "high"
+        },
+        {
+          "name": "Behdienkhlam",
+          "approximateMonth": 7,
           "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
+          "description": "The Jaintia harvest festival celebrated near the temple with traditional Pnar rituals and dancing.",
+          "significance": "high"
         }
       ],
       "significance": "shaktipeeth",
