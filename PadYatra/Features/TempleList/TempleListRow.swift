@@ -20,10 +20,9 @@ struct TempleListRow: View {
     var body: some View {
         cardContent
             .opacity(appeared ? 1 : 0)
-            .offset(y: appeared ? 0 : 20)
             .onAppear {
                 withAnimation(
-                    .spring(response: 0.4, dampingFraction: 0.75)
+                    .easeOut(duration: 0.25)
                     .delay(min(animationDelay, 0.3))
                 ) { appeared = true }
             }
