@@ -14951,6 +14951,577 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Salasar_Balaji_Temple"
+    },
+    {
+      "id": "t_palitana_temples",
+      "slug": "palitana-temples-palitana",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Palitana Temples",
+      "alternateName": "पालीताणा",
+      "deity": "Adinatha (Rishabhadeva)",
+      "location": {
+        "latitude": 21.523056,
+        "longitude": 71.826667,
+        "city": "Palitana",
+        "district": "Bhavnagar",
+        "state": "Gujarat",
+        "country": "India",
+        "address": "Shatrunjaya Hill, Palitana, Bhavnagar, Gujarat",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_solanki",
+        "c_jain_circuit"
+      ],
+      "description": "Palitana on Shatrunjaya Hill, Gujarat, is the world's largest temple city—over 900 Jain temples crown the sacred hill, constructed over a thousand years from the 11th century onwards. The climb of 3,572 steps leads pilgrims past temple after temple to the main Adinatha shrine at the summit. Palitana is the holiest pilgrimage site in Jainism: every Jain aspires to complete the climb at least once. No one is permitted to remain on the hill at night—priests and pilgrims must descend each evening, leaving the gods in solitude.",
+      "shortDescription": "World's largest temple city—900+ Jain temples on Shatrunjaya Hill, Gujarat. A 3,572-step climb to the Adinatha summit; holiest Jain pilgrimage, no overnight stay permitted.",
+      "facts": {
+        "established": "11th century CE (ongoing additions)",
+        "dynasty": "Solanki and later dynasties",
+        "architectureStyle": "Gujarat Jain (white marble)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": "591m",
+        "dresscode": "Traditional attire required; no leather; women in saree or salwar",
+        "photographyAllowed": false,
+        "entryFee": "Free (palanquin hire available)",
+        "darshanaTimings": "7:00 AM – 7:00 PM (no overnight)"
+      },
+      "images": {
+        "heroImageName": "t_palitana_temples_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_palitana_temples_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Palitana_temples.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Paryushana",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Eight-day Jain fasting festival in August/September; Palitana draws tens of thousands of pilgrims making the climb.",
+          "significance": "high"
+        },
+        {
+          "name": "Kartik Purnima",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Full moon pilgrimage season when thousands of Jains undertake the 3,572-step climb.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Palitana_temples"
+    },
+    {
+      "id": "t_girnar_jain_temples",
+      "slug": "girnar-jain-temples-junagadh",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Girnar Jain Temples",
+      "alternateName": "गिरनार",
+      "deity": "Neminatha (22nd Tirthankara)",
+      "location": {
+        "latitude": 21.473889,
+        "longitude": 70.527222,
+        "city": "Junagadh",
+        "district": "Junagadh",
+        "state": "Gujarat",
+        "country": "India",
+        "address": "Girnar Hill, Junagadh, Gujarat",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_solanki",
+        "c_jain_circuit",
+        "c_hilltop"
+      ],
+      "description": "Girnar Hill near Junagadh, Gujarat, rises to 1,117 metres and hosts one of Jainism's most sacred pilgrimage sites—dedicated to Neminatha, the 22nd Tirthankara, who is said to have attained nirvana here. The Jain temples cluster from 600m altitude upwards, culminating at the Neminatha temple near the summit, reached by over 10,000 steps. The same hill also hosts important Hindu shrines including Ambaji and Gorakhnath, making Girnar an extraordinary multi-faith sacred mountain shared by Jains, Hindus, and Nath yogis.",
+      "shortDescription": "Sacred Jain pilgrimage hill near Junagadh with 10,000+ steps to the Neminatha temple. Also home to Hindu shrines; one of Gujarat's holiest multi-faith mountains.",
+      "facts": {
+        "established": "Ancient (Solanki-era temples 11th–12th century)",
+        "dynasty": "Solanki dynasty",
+        "architectureStyle": "Gujarat Jain (marble)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": "1117m",
+        "dresscode": "Traditional attire required at Jain temples",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "Sunrise to sunset"
+      },
+      "images": {
+        "heroImageName": "t_girnar_jain_temples_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_girnar_jain_temples_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Girnar_temples.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Girnar Parikrama",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "36km circumambulation of the Girnar mountain undertaken by tens of thousands of pilgrims; one of Gujarat's great annual yatras.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Girnar"
+    },
+    {
+      "id": "t_taranga_jain_temple",
+      "slug": "taranga-jain-temple-taranga",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Taranga Jain Temple",
+      "alternateName": "तारंगा",
+      "deity": "Ajitanatha (2nd Tirthankara)",
+      "location": {
+        "latitude": 23.966944,
+        "longitude": 72.671389,
+        "city": "Taranga",
+        "district": "Mehsana",
+        "state": "Gujarat",
+        "country": "India",
+        "address": "Taranga Hill, Mehsana, Gujarat",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_solanki",
+        "c_jain_circuit"
+      ],
+      "description": "Taranga Jain Temple on Taranga Hill, Mehsana district, Gujarat, is one of the finest examples of Solanki (Chaulukya) architectural achievement in Jain temple building. The main Ajitanatha temple, dedicated to the 2nd Tirthankara, was built in the 12th century under King Kumarapala of the Solanki dynasty. The temple's ornate white marble shikhara, intricate pillared halls, and delicately carved ceilings represent the apex of medieval Gujarati craftsmanship. The hilltop setting, accessible by road, draws Jain pilgrims and architecture enthusiasts alike.",
+      "shortDescription": "Solanki-era Jain temple on Taranga Hill, Gujarat, dedicated to Ajitanatha. Built under King Kumarapala in the 12th century; exemplary white marble Solanki architecture.",
+      "facts": {
+        "established": "12th century CE",
+        "dynasty": "Solanki (Kumarapala)",
+        "architectureStyle": "Solanki (white marble)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": "680m",
+        "dresscode": "Traditional attire required",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "7:00 AM – 7:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_taranga_jain_temple_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_taranga_jain_temple_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Taranga_temples.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Paryushana",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Jain fasting and introspection festival drawing large pilgrimage to Taranga Hill.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Taranga_Jain_temple"
+    },
+    {
+      "id": "t_bhadreshwar_jain_temple",
+      "slug": "bhadreshwar-jain-temple-bhadreshwar",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Bhadreshwar Jain Temple",
+      "alternateName": "ભદ્રેશ્વર",
+      "deity": "Parshvanatha (23rd Tirthankara)",
+      "location": {
+        "latitude": 23.221389,
+        "longitude": 70.058889,
+        "city": "Bhadreshwar",
+        "district": "Kutch",
+        "state": "Gujarat",
+        "country": "India",
+        "address": "Bhadreshwar (Vashishtha), Kutch, Gujarat",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_solanki",
+        "c_jain_circuit"
+      ],
+      "description": "Bhadreshwar Jain Temple in Kutch, Gujarat, claims to be among the oldest Jain pilgrimage sites in India, with a lineage of temples at this location dating back over 2,500 years according to Jain tradition. The current temple complex, dedicated to Parshvanatha, was largely rebuilt in the 12th century under Solanki patronage after earlier structures were destroyed. Remotely situated on the Kutch plains, Bhadreshwar (also called Vashishtha) represents the westernmost major Jain pilgrimage site in India.",
+      "shortDescription": "One of India's oldest Jain pilgrimage sites in Kutch, Gujarat—Parshvanatha temple rebuilt in the 12th century under Solanki patronage; westernmost major Jain tirth.",
+      "facts": {
+        "established": "Ancient (rebuilt 12th century CE)",
+        "dynasty": "Solanki dynasty",
+        "architectureStyle": "Kutchi Jain",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Traditional attire required",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 8:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_bhadreshwar_jain_temple_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_bhadreshwar_jain_temple_thumb",
+        "remoteHeroURL": null
+      },
+      "festivals": [
+        {
+          "name": "Paryushana",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Eight-day Jain fasting festival drawing Kutchi Jain community and pilgrims from Bhuj and beyond.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Bhadreshwar_Jain_Temple"
+    },
+    {
+      "id": "t_kumbharia_jain_temples",
+      "slug": "kumbharia-jain-temples-ambaji",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Kumbharia Jain Temples",
+      "alternateName": null,
+      "deity": "Mahavira and Parshvanatha",
+      "location": {
+        "latitude": 24.381944,
+        "longitude": 72.888056,
+        "city": "Ambaji",
+        "district": "Banaskantha",
+        "state": "Gujarat",
+        "country": "India",
+        "address": "Kumbharia, Banaskantha, Gujarat",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_solanki",
+        "c_jain_circuit"
+      ],
+      "description": "Kumbharia Jain Temples near Ambaji, Banaskantha, Gujarat, are a cluster of five Jain temples built in the 11th–12th century under Solanki patronage, renowned for their exceptionally intricate white marble carvings. The main Mahavira temple and the Parshvanatha temple display the finest surviving examples of Solanki decorative carving—floral lattices, celestial dancers, and mythological scenes of extraordinary delicacy. Though less famous than Dilwara (Mount Abu), many art historians consider Kumbharia's carving quality comparable.",
+      "shortDescription": "Five Solanki-era Jain temples near Ambaji with white marble carvings rivalling Dilwara. 11th–12th century masterworks of Gujarati stone craftsmanship.",
+      "facts": {
+        "established": "11th–12th century CE",
+        "dynasty": "Solanki dynasty",
+        "architectureStyle": "Solanki (white marble)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Traditional attire required",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "7:00 AM – 7:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_kumbharia_jain_temples_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_kumbharia_jain_temples_thumb",
+        "remoteHeroURL": null
+      },
+      "festivals": [
+        {
+          "name": "Paryushana",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Eight-day Jain fasting and worship festival at Kumbharia.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Kumbharia_Jain_temples"
+    },
+    {
+      "id": "t_jagdish_temple_udaipur",
+      "slug": "jagdish-temple-udaipur",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Jagdish Temple",
+      "alternateName": "जगदीश मंदिर",
+      "deity": "Vishnu (Jagdish)",
+      "location": {
+        "latitude": 24.578611,
+        "longitude": 73.682778,
+        "city": "Udaipur",
+        "district": "Udaipur",
+        "state": "Rajasthan",
+        "country": "India",
+        "address": "City Palace Road, Udaipur, Rajasthan",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_solanki",
+        "c_vaishnava"
+      ],
+      "description": "Jagdish Temple in Udaipur, built in 1651 by Maharana Jagat Singh I of the Mewar dynasty, is the largest and most important temple in Udaipur. Standing just north of the City Palace, the three-storey Indo-Aryan shikhara towers over the old city, visible from most of Lake Pichola. The sanctum holds a black stone image of Vishnu as Lord of the Universe (Jagannath). The exterior is richly carved with elephants, horsemen, celestial dancers, and scenes from the epics—a fine specimen of late Rajput temple architecture with Solanki influences.",
+      "shortDescription": "Udaipur's largest temple, built 1651 by Maharana Jagat Singh I, with a soaring Indo-Aryan shikhara above the City Palace. Black stone Vishnu idol; richly carved exterior.",
+      "facts": {
+        "established": "1651 CE",
+        "dynasty": "Mewar (Maharana Jagat Singh I)",
+        "architectureStyle": "Indo-Aryan (Nagara) with Rajput elements",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Traditional attire recommended",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "5:15 AM – 10:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_jagdish_temple_udaipur_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_jagdish_temple_udaipur_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Jagdish_temple_Udaipur.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Janmashtami",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Birth anniversary of Krishna celebrated with midnight worship, abhisheka and devotional singing.",
+          "significance": "high"
+        },
+        {
+          "name": "Holi",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Festival of colours celebrated with royal Mewar traditions; the temple and surrounding ghats come alive.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Jagdish_Temple,_Udaipur"
+    },
+    {
+      "id": "t_hutheesing_jain_temple",
+      "slug": "hutheesing-jain-temple-ahmedabad",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Hutheesing Jain Temple",
+      "alternateName": "હઠીસિંહ દેરાસર",
+      "deity": "Dharmanatha (15th Tirthankara)",
+      "location": {
+        "latitude": 23.033333,
+        "longitude": 72.583333,
+        "city": "Ahmedabad",
+        "district": "Ahmedabad",
+        "state": "Gujarat",
+        "country": "India",
+        "address": "Shahibaug Road, Ahmedabad, Gujarat",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_solanki",
+        "c_jain_circuit"
+      ],
+      "description": "Hutheesing Jain Temple in Ahmedabad, built in 1848 by wealthy Jain merchant Hutheesing Kesarising during a severe famine (thereby providing employment), is one of the finest examples of Jain marble architecture in India. Dedicated to Dharmanatha, the 15th Tirthankara, the temple features an elaborately carved white marble complex with 52 shrines, a multi-storey rang mandap, and extraordinarily detailed lattice work. Though built in the 19th century, the craftsmanship follows the classical Solanki Jain tradition in material and ornament.",
+      "shortDescription": "Ahmedabad's finest Jain marble temple, built 1848 by merchant Hutheesing to provide famine relief employment. 52 shrines, elaborate Solanki-style white marble carving.",
+      "facts": {
+        "established": "1848 CE",
+        "dynasty": "Modern (Jain merchant patronage)",
+        "architectureStyle": "Solanki Jain (white marble)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Traditional attire required; no leather",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 8:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_hutheesing_jain_temple_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_hutheesing_jain_temple_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/7/78/HutheesingTemple.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Paryushana",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Jain eight-day fasting festival with elaborate rituals in this elaborate marble temple.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Hutheesing_Jain_Temple"
+    },
+    {
+      "id": "t_kiradu_temples",
+      "slug": "kiradu-temples-barmer",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Kiradu Temples",
+      "alternateName": "किराडू",
+      "deity": "Shiva and Vishnu",
+      "location": {
+        "latitude": 25.586944,
+        "longitude": 71.355278,
+        "city": "Barmer",
+        "district": "Barmer",
+        "state": "Rajasthan",
+        "country": "India",
+        "address": "Kiradu village, 35km from Barmer, Rajasthan",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_solanki"
+      ],
+      "description": "Kiradu, 35 km from Barmer in the Thar Desert, is known as the 'Khajuraho of Rajasthan' for its cluster of five 11th–12th century Solanki-style temples, ornately carved in the hard local sandstone. The largest, the Someshvara temple, features exquisitely detailed sculpture—celestial dancers, erotic carvings, mythological scenes—comparable in quality to Khajuraho but far less visited. The remote desert location gives the ruins a haunting quality; local legend holds the village was cursed and abandoned. The Archaeological Survey of India maintains the site.",
+      "shortDescription": "'Khajuraho of Rajasthan'—five Solanki-era temples 35km from Barmer in the Thar Desert, with intricate 11th-century sandstone carving. Remote and atmospheric desert ruin.",
+      "facts": {
+        "established": "11th–12th century CE",
+        "dynasty": "Solanki / Paramara",
+        "architectureStyle": "Solanki (sandstone)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "No specific requirement",
+        "photographyAllowed": true,
+        "entryFee": "Free (ASI site)",
+        "darshanaTimings": "Sunrise to Sunset"
+      },
+      "images": {
+        "heroImageName": "t_kiradu_temples_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_kiradu_temples_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Kiradu_temple.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Shiva festival drawing local pilgrims from Barmer district to the Someshvara temple ruins.",
+          "significance": "medium"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Kiradu"
+    },
+    {
+      "id": "t_navlakha_temple",
+      "slug": "navlakha-temple-ghumli",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Navlakha Temple",
+      "alternateName": "નવલખા મંદિર",
+      "deity": "Shiva",
+      "location": {
+        "latitude": 21.8275,
+        "longitude": 69.3458,
+        "city": "Ghumli",
+        "district": "Devbhumi Dwarka",
+        "state": "Gujarat",
+        "country": "India",
+        "address": "Ghumli, Devbhumi Dwarka, Gujarat",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_solanki"
+      ],
+      "description": "Navlakha Temple at Ghumli in Devbhumi Dwarka, Gujarat, is a ruined but architecturally magnificent 11th–12th century Solanki-era temple said to have cost nine lakh coins (nav-lakha) to build. Though now in ruins, the surviving carved stonework—particularly the ornate shikhara fragments and carved pillars—reveals the exceptional quality of Solanki craftsmanship. Ghumli was once the capital of the Jethwa Rajput chiefs and a wealthy port town; the Navlakha temple was its crowning monument. The site offers superb views of the Saurashtra coastline.",
+      "shortDescription": "Ruined 11th-century Solanki temple at Ghumli, Gujarat, said to have cost nine lakh coins. Surviving carved stonework shows Solanki artistry at its finest; coastal views.",
+      "facts": {
+        "established": "11th–12th century CE",
+        "dynasty": "Solanki / Jethwa Rajput",
+        "architectureStyle": "Solanki (sandstone, ruined)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "No specific requirement",
+        "photographyAllowed": true,
+        "entryFee": "Free (ASI site)",
+        "darshanaTimings": "Sunrise to Sunset"
+      },
+      "images": {
+        "heroImageName": "t_navlakha_temple_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_navlakha_temple_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Navlakha_temple_Ghumli.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Shiva festival at this historic site; local Jethwa community observes special puja.",
+          "significance": "medium"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Navlakha_Temple,_Ghumli"
+    },
+    {
+      "id": "t_tiru_parameswara_vinnagaram",
+      "slug": "tiru-parameswara-vinnagaram-kanchipuram",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Tiru Parameswara Vinnagaram",
+      "alternateName": "திரு பரமேசுவர விண்ணகரம்",
+      "deity": "Vishnu (Paramapada Nathan / Vaikunta Perumal)",
+      "location": {
+        "latitude": 12.831667,
+        "longitude": 79.704444,
+        "city": "Kanchipuram",
+        "district": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Kanchipuram, Tamil Nadu",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_pallava",
+        "c_divya_desam",
+        "c_vaishnava"
+      ],
+      "description": "Tiru Parameswara Vinnagaram (Vaikunta Perumal Temple) in Kanchipuram is one of the earliest and most historically significant Pallava temples, built by Nandivarman II (Pallavamalla) in the 8th century CE. Uniquely, it contains three sanctums stacked vertically—Vishnu is enshrined in standing, seated, and reclining postures at ground, first, and second storeys. The temple's exterior sculptural programme depicts the history of the Pallava dynasty in stone reliefs—making it the most important historical document of Pallava dynastic history. It is both a Divya Desam and a key monument in Pallava art.",
+      "shortDescription": "8th-century Pallava temple in Kanchipuram with three stacked Vishnu sanctums (standing, seated, reclining). Exterior reliefs are the primary stone record of Pallava dynastic history.",
+      "facts": {
+        "established": "8th century CE",
+        "dynasty": "Pallava (Nandivarman II)",
+        "architectureStyle": "Pallava (early Dravidian)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Traditional attire required",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 12:00 PM, 4:00 PM – 8:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_tiru_parameswara_vinnagaram_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_tiru_parameswara_vinnagaram_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Vaikunta_perumal_temple_kanchipuram.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Vaikunta Ekadashi",
+          "approximateMonth": 12,
+          "isLunar": true,
+          "description": "The most sacred Vaishnava day when the Paramapada Vasal (Gateway to Heaven) is opened; massive crowds at this Divya Desam.",
+          "significance": "high"
+        },
+        {
+          "name": "Brahmotsavam",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "Annual grand festival of this Divya Desam temple with processions and classical music.",
+          "significance": "high"
+        }
+      ],
+      "significance": "other",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Vaikunta_Perumal_Temple,_Kanchipuram"
     }
   ]
 }
