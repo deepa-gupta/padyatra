@@ -14,12 +14,12 @@ struct BadgeDetailView: View {
             badgeImage
 
             VStack(spacing: AppSpacing.xs) {
-                Text(definition.name)
+                Text(definition.name.replacingOccurrences(of: "Complete ", with: ""))
                     .font(.title2.weight(.bold))
                     .foregroundStyle(Color.brandEarthBrown)
                     .multilineTextAlignment(.center)
 
-                Text(definition.description)
+                Text(definition.description.replacingOccurrences(of: "Visit all", with: "Visited all"))
                     .font(.subheadline)
                     .foregroundStyle(Color.brandTempleGrey)
                     .multilineTextAlignment(.center)
