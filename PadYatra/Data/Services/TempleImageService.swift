@@ -75,9 +75,10 @@ final class TempleImageService {
     // MARK: - Thumbnail (330 px)
 
     private nonisolated static func fetchThumbnail(for temple: Temple) async -> URL? {
-        if let heroString = temple.images.remoteHeroURL {
-            return widenWikimediaThumb(heroString, width: 330)
-                ?? URL(string: heroString)
+        if let heroString = temple.images.remoteHeroURL,
+           let heroURL = widenWikimediaThumb(heroString, width: 330) ?? URL(string: heroString),
+           await urlReachable(heroURL) {
+            return heroURL
         }
         guard
             let sourceURL = temple.sourceURL,
@@ -88,6 +89,17 @@ final class TempleImageService {
         // Try summary first (fastest), then fall back to media-list first image
         if let url = await fetchWikipediaSummaryHero(title, width: 330) { return url }
         return await fetchWikipediaMediaList(title)?.first
+    }
+
+    /// HEAD-checks a URL; returns true only on HTTP 200.
+    private nonisolated static func urlReachable(_ url: URL) async -> Bool {
+        var request = URLRequest(url: url, timeoutInterval: 6)
+        request.httpMethod = "HEAD"
+        request.setValue("PadYatra/1.0 (iOS; contact@padyatra.com)", forHTTPHeaderField: "User-Agent")
+        guard let (_, response) = try? await URLSession.shared.data(for: request),
+              let http = response as? HTTPURLResponse
+        else { return false }
+        return http.statusCode == 200
     }
 
     // MARK: - Gallery (up to 5 images, ~1280 px)
