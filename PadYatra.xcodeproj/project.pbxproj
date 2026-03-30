@@ -25,6 +25,7 @@
 		31EEA24F2C6160F65BF4C788 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F3F08D4158B6C43DE3771E /* PersistenceController.swift */; };
 		3596B858186E4DAD09E53977 /* VisitEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35073115477BD0FC56BAE195 /* VisitEditView.swift */; };
 		38942151AB6AD367BC15D9BB /* MapFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA21A452E4BEBB1C273EA870 /* MapFilterSheet.swift */; };
+		3B3CF91E83FB4466B478735C /* ClusteringMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567FC69193A84226BA51971B /* ClusteringMapView.swift */; };
 		3996DDB06D42090EDC1A6D48 /* TempleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454A0736D83F4ED61FA4F86A /* TempleListViewModel.swift */; };
 		41D04C8984462A5339754C5C /* VisitShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B24E00A5F4291A9E1DFCAC /* VisitShareService.swift */; };
 		452662475A007DC97C71982F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E47CE2912BB25D666C1452 /* MapView.swift */; };
@@ -158,6 +159,7 @@
 		BECE9DD0034AB96652709726 /* PadYatra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PadYatra.entitlements; sourceTree = "<group>"; };
 		BF3CB09DBABE00E08E9B6382 /* TempleDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDataService.swift; sourceTree = "<group>"; };
 		CA21A452E4BEBB1C273EA870 /* MapFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFilterSheet.swift; sourceTree = "<group>"; };
+		567FC69193A84226BA51971B /* ClusteringMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusteringMapView.swift; sourceTree = "<group>"; };
 		D0B24E00A5F4291A9E1DFCAC /* VisitShareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VisitShareService.swift; path = PadYatra/Features/TempleDetail/VisitShareService.swift; sourceTree = SOURCE_ROOT; };
 		D5ABCEEBEC9E426B318149EB /* VisitServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitServiceTests.swift; sourceTree = "<group>"; };
 		DB45CAD8D73FC64E23649F46 /* TempleDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDetailViewModel.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 		92838174B5CD7A64D39F5E0C /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				567FC69193A84226BA51971B /* ClusteringMapView.swift */,
 				CA21A452E4BEBB1C273EA870 /* MapFilterSheet.swift */,
 				53E47CE2912BB25D666C1452 /* MapView.swift */,
 				707037FC0A0A04A1F626EA30 /* MapViewModel.swift */,
@@ -538,6 +541,7 @@
 				733FD9E35B27869C074F54C7 /* FilterPill.swift in Sources */,
 				523C9BE18575CEC55D69E173 /* FormSectionHeader.swift in Sources */,
 				B45F3047B3DC0CA21E27BF80 /* LocationService.swift in Sources */,
+				3B3CF91E83FB4466B478735C /* ClusteringMapView.swift in Sources */,
 				38942151AB6AD367BC15D9BB /* MapFilterSheet.swift in Sources */,
 				452662475A007DC97C71982F /* MapView.swift in Sources */,
 				5660A6E65AF559E597BFD3F4 /* MapViewModel.swift in Sources */,
