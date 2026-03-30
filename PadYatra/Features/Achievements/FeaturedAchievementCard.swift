@@ -110,6 +110,7 @@ struct FeaturedAchievementCard: View {
         templeIDs: Array(repeating: "t", count: 12),
         achievementID: "a_jyotirlinga_complete",
         iconAssetName: "flame.fill",
+        badgeImageName: nil,
         color: "#FF6B35",
         deity: "Shiva",
         sortOrder: 1

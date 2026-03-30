@@ -41,6 +41,7 @@ struct CategoryTag: View {
         templeIDs: [],
         achievementID: "ach_jyotirlinga",
         iconAssetName: "icon_jyotirlinga",
+        badgeImageName: nil,
         color: "#FF6B35",
         deity: "Shiva",
         sortOrder: 0
@@ -52,11 +53,12 @@ struct CategoryTag: View {
         templeIDs: [],
         achievementID: "ach_char_dham",
         iconAssetName: "icon_char_dham",
+        badgeImageName: nil,
         color: "#FFB830",
         deity: nil,
         sortOrder: 1
     )
-    return HStack(spacing: AppSpacing.sm) {
+    HStack(spacing: AppSpacing.sm) {
         CategoryTag(category: sample)
         CategoryTag(category: sample2)
     }

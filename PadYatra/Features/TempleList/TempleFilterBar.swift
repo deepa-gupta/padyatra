@@ -71,11 +71,11 @@ struct TempleFilterBar: View {
     @Previewable @State var categoryID: String? = nil
 
     let categories: [TempleCategory] = [
-        TempleCategory(id: "c_jyotirlinga", name: "Jyotirlinga", description: "", templeIDs: [], achievementID: nil, iconAssetName: "", color: "#FF6B35", deity: "Shiva", sortOrder: 1),
-        TempleCategory(id: "c_shakti", name: "Shakti Peetha", description: "", templeIDs: [], achievementID: nil, iconAssetName: "", color: "#FF6B35", deity: "Devi", sortOrder: 2),
+        TempleCategory(id: "c_jyotirlinga", name: "Jyotirlinga", description: "", templeIDs: [], achievementID: nil, iconAssetName: "", badgeImageName: nil, color: "#FF6B35", deity: "Shiva", sortOrder: 1),
+        TempleCategory(id: "c_shakti", name: "Shakti Peetha", description: "", templeIDs: [], achievementID: nil, iconAssetName: "", badgeImageName: nil, color: "#FF6B35", deity: "Devi", sortOrder: 2),
     ]
 
-    return VStack(spacing: AppSpacing.md) {
+    VStack(spacing: AppSpacing.md) {
         TempleFilterBar(filterMode: $mode, selectedCategoryID: $categoryID, categories: categories)
         Text("Mode: \(mode.rawValue), Category: \(categoryID ?? "All")")
             .foregroundStyle(Color.brandEarthBrown)
