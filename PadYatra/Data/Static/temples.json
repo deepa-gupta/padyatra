@@ -357,7 +357,6 @@
         "t_badrinath",
         "t_chamundi_hill",
         "t_chandragiri_hill",
-        "t_hanuman_temple_anjaneri",
         "t_hemis_monastery_and",
         "t_kedarnath",
         "t_naina_devi",
@@ -682,7 +681,6 @@
         "t_akshardham",
         "t_baps_swaminarayan",
         "t_iskcon_temple_mayapur",
-        "t_jagadguru_kripaluji_maharaj",
         "t_kanchi_kamakoti_peetham_new",
         "t_prem",
         "t_sri_sathya_sai_baba"
@@ -2936,60 +2934,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Mahavir_Mandir"
     },
     {
-      "id": "t_hanuman_temple_anjaneri",
-      "slug": "hanuman-temple-anjaneri",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Hanuman Temple",
-      "alternateName": null,
-      "deity": "Hanuman",
-      "location": {
-        "latitude": 19.904035,
-        "longitude": 73.575086,
-        "city": "Anjaneri",
-        "district": "Nashik",
-        "state": "Maharashtra",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_hilltop"
-      ],
-      "description": "Hanuman Temple may refer to these temples in India dedicated to the Hindu deity Hanuman:",
-      "shortDescription": "Hanuman Temple may refer to these temples in India dedicated to the Hindu deity Hanuman:",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_hanuman_temple_anjaneri_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_hanuman_temple_anjaneri_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Hanuman Jayanti",
-          "approximateMonth": 4,
-          "isLunar": true,
-          "description": "Celebration of Hanuman's birth with special poojas, recitation of Hanuman Chalisa and processions.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Hanuman_Temple"
-    },
-    {
       "id": "t_mehandipur_balaji",
       "slug": "mehandipur-balaji-temple-alwar",
       "legacyIDs": [],
@@ -4149,7 +4093,7 @@
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Kankalitala_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Kankalitala#Culture"
     },
     {
       "id": "t_keezhaperumpallam_temple_keezhaperumpall",
@@ -4769,7 +4713,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Krishna_Mandir"
+      "sourceURL": ""
     },
     {
       "id": "t_iskcon_temple_bangalore",
@@ -5411,7 +5355,7 @@
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Manibandha"
+      "sourceURL": "https://en.wikipedia.org/wiki/Manibandh_Shaktipeeth"
     },
     {
       "id": "t_maya_devi",
@@ -6029,74 +5973,6 @@
           "approximateMonth": 9,
           "isLunar": true,
           "description": "Birth anniversary of Radha, celebrated with special devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Prem_Mandir,_Vrindavan"
-    },
-    {
-      "id": "t_jagadguru_kripaluji_maharaj",
-      "slug": "jagadguru-kripaluji-maharaj-temple-kunda",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Prem Mandir, Vrindavan",
-      "alternateName": "Prem Mandir",
-      "deity": "Radha Krishna & Sita Rama",
-      "location": {
-        "latitude": 27.5724569,
-        "longitude": 77.6724919,
-        "city": "Vrindavan",
-        "district": "Mathura",
-        "state": "Uttar Pradesh",
-        "country": "India",
-        "address": "Raman Reti, Vrindavan, Mathura, Uttar Pradesh",
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_new_landmark"
-      ],
-      "description": "Prem Mandir (\"Temple of Divine Love\") in Vrindavan is one of India's most spectacular modern temples, established by Jagadguru Kripalu Ji Maharaj. Built over 11 years in pure white Rajasthani marble, the complex depicts the divine love of Radha-Krishna and Sita-Rama through exquisite carvings on every surface. The evening illumination — when the temple glows in changing coloured lights — draws thousands nightly. The 54-acre campus includes gardens recreating Krishna's Vrindavan lilas and life-size dioramas of key episodes from the Ramayana and Bhagavatam.",
-      "shortDescription": "Vrindavan's most spectacular modern marble temple — Prem Mandir glows nightly in coloured lights, celebrating Radha-Krishna and Sita-Rama divine love.",
-      "facts": {
-        "established": "2012 CE",
-        "dynasty": "Modern (Jagadguru Kripalu Parishat)",
-        "architectureStyle": "Modern Mughal-Rajput fusion (white marble)",
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": "Traditional attire preferred",
-        "photographyAllowed": true,
-        "entryFee": "Free",
-        "darshanaTimings": "5:30 AM – 12:00 PM, 4:30 PM – 8:30 PM"
-      },
-      "images": {
-        "heroImageName": "t_jagadguru_kripaluji_maharaj_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_jagadguru_kripaluji_maharaj_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/PremMandirSideViewFromCanteen.jpg"
-      },
-      "festivals": [
-        {
-          "name": "Janmashtami",
-          "approximateMonth": 8,
-          "isLunar": true,
-          "description": "Krishna's birthday celebrated with spectacular decoration and midnight celebrations at this radiant marble temple.",
-          "significance": "high"
-        },
-        {
-          "name": "Holi",
-          "approximateMonth": 3,
-          "isLunar": true,
-          "description": "Vrindavan's world-famous Braj Holi celebrated with flower colours and ecstatic kirtan.",
-          "significance": "high"
-        },
-        {
-          "name": "Radhashtami",
-          "approximateMonth": 9,
-          "isLunar": true,
-          "description": "Radha Devi's birthday celebrated with special alankara and devotional programs.",
           "significance": "medium"
         }
       ],
@@ -9657,7 +9533,7 @@
       ],
       "significance": "other",
       "isUNESCO": true,
-      "sourceURL": "https://en.wikipedia.org/wiki/Descent_of_the_Ganges,_Mahabalipuram"
+      "sourceURL": "https://en.wikipedia.org/wiki/Descent_of_the_Ganges_(Mahabalipuram)"
     },
     {
       "id": "t_omkareshwar",
@@ -11808,7 +11684,7 @@
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Mithila_(Shakti_Pitha)"
+      "sourceURL": "https://en.wikipedia.org/wiki/Mithila_(region)"
     },
     {
       "id": "t_lepakshi_veerabhadra_cave",
@@ -12114,136 +11990,122 @@
       "slug": "chennakesava-temple-somnathpura",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Chennakesava Temple",
+      "name": "Chennakeshava Temple, Somanathapura",
       "alternateName": null,
-      "deity": "Vishnu",
+      "deity": "Vishnu (Chennakeshava)",
       "location": {
-        "latitude": 12.2636,
-        "longitude": 76.902,
-        "city": "Somnathpura",
-        "district": "Mysore",
+        "latitude": 12.27569167,
+        "longitude": 76.88165278,
+        "city": "Somanathapura",
+        "district": "Mysuru",
         "state": "Karnataka",
         "country": "India",
-        "address": null,
+        "address": "Somanathapura, Mysuru District, Karnataka",
         "pincode": null
       },
       "categoryIDs": [
         "c_hoysala"
       ],
-      "description": "Consecrated in 1258 CE by Somanatha Dandanayaka, a general of Hoysala king Narasimha III, the Keshava Temple at Somanathapura represents the fully mature expression of Hoysala sacred architecture. Its trikuta (triple-shrined) layout with three towering stellate vimanas on a star-shaped jagati platform creates a visual rhythm of breathtaking complexity. Despite devastation by Malik Kafur in 1311, portions were restored under Vijayanagara and Mysuru Wodeyar patronage. Designated a UNESCO World Heritage Site in 2023 as part of the Sacred Ensembles of the Hoysalas, it sits serenely on the banks of the Kaveri.",
-      "shortDescription": "Perfectly proportioned Hoysala trikuta temple on the Kaveri — among the finest examples of medieval Indian temple sculpture.",
+      "description": "The Chennakesava Temple at Somanathapura, consecrated in 1258 CE by general Somanatha Dandanayaka under the Hoysala king Narasimha III, is considered the most perfectly preserved Hoysala temple. Its trikuta (triple-shrined) plan sits on a star-shaped plinth above the Kaveri River, and every surface is smothered in virtuosic carvings — 6,000 individual sculptures depicting epics, deities and decorative motifs with breathtaking precision. It is a UNESCO World Heritage Site and one of Karnataka's greatest architectural treasures.",
+      "shortDescription": "The most perfectly preserved Hoysala temple — 1258 CE triple-shrined masterpiece on the Kaveri with 6,000 individual sculptures. UNESCO World Heritage.",
       "facts": {
-        "established": "12th century CE",
-        "dynasty": "Hoysala Period",
-        "architectureStyle": "Hoysala (trikuta, star-shaped plan)",
+        "established": "1258 CE",
+        "dynasty": "Hoysala Empire",
+        "architectureStyle": "Hoysala (Vesara)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
+        "dresscode": "Traditional attire",
+        "photographyAllowed": true,
         "entryFee": "₹25 (Indians), ₹300 (foreigners)",
-        "darshanaTimings": "9:00 AM – 5:30 PM (closed Fridays)"
+        "darshanaTimings": "6:30 AM – 6:30 PM"
       },
       "images": {
         "heroImageName": "t_chennakesava_temple_somnathpura_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chennakesava_temple_somnathpura_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Close_up_of_Hoysala_style_shrine_and_sikhara_with_decorative_molding_frieze_in_the_Chennakeshava_temple_at_Somanathapura.jpg"
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Le_temple_de_Chennakesava_%28Somanathapura%2C_Inde%29_%2814465165685%29.jpg"
       },
       "festivals": [
         {
-          "name": "Vaikuntha Ekadashi",
+          "name": "Brahmotsava",
+          "approximateMonth": 11,
+          "isLunar": false,
+          "description": "Annual temple festival with traditional Hoysala rituals and cultural programs.",
+          "significance": "high"
+        },
+        {
+          "name": "Vaikunta Ekadashi",
           "approximateMonth": 12,
           "isLunar": true,
-          "description": "Major Vishnu festival observed with fasting and night worship.",
-          "significance": "high"
-        },
-        {
-          "name": "Janmashtami",
-          "approximateMonth": 8,
-          "isLunar": true,
-          "description": "Celebration of Lord Krishna's birth with devotional programs.",
-          "significance": "high"
-        },
-        {
-          "name": "Ugadi",
-          "approximateMonth": 3,
-          "isLunar": true,
-          "description": "Kannada new year celebrated at the temple with special puja.",
+          "description": "Special Vishnu worship on the most sacred Ekadashi of the year.",
           "significance": "medium"
         }
       ],
       "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Chennakeshava_Temple"
+      "isUNESCO": true,
+      "sourceURL": "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Somanathapura"
     },
     {
       "id": "t_chennakesava_temple_belur",
       "slug": "chennakesava-temple-belur",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Chennakesava Temple",
+      "name": "Chennakeshava Temple, Belur",
       "alternateName": null,
-      "deity": "Vishnu",
+      "deity": "Vishnu (Chennakeshava)",
       "location": {
-        "latitude": 13.1638,
-        "longitude": 75.8713,
+        "latitude": 13.16293,
+        "longitude": 75.860593,
         "city": "Belur",
         "district": "Hassan",
         "state": "Karnataka",
         "country": "India",
-        "address": null,
+        "address": "Belur, Hassan District, Karnataka",
         "pincode": null
       },
       "categoryIDs": [
         "c_hoysala"
       ],
-      "description": "On the banks of the Yagachi River at Belur, the Chennakeshava Temple stands as one of the most extraordinary monuments of Hoysala art and faith. Commissioned in 1117 CE by King Vishnuvardhana to celebrate his victory over the Cholas at the Battle of Talakadu, it took three generations and 103 years to complete. Every surface carries intricately carved friezes narrating the Ramayana, Mahabharata, and Puranas; 118 inscriptions trace continuous patronage from the 12th century onward. A UNESCO World Heritage Site since 2023 under the Sacred Ensembles of the Hoysalas, it remains an active place of pilgrimage and worship.",
-      "shortDescription": "Hoysala masterpiece built over 103 years, its every surface narrating Hindu epics in stone — a UNESCO World Heritage Site since 2023.",
+      "description": "The Chennakeshava Temple at Belur, commissioned by King Vishnuvardhana in 1117 CE on his victory over the Cholas, is among the finest expressions of Hoysala art ever created. Built over 103 years by three generations of craftsmen on the banks of the Yagachi River, every inch of its star-shaped exterior is covered in intricately carved friezes — elephants, horses, scrolling foliage, mythological scenes and celestial women (shalabanjikas) of extraordinary beauty. Though repeatedly damaged by invaders, the temple continues as an active place of worship after nine centuries.",
+      "shortDescription": "12th-century Hoysala masterpiece commissioned by King Vishnuvardhana — 103 years in the making, with unmatched sculptural detail on every surface.",
       "facts": {
-        "established": "12th century CE",
-        "dynasty": "Hoysala Period",
-        "architectureStyle": "Hoysala (Karnata-Dravida)",
+        "established": "1117 CE",
+        "dynasty": "Hoysala Empire",
+        "architectureStyle": "Hoysala (Vesara)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": "Modest clothing required",
-        "photographyAllowed": null,
-        "entryFee": "Free",
-        "darshanaTimings": "7:30 AM – 1:00 PM, 2:30 PM – 7:30 PM"
+        "dresscode": "Traditional attire",
+        "photographyAllowed": true,
+        "entryFee": "Free (ASI site)",
+        "darshanaTimings": "7:00 AM – 8:30 PM"
       },
       "images": {
         "heroImageName": "t_chennakesava_temple_belur_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chennakesava_temple_belur_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/35/ChennaKeshava_Temple%2C_Belur.JPG"
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Courtyard_of_Chennakesava_Temple_-_Belur.jpg"
       },
       "festivals": [
         {
-          "name": "Rathotsava (Chariot Festival)",
+          "name": "Vairamudi Festival",
           "approximateMonth": 3,
-          "isLunar": false,
-          "description": "Two-day chariot procession of the deity through Belur.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 3,
-          "isLunar": false,
-          "description": "Grand multi-day festival of rituals, music, and offerings.",
-          "significance": "high"
-        },
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
           "isLunar": true,
-          "description": "Sacred Ekadashi honoring Vishnu with fasting and night vigil.",
-          "significance": "medium"
+          "description": "The most important annual festival — the deity is adorned with a diamond crown and lakhs of pilgrims attend.",
+          "significance": "high"
+        },
+        {
+          "name": "Brahmotsava",
+          "approximateMonth": 11,
+          "isLunar": false,
+          "description": "Annual temple festival with processions and traditional rituals spanning several days.",
+          "significance": "high"
         }
       ],
       "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Chennakeshava_Temple"
+      "isUNESCO": true,
+      "sourceURL": "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur"
     },
     {
       "id": "t_vittala",
@@ -12429,7 +12291,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Chaturbhuj_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Chaturbhuj_Temple_(Khajuraho)"
     },
     {
       "id": "t_ranganathaswamy",
