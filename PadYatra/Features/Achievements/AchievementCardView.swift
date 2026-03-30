@@ -18,6 +18,7 @@ struct AchievementCardView: View {
 
     @State private var shimmerPhase: CGFloat = 0
     @State private var appeared = false
+    @State private var showingBadgeDetail = false
 
     // MARK: - Body
 
@@ -33,6 +34,12 @@ struct AchievementCardView: View {
                 .spring(response: 0.4, dampingFraction: 0.75)
                 .delay(min(animationDelay, 0.3))
             ) { appeared = true }
+        }
+        .onTapGesture(count: 2) {
+            if isComplete && isRevealed { showingBadgeDetail = true }
+        }
+        .sheet(isPresented: $showingBadgeDetail) {
+            BadgeDetailView(definition: definition)
         }
         .accessibilityLabel(accessibilityDescription)
         .accessibilityAddTraits(isComplete && !isRevealed ? .isButton : [])
@@ -209,21 +216,23 @@ struct AchievementCardView: View {
             Image(badgeName)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 80, height: 80)
+                .frame(maxWidth: .infinity)
+                .aspectRatio(1, contentMode: .fit)
         } else {
             Image(systemName: definition.iconAssetName)
-                .font(.system(size: 44))
+                .font(.system(size: 56))
                 .foregroundStyle(Color(hex: definition.colors.unlocked))
+                .frame(maxWidth: .infinity)
         }
     }
 
     private var rarityBadge: some View {
         Text(definition.rarity.displayName.uppercased())
-            .font(.system(size: 9, weight: .heavy))
-            .tracking(1)
+            .font(.system(size: 7, weight: .heavy))
+            .tracking(0.8)
             .foregroundStyle(.white)
-            .padding(.horizontal, AppSpacing.sm)
-            .padding(.vertical, AppSpacing.xs)
+            .padding(.horizontal, 6)
+            .padding(.vertical, 3)
             .background(definition.rarity.color)
             .clipShape(Capsule())
     }
@@ -250,45 +259,3 @@ struct AchievementCardView: View {
     }
 }
 
-// MARK: - Preview
-
-#Preview("Achievement Cards") {
-    let lockedDef = AchievementDefinition(
-        id: "jyotirlinga_ach",
-        categoryID: "jyotirlinga",
-        name: "Lord of Light",
-        description: "Visit all 12 Jyotirlinga shrines.",
-        iconAssetName: "flame.fill",
-        badgeImageName: nil,
-        rarity: .legendary,
-        colors: AchievementColors(locked: "#8A7B72", unlocked: "#FFB830")
-    )
-    let category = TempleCategory(
-        id: "jyotirlinga",
-        name: "Jyotirlinga",
-        description: "12 sacred Shiva shrines.",
-        templeIDs: Array(repeating: "t", count: 12),
-        achievementID: "jyotirlinga_ach",
-        iconAssetName: "flame",
-        color: "#FF6B35",
-        deity: "Shiva",
-        sortOrder: 1
-    )
-
-    return HStack(spacing: AppSpacing.md) {
-        AchievementCardView(
-            definition: lockedDef, category: category,
-            visitedCount: 5, isComplete: false, isRevealed: false, onTap: {}
-        )
-        AchievementCardView(
-            definition: lockedDef, category: category,
-            visitedCount: 12, isComplete: true, isRevealed: false, onTap: {}
-        )
-        AchievementCardView(
-            definition: lockedDef, category: category,
-            visitedCount: 12, isComplete: true, isRevealed: true, onTap: {}
-        )
-    }
-    .padding(AppSpacing.md)
-    .background(Color.brandWarmCream)
-}
