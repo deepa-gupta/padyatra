@@ -275,13 +275,11 @@
       "deity": "Hanuman",
       "sortOrder": 17,
       "templeIDs": [
-        "t_anjaneya_swamy",
         "t_hanuman_garhi",
         "t_hanuman_mandir_hampi",
         "t_hanuman_tok",
         "t_mahavir",
         "t_sankat_mochan_hanuman",
-        "t_shree_hanuman",
         "t_salasar_balaji"
       ],
       "achievementID": null
@@ -322,8 +320,6 @@
         "t_ellora_caves",
         "t_kailasa",
         "t_khandagiri_and_udayagiri_caves",
-        "t_mahabalipuram_monolithic_temples",
-        "t_rock_cut_temples_of_mahadeva",
         "t_undavalli_caves"
       ],
       "achievementID": null
@@ -345,7 +341,6 @@
         "t_kailasanathar",
         "t_khandagiri_and_udayagiri_caves",
         "t_lepakshi_veerabhadra_cave",
-        "t_rock_cut_temples_of_mahadeva",
         "t_undavalli_caves"
       ],
       "achievementID": null
@@ -387,8 +382,9 @@
         "t_jagannath",
         "t_kashi_vishwanath",
         "t_kedarnath",
-        "t_naimisharanya",
+        "t_naimisaranya_chakra_narayan",
         "t_ram_ghat",
+        "t_siddheshwar",
         "t_rameswaram_ramanathaswamy_temple_rameswa",
         "t_triveni_sangam_prayag"
       ],
@@ -505,7 +501,6 @@
         "t_palitana_temples",
         "t_patan_rani_ki_vav",
         "t_ranakpur_jain",
-        "t_siddheshwar",
         "t_taranga_jain_temple"
       ],
       "achievementID": null
@@ -667,9 +662,7 @@
         "t_iskcon_temple_bangalore",
         "t_kanch",
         "t_mehandipur_balaji",
-        "t_nithyananda_dhyanapeetam",
         "t_omkareshwar",
-        "t_ramdevra",
         "t_sabarimala",
         "t_shirdi_sai_baba",
         "t_tirumala_venkateswara_temple_tirumala",
@@ -688,12 +681,10 @@
       "templeIDs": [
         "t_akshardham",
         "t_baps_swaminarayan",
-        "t_chinmaya_mission",
         "t_iskcon_temple_mayapur",
         "t_jagadguru_kripaluji_maharaj",
         "t_kanchi_kamakoti_peetham_new",
         "t_prem",
-        "t_shree_radha_krishna",
         "t_sri_sathya_sai_baba"
       ],
       "achievementID": null
@@ -713,7 +704,6 @@
         "t_bahula_shakti_peetha",
         "t_bakreshwar",
         "t_bhairabi",
-        "t_bhairav_parvat",
         "t_bhawani_temple_chandranath_peetha",
         "t_brajeshwari",
         "t_chamunda_devi",
@@ -722,16 +712,14 @@
         "t_guhyeshwari",
         "t_hinglaj_mata",
         "t_jaintia_shakti_peetha",
-        "t_jayanti_shakti_peetha",
         "t_jessoreswari_kali",
+        "t_vaidyanath",
         "t_jwalamukhi",
         "t_kali_temple_biraja_peetha",
         "t_kalighat_kali",
         "t_kamakhya",
         "t_kanchi_kamakshi",
         "t_kankalitala",
-        "t_karatoya_tat_shakti_peetha",
-        "t_kshirgram_yogadya",
         "t_mahalakshmi",
         "t_mahur_renuka",
         "t_maihar_sharda",
@@ -753,9 +741,16 @@
         "t_tripura_sundari",
         "t_tulja_bhavani",
         "t_ugratara",
-        "t_ujani_shakti_peetha",
         "t_vaishno_devi",
-        "t_vimala"
+        "t_vimala",
+        "t_kukkuteswara_swami_temple",
+        "t_danteshwari_temple",
+        "t_dhakeshwari_temple",
+        "t_tarapith_temple",
+        "t_aranya_devi_arrah",
+        "t_chandranath_temple_bd",
+        "t_jnanakshi_rajarajeshwari",
+        "t_alopi_devi_mandir"
       ],
       "achievementID": "a_shakti_peetha_complete"
     }
@@ -982,90 +977,36 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Ambika_Mata_Temple"
     },
     {
-      "id": "t_karatoya_tat_shakti_peetha",
-      "slug": "karatoya-tat-shakti-peetha-bogra",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Karatoya Tat Shakti Peetha",
-      "alternateName": null,
-      "deity": "Aparna",
-      "location": {
-        "latitude": 24.850066,
-        "longitude": 89.372843,
-        "city": "Bogra",
-        "district": "Bogra",
-        "state": "Rajshahi",
-        "country": "Bangladesh",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_shakti_peetha"
-      ],
-      "description": "Karatoya Tat Shakti Peetha is a Hindu temple located in Bogra, Rajshahi, India, dedicated to Aparna. It dates to the Early Medieval Period.",
-      "shortDescription": "Karatoya Tat Shakti Peetha is a Hindu temple located in Bogra, Rajshahi, India, dedicated to Aparna.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_karatoya_tat_shakti_peetha_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_karatoya_tat_shakti_peetha_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "shaktipeeth",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_attahas",
       "slug": "attahas-temple-labhpur",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Attahas Temple",
+      "name": "Attahas Shakti Peetha",
       "alternateName": null,
-      "deity": "Attahasini",
+      "deity": "Phullara (Ugratara)",
       "location": {
-        "latitude": 23.815299,
-        "longitude": 87.800083,
+        "latitude": 23.693508,
+        "longitude": 88.022303,
         "city": "Labhpur",
         "district": "Birbhum",
         "state": "West Bengal",
         "country": "India",
-        "address": null,
+        "address": "Labhpur, Birbhum District",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Attahas Temple in Labhpur, Birbhum district, West Bengal, marks the spot where Sati's lower lip (attahas, meaning 'loud laughter') fell to earth. The goddess is worshipped here as Phullara and the Bhairava as Vishwesh. The main shrine image is notably unusually large—said to be 15–18 feet across. Labhpur is a small village in the Birbhum heartland, and the temple draws regional pilgrims especially during Navratri and Kali Puja. The West Bengal Shakti Peetha circuit covering Birbhum's four peethas is a popular yatra.",
-      "shortDescription": "Shakti Peetha in Birbhum, West Bengal, where Sati's lower lip (attahas) fell. Goddess worshipped as Phullara; notable for the unusually large main shrine image.",
+      "description": "The Attahas Shakti Peetha at Labhpur, Birbhum, marks where the lower lip of Sati fell — giving the site its name (Atta-has: \"great laughter\", Sati's last expression). The presiding goddess Phullara (or Ugratara) is revered in the Shakta tantric tradition. The massive goddess is said to be 15–18 feet wide at the lip. December is peak pilgrimage season, when thousands visit the temple for rituals and festivals. The rural Bengal setting adds to the atmosphere of this ancient and deeply charged sacred site.",
+      "shortDescription": "Birbhum Shakti Peetha where Sati's lower lip fell — Phullara devi, goddess of great laughter, revered in the tantric tradition.",
       "facts": {
         "established": "Ancient",
-        "dynasty": "Ancient",
-        "architectureStyle": "Bengali",
+        "dynasty": "Medieval Bengal",
+        "architectureStyle": "Bengali terracotta",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": "Traditional attire recommended",
+        "dresscode": "Traditional attire",
         "photographyAllowed": true,
         "entryFee": "Free",
         "darshanaTimings": "6:00 AM – 8:00 PM"
@@ -1074,81 +1015,27 @@
         "heroImageName": "t_attahas_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_attahas_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Attohas_Mandir%2C_Bardhaman.jpg"
       },
       "festivals": [
         {
-          "name": "Kali Puja",
+          "name": "Navaratri",
           "approximateMonth": 10,
           "isLunar": true,
-          "description": "Major Shakti festival in October/November drawing devotees from across Birbhum district.",
+          "description": "The main festival with special Shakti rituals and mass pilgrimage.",
           "significance": "high"
         },
         {
-          "name": "Navratri",
-          "approximateMonth": 10,
+          "name": "Kali Puja",
+          "approximateMonth": 11,
           "isLunar": true,
-          "description": "Nine nights of worship with special pujas at this Shakti Peetha.",
-          "significance": "medium"
+          "description": "Bengali Kali Puja celebrated with tantric rituals at this powerful Shakti site.",
+          "significance": "high"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Attahas"
-    },
-    {
-      "id": "t_bhairav_parvat",
-      "slug": "bhairav-parvat-temple-ujjain",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Bhairav Parvat Temple",
-      "alternateName": null,
-      "deity": "Avanti (Mahadevi)",
-      "location": {
-        "latitude": 23.188513,
-        "longitude": 75.771656,
-        "city": "Ujjain",
-        "district": "Ujjain",
-        "state": "Madhya Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_shakti_peetha"
-      ],
-      "description": "Bhairav Parvat Temple is a Hindu temple located in Ujjain, Madhya Pradesh, India, dedicated to Avanti (Mahadevi). It dates to the Early Medieval Period.",
-      "shortDescription": "Bhairav Parvat Temple is a Hindu temple located in Ujjain, Madhya Pradesh, India, dedicated to Avanti (Mahadevi).",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_bhairav_parvat_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_bhairav_parvat_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "shaktipeeth",
-      "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Attahas,_Katwa"
     },
     {
       "id": "t_sabarimala",
@@ -1211,30 +1098,30 @@
       "isActive": true,
       "name": "Bahula Shakti Peetha",
       "alternateName": null,
-      "deity": "Bahula",
+      "deity": "Bahula (Parvati)",
       "location": {
-        "latitude": 23.644278,
-        "longitude": 88.128733,
-        "city": "Katwa",
+        "latitude": 23.70027778,
+        "longitude": 88.04166667,
+        "city": "Ketugram",
         "district": "Purba Bardhaman",
         "state": "West Bengal",
         "country": "India",
-        "address": null,
+        "address": "Ketugram, Katwa Subdivision, Purba Bardhaman",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Bahula Shakti Peetha near Katwa in Purba Bardhaman district, West Bengal, marks where Sati's left arm (or, in some traditions, foot) fell to earth. The presiding goddess is Bahula and the Bhairava is Bhiruk. The temple sits on the banks of the Kopai River and is part of the dense cluster of Shakti Peethas across Birbhum and Bardhaman—making this region one of the richest Shakti circuits in India. The temple is a simple but deeply venerated shrine drawing pilgrims from across rural Bengal.",
-      "shortDescription": "Shakti Peetha near Katwa, West Bengal, where Sati's left arm fell. Goddess Bahula is enshrined on the banks of the Kopai River.",
+      "description": "The Bahula Temple at Ketugram in Purba Bardhaman, West Bengal, enshrines Goddess Bahula — a gentle form of Parvati — at the spot where the left arm of Sati fell, according to Shakta tradition. One of the 51 Shakti Peethas, the temple draws pilgrims seeking blessings for family welfare and fertility. The presiding Bhairava is Vamsanara. The location near the Ajay River lends this modest but deeply sacred pilgrimage site a serene, timeless quality.",
+      "shortDescription": "West Bengal Shakti Peetha where Sati's left arm fell — gentle goddess Bahula (Parvati) presides at Ketugram on the Ajay River.",
       "facts": {
         "established": "Ancient",
-        "dynasty": "Ancient",
-        "architectureStyle": "Bengali",
+        "dynasty": "Medieval Bengal",
+        "architectureStyle": "Bengali terracotta",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": "Traditional attire recommended",
+        "dresscode": "Traditional attire",
         "photographyAllowed": true,
         "entryFee": "Free",
         "darshanaTimings": "6:00 AM – 8:00 PM"
@@ -1247,84 +1134,91 @@
       },
       "festivals": [
         {
-          "name": "Kali Puja",
+          "name": "Navaratri",
           "approximateMonth": 10,
           "isLunar": true,
-          "description": "Major festival at this Shakti Peetha drawing devotees from across the district.",
+          "description": "Main Shakti festival with elaborate rituals and community prayers.",
           "significance": "high"
         },
         {
-          "name": "Navratri",
+          "name": "Durga Puja",
           "approximateMonth": 10,
           "isLunar": true,
-          "description": "Nine nights of goddess worship with special pujas.",
-          "significance": "medium"
+          "description": "Bengal's grand Durga Puja celebrated at this Shakti Peetha with special significance.",
+          "significance": "high"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Bahula_Shakti_Pitha"
+      "sourceURL": "https://en.wikipedia.org/wiki/Bahula_Temple"
     },
     {
       "id": "t_bakreshwar",
       "slug": "bakreshwar-temple-bakreshwar",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Bakreshwar Temple",
+      "name": "Bakreshwar Shakti Peetha",
       "alternateName": null,
-      "deity": "Bakreshwari",
+      "deity": "Mahishmardini (Durga)",
       "location": {
-        "latitude": 23.877252,
-        "longitude": 87.379408,
+        "latitude": 23.88122222,
+        "longitude": 87.37644444,
         "city": "Bakreshwar",
         "district": "Birbhum",
         "state": "West Bengal",
         "country": "India",
-        "address": null,
+        "address": "Bakreshwar, Birbhum District, West Bengal",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Bakreshwar Temple in Birbhum, West Bengal, is a Shakti Peetha where the eyebrows (or in some texts, the mind) of Sati fell. The presiding goddess is Mahishamardini and the Bhairava is Vakranath. The temple complex is also famous for its cluster of hot spring tanks—water reaching 65°C—which pilgrims use for ritual bathing before worship, making this one of the rare sites combining a tantric Shakti Peetha with geothermal springs. Bakreshwar is also a major Shiva site with the Bakranath temple drawing large Shiva devotees alongside the Shakti pilgrims.",
-      "shortDescription": "Shakti Peetha in Birbhum, West Bengal, famous for hot spring tanks (65°C) used for ritual bathing. Goddess Mahishamardini is enshrined alongside the Shiva temple of Bakranath.",
+      "description": "The Bakreshwar temple complex in Birbhum, West Bengal, marks the Shakti Peetha where the mid-forehead of Sati fell. The presiding goddess Mahishmardini (Durga) is paired with the Bhairava Vakranath. Uniquely, Bakreshwar has 11 natural hot springs of varying temperatures — some near boiling — considered medicinal and sacred. Pilgrims bathe in the springs before darshan, linking Shakti energy with the earth's volcanic heat. The complex of multiple temples, hot springs and natural pools makes Bakreshwar one of West Bengal's most distinctive pilgrim sites.",
+      "shortDescription": "Birbhum Shakti Peetha known for 11 sacred hot springs — Mahishmardini Durga is worshipped here where Sati's forehead fell.",
       "facts": {
         "established": "Ancient",
-        "dynasty": "Ancient",
-        "architectureStyle": "Bengali",
+        "dynasty": "Medieval Bengal",
+        "architectureStyle": "Bengali terracotta",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": "Traditional attire recommended",
+        "dresscode": "Traditional attire",
         "photographyAllowed": true,
         "entryFee": "Free",
-        "darshanaTimings": "6:00 AM – 8:00 PM"
+        "darshanaTimings": "5:00 AM – 9:00 PM"
       },
       "images": {
         "heroImageName": "t_bakreshwar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_bakreshwar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Bakreswar_Temples_and_Hot_spring_12.jpg"
       },
       "festivals": [
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of Shakti worship; special bathing rituals in the sacred hot springs.",
+          "significance": "high"
+        },
         {
           "name": "Shivaratri",
           "approximateMonth": 2,
           "isLunar": true,
-          "description": "Major Shiva festival drawing large crowds to the Bakranath temple and hot spring complex.",
+          "description": "Night-long Shiva worship at Vakranath temple within the complex.",
           "significance": "high"
         },
         {
           "name": "Kali Puja",
-          "approximateMonth": 10,
+          "approximateMonth": 11,
           "isLunar": true,
-          "description": "Shakti festival celebrated at the Mahishamardini shrine.",
-          "significance": "high"
+          "description": "Bengali Kali Puja with tantric rituals at this powerful Shakti Peetha.",
+          "significance": "medium"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Bakreshwar_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Bakreshwar"
     },
     {
       "id": "t_bhairabi",
@@ -1636,32 +1530,32 @@
       "slug": "brajeshwari-temple-kangra",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Brajeshwari Temple",
-      "alternateName": null,
-      "deity": "Brajeshwari (Vajreshwari)",
+      "name": "Bajreshwari Mata Temple, Kangra",
+      "alternateName": "Vajreshwari Devi Temple",
+      "deity": "Vajreshwari (Durga)",
       "location": {
-        "latitude": 32.10186,
-        "longitude": 76.270042,
+        "latitude": 32.10183,
+        "longitude": 76.26987,
         "city": "Kangra",
         "district": "Kangra",
         "state": "Himachal Pradesh",
         "country": "India",
-        "address": null,
+        "address": "Kangra, Himachal Pradesh",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Perched in the Kangra Valley, Brajeshwari Temple marks where Sati's left breast fell to earth, making it one of the most potent of the 51 Shakti Peethas. The present temple was rebuilt after the devastating 1905 Kangra earthquake—one of the deadliest in Indian history—which destroyed both the town and the ancient shrine. Kangra was historically famous for its immense wealth, drawing raids by Mahmud of Ghazni in the 11th century. The goddess is worshipped as Vajreshwari, the thunderbolt form of Durga, and a second form Tripura Sundari is also enshrined here. Navratri draws hundreds of thousands of pilgrims to the valley each year.",
-      "shortDescription": "Shakti Peetha in Kangra Valley where Sati's left breast fell. Rebuilt after the 1905 earthquake; goddess worshipped as Vajreshwari (thunderbolt form of Durga).",
+      "description": "The Bajreshwari Mata Temple in Kangra is one of the 51 Shakti Peethas, where the left breast of Sati fell. Vajreshwari — Goddess of the Thunderbolt — is worshipped in her fierce Durga form and serves as the Kuldevi (clan goddess) of Kangra families for generations. The original temple was destroyed by Mahmud of Ghazni and later Mughal rulers, but each time rebuilt, attesting to its extraordinary religious importance. Set in the Kangra Valley with the Dhauladhar mountains as backdrop, the site holds spiritual and cultural significance across Himachal Pradesh.",
+      "shortDescription": "Kangra's most sacred Shakti Peetha — the left breast of Sati fell here; destroyed by Ghazni and rebuilt, it remains the eternal Kuldevi of Kangra.",
       "facts": {
-        "established": "Ancient (rebuilt 1905)",
-        "dynasty": "Various (repeatedly rebuilt)",
-        "architectureStyle": "Himachali",
+        "established": "Ancient (rebuilt multiple times)",
+        "dynasty": "Katoch dynasty (patrons)",
+        "architectureStyle": "Himachali Shikhara",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": "Traditional attire recommended",
+        "dresscode": "Modest traditional attire",
         "photographyAllowed": false,
         "entryFee": "Free",
         "darshanaTimings": "5:00 AM – 9:00 PM"
@@ -1674,23 +1568,30 @@
       },
       "festivals": [
         {
-          "name": "Navratri",
+          "name": "Navaratri",
           "approximateMonth": 10,
           "isLunar": true,
-          "description": "Nine nights of worship with hundreds of thousands of pilgrims filling the Kangra Valley. Special puja, night processions and devotional music.",
+          "description": "Nine days of Shakti worship drawing lakhs of pilgrims from Kangra Valley and beyond.",
           "significance": "high"
         },
         {
-          "name": "Chaitra Navratri",
-          "approximateMonth": 3,
+          "name": "Chaitra Navaratri",
+          "approximateMonth": 4,
           "isLunar": true,
-          "description": "Spring Navratri celebration drawing large pilgrim crowds before summer.",
+          "description": "Spring Navaratri with elaborate rituals; the most auspicious time to visit Kangra Devi.",
           "significance": "high"
+        },
+        {
+          "name": "Janamashtami",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Celebrated at the temple complex with special poojas.",
+          "significance": "medium"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Bajreshwari_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Bajreshwari_Mata_Temple,_Kangra"
     },
     {
       "id": "t_ajanta_caves",
@@ -1746,61 +1647,6 @@
       "significance": "other",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Ajanta_Caves"
-    },
-    {
-      "id": "t_rock_cut_temples_of_mahadeva",
-      "slug": "rock-cut-temples-of-mahadeva-kanheri",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Rock-cut Temples of Mahadeva",
-      "alternateName": null,
-      "deity": "Buddha",
-      "location": {
-        "latitude": 20.631002,
-        "longitude": 77.047399,
-        "city": "Kanheri",
-        "district": "Copperfield",
-        "state": "Maharashtra",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_cave_temple",
-        "c_rock_cut"
-      ],
-      "description": "Rock-cut Temples of Mahadeva is a Hindu temple located in Kanheri, Maharashtra, India, dedicated to Buddha. It dates to the Ancient / Early Medieval Period.",
-      "shortDescription": "Rock-cut Temples of Mahadeva is a Hindu temple located in Kanheri, Maharashtra, India, dedicated to Buddha.",
-      "facts": {
-        "established": "1st century BCE–9th century CE",
-        "dynasty": "Ancient / Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_rock_cut_temples_of_mahadeva_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_rock_cut_temples_of_mahadeva_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
     },
     {
       "id": "t_hemis_monastery_and",
@@ -2914,114 +2760,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Sankat_Mochan_Hanuman_Temple"
     },
     {
-      "id": "t_anjaneya_swamy",
-      "slug": "anjaneya-swamy-temple-tirupati",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Anjaneya Swamy Temple",
-      "alternateName": null,
-      "deity": "Hanuman",
-      "location": {
-        "latitude": 13.651447,
-        "longitude": 79.542598,
-        "city": "Tirupati",
-        "district": "Tirupati",
-        "state": "Andhra Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_hanuman_circuit"
-      ],
-      "description": "Anjaneya Swamy Temple is a Hindu temple located in Tirupati, Andhra Pradesh, India, dedicated to Hanuman. It dates to the Medieval Period.",
-      "shortDescription": "Anjaneya Swamy Temple is a Hindu temple located in Tirupati, Andhra Pradesh, India, dedicated to Hanuman.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_anjaneya_swamy_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_anjaneya_swamy_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Hanuman Jayanti",
-          "approximateMonth": 4,
-          "isLunar": true,
-          "description": "Celebration of Hanuman's birth with special poojas, recitation of Hanuman Chalisa and processions.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
-      "id": "t_shree_hanuman",
-      "slug": "shree-hanuman-mandir-chitrakoot",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Shree Hanuman Mandir",
-      "alternateName": null,
-      "deity": "Hanuman",
-      "location": {
-        "latitude": 25.217139,
-        "longitude": 81.104593,
-        "city": "Chitrakoot",
-        "district": "Chitrakoot",
-        "state": "Uttar Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_hanuman_circuit"
-      ],
-      "description": "Shree Hanuman Mandir is a Hindu temple located in Chitrakoot, Uttar Pradesh, India, dedicated to Hanuman. It dates to the Early Medieval Period.",
-      "shortDescription": "Shree Hanuman Mandir is a Hindu temple located in Chitrakoot, Uttar Pradesh, India, dedicated to Hanuman.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_shree_hanuman_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_shree_hanuman_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Hanuman Jayanti",
-          "approximateMonth": 4,
-          "isLunar": true,
-          "description": "Celebration of Hanuman's birth with special poojas, recitation of Hanuman Chalisa and processions.",
-          "significance": "high"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_hanuman_mandir_hampi",
       "slug": "hanuman-mandir-hampi",
       "legacyIDs": [],
@@ -3919,60 +3657,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Kanch_Mandir"
     },
     {
-      "id": "t_jayanti_shakti_peetha",
-      "slug": "jayanti-shakti-peetha-buxa",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Jayanti Shakti Peetha",
-      "alternateName": null,
-      "deity": "Jayanti",
-      "location": {
-        "latitude": 26.648411,
-        "longitude": 89.615454,
-        "city": "Buxa",
-        "district": "Alipurduar",
-        "state": "West Bengal",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_shakti_peetha"
-      ],
-      "description": "Jayanti Shakti Peetha is a Hindu temple located in Buxa, West Bengal, India, dedicated to Jayanti. It dates to the Early Medieval Period.",
-      "shortDescription": "Jayanti Shakti Peetha is a Hindu temple located in Buxa, West Bengal, India, dedicated to Jayanti.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_jayanti_shakti_peetha_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_jayanti_shakti_peetha_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "shaktipeeth",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_jessoreswari_kali",
       "slug": "jessoreswari-kali-temple-ishwaripur",
       "legacyIDs": [],
@@ -4031,7 +3715,7 @@
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Jessore_Shahi_Mosque"
+      "sourceURL": "https://en.wikipedia.org/wiki/Jeshoreshwari_Kali_Temple"
     },
     {
       "id": "t_jwalamukhi",
@@ -4092,7 +3776,7 @@
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Jwalamukhi_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Jawalamukhi"
     },
     {
       "id": "t_kalighat_kali",
@@ -4329,54 +4013,68 @@
       "slug": "kanchi-kamakshi-temple-kanchipuram",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Kanchi Kamakshi Temple",
-      "alternateName": null,
-      "deity": "Kamakshi",
+      "name": "Kamakshi Amman Temple",
+      "alternateName": "Kamakoti Nayaki Kovil",
+      "deity": "Kamakshi (Adi Parashakti)",
       "location": {
-        "latitude": 12.964716,
-        "longitude": 79.983969,
+        "latitude": 12.840684,
+        "longitude": 79.703238,
         "city": "Kanchipuram",
         "district": "Kanchipuram",
         "state": "Tamil Nadu",
         "country": "India",
-        "address": null,
+        "address": "Kanchipuram, Tamil Nadu",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Kanchi Kamakshi Temple is a Hindu temple located in Kanchipuram, Tamil Nadu, India, dedicated to Kamakshi. It dates to the Pallava Period.",
-      "shortDescription": "Kanchi Kamakshi Temple is a Hindu temple located in Kanchipuram, Tamil Nadu, India, dedicated to Kamakshi.",
+      "description": "The Kamakshi Amman Temple in Kanchipuram is one of India's three supreme Shakti Peethas — alongside Madurai Meenakshi and Varanasi Visalakshi. Kamakshi — \"she whose eyes are love\" — is Adi Parashakti herself, uniquely seated in the Srichakra posture (padmasana), representing conquest of all desires. Adi Shankaracharya is credited with installing the Srichakra yantra to pacify the fierce goddess. The Chola and Vijayanagara gopurams and Pallava-era mandapas make this one of South India's architecturally richest and most spiritually charged complexes.",
+      "shortDescription": "One of India's three supreme Shakti Peethas in Kanchipuram — Adi Parashakti seated in Srichakra posture, pacified by Adi Shankaracharya.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Pallava Period",
-        "architectureStyle": null,
+        "established": "8th century CE",
+        "dynasty": "Pallava / Chola / Vijayanagara",
+        "architectureStyle": "Dravidian (Pallava-Chola)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Traditional attire; dhoti/saree preferred",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "5:30 AM – 12:30 PM, 4:00 PM – 8:30 PM"
       },
       "images": {
         "heroImageName": "t_kanchi_kamakshi_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_kanchi_kamakshi_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/9/90/Kanchipuram.in_Kamakshi-Amman_Temple_-_panoramio_-_SINHA_%28cropped%29.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Kanchipuram's grandest festival — nine days of Kamakshi alankara with different goddess forms each day.",
+          "significance": "high"
+        },
+        {
+          "name": "Panguni Uthiram",
+          "approximateMonth": 3,
           "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "description": "The celestial wedding of Shiva and Kamakshi celebrated with a grand procession through Kanchipuram.",
+          "significance": "high"
+        },
+        {
+          "name": "Karthigai Deepam",
+          "approximateMonth": 12,
+          "isLunar": false,
+          "description": "Festival of lamps with thousands of diyas illuminating the temple.",
           "significance": "medium"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Kamakshi_Amman_Temple"
     },
     {
       "id": "t_kankalitala",
@@ -5573,60 +5271,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple,_Kolhapur"
     },
     {
-      "id": "t_ujani_shakti_peetha",
-      "slug": "ujani-shakti-peetha-ujani",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Ujani Shakti Peetha",
-      "alternateName": null,
-      "deity": "Mangal Chandika",
-      "location": {
-        "latitude": 23.540506,
-        "longitude": 87.897248,
-        "city": "Ujani",
-        "district": "Bardhaman",
-        "state": "West Bengal",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_shakti_peetha"
-      ],
-      "description": "Ujani Shakti Peetha is a Hindu temple located in Ujani, West Bengal, India, dedicated to Mangal Chandika. It dates to the Early Medieval Period.",
-      "shortDescription": "Ujani Shakti Peetha is a Hindu temple located in Ujani, West Bengal, India, dedicated to Mangal Chandika.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_ujani_shakti_peetha_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_ujani_shakti_peetha_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "shaktipeeth",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_mangalagauri",
       "slug": "mangalagauri-temple-gaya",
       "legacyIDs": [],
@@ -6379,67 +6023,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Prem_Mandir,_Vrindavan"
     },
     {
-      "id": "t_shree_radha_krishna",
-      "slug": "shree-radha-krishna-temple-baranagar",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Shree Radha Krishna Temple",
-      "alternateName": null,
-      "deity": "Radha-Krishna",
-      "location": {
-        "latitude": 22.653077,
-        "longitude": 88.380596,
-        "city": "Baranagar",
-        "district": "Kolkata",
-        "state": "West Bengal",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_new_landmark"
-      ],
-      "description": "Shree Radha Krishna Temple is a Hindu temple located in Baranagar, West Bengal, India, dedicated to Radha-Krishna. It dates to the Modern Period.",
-      "shortDescription": "Shree Radha Krishna Temple is a Hindu temple located in Baranagar, West Bengal, India, dedicated to Radha-Krishna.",
-      "facts": {
-        "established": "2010 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_shree_radha_krishna_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_shree_radha_krishna_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Janmashtami",
-          "approximateMonth": 8,
-          "isLunar": true,
-          "description": "Celebration of Krishna's birth with midnight prayers, devotional singing and fasting.",
-          "significance": "high"
-        },
-        {
-          "name": "Radhashtami",
-          "approximateMonth": 9,
-          "isLunar": true,
-          "description": "Birth anniversary of Radha, celebrated with special devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_jagadguru_kripaluji_maharaj",
       "slug": "jagadguru-kripaluji-maharaj-temple-kunda",
       "legacyIDs": [],
@@ -7166,60 +6749,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Sita_Ramachandraswamy_Temple,_Bhadrachalam"
     },
     {
-      "id": "t_ramdevra",
-      "slug": "ramdevra-temple-ramdevra",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Ramdevra Temple",
-      "alternateName": null,
-      "deity": "Ramdev",
-      "location": {
-        "latitude": 27.007043,
-        "longitude": 71.930147,
-        "city": "Ramdevra",
-        "district": "Jaisalmer",
-        "state": "Rajasthan",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_modern_pilgrimage"
-      ],
-      "description": "Ramdevra Temple is a Hindu temple located in Ramdevra, Rajasthan, India, dedicated to Ramdev. It dates to the Medieval/Modern Period.",
-      "shortDescription": "Ramdevra Temple is a Hindu temple located in Ramdevra, Rajasthan, India, dedicated to Ramdev.",
-      "facts": {
-        "established": "14th century CE (popularized 20th century)",
-        "dynasty": "Medieval/Modern Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_ramdevra_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_ramdevra_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_mahur_renuka",
       "slug": "mahur-renuka-temple-mahur",
       "legacyIDs": [],
@@ -7522,54 +7051,68 @@
       "slug": "savitri-temple-pushkar",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Savitri Temple",
+      "name": "Savitri Mata Mandir",
       "alternateName": null,
-      "deity": "Savitri",
+      "deity": "Savitri (Brahma's first consort)",
       "location": {
-        "latitude": 26.485958,
-        "longitude": 74.546055,
+        "latitude": 26.4943,
+        "longitude": 74.5504,
         "city": "Pushkar",
         "district": "Ajmer",
         "state": "Rajasthan",
         "country": "India",
-        "address": null,
+        "address": "Ratnagiri Hill, Pushkar, Ajmer",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Savitri Temple is a Hindu temple located in Pushkar, Rajasthan, India, dedicated to Savitri. It dates to the Early Medieval Period.",
-      "shortDescription": "Savitri Temple is a Hindu temple located in Pushkar, Rajasthan, India, dedicated to Savitri.",
+      "description": "Savitri Mata Mandir crowns the Ratnagiri Hill above Pushkar at 750 feet, reached by a steep climb of 970 steps or a ropeway. The goddess Savitri — Brahma's first wife — sits here in dignity overlooking the sacred lake and the sole Brahma Temple below. Local legend says she cursed Brahma to be worshipped nowhere but Pushkar after he replaced her with Gayatri at a yagna. The hilltop view over Pushkar's ghats and sand dunes at sunrise, with bells rising from below, is among Rajasthan's most atmospheric pilgrimage experiences.",
+      "shortDescription": "Hilltop temple to Savitri, Brahma's first consort, overlooking Pushkar Lake — 970 steps to a summit with sweeping Rajasthan desert views.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "Ancient (present structure medieval)",
+        "dynasty": "Medieval Rajput",
+        "architectureStyle": "Rajasthani Nagara",
         "openingMonth": null,
         "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "altitude": 230,
+        "dresscode": "Modest attire",
+        "photographyAllowed": true,
+        "entryFee": "Free (ropeway fee applies)",
+        "darshanaTimings": "6:00 AM – 8:00 PM"
       },
       "images": {
         "heroImageName": "t_savitri_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_savitri_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Savitri_mata_mandir.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
+          "name": "Kartik Purnima",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "The most sacred day in Pushkar; millions bathe in Pushkar Lake and throng the hilltop temple at sunrise.",
+          "significance": "high"
+        },
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of goddess worship with special abhisheka and processions.",
+          "significance": "high"
+        },
+        {
+          "name": "Pushkar Camel Fair",
+          "approximateMonth": 11,
           "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "description": "The world-famous camel fair coincides with Kartik Purnima; Savitri temple is a centrepiece of the pilgrimage.",
           "significance": "medium"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Savitri_Mata_Mandir"
     },
     {
       "id": "t_vaishno_devi",
@@ -7872,108 +7415,129 @@
       "slug": "maihar-sharda-temple-maihar",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Maihar Sharda Temple",
-      "alternateName": null,
+      "name": "Maa Sharda Mandir, Maihar",
+      "alternateName": "Sharda Mata Temple",
       "deity": "Sharda (Saraswati)",
       "location": {
-        "latitude": 24.243754,
-        "longitude": 81.044691,
+        "latitude": 24.2612,
+        "longitude": 80.72316,
         "city": "Maihar",
         "district": "Satna",
         "state": "Madhya Pradesh",
         "country": "India",
-        "address": null,
+        "address": "Trikoota Hill, Maihar, Satna District",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Maihar Sharda Temple is a Hindu temple located in Maihar, Madhya Pradesh, India, dedicated to Sharda (Saraswati). It dates to the Early Medieval Period.",
-      "shortDescription": "Maihar Sharda Temple is a Hindu temple located in Maihar, Madhya Pradesh, India, dedicated to Sharda (Saraswati).",
+      "description": "Maa Sharda Mandir at Maihar crowns Trikoota Hill with 1,063 steps above the Vindhya plains. The goddess Sharda — worshipped as an incarnation of Saraswati — is also revered as a Shakti Peetha. Legend holds that the immortal warrior Alha still climbs these steps to worship at midnight, devoted to the goddess centuries after the Battle of Mahoba. Ustad Allauddin Khan, the sitar maestro who shaped Indian classical music, was Sharda's devoted son. The hilltop sunrise, with temple bells ringing over the Vindhyas, is among central India's most moving pilgrimage moments.",
+      "shortDescription": "Vindhya hilltop Sharda temple with 1,063 steps — Saraswati incarnate, sacred to Alha the immortal warrior and sitar maestro Allauddin Khan.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "Ancient (medieval reconstruction)",
+        "dynasty": "Baghela Rajputs",
+        "architectureStyle": "Nagara (medieval)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Traditional attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "5:00 AM – 9:00 PM"
       },
       "images": {
         "heroImageName": "t_maihar_sharda_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_maihar_sharda_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Sharada_Temple_Maihar.JPG"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The grand festival drawing hundreds of thousands to climb the 1,063 steps to Sharda Mata.",
+          "significance": "high"
+        },
+        {
+          "name": "Chaitra Navaratri",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Spring Navaratri celebrated with equal fervour; special aarti on the hilltop.",
+          "significance": "high"
+        },
+        {
+          "name": "Vasant Panchami",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Saraswati Puja — special significance here as the goddess is Sharda/Saraswati.",
           "significance": "medium"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Maa_Sharda_Mandir,_Maihar"
     },
     {
       "id": "t_sheetla_mata",
       "slug": "sheetla-mata-temple-gurgaon",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Sheetla Mata Temple",
+      "name": "Sheetla Mata Temple, Gurugram",
       "alternateName": null,
-      "deity": "Sheetla Mata",
+      "deity": "Sheetla Devi",
       "location": {
-        "latitude": 28.464615,
-        "longitude": 77.029919,
-        "city": "Gurgaon",
-        "district": "Gurgaon",
+        "latitude": 28.4595,
+        "longitude": 77.0266,
+        "city": "Gurugram",
+        "district": "Gurugram",
         "state": "Haryana",
         "country": "India",
-        "address": null,
+        "address": "Sheetla Mata Road, Gurugram, Haryana",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Sheetla Mata Temple is a Hindu temple located in Gurgaon, Haryana, India, dedicated to Sheetla Mata. It dates to the Early Medieval Period.",
-      "shortDescription": "Sheetla Mata Temple is a Hindu temple located in Gurgaon, Haryana, India, dedicated to Sheetla Mata.",
+      "description": "The Sheetla Mata Temple in Gurugram is one of the 51 Shakti Peethas and the Kuldevi (clan goddess) of the region. Sheetla — the \"cool goddess\" — protects against smallpox, fever and skin diseases; her idol is draped in blue and she rides a donkey carrying a broom to sweep away disease. The annual Sheetla Ashtami, held on the eighth day after Holi, is one of Haryana's largest religious fairs. It is the only Indian festival where leftover cold food (basi khana) is the sacred prasad — offered cold to honour the goddess of coolness.",
+      "shortDescription": "Gurugram Shakti Peetha and Kuldevi — the \"cool goddess\" who wards off disease; celebrated by offering cold leftover food on Sheetla Ashtami.",
       "facts": {
         "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "dynasty": "Medieval Haryana",
+        "architectureStyle": "North Indian (Nagara)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Modest attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "5:00 AM – 10:00 PM"
       },
       "images": {
         "heroImageName": "t_sheetla_mata_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_sheetla_mata_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sheetla_mandir_kada_kaushambi.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
+          "name": "Sheetla Ashtami",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Eight days after Holi — Haryana's largest religious fair with lakhs offering cold food to the cool goddess.",
+          "significance": "high"
+        },
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of Shakti worship with special alankara for the goddess.",
+          "significance": "high"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Sheetla_Devi_Temple"
     },
     {
       "id": "t_kashi_vishwanath",
@@ -8985,67 +8549,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Virupaksha_Temple,_Hampi"
     },
     {
-      "id": "t_mahabalipuram_monolithic_temples",
-      "slug": "mahabalipuram-monolithic-temples-mahabalipuram",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Mahabalipuram Monolithic Temples",
-      "alternateName": null,
-      "deity": "Shiva",
-      "location": {
-        "latitude": 12.619598,
-        "longitude": 80.19365,
-        "city": "Mahabalipuram",
-        "district": "Kanchipuram",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_rock_cut"
-      ],
-      "description": "Mahabalipuram Monolithic Temples is a Hindu temple located in Mahabalipuram, Tamil Nadu, India, dedicated to Shiva. It dates to the Pallava Period.",
-      "shortDescription": "Mahabalipuram Monolithic Temples is a Hindu temple located in Mahabalipuram, Tamil Nadu, India, dedicated to Shiva.",
-      "facts": {
-        "established": "7th–8th century CE",
-        "dynasty": "Pallava Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_mahabalipuram_monolithic_temples_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_mahabalipuram_monolithic_temples_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_gangaikonda_cholapuram",
       "slug": "gangaikonda-cholapuram-temple-gangaikonda-cholapuram",
       "legacyIDs": [],
@@ -9132,7 +8635,7 @@
       "facts": {
         "established": "12th century CE",
         "dynasty": "Chola Period",
-        "architectureStyle": "[[Chola art and architecture",
+        "architectureStyle": "Chola art and architecture",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
@@ -9296,7 +8799,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Aiyarappar_Temple"
     },
     {
       "id": "t_thiruporur",
@@ -9364,7 +8867,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Thiruporur_Kandaswamy_temple"
     },
     {
       "id": "t_kailasanathar",
@@ -9806,61 +9309,59 @@
       "slug": "siddheshwar-temple-lat",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Siddheshwar Temple",
-      "alternateName": null,
-      "deity": "Shiva",
+      "name": "Siddhanath Temple, Nemawar",
+      "alternateName": "Siddheshwara Temple",
+      "deity": "Shiva (Siddhanath)",
       "location": {
-        "latitude": 21.73936,
-        "longitude": 71.386782,
-        "city": "Lat",
-        "district": "Mehsana",
-        "state": "Gujarat",
+        "latitude": 22.4931,
+        "longitude": 76.978,
+        "city": "Nemawar",
+        "district": "Harda",
+        "state": "Madhya Pradesh",
         "country": "India",
-        "address": null,
+        "address": "Nemawar, Harda District, Madhya Pradesh",
         "pincode": null
       },
-      "categoryIDs": [
-        "c_solanki"
-      ],
-      "description": "Siddheshwar Temple is a Hindu temple located in Lat, Gujarat, India, dedicated to Shiva. It dates to the Solanki Period.",
-      "shortDescription": "Siddheshwar Temple is a Hindu temple located in Lat, Gujarat, India, dedicated to Shiva.",
+      "categoryIDs": [],
+      "description": "The Siddhanath Temple at Nemawar stands on the sacred banks of the Narmada River, built in the 10th century under the Paramara dynasty from exquisitely carved yellow and blush sandstone. A masterpiece of Nagara architecture, its mandapa, antechamber and sanctum form a perfectly proportioned ensemble above the flowing river. The presiding deity Siddhanath — a form of Shiva — is accompanied by sculptures of exceptional quality. The riverside setting on India's holiest river amplifies both the temple's sanctity and its visual drama.",
+      "shortDescription": "10th-century Paramara-dynasty Shiva temple of yellow sandstone on the banks of the Narmada — a Nagara architectural gem of Madhya Pradesh.",
       "facts": {
-        "established": "11th century CE",
-        "dynasty": "Solanki Period",
-        "architectureStyle": null,
+        "established": "10th century CE",
+        "dynasty": "Paramara dynasty",
+        "architectureStyle": "Nagara (Paramara)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Traditional attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 8:00 PM"
       },
       "images": {
         "heroImageName": "t_siddheshwar_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_siddheshwar_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/8/8f/0102521_Siddhanath_temple%2C_Siddheshwar_Mahadev_temple%2C_Nemawar%2C_Madhya_Pradesh_051.jpg"
       },
       "festivals": [
         {
-          "name": "Mahashivratri",
+          "name": "Mahashivaratri",
           "approximateMonth": 2,
           "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
+          "description": "Night-long Shiva worship with special abhisheka on the Narmada banks.",
           "significance": "high"
         },
         {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
+          "name": "Narmada Jayanti",
+          "approximateMonth": 2,
           "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
+          "description": "Celebration of the sacred Narmada River at one of its most picturesque temples.",
           "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Siddhanath_Temple,_Nemawar"
     },
     {
       "id": "t_annamalaiyar",
@@ -10122,67 +9623,6 @@
       "significance": "other",
       "isUNESCO": true,
       "sourceURL": "https://en.wikipedia.org/wiki/Descent_of_the_Ganges,_Mahabalipuram"
-    },
-    {
-      "id": "t_nithyananda_dhyanapeetam",
-      "slug": "nithyananda-dhyanapeetam-temple-bangalore",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Nithyananda Dhyanapeetam Temple",
-      "alternateName": null,
-      "deity": "Shiva",
-      "location": {
-        "latitude": 12.976794,
-        "longitude": 77.590082,
-        "city": "Bangalore",
-        "district": "Bangalore Urban",
-        "state": "Karnataka",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_modern_pilgrimage"
-      ],
-      "description": "Nithyananda Dhyanapeetam Temple is a Hindu temple located in Bangalore, Karnataka, India, dedicated to Shiva. It dates to the Modern Period.",
-      "shortDescription": "Nithyananda Dhyanapeetam Temple is a Hindu temple located in Bangalore, Karnataka, India, dedicated to Shiva.",
-      "facts": {
-        "established": "20th century CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_nithyananda_dhyanapeetam_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_nithyananda_dhyanapeetam_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
     },
     {
       "id": "t_omkareshwar",
@@ -11127,7 +10567,8 @@
         "pincode": null
       },
       "categoryIDs": [
-        "c_jyotirlinga"
+        "c_jyotirlinga",
+        "c_shakti_peetha"
       ],
       "description": "Baidyanath Temple (IAST: Baidyãnath) is a Hindu temple dedicated to Shiva. It is located in Deoghar, in the Santhal Parganas division of the Indian state of Jharkhand. The temple complex comprises the central shrine of Baba Baidyanath along with 21 additional temples. It is significant to the Hindu sects of Shaivism as this temple is referred to as one of the twelve Jyotirlingas.",
       "shortDescription": "Baidyanath Temple (IAST: Baidyãnath) is a Hindu temple dedicated to Shiva.",
@@ -11616,129 +11057,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
-      "id": "t_naimisharanya",
-      "slug": "naimisharanya-temple-naimisharanya",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Naimisharanya Temple",
-      "alternateName": null,
-      "deity": "Shiva/Vishnu",
-      "location": {
-        "latitude": 27.351188,
-        "longitude": 80.485198,
-        "city": "Naimisharanya",
-        "district": "Sitapur",
-        "state": "Uttar Pradesh",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_riverbank"
-      ],
-      "description": "Naimisharanya Temple is a Hindu temple located in Naimisharanya, Uttar Pradesh, India, dedicated to Shiva/Vishnu. It dates to the Early Medieval Period.",
-      "shortDescription": "Naimisharanya Temple is a Hindu temple located in Naimisharanya, Uttar Pradesh, India, dedicated to Shiva/Vishnu.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_naimisharanya_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_naimisharanya_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
-      "id": "t_chinmaya_mission",
-      "slug": "chinmaya-mission-temple-coimbatore",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Chinmaya Mission Temple",
-      "alternateName": null,
-      "deity": "Shiva/Vishnu",
-      "location": {
-        "latitude": 11.001812,
-        "longitude": 76.962842,
-        "city": "Coimbatore",
-        "district": "Coimbatore",
-        "state": "Tamil Nadu",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_new_landmark"
-      ],
-      "description": "Chinmaya Mission Temple is a Hindu temple located in Coimbatore, Tamil Nadu, India, dedicated to Shiva/Vishnu. It dates to the Modern Period.",
-      "shortDescription": "Chinmaya Mission Temple is a Hindu temple located in Coimbatore, Tamil Nadu, India, dedicated to Shiva/Vishnu.",
-      "facts": {
-        "established": "2006 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_chinmaya_mission_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_chinmaya_mission_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Mahashivratri",
-          "approximateMonth": 2,
-          "isLunar": true,
-          "description": "The great night of Shiva — all-night vigils, fasting and special abhisheka.",
-          "significance": "high"
-        },
-        {
-          "name": "Shravan Month",
-          "approximateMonth": 7,
-          "isLunar": true,
-          "description": "Month-long special poojas and abhisheka during the holy month of Shravan.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "other",
-      "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Triveni_Sangam"
     },
     {
       "id": "t_khajuraho_group_of_temples",
@@ -11800,7 +11119,7 @@
       ],
       "significance": "other",
       "isUNESCO": true,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments"
     },
     {
       "id": "t_ellora_caves",
@@ -13403,65 +12722,6 @@
       "sourceURL": "https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala"
     },
     {
-      "id": "t_parashurama_temple_badrinath",
-      "slug": "parashurama-temple-badrinath",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Parashurama Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
-      "location": {
-        "latitude": 30.74233,
-        "longitude": 79.493026,
-        "city": "Badrinath",
-        "district": "Chamoli",
-        "state": "Uttarakhand",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [],
-      "description": "Parashurama Temple is a Hindu temple located in Badrinath, Uttarakhand, India, dedicated to Vishnu. It dates to the Early Medieval Period.",
-      "shortDescription": "Parashurama Temple is a Hindu temple located in Badrinath, Uttarakhand, India, dedicated to Vishnu.",
-      "facts": {
-        "established": "8th century CE (revived by Adi Shankaracharya)",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_parashurama_temple_badrinath_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_parashurama_temple_badrinath_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Vaikuntha Ekadashi",
-          "approximateMonth": 12,
-          "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
-          "significance": "high"
-        },
-        {
-          "name": "Brahmotsavam",
-          "approximateMonth": 9,
-          "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
-          "significance": "high"
-        }
-      ],
-      "significance": "charDham",
-      "isUNESCO": false,
-      "sourceURL": null
-    },
-    {
       "id": "t_naimisaranya_chakra_narayan",
       "slug": "naimisaranya-chakra-narayan-temple-naimisaranya",
       "legacyIDs": [],
@@ -14194,7 +13454,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Har_Ki_Pauri"
     },
     {
       "id": "t_akshardham",
@@ -14310,60 +13570,6 @@
       "significance": "charDham",
       "isUNESCO": false,
       "sourceURL": "https://en.wikipedia.org/wiki/Yamunotri_Temple"
-    },
-    {
-      "id": "t_kshirgram_yogadya",
-      "slug": "kshirgram-yogadya-temple-kshirgram",
-      "legacyIDs": [],
-      "isActive": true,
-      "name": "Kshirgram Yogadya Temple",
-      "alternateName": null,
-      "deity": "Yogadya",
-      "location": {
-        "latitude": null,
-        "longitude": null,
-        "city": "Kshirgram",
-        "district": "Purba Bardhaman",
-        "state": "West Bengal",
-        "country": "India",
-        "address": null,
-        "pincode": null
-      },
-      "categoryIDs": [
-        "c_shakti_peetha"
-      ],
-      "description": "Kshirgram Yogadya Temple is a Hindu temple located in Kshirgram, West Bengal, India, dedicated to Yogadya. It dates to the Early Medieval Period.",
-      "shortDescription": "Kshirgram Yogadya Temple is a Hindu temple located in Kshirgram, West Bengal, India, dedicated to Yogadya.",
-      "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
-        "openingMonth": null,
-        "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
-      },
-      "images": {
-        "heroImageName": "t_kshirgram_yogadya_hero",
-        "galleryImageNames": [],
-        "thumbnailImageName": "t_kshirgram_yogadya_thumb",
-        "remoteHeroURL": null
-      },
-      "festivals": [
-        {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
-          "significance": "medium"
-        }
-      ],
-      "significance": "shaktipeeth",
-      "isUNESCO": false,
-      "sourceURL": null
     },
     {
       "id": "t_madhyamaheshwar",
@@ -14639,7 +13845,7 @@
       "festivals": [],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Srivaikuntanathan_Perumal_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Srivaikuntanathan_Perumal_temple"
     },
     {
       "id": "t_varagunamangai",
@@ -15424,7 +14630,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Navlakha_Temple,_Ghumli"
+      "sourceURL": "https://en.wikipedia.org/wiki/Navlakha_temple"
     },
     {
       "id": "t_tiru_parameswara_vinnagaram",
@@ -15485,7 +14691,495 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Vaikunta_Perumal_Temple,_Kanchipuram"
+      "sourceURL": "https://en.wikipedia.org/wiki/Tiru_Parameswara_Vinnagaram"
+    },
+    {
+      "id": "t_kukkuteswara_swami_temple",
+      "slug": "kukkuteswara-swami-temple-pitapuram",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Kukkuteswara Swami Temple",
+      "alternateName": "Sri Kukkuteswara Swami Temple",
+      "deity": "Kukkuteswara (Shiva) & Puruhutika (Shakti)",
+      "location": {
+        "latitude": 17.10679444,
+        "longitude": 82.24333333,
+        "city": "Pitapuram",
+        "district": "Kakinada",
+        "state": "Andhra Pradesh",
+        "country": "India",
+        "address": "Pitapuram, Kakinada District, Andhra Pradesh",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_shakti_peetha"
+      ],
+      "description": "The Kukkuteswara Swami Temple at Pitapuram, Andhra Pradesh, is one of the 18 Maha Shakti Peethas — the most exalted tier of Shakti pilgrimage. The presiding deity is Kukkuteswara Shiva (symbolised as a rooster/cock), paired with goddess Puruhutika. Pitapuram is also the birthplace of Gaudapada, the teacher of Adi Shankaracharya's own guru. The sacred Kumara Pushkarini tank draws pilgrims for ritual bathing before darshan. Both Shaiva and Shakta traditions hold this site in the highest reverence.",
+      "shortDescription": "One of the 18 Maha Shakti Peethas — Kukkuteswara Shiva and Puruhutika Devi in Pitapuram, birthplace of Gaudapada.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": "Eastern Chalukya",
+        "architectureStyle": "Dravidian",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Traditional attire",
+        "photographyAllowed": null,
+        "entryFee": "Free",
+        "darshanaTimings": "5:00 AM – 8:30 PM"
+      },
+      "images": {
+        "heroImageName": "t_kukkuteswara_swami_temple_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_kukkuteswara_swami_temple_thumb",
+        "remoteHeroURL": null
+      },
+      "festivals": [
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Grand Shakti celebrations at this Maha Shakti Peetha drawing pilgrims from across Andhra Pradesh.",
+          "significance": "high"
+        },
+        {
+          "name": "Mahashivaratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Night-long Shiva worship at Kukkuteswara with special abhisheka.",
+          "significance": "high"
+        }
+      ],
+      "significance": "shaktipeeth",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Kukkuteswara_Temple"
+    },
+    {
+      "id": "t_danteshwari_temple",
+      "slug": "danteshwari-temple-dantewada",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Danteshwari Temple",
+      "alternateName": null,
+      "deity": "Danteshwari (Shakti)",
+      "location": {
+        "latitude": 18.8966,
+        "longitude": 81.345,
+        "city": "Dantewada",
+        "district": "Dantewada",
+        "state": "Chhattisgarh",
+        "country": "India",
+        "address": "Dantewada, Chhattisgarh",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_shakti_peetha"
+      ],
+      "description": "The Danteshwari Temple at Dantewada, Chhattisgarh, is one of the 52 Shakti Peethas, built in the 14th century by Kakatiya rulers. The goddess Danteshwari — patroness of the Bastar kingdom — gives the town its name. The temple stands at the confluence of Shankini and Dankini rivers in a densely forested tribal region. Bastar's Dussehra, one of India's longest festivals (75 days), centres on this goddess — her chariot procession is a spectacle unlike any other in the country.",
+      "shortDescription": "14th-century Shakti Peetha patroness of the Bastar kingdom — Danteshwari Devi at the centre of Bastar's unique 75-day Dussehra.",
+      "facts": {
+        "established": "14th century CE",
+        "dynasty": "Kakatiya / Bastar Kingdom",
+        "architectureStyle": "Kakatiya Nagara",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Modest attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 8:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_danteshwari_temple_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_danteshwari_temple_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Danteswari_Temple_0034.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Bastar Dussehra",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "India's longest Dussehra festival (75 days) revolves around Danteshwari Devi's grand chariot procession.",
+          "significance": "high"
+        },
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Special Shakti worship at the temple with tribal community participation.",
+          "significance": "high"
+        }
+      ],
+      "significance": "shaktipeeth",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Danteshwari_Temple"
+    },
+    {
+      "id": "t_dhakeshwari_temple",
+      "slug": "dhakeshwari-national-temple-dhaka",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Dhakeshwari National Temple",
+      "alternateName": "Dhakeshwari Mandir",
+      "deity": "Dhakeshwari (Shakti)",
+      "location": {
+        "latitude": 23.72260556,
+        "longitude": 90.39002222,
+        "city": "Dhaka",
+        "district": "Dhaka",
+        "state": "Dhaka Division",
+        "country": "Bangladesh",
+        "address": "Dhakeshwari Road, Old Dhaka, Bangladesh",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_shakti_peetha"
+      ],
+      "description": "Dhakeshwari National Temple in Old Dhaka is Bangladesh's sole state-owned Hindu temple — the only Muslim-majority nation to designate a National Hindu Temple. As one of the 51 Shakti Peethas, it marks where Sati's crown jewel fell. \"Dhakeshwari\" — Goddess of Dhaka — is believed to be the origin of the city's name itself. The temple was damaged in the 1971 Liberation War but rebuilt, becoming a powerful symbol of Bangladesh's religious pluralism. Its Durga Puja is the largest in Bangladesh.",
+      "shortDescription": "Bangladesh's National Hindu Temple and Shakti Peetha — Goddess Dhakeshwari gave Dhaka its name; the nation's most important Hindu site.",
+      "facts": {
+        "established": "12th century CE (rebuilt)",
+        "dynasty": "Sena dynasty / Modern Bangladesh",
+        "architectureStyle": "Bengali",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Modest attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 9:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_dhakeshwari_temple_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_dhakeshwari_temple_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/7/77/Main_Temple_of_Dhakeswari.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Durga Puja",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The largest Durga Puja in Bangladesh — celebrated with great community fervour at the National Temple.",
+          "significance": "high"
+        },
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of Shakti worship drawing Hindus from across Bangladesh.",
+          "significance": "high"
+        }
+      ],
+      "significance": "shaktipeeth",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Dhakeshwari_Temple"
+    },
+    {
+      "id": "t_tarapith_temple",
+      "slug": "tarapith-temple-birbhum",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Tarapith Temple",
+      "alternateName": "Tara Ma Temple",
+      "deity": "Tara (Dasha Mahavidya)",
+      "location": {
+        "latitude": 24.11,
+        "longitude": 87.8,
+        "city": "Tarapith",
+        "district": "Birbhum",
+        "state": "West Bengal",
+        "country": "India",
+        "address": "Tarapith, Rampurhat, Birbhum District",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_shakti_peetha"
+      ],
+      "description": "Tarapith in Birbhum, West Bengal, is among India's most powerful tantric pilgrimage sites. The temple is dedicated to Goddess Tara — the second of the Dasha Mahavidya — and its adjoining shmashana (cremation ground) is used for tantric sadhana as much as the sanctum. The 19th-century saint Bamakhepa, the \"mad saint of Tarapith,\" practised here and embodies the temple's mystical spirit. Pilgrims come seeking liberation, tantric power and Tara's fierce maternal grace. The site pulses with an intensity found in few temples.",
+      "shortDescription": "Birbhum's most powerful tantric site — Goddess Tara and the sacred cremation ground where saint Bamakhepa attained realisation.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": "Medieval Bengal",
+        "architectureStyle": "Bengali",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Traditional attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "5:00 AM – 10:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_tarapith_temple_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_tarapith_temple_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/36/Maa_Tara_Temple.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Kali Puja",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "The most intense festival — tantric rituals performed at the temple and cremation ground through the night.",
+          "significance": "high"
+        },
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of Tara Devi worship with special tantric pujas and thousands of pilgrims.",
+          "significance": "high"
+        }
+      ],
+      "significance": "shaktipeeth",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Tarapith"
+    },
+    {
+      "id": "t_aranya_devi_arrah",
+      "slug": "aranya-devi-temple-arrah",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Aranya Devi Temple, Arrah",
+      "alternateName": null,
+      "deity": "Aranya Devi (Shakti)",
+      "location": {
+        "latitude": 25.5678967,
+        "longitude": 84.6729917,
+        "city": "Arrah",
+        "district": "Bhojpur",
+        "state": "Bihar",
+        "country": "India",
+        "address": "Arrah, Bhojpur District, Bihar",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_shakti_peetha"
+      ],
+      "description": "The Aranya Devi Temple at Arrah, Bihar, is the presiding deity and cultural heart of the city — the name \"Ara\" (Arrah) is itself derived from the goddess Aranya Devi. As goddess of the forest, Aranya Devi is the protector of the entire Bhojpur region and its Kuldevi. One of the Shakti Peethas, the temple draws vast numbers during festivals when the entire population of Arrah participates in communal worship. The city's identity has been inseparable from this temple for centuries.",
+      "shortDescription": "Arrah's patron goddess — Aranya Devi gave the city its name and serves as Kuldevi of the entire Bhojpur region.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": "Medieval Bihar",
+        "architectureStyle": "North Indian Nagara",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Modest attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "5:00 AM – 9:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_aranya_devi_arrah_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_aranya_devi_arrah_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Aranya_Devi_Temple%2C_Arrah.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The entire city of Arrah gathers for nine nights of communal worship at the patron goddess temple.",
+          "significance": "high"
+        },
+        {
+          "name": "Chaitra Navaratri",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Spring Navaratri with special aarti and community celebration.",
+          "significance": "high"
+        }
+      ],
+      "significance": "shaktipeeth",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Aranya_Devi_Temple,_Arrah"
+    },
+    {
+      "id": "t_chandranath_temple_bd",
+      "slug": "chandranath-temple-chittagong",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Chandranath Temple",
+      "alternateName": "Chandranath Hill Temple",
+      "deity": "Chandranath (Shiva) & Bhavani (Shakti)",
+      "location": {
+        "latitude": 22.63361111,
+        "longitude": 91.68430556,
+        "city": "Sitakunda",
+        "district": "Chittagong",
+        "state": "Chittagong Division",
+        "country": "Bangladesh",
+        "address": "Chandranath Hill, Sitakunda, Chittagong, Bangladesh",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_shakti_peetha"
+      ],
+      "description": "Chandranath Temple perches at 1,020 feet atop Chandranath Hill near Chittagong, Bangladesh — the highest point in the area and the most sacred Hindu pilgrimage site in Bangladesh. As one of the 51 Shakti Peethas, it marks where the right arm of Sati fell. The steep forest ascent passes dozens of small shrines, making the climb itself an act of devotion. The panoramic view over Chittagong and the Bay of Bengal from the summit is extraordinary. The annual Shivaratri fair here is one of Bangladesh's largest Hindu gatherings.",
+      "shortDescription": "Highest point in Bangladesh and most sacred Hindu pilgrimage site — Shakti Peetha where Sati's right arm fell, with panoramic Bay of Bengal views.",
+      "facts": {
+        "established": "Ancient",
+        "dynasty": "Medieval Bengal",
+        "architectureStyle": "Bengali",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": 311,
+        "dresscode": "Modest attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "Sunrise to sunset"
+      },
+      "images": {
+        "heroImageName": "t_chandranath_temple_bd_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_chandranath_temple_bd_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Chandranath_Temple.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Mahashivaratri",
+          "approximateMonth": 2,
+          "isLunar": true,
+          "description": "Bangladesh's largest Hindu pilgrimage gathering — lakhs climb Chandranath Hill for Shiva worship.",
+          "significance": "high"
+        },
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of Bhavani Shakti worship at this hilltop Peetha.",
+          "significance": "high"
+        }
+      ],
+      "significance": "shaktipeeth",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Chandranath_Temple"
+    },
+    {
+      "id": "t_jnanakshi_rajarajeshwari",
+      "slug": "jnanakshi-rajarajeshwari-temple-bengaluru",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Jnanakshi Rajarajeshwari Temple",
+      "alternateName": null,
+      "deity": "Rajarajeshwari (Lalita Tripurasundari)",
+      "location": {
+        "latitude": 12.929949,
+        "longitude": 77.536011,
+        "city": "Bengaluru",
+        "district": "Bengaluru Urban",
+        "state": "Karnataka",
+        "country": "India",
+        "address": "Rajarajeshwari Nagar, Bengaluru, Karnataka",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_shakti_peetha"
+      ],
+      "description": "The Jnanakshi Rajarajeshwari Temple in Bengaluru, founded in 1978 by Sri Sivaratnapuri Swamiji, enshrines Goddess Rajarajeshwari — the supreme form of Lalita Tripurasundari worshipped with Srichakra rituals. The temple is considered one of the Shakti Peethas, representing the \"ear\" (karnabhaga) of Bharatamata. Navaratri here is an elaborate nine-day event drawing devotees from across Bengaluru. The Srichakra Puja performed daily is considered one of the most powerful forms of Shakti worship.",
+      "shortDescription": "Bengaluru Shakti Peetha enshrining Rajarajeshwari as Lalita Tripurasundari — the \"ear of Bharatamata\" with elaborate daily Srichakra worship.",
+      "facts": {
+        "established": "1978 CE",
+        "dynasty": "Modern",
+        "architectureStyle": "Dravidian (modern)",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Traditional attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 8:30 PM"
+      },
+      "images": {
+        "heroImageName": "t_jnanakshi_rajarajeshwari_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_jnanakshi_rajarajeshwari_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/6/68/Sri_Raja_Rajeshwari_Temple_02.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine-day elaborate Shakti celebration with daily alankara and Srichakra puja, drawing thousands of Bengaluru devotees.",
+          "significance": "high"
+        },
+        {
+          "name": "Varalakshmi Vratam",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Special Lakshmi puja with Srichakra rituals at the goddess temple.",
+          "significance": "medium"
+        }
+      ],
+      "significance": "shaktipeeth",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Jnanakshi_Rajarajeshwari_Temple"
+    },
+    {
+      "id": "t_alopi_devi_mandir",
+      "slug": "alopi-devi-mandir-prayagraj",
+      "legacyIDs": [],
+      "isActive": true,
+      "name": "Alopi Devi Mandir",
+      "alternateName": "Alop Shankari Devi Mandir",
+      "deity": "Alopi Devi (Adi Shakti)",
+      "location": {
+        "latitude": 25.4358,
+        "longitude": 81.8462,
+        "city": "Prayagraj",
+        "district": "Prayagraj",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "address": "Alopibagh, Prayagraj, Uttar Pradesh",
+        "pincode": null
+      },
+      "categoryIDs": [
+        "c_shakti_peetha"
+      ],
+      "description": "Alopi Devi Mandir at Alopibagh, Prayagraj, stands near the holy Sangam (confluence of Ganga, Yamuna and mythical Sarasvati). As one of the 51 Shakti Peethas, it marks where Sati's palanquin (doli) fell — and uniquely, the temple enshrines no idol but an empty wooden palanquin (rath) as the symbol of the goddess, representing her disappearance (alopi means \"vanished\"). During Kumbh Mela, millions visit this temple. The Maratha leader Mahadji Shinde developed the Sangam site in 1771.",
+      "shortDescription": "Prayagraj Shakti Peetha near the Sangam — uniquely worships an empty palanquin (the goddess vanished here); vital Kumbh Mela pilgrimage stop.",
+      "facts": {
+        "established": "Ancient (site developed 1771 CE)",
+        "dynasty": "Maratha (Scindia)",
+        "architectureStyle": "North Indian",
+        "openingMonth": null,
+        "closingMonth": null,
+        "altitude": null,
+        "dresscode": "Modest attire",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "5:00 AM – 10:00 PM"
+      },
+      "images": {
+        "heroImageName": "t_alopi_devi_mandir_hero",
+        "galleryImageNames": [],
+        "thumbnailImageName": "t_alopi_devi_mandir_thumb",
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Alop_Shankari_Devi_Mandir%2C_Prayagraj.jpg"
+      },
+      "festivals": [
+        {
+          "name": "Kumbh Mela",
+          "approximateMonth": 1,
+          "isLunar": false,
+          "description": "Every 12 years, tens of millions visit this temple as part of the Prayagraj Kumbh pilgrimage circuit.",
+          "significance": "high"
+        },
+        {
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Nine nights of Shakti worship at this unique imageless Peetha near the sacred Sangam.",
+          "significance": "high"
+        }
+      ],
+      "significance": "shaktipeeth",
+      "isUNESCO": false,
+      "sourceURL": "https://en.wikipedia.org/wiki/Alopi_Devi_Mandir"
     }
   ]
 }
