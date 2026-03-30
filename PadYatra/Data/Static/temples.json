@@ -24,7 +24,8 @@
         "t_trimbakeshwar",
         "t_vaidyanath"
       ],
-      "achievementID": "a_jyotirlinga_complete"
+      "achievementID": "a_jyotirlinga_complete",
+      "badgeImageName": "JyotirlingaBadge"
     },
     {
       "id": "c_char_dham",
@@ -40,7 +41,8 @@
         "t_jagannath",
         "t_rameswaram_ramanathaswamy_temple_rameswa"
       ],
-      "achievementID": "a_char_dham_complete"
+      "achievementID": "a_char_dham_complete",
+      "badgeImageName": "KalashBadge"
     },
     {
       "id": "c_chota_char_dham",
@@ -56,7 +58,8 @@
         "t_kedarnath",
         "t_yamunotri"
       ],
-      "achievementID": "a_chota_char_dham_complete"
+      "achievementID": "a_chota_char_dham_complete",
+      "badgeImageName": "MountKailash"
     },
     {
       "id": "c_ashta_vinayaka",
@@ -76,7 +79,8 @@
         "t_varadvinayak",
         "t_vinayak"
       ],
-      "achievementID": "a_ashta_vinayaka_complete"
+      "achievementID": "a_ashta_vinayaka_complete",
+      "badgeImageName": "Ganesha"
     },
     {
       "id": "c_pancha_kedar",
@@ -93,7 +97,8 @@
         "t_tungnath",
         "t_madhyamaheshwar"
       ],
-      "achievementID": "a_pancha_kedar_complete"
+      "achievementID": "a_pancha_kedar_complete",
+      "badgeImageName": "DamruBadge"
     },
     {
       "id": "c_pancha_bhoota_linga",
@@ -110,7 +115,8 @@
         "t_jambukeswarar",
         "t_kalahasti"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Shiva"
     },
     {
       "id": "c_pancha_sabhai",
@@ -127,7 +133,8 @@
         "t_thirunelveli_nellaiappar",
         "t_thiruvaalangadu_vadaranyeswarar"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Incense"
     },
     {
       "id": "c_pancha_prayag",
@@ -144,7 +151,8 @@
         "t_rudraprayag",
         "t_vishnuprayag"
       ],
-      "achievementID": "a_pancha_prayag_complete"
+      "achievementID": "a_pancha_prayag_complete",
+      "badgeImageName": "Ganga"
     },
     {
       "id": "c_pancha_narasimha",
@@ -161,7 +169,8 @@
         "t_vedadri_narasimha",
         "t_yadagirigutta"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "BlessingHand"
     },
     {
       "id": "c_nava_graha",
@@ -182,7 +191,8 @@
         "t_tirunageswaram",
         "t_vaitheeswaran_koil"
       ],
-      "achievementID": "a_nava_graha_complete"
+      "achievementID": "a_nava_graha_complete",
+      "badgeImageName": "Surya"
     },
     {
       "id": "c_nava_tirupati",
@@ -203,7 +213,8 @@
         "t_tirukulandhai",
         "t_varagunamangai"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "VishnuBadge"
     },
     {
       "id": "c_sapta_puri",
@@ -222,7 +233,8 @@
         "t_maya_devi",
         "t_ram_janmabhoomi"
       ],
-      "achievementID": "a_sapta_puri_complete"
+      "achievementID": "a_sapta_puri_complete",
+      "badgeImageName": "ShankhaBadge"
     },
     {
       "id": "c_rama_circuit",
@@ -243,7 +255,8 @@
         "t_sita_ramachandraswamy",
         "t_sitamarhi"
       ],
-      "achievementID": "a_rama_circuit_complete"
+      "achievementID": "a_rama_circuit_complete",
+      "badgeImageName": "Ram"
     },
     {
       "id": "c_krishna_circuit",
@@ -264,7 +277,8 @@
         "t_rukmini_devi",
         "t_udupi_sri_krishna_matha"
       ],
-      "achievementID": "a_krishna_circuit_complete"
+      "achievementID": "a_krishna_circuit_complete",
+      "badgeImageName": "Krishna"
     },
     {
       "id": "c_hanuman_circuit",
@@ -282,7 +296,8 @@
         "t_sankat_mochan_hanuman",
         "t_salasar_balaji"
       ],
-      "achievementID": "a_hanuman_circuit_complete"
+      "achievementID": "a_hanuman_circuit_complete",
+      "badgeImageName": "Hanuman"
     },
     {
       "id": "c_unesco",
@@ -303,7 +318,8 @@
         "t_konark_sun",
         "t_patan_rani_ki_vav"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "TouchFeet"
     },
     {
       "id": "c_rock_cut",
@@ -322,7 +338,8 @@
         "t_khandagiri_and_udayagiri_caves",
         "t_undavalli_caves"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Guru"
     },
     {
       "id": "c_cave_temple",
@@ -343,7 +360,8 @@
         "t_lepakshi_veerabhadra_cave",
         "t_undavalli_caves"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Meditation"
     },
     {
       "id": "c_hilltop",
@@ -364,7 +382,8 @@
         "t_tirumala_venkateswara_temple_tirumala",
         "t_vaishno_devi"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Agni1"
     },
     {
       "id": "c_riverbank",
@@ -387,7 +406,8 @@
         "t_rameswaram_ramanathaswamy_temple_rameswa",
         "t_triveni_sangam_prayag"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Garland"
     },
     {
       "id": "c_chola",
@@ -405,7 +425,8 @@
         "t_thirunallar",
         "t_thiruvaiyaru"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "BrahmaBadge"
     },
     {
       "id": "c_pallava",
@@ -424,7 +445,8 @@
         "t_tiru_parameswara_vinnagaram",
         "t_varaha_cave"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Peacock"
     },
     {
       "id": "c_hoysala",
@@ -441,7 +463,8 @@
         "t_hoysaleswara",
         "t_kedareshwara"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "ChakraBadge"
     },
     {
       "id": "c_vijayanagara",
@@ -459,7 +482,8 @@
         "t_virupaksha",
         "t_vittala"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Lakshmi"
     },
     {
       "id": "c_chandela",
@@ -477,7 +501,8 @@
         "t_parsvanath_jain",
         "t_vishvanath"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Lotus"
     },
     {
       "id": "c_solanki",
@@ -502,7 +527,8 @@
         "t_ranakpur_jain",
         "t_taranga_jain_temple"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Cow"
     },
     {
       "id": "c_swayambhu_vishnu",
@@ -522,7 +548,8 @@
         "t_tirumala_venkateswara_temple_tirumala",
         "t_tirunarayanapuram_cheluvanarayana_swamy"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "TilakBadge"
     },
     {
       "id": "c_iskcon",
@@ -544,7 +571,8 @@
         "t_iskcon_temple_pune",
         "t_iskcon_temple_vrindavan"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "RadhaBadge"
     },
     {
       "id": "c_ancient_1000",
@@ -566,7 +594,8 @@
         "t_pattadakal_temples",
         "t_virupaksha"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Agni2"
     },
     {
       "id": "c_largest",
@@ -586,7 +615,8 @@
         "t_ranganathaswamy",
         "t_tirumala_venkateswara_temple_tirumala"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Temple"
     },
     {
       "id": "c_tallest_tower",
@@ -603,7 +633,8 @@
         "t_ranganathaswamy",
         "t_sri_ranganathaswamy"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "Bell"
     },
     {
       "id": "c_oldest_functioning",
@@ -625,7 +656,8 @@
         "t_rameswaram_ramanathaswamy_temple_rameswa",
         "t_sree_padmanabhaswamy"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "HolyBook"
     },
     {
       "id": "c_major_pilgrimage",
@@ -647,7 +679,8 @@
         "t_tirumala_venkateswara_temple_tirumala",
         "t_vaishno_devi"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "OmBadge"
     },
     {
       "id": "c_modern_pilgrimage",
@@ -667,7 +700,8 @@
         "t_tirumala_venkateswara_temple_tirumala",
         "t_vaishno_devi"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "DiyaBadge"
     },
     {
       "id": "c_new_landmark",
@@ -685,7 +719,8 @@
         "t_prem",
         "t_sri_sathya_sai_baba"
       ],
-      "achievementID": null
+      "achievementID": null,
+      "badgeImageName": "SwastikaBadge"
     },
     {
       "id": "c_shakti_peetha",
@@ -750,7 +785,8 @@
         "t_jnanakshi_rajarajeshwari",
         "t_alopi_devi_mandir"
       ],
-      "achievementID": "a_shakti_peetha_complete"
+      "achievementID": "a_shakti_peetha_complete",
+      "badgeImageName": "YantraBadge"
     }
   ],
   "achievements": [

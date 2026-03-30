@@ -9,6 +9,8 @@ struct TempleCategory: Identifiable, Codable, Hashable {
     let templeIDs: [String]
     let achievementID: String?
     let iconAssetName: String
+    /// PNG badge asset name in Assets.xcassets for this category.
+    let badgeImageName: String?
     /// Hex string. Convert to Color via Color(hex:) extension at the view layer — never here.
     let color: String
     let deity: String?
