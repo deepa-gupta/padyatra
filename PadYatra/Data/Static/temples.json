@@ -13367,61 +13367,62 @@
       "legacyIDs": [],
       "isActive": true,
       "name": "Bhaleshwor Mahadev Temple",
-      "alternateName": "भालेश्वर महादेव",
-      "deity": "Shiva (Bhaleshwor)",
+      "alternateName": "Bhaleshwor Mahadev, Chandragiri",
+      "deity": "Shiva (Bhaleshwor Mahadev)",
       "location": {
-        "latitude": 27.6197,
-        "longitude": 85.2339,
+        "latitude": 27.6661,
+        "longitude": 85.2054,
         "city": "Chandragiri",
         "district": "Kathmandu",
         "state": "Bagmati",
         "country": "Nepal",
         "address": "Chandragiri Hill, Kathmandu, Nepal",
-        "pincode": null
+        "pincode": null,
+        "altitude": 2551
       },
       "categoryIDs": [
         "c_hilltop",
         "c_shakti_peetha"
       ],
-      "description": "Bhaleshwor Mahadev Temple crowns Chandragiri Hill at 2,551 metres, offering panoramic views of the entire Kathmandu Valley and the Himalayan range. The site is one of the 51 Shakti Peethas—the forehead (bhala) of Sati is said to have fallen here, giving the peak and deity their name. A cable car (gondola) opened in 2016 connects the base at Thankot to the summit in eight minutes, making the ancient hilltop shrine accessible to all pilgrims. The combined draw of Shiva worship, Shakti pilgrimage, and Himalayan views makes this one of Nepal's most visited hilltop shrines.",
-      "shortDescription": "Shakti Peetha at 2,551m on Chandragiri Hill, Kathmandu. Shiva enshrined where Sati's forehead fell; cable car from Thankot reaches the summit with Himalayan panoramas.",
+      "description": "Bhaleshwor Mahadev is a revered Shiva temple perched at 2,551 metres atop Chandragiri Hill on the south-west rim of the Kathmandu Valley. The temple is designed by architect Shankar Nath Rimal on an ancient sacred site and connected to the valley below by a modern cable car, making it accessible while retaining its hilltop mystique. Lord Shiva is worshipped here as Bhaleshwor — master of the forehead, linked to the third eye. On clear days the panoramic view of the entire Himalayan range from Dhaulagiri to Everest is extraordinary.",
+      "shortDescription": "Shiva temple at 2,551m on Chandragiri Hill, Kathmandu — cable-car access, sweeping Himalayan panorama, and ancient Bhaleshwor worship.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Ancient (cable car 2016)",
-        "architectureStyle": "Nepali pagoda style",
+        "established": "Ancient (present structure modern)",
+        "dynasty": "Modern Nepal",
+        "architectureStyle": "Nepali Pagoda",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": 2551,
-        "dresscode": "Traditional attire recommended",
+        "dresscode": "Traditional attire",
         "photographyAllowed": true,
-        "entryFee": "Cable car: NPR 700 (adult round trip)",
-        "darshanaTimings": "7:00 AM – 6:00 PM (cable car hours)"
+        "entryFee": "Cable car fee applies",
+        "darshanaTimings": "7:00 AM – 6:00 PM"
       },
       "images": {
         "heroImageName": "t_chandragiri_hill_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chandragiri_hill_thumb",
-        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/5/52/Chandragiri_Hills_Kathmandu.jpg"
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Bhaleshwor_Mahadev%2C_Chandragiri_Hill.jpg"
       },
       "festivals": [
         {
-          "name": "Shivaratri",
+          "name": "Mahashivaratri",
           "approximateMonth": 2,
           "isLunar": true,
-          "description": "The great night of Shiva draws large crowds to Bhaleshwor Mahadev with all-night worship and bonfires.",
+          "description": "The most important festival — thousands make the pilgrimage to Bhaleshwor Mahadev for night-long Shiva worship.",
           "significance": "high"
         },
         {
-          "name": "Navratri",
-          "approximateMonth": 10,
+          "name": "Teej",
+          "approximateMonth": 8,
           "isLunar": true,
-          "description": "Nine nights of Shakti worship at this Peetha with elevated pilgrimage via the cable car.",
-          "significance": "high"
+          "description": "Hindu women fast and pray for marital happiness at Shiva temples including Bhaleshwor.",
+          "significance": "medium"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Chandragiri_Hills"
+      "sourceURL": "https://en.wikipedia.org/wiki/Bhaleshwor_Mahadev"
     },
     {
       "id": "t_haridwar_har_ki_pauri",
