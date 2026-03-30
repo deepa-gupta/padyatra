@@ -11,6 +11,9 @@ struct AchievementDefinition: Identifiable, Codable, Hashable {
     let name: String
     let description: String
     let iconAssetName: String
+    /// Name of the badge PNG image asset in Assets.xcassets/Badges/.
+    /// If nil, falls back to rendering iconAssetName as an SF Symbol.
+    let badgeImageName: String?
     let rarity: AchievementRarity
     let colors: AchievementColors
 }

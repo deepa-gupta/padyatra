@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "HolyBook@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

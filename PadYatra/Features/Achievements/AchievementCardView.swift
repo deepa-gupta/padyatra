@@ -170,9 +170,7 @@ struct AchievementCardView: View {
 
     private var revealedCard: some View {
         VStack(spacing: AppSpacing.sm) {
-            Image(systemName: definition.iconAssetName)
-                .font(.system(size: 44))
-                .foregroundStyle(Color(hex: definition.colors.unlocked))
+            badgeImage
 
             Text(definition.name)
                 .font(.caption.weight(.bold))
@@ -202,6 +200,21 @@ struct AchievementCardView: View {
                     endPoint: .bottomTrailing
                 )
             )
+    }
+
+    /// Badge image: uses PNG asset when available, falls back to SF Symbol.
+    @ViewBuilder
+    private var badgeImage: some View {
+        if let badgeName = definition.badgeImageName {
+            Image(badgeName)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 80, height: 80)
+        } else {
+            Image(systemName: definition.iconAssetName)
+                .font(.system(size: 44))
+                .foregroundStyle(Color(hex: definition.colors.unlocked))
+        }
     }
 
     private var rarityBadge: some View {
@@ -246,6 +259,7 @@ struct AchievementCardView: View {
         name: "Lord of Light",
         description: "Visit all 12 Jyotirlinga shrines.",
         iconAssetName: "flame.fill",
+        badgeImageName: nil,
         rarity: .legendary,
         colors: AchievementColors(locked: "#8A7B72", unlocked: "#FFB830")
     )

@@ -144,7 +144,7 @@
         "t_rudraprayag",
         "t_vishnuprayag"
       ],
-      "achievementID": null
+      "achievementID": "a_pancha_prayag_complete"
     },
     {
       "id": "c_pancha_narasimha",
@@ -243,7 +243,7 @@
         "t_sita_ramachandraswamy",
         "t_sitamarhi"
       ],
-      "achievementID": null
+      "achievementID": "a_rama_circuit_complete"
     },
     {
       "id": "c_krishna_circuit",
@@ -264,7 +264,7 @@
         "t_rukmini_devi",
         "t_udupi_sri_krishna_matha"
       ],
-      "achievementID": null
+      "achievementID": "a_krishna_circuit_complete"
     },
     {
       "id": "c_hanuman_circuit",
@@ -282,7 +282,7 @@
         "t_sankat_mochan_hanuman",
         "t_salasar_balaji"
       ],
-      "achievementID": null
+      "achievementID": "a_hanuman_circuit_complete"
     },
     {
       "id": "c_unesco",
@@ -764,7 +764,8 @@
       "colors": {
         "locked": "#9E9E9E",
         "unlocked": "#FF6B35"
-      }
+      },
+      "badgeImageName": "JyotirlingaBadge"
     },
     {
       "id": "a_shakti_peetha_complete",
@@ -776,7 +777,8 @@
       "colors": {
         "locked": "#9E9E9E",
         "unlocked": "#8B1A4A"
-      }
+      },
+      "badgeImageName": "Durga"
     },
     {
       "id": "a_char_dham_complete",
@@ -788,7 +790,8 @@
       "colors": {
         "locked": "#9E9E9E",
         "unlocked": "#DAA520"
-      }
+      },
+      "badgeImageName": "KalashBadge"
     },
     {
       "id": "a_chota_char_dham_complete",
@@ -800,7 +803,8 @@
       "colors": {
         "locked": "#9E9E9E",
         "unlocked": "#5C8A3C"
-      }
+      },
+      "badgeImageName": "MountKailash"
     },
     {
       "id": "a_ashta_vinayaka_complete",
@@ -812,7 +816,8 @@
       "colors": {
         "locked": "#9E9E9E",
         "unlocked": "#E87722"
-      }
+      },
+      "badgeImageName": "Ganesha"
     },
     {
       "id": "a_pancha_kedar_complete",
@@ -824,7 +829,8 @@
       "colors": {
         "locked": "#9E9E9E",
         "unlocked": "#4A90D9"
-      }
+      },
+      "badgeImageName": "Shiva"
     },
     {
       "id": "a_nava_graha_complete",
@@ -836,7 +842,8 @@
       "colors": {
         "locked": "#9E9E9E",
         "unlocked": "#2C3E50"
-      }
+      },
+      "badgeImageName": "Surya"
     },
     {
       "id": "a_sapta_puri_complete",
@@ -848,6 +855,59 @@
       "colors": {
         "locked": "#9E9E9E",
         "unlocked": "#8E44AD"
+      },
+      "badgeImageName": "ShankhaBadge"
+    },
+    {
+      "id": "a_pancha_prayag_complete",
+      "categoryID": "c_pancha_prayag",
+      "name": "Complete Pancha Prayag",
+      "description": "Visit all five sacred river confluences of the Pancha Prayag in Uttarakhand.",
+      "iconAssetName": "water.waves",
+      "badgeImageName": "Ganga",
+      "rarity": "rare",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#2980B9"
+      }
+    },
+    {
+      "id": "a_rama_circuit_complete",
+      "categoryID": "c_rama_circuit",
+      "name": "Complete Rama Circuit",
+      "description": "Visit all temples in the Rama pilgrimage circuit.",
+      "iconAssetName": "star.fill",
+      "badgeImageName": "Ram",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#2E7D32"
+      }
+    },
+    {
+      "id": "a_krishna_circuit_complete",
+      "categoryID": "c_krishna_circuit",
+      "name": "Complete Krishna Circuit",
+      "description": "Visit all temples in the Krishna pilgrimage circuit.",
+      "iconAssetName": "star.fill",
+      "badgeImageName": "Krishna",
+      "rarity": "epic",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#1565C0"
+      }
+    },
+    {
+      "id": "a_hanuman_circuit_complete",
+      "categoryID": "c_hanuman_circuit",
+      "name": "Complete Hanuman Circuit",
+      "description": "Visit all temples in the Hanuman pilgrimage circuit.",
+      "iconAssetName": "star.fill",
+      "badgeImageName": "Hanuman",
+      "rarity": "rare",
+      "colors": {
+        "locked": "#9E9E9E",
+        "unlocked": "#E65100"
       }
     }
   ],
@@ -9152,7 +9212,7 @@
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Vishvanath_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Vishvanatha_Temple,_Khajuraho"
     },
     {
       "id": "t_devi_jagadambi",
