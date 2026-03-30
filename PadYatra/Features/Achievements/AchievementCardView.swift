@@ -179,7 +179,7 @@ struct AchievementCardView: View {
         VStack(spacing: AppSpacing.sm) {
             badgeImage
 
-            Text(definition.name)
+            Text(definition.name.replacingOccurrences(of: "Complete ", with: ""))
                 .font(.caption.weight(.bold))
                 .foregroundStyle(Color.brandEarthBrown)
                 .multilineTextAlignment(.center)
@@ -250,7 +250,8 @@ struct AchievementCardView: View {
 
     private var accessibilityDescription: String {
         if isComplete && isRevealed {
-            return "\(definition.name), \(definition.rarity.displayName) achievement, revealed"
+            let shortName = definition.name.replacingOccurrences(of: "Complete ", with: "")
+            return "\(shortName), \(definition.rarity.displayName) achievement, revealed"
         } else if isComplete {
             return "\(category.name), completed, double-tap to reveal"
         } else {
