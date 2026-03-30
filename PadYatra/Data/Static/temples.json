@@ -11221,32 +11221,32 @@
       "slug": "sugandha-shakti-peetha-shikarpur",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Sugandha Shakti Peetha",
-      "alternateName": null,
-      "deity": "Sugandha",
+      "name": "Sugandha Shaktipeeth",
+      "alternateName": "Sunanda Devi Temple, Shikarpur",
+      "deity": "Sunanda (Shakti)",
       "location": {
-        "latitude": null,
-        "longitude": null,
+        "latitude": 22.84341667,
+        "longitude": 90.25927778,
         "city": "Shikarpur",
         "district": "Barisal",
-        "state": "Barisal",
+        "state": "Barisal Division",
         "country": "Bangladesh",
-        "address": null,
+        "address": "Shikarpur village, 10 miles north of Barisal, Bangladesh",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Sugandha Shakti Peetha in Shikarpur, Barisal division, Bangladesh, marks where Sati's nose (sugandha, meaning fragrance) fell to earth. The presiding goddess is Sugandha and the Bhairava is Trayambaka. Located in the river delta of southern Bangladesh, the temple is one of several Shakti Peethas in present-day Bangladesh, maintained by the local Hindu minority community. The remote location in the Barisal division makes it one of the less-visited peethas on the full 51-Shakti-Peetha circuit.",
-      "shortDescription": "Shakti Peetha in Barisal, Bangladesh, where Sati's nose (sugandha) fell. Goddess Sugandha is enshrined; one of several Shakti Peethas in southern Bangladesh.",
+      "description": "Sugandha Shaktipeeth at Shikarpur, 10 miles north of Barisal in Bangladesh, is one of the 51 Shakti Peethas where the nose (sugandha means fragrance) of Sati is believed to have fallen. The presiding goddess is Sunanda, worshipped alongside the Bhairava Trayambaka. As one of the easternmost Shakti Peethas and located in a Muslim-majority country, the temple holds special significance for Bengali Hindus who make the pilgrimage across the border to maintain this ancient devotional tradition.",
+      "shortDescription": "Bangladesh Shakti Peetha at Shikarpur, Barisal — where Sati's nose fell; presiding goddess Sunanda revered by Bengali Hindu pilgrims.",
       "facts": {
         "established": "Ancient",
-        "dynasty": "Ancient",
+        "dynasty": "Medieval Bengal",
         "architectureStyle": "Bengali",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": "Traditional attire recommended",
+        "dresscode": "Modest traditional attire",
         "photographyAllowed": true,
         "entryFee": "Free",
         "darshanaTimings": "6:00 AM – 8:00 PM"
@@ -11259,16 +11259,23 @@
       },
       "festivals": [
         {
-          "name": "Kali Puja",
+          "name": "Navaratri",
           "approximateMonth": 10,
           "isLunar": true,
-          "description": "Major festival drawing Hindu pilgrims from across the Barisal region.",
+          "description": "Nine nights of Shakti worship drawing Hindu pilgrims from across Bangladesh and West Bengal.",
+          "significance": "high"
+        },
+        {
+          "name": "Durga Puja",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "Grand Bengali Durga Puja celebrated at this Shakti Peetha with community rituals.",
           "significance": "high"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Sugandha"
+      "sourceURL": "https://en.wikipedia.org/wiki/Sugandha_Shaktipeeth"
     },
     {
       "id": "t_konark_sun",
