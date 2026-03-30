@@ -58,7 +58,7 @@ struct MapFilterSheet: View {
                 alignment: .leading,
                 spacing: AppSpacing.sm
             ) {
-                ForEach(TempleFilterMode.allCases, id: \.self) { mode in
+                ForEach(TempleFilterMode.allCases.filter { $0 != .nearMe }, id: \.self) { mode in
                     filterModeButton(for: mode)
                 }
             }
