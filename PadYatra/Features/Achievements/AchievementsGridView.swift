@@ -115,6 +115,7 @@ struct AchievementsGridView: View {
             name: category.name,
             description: "Complete all temples in \(category.name).",
             iconAssetName: category.iconAssetName,
+            badgeImageName: nil,
             rarity: .common,
             colors: AchievementColors(locked: category.color, unlocked: category.color)
         )

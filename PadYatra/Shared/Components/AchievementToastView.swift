@@ -57,7 +57,7 @@ struct AchievementToastView: View {
             AchievementDefinition(
                 id: "a1", categoryID: "c_jyotirlinga",
                 name: "Jyotirlinga Pilgrim", description: "Visit all 12.",
-                iconAssetName: "shiva", rarity: .legendary,
+                iconAssetName: "shiva", badgeImageName: nil, rarity: .legendary,
                 colors: AchievementColors(locked: "#8A7B72", unlocked: "#FFB830")
             )
         ])
@@ -70,10 +70,10 @@ struct AchievementToastView: View {
 
         AchievementToastView(achievements: [
             AchievementDefinition(id: "a1", categoryID: "c1", name: "Jyotirlinga Pilgrim",
-                description: "", iconAssetName: "", rarity: .legendary,
+                description: "", iconAssetName: "", badgeImageName: nil, rarity: .legendary,
                 colors: AchievementColors(locked: "#8A7B72", unlocked: "#FFB830")),
             AchievementDefinition(id: "a2", categoryID: "c2", name: "Char Dham Yatri",
-                description: "", iconAssetName: "", rarity: .epic,
+                description: "", iconAssetName: "", badgeImageName: nil, rarity: .epic,
                 colors: AchievementColors(locked: "#8A7B72", unlocked: "#FF6B35")),
         ])
     }

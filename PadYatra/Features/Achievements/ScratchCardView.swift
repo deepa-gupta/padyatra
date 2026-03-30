@@ -259,9 +259,10 @@ struct ScratchCardView: View {
         name: "Lord of Light",
         description: "You have visited all 12 Jyotirlinga shrines of Lord Shiva.",
         iconAssetName: "flame.fill",
+        badgeImageName: nil,
         rarity: .legendary,
         colors: AchievementColors(locked: "#8A7B72", unlocked: "#FFB830")
     )
 
-    return ScratchCardView(achievement: achievement, onRevealComplete: {})
+    ScratchCardView(achievement: achievement, onRevealComplete: {})
 }
