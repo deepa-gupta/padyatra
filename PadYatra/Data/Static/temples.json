@@ -5478,7 +5478,7 @@
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Naina_Devi_Temple,_Bilaspur"
+      "sourceURL": "https://en.wikipedia.org/wiki/Naina_Devi"
     },
     {
       "id": "t_nandikeshwari",
@@ -12427,64 +12427,71 @@
     },
     {
       "id": "t_sri_ranganathaswamy",
-      "slug": "sri-ranganathaswamy-temple-tirupati",
+      "slug": "sarangapani-temple-kumbakonam",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Sri Ranganathaswamy Temple",
-      "alternateName": null,
-      "deity": "Vishnu",
+      "name": "Sarangapani Temple",
+      "alternateName": "Thirukudanthai, Kumbakonam Koyil",
+      "deity": "Vishnu (Sarangapani)",
       "location": {
-        "latitude": 13.631637,
-        "longitude": 79.423171,
-        "city": "Tirupati",
-        "district": "Tirupati",
-        "state": "Andhra Pradesh",
+        "latitude": 10.9602,
+        "longitude": 79.3845,
+        "city": "Kumbakonam",
+        "district": "Thanjavur",
+        "state": "Tamil Nadu",
         "country": "India",
-        "address": null,
+        "address": "Kumbakonam, Thanjavur District, Tamil Nadu",
         "pincode": null
       },
       "categoryIDs": [
         "c_tallest_tower"
       ],
-      "description": "Ranganatha Temple or Ranganathaswamy Temple may refer to any of several temples dedicated to the Hindu God Ranganatha, including:",
-      "shortDescription": "Ranganatha Temple or Ranganathaswamy Temple may refer to any of several temples dedicated to the Hindu God Ranganatha, including:",
+      "description": "The Sarangapani Temple at Kumbakonam is one of the 108 Divya Desams revered by the Alvars and one of the Pancharanga Kshetrams — the five sacred abodes of Ranganatha along the Kaveri River. The presiding deity Sarangapani (Vishnu holding a bow) rests in a unique reclining posture. The temple's towering 11-tier eastern gopuram, rising 45 metres, dominates the Kumbakonam skyline. Saint Nammalvar's mangalasasanam and the works of other Alvars make this an essential stop on the Vaishnava pilgrim circuit of the Kaveri delta.",
+      "shortDescription": "Divya Desam and Pancharanga Kshetram at Kumbakonam — reclining Sarangapani (Vishnu) with a soaring 11-tier gopuram on the sacred Kaveri.",
       "facts": {
-        "established": "9th century CE",
-        "dynasty": "Medieval Period",
-        "architectureStyle": null,
+        "established": "Ancient (Chola period)",
+        "dynasty": "Chola / Vijayanagara",
+        "architectureStyle": "Dravidian (Chola)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Traditional attire; dhoti/saree",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "6:00 AM – 12:00 PM, 4:00 PM – 9:00 PM"
       },
       "images": {
         "heroImageName": "t_sri_ranganathaswamy_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_sri_ranganathaswamy_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/1/10/Gopuras_in_Kumbakonam_-_India.JPG"
       },
       "festivals": [
         {
-          "name": "Vaikuntha Ekadashi",
+          "name": "Vaikunta Ekadashi",
           "approximateMonth": 12,
           "isLunar": true,
-          "description": "The most auspicious Ekadashi, celebrated with special darshan and all-night devotion.",
+          "description": "The most sacred day — the Paramapada Vasal (gateway to heaven) is opened and devotees throng for special darshan.",
           "significance": "high"
         },
         {
           "name": "Brahmotsavam",
-          "approximateMonth": 9,
+          "approximateMonth": 3,
           "isLunar": false,
-          "description": "Grand annual festival with processions and elaborate rituals over several days.",
+          "description": "Ten-day annual festival with chariot processions through Kumbakonam streets.",
           "significance": "high"
+        },
+        {
+          "name": "Thirukarthigai",
+          "approximateMonth": 12,
+          "isLunar": false,
+          "description": "Festival of lamps celebrated with great fervour at this Divya Desam.",
+          "significance": "medium"
         }
       ],
-      "significance": "other",
+      "significance": "divyaDesam",
       "isUNESCO": false,
-      "sourceURL": "https://en.wikipedia.org/wiki/Ranganatha_Temple"
+      "sourceURL": "https://en.wikipedia.org/wiki/Sarangapani_Temple"
     },
     {
       "id": "t_sree_padmanabhaswamy",
