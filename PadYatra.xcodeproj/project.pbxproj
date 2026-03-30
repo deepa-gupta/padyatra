@@ -45,6 +45,7 @@
 		7470BC2F1574A03A69516D33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D761BFFE06E210238F843F /* MapKit.framework */; };
 		7B6540DCA44CEA0830009294 /* VisitShareCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EB4322A8D923BC6E3F667E /* VisitShareCardView.swift */; };
 		7F9FC2D9AFDECAB2A6F72BAD /* AchievementCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF71E081AC8DFD254D35E22 /* AchievementCardView.swift */; };
+		BAA79D107B4E0B669E016B52 /* BadgeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F239C87AB7CB4471EFFCAA /* BadgeDetailView.swift */; };
 		AA10BB22CC33DD44EE55FF04 /* FeaturedAchievementCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10BB22CC33DD44EE55FF03 /* FeaturedAchievementCard.swift */; };
 		8765231FDAC523C9C8785579 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900106EB9C342A1846882D5D /* ProfileViewModel.swift */; };
 		880710FFDA5FE4DBBAD1F414 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F70B7AB77B7833E50FF46A9 /* ProgressBar.swift */; };
@@ -146,6 +147,7 @@
 		AA4C4B1B8C61499C78FB705E /* TempleDetailPreviewFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TempleDetailPreviewFixtures.swift; path = PadYatra/Features/TempleDetail/TempleDetailPreviewFixtures.swift; sourceTree = SOURCE_ROOT; };
 		AC2CFC66E8ACD0C9232B8495 /* TempleDataValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleDataValidator.swift; sourceTree = "<group>"; };
 		AFF71E081AC8DFD254D35E22 /* AchievementCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementCardView.swift; sourceTree = "<group>"; };
+		A4F239C87AB7CB4471EFFCAA /* BadgeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeDetailView.swift; sourceTree = "<group>"; };
 		AA10BB22CC33DD44EE55FF03 /* FeaturedAchievementCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedAchievementCard.swift; sourceTree = "<group>"; };
 		B4D4162A9FDA5F83444CBD95 /* TempleCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempleCategory.swift; sourceTree = "<group>"; };
 		B8354F0780435A0C61AB5E20 /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HapticService.swift; path = PadYatra/Shared/Components/HapticService.swift; sourceTree = SOURCE_ROOT; };
@@ -194,6 +196,7 @@
 				8632A059523FF5EE4B78C2FF /* AchievementsGridView.swift */,
 				BC71FC0E56E8C409BF813C69 /* AchievementsViewModel.swift */,
 				8BAECDC3F5C1FADCFAB6488C /* ScratchCardView.swift */,
+				A4F239C87AB7CB4471EFFCAA /* BadgeDetailView.swift */,
 			);
 			path = Achievements;
 			sourceTree = "<group>";
@@ -545,6 +548,7 @@
 				880710FFDA5FE4DBBAD1F414 /* ProgressBar.swift in Sources */,
 				B5397C9280DB6FDBCA86E6E9 /* RemoteDataService.swift in Sources */,
 				89A513EFBBBE76C63175A4AB /* ScratchCardView.swift in Sources */,
+				BAA79D107B4E0B669E016B52 /* BadgeDetailView.swift in Sources */,
 				8C34CB62F4DC6EA45A9FF306 /* StarRatingView.swift in Sources */,
 				4DE2FE66606F0D37DA055A44 /* StatsView.swift in Sources */,
 				504BE7FCB138EB6D5005F9EF /* Temple.swift in Sources */,
