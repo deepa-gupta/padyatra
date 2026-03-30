@@ -1815,54 +1815,68 @@
       "slug": "chintpurni-temple-chintpurni",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Chintpurni Temple",
-      "alternateName": null,
-      "deity": "Chintpurni (Chhinnamasta)",
+      "name": "Maa Chintpurni Temple",
+      "alternateName": "Chhinnamastika Devi Temple",
+      "deity": "Chhinnamastika (Shakti)",
       "location": {
-        "latitude": 31.80677,
-        "longitude": 76.105971,
+        "latitude": 31.80862,
+        "longitude": 76.10287,
         "city": "Chintpurni",
         "district": "Una",
         "state": "Himachal Pradesh",
         "country": "India",
-        "address": null,
+        "address": "Chintpurni, Una District, Himachal Pradesh",
         "pincode": null
       },
       "categoryIDs": [
         "c_shakti_peetha"
       ],
-      "description": "Chintpurni Temple is a Hindu temple located in Chintpurni, Himachal Pradesh, India, dedicated to Chintpurni (Chhinnamasta). It dates to the Early Medieval Period.",
-      "shortDescription": "Chintpurni Temple is a Hindu temple located in Chintpurni, Himachal Pradesh, India, dedicated to Chintpurni (Chhinnamasta).",
+      "description": "Maa Chintpurni Temple at 977 metres in the Shivalik hills of Himachal Pradesh is one of the 51 Shakti Peethas, where Sati's feet fell. The goddess Chhinnamastika — \"she who fulfils all wishes and cuts away sorrow\" — is worshipped without a formal idol; only the feet (charan) are enshrined, representing the goddess's groundedness and accessibility. One of the most visited temples in Himachal Pradesh, it draws millions annually. The Hindu genealogy registers (vanshavalies) of many Punjabi and Himachali families are maintained here.",
+      "shortDescription": "Himachal Shakti Peetha where Sati's feet fell — Chhinnamastika, the wish-fulfilling goddess; genealogy registers of Punjabi families kept here.",
       "facts": {
         "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "dynasty": "Medieval Himachal",
+        "architectureStyle": "Himachali Shikhara",
         "openingMonth": null,
         "closingMonth": null,
-        "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "altitude": 977,
+        "dresscode": "Modest traditional attire",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "5:00 AM – 10:00 PM"
       },
       "images": {
         "heroImageName": "t_chintpurni_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chintpurni_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Chintpurni.jpg"
       },
       "festivals": [
         {
-          "name": "Annual Festival",
-          "approximateMonth": null,
-          "isLunar": false,
-          "description": "Annual celebration with special poojas, processions and devotional programmes.",
+          "name": "Navaratri",
+          "approximateMonth": 10,
+          "isLunar": true,
+          "description": "The most important festival — hundreds of thousands climb to Chintpurni for nine nights of Shakti worship.",
+          "significance": "high"
+        },
+        {
+          "name": "Chaitra Navaratri",
+          "approximateMonth": 4,
+          "isLunar": true,
+          "description": "Spring Navaratri equally celebrated with large pilgrimages from Punjab and HP.",
+          "significance": "high"
+        },
+        {
+          "name": "Sawan Ashtami",
+          "approximateMonth": 8,
+          "isLunar": true,
+          "description": "Special puja during the holy month of Sawan with large congregations.",
           "significance": "medium"
         }
       ],
       "significance": "shaktipeeth",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Chintpurni"
     },
     {
       "id": "t_chamundi_hill",
@@ -6027,61 +6041,68 @@
       "slug": "jagadguru-kripaluji-maharaj-temple-kunda",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Jagadguru Kripaluji Maharaj Temple",
-      "alternateName": null,
-      "deity": "Radha-Krishna",
+      "name": "Prem Mandir, Vrindavan",
+      "alternateName": "Prem Mandir",
+      "deity": "Radha Krishna & Sita Rama",
       "location": {
-        "latitude": 25.755105,
-        "longitude": 81.581029,
-        "city": "Kunda",
+        "latitude": 27.5724569,
+        "longitude": 77.6724919,
+        "city": "Vrindavan",
         "district": "Mathura",
         "state": "Uttar Pradesh",
         "country": "India",
-        "address": null,
+        "address": "Raman Reti, Vrindavan, Mathura, Uttar Pradesh",
         "pincode": null
       },
       "categoryIDs": [
         "c_new_landmark"
       ],
-      "description": "Jagadguru Kripaluji Maharaj Temple is a Hindu temple located in Kunda, Uttar Pradesh, India, dedicated to Radha-Krishna. It dates to the Modern Period.",
-      "shortDescription": "Jagadguru Kripaluji Maharaj Temple is a Hindu temple located in Kunda, Uttar Pradesh, India, dedicated to Radha-Krishna.",
+      "description": "Prem Mandir (\"Temple of Divine Love\") in Vrindavan is one of India's most spectacular modern temples, established by Jagadguru Kripalu Ji Maharaj. Built over 11 years in pure white Rajasthani marble, the complex depicts the divine love of Radha-Krishna and Sita-Rama through exquisite carvings on every surface. The evening illumination — when the temple glows in changing coloured lights — draws thousands nightly. The 54-acre campus includes gardens recreating Krishna's Vrindavan lilas and life-size dioramas of key episodes from the Ramayana and Bhagavatam.",
+      "shortDescription": "Vrindavan's most spectacular modern marble temple — Prem Mandir glows nightly in coloured lights, celebrating Radha-Krishna and Sita-Rama divine love.",
       "facts": {
-        "established": "2007 CE",
-        "dynasty": "Modern Period",
-        "architectureStyle": null,
+        "established": "2012 CE",
+        "dynasty": "Modern (Jagadguru Kripalu Parishat)",
+        "architectureStyle": "Modern Mughal-Rajput fusion (white marble)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Traditional attire preferred",
+        "photographyAllowed": true,
+        "entryFee": "Free",
+        "darshanaTimings": "5:30 AM – 12:00 PM, 4:30 PM – 8:30 PM"
       },
       "images": {
         "heroImageName": "t_jagadguru_kripaluji_maharaj_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_jagadguru_kripaluji_maharaj_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/PremMandirSideViewFromCanteen.jpg"
       },
       "festivals": [
         {
           "name": "Janmashtami",
           "approximateMonth": 8,
           "isLunar": true,
-          "description": "Celebration of Krishna's birth with midnight prayers, devotional singing and fasting.",
+          "description": "Krishna's birthday celebrated with spectacular decoration and midnight celebrations at this radiant marble temple.",
+          "significance": "high"
+        },
+        {
+          "name": "Holi",
+          "approximateMonth": 3,
+          "isLunar": true,
+          "description": "Vrindavan's world-famous Braj Holi celebrated with flower colours and ecstatic kirtan.",
           "significance": "high"
         },
         {
           "name": "Radhashtami",
           "approximateMonth": 9,
           "isLunar": true,
-          "description": "Birth anniversary of Radha, celebrated with special devotional programmes.",
+          "description": "Radha Devi's birthday celebrated with special alankara and devotional programs.",
           "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Prem_Mandir,_Vrindavan"
     },
     {
       "id": "t_iskcon_temple_vrindavan",
@@ -6361,54 +6382,68 @@
       "slug": "chitrakoot-ram-mandir-chitrakoot",
       "legacyIDs": [],
       "isActive": true,
-      "name": "Chitrakoot Ram Mandir",
-      "alternateName": null,
-      "deity": "Rama",
+      "name": "Chitrakoot Dham",
+      "alternateName": "Kamadgiri Temple Complex",
+      "deity": "Rama, Sita & Lakshmana",
       "location": {
-        "latitude": 25.217139,
-        "longitude": 81.104593,
+        "latitude": 25.1804,
+        "longitude": 80.8716,
         "city": "Chitrakoot",
-        "district": "Chitrakoot",
-        "state": "Uttar Pradesh",
+        "district": "Satna",
+        "state": "Madhya Pradesh",
         "country": "India",
-        "address": null,
+        "address": "Chitrakoot, Satna District, Madhya Pradesh",
         "pincode": null
       },
       "categoryIDs": [
         "c_rama_circuit"
       ],
-      "description": "Chitrakoot Ram Mandir is a Hindu temple located in Chitrakoot, Uttar Pradesh, India, dedicated to Rama. It dates to the Early Medieval Period.",
-      "shortDescription": "Chitrakoot Ram Mandir is a Hindu temple located in Chitrakoot, Uttar Pradesh, India, dedicated to Rama.",
+      "description": "Chitrakoot is among India's most sacred pilgrimage centres — Lord Ram, Sita and Lakshmana spent the first 11.5 years of their 14-year exile here in the Vindhya forest. The sacred Kamadgiri hill (circumambulated 5km barefoot) is believed to be Ram's forest abode and is so sacred that no photography is permitted. The Mandakini River, Ramghat, Sphatik Shila and countless ashrams make this a living Ramayana landscape. Saints including Tulsidas completed the Ramcharitmanas here; Adi Shankaracharya and Vivekananda both meditated at Chitrakoot.",
+      "shortDescription": "Ram, Sita and Lakshmana's 11.5-year forest home — Kamadgiri hill circumambulation, Mandakini ghats and the living Ramayana landscape of the Vindhyas.",
       "facts": {
-        "established": "Ancient",
-        "dynasty": "Early Medieval Period",
-        "architectureStyle": null,
+        "established": "Treta Yuga (mythological)",
+        "dynasty": "Ancient / Chandela",
+        "architectureStyle": "Various (multiple temples, ghats)",
         "openingMonth": null,
         "closingMonth": null,
         "altitude": null,
-        "dresscode": null,
-        "photographyAllowed": null,
-        "entryFee": null,
-        "darshanaTimings": null
+        "dresscode": "Traditional attire; footwear removed for Kamadgiri parikrama",
+        "photographyAllowed": false,
+        "entryFee": "Free",
+        "darshanaTimings": "Various (4:00 AM – 10:00 PM)"
       },
       "images": {
         "heroImageName": "t_chitrakoot_ram_hero",
         "galleryImageNames": [],
         "thumbnailImageName": "t_chitrakoot_ram_thumb",
-        "remoteHeroURL": null
+        "remoteHeroURL": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mandakini_river_in_chitrkoot.jpg"
       },
       "festivals": [
         {
           "name": "Ram Navami",
           "approximateMonth": 4,
           "isLunar": true,
-          "description": "Celebration of Rama's birth with special poojas, Ramayana recitations and processions.",
+          "description": "Ram's birthday celebrated at the very forest where he lived — elaborate parikrama and Ramayana recitations.",
           "significance": "high"
+        },
+        {
+          "name": "Diwali",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Deepotsav lighting thousands of lamps on the Mandakini ghats celebrating Ram's return from exile.",
+          "significance": "high"
+        },
+        {
+          "name": "Kartik Purnima",
+          "approximateMonth": 11,
+          "isLunar": true,
+          "description": "Sacred bathing at Ramghat on the full moon of Kartik, one of the most auspicious days.",
+          "significance": "medium"
         }
       ],
       "significance": "other",
       "isUNESCO": false,
-      "sourceURL": null
+      "sourceURL": "https://en.wikipedia.org/wiki/Chitrakoot,_Madhya_Pradesh"
     },
     {
       "id": "t_nandigram",
