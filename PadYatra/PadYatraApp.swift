@@ -40,6 +40,7 @@ struct PadYatraApp: App {
     var body: some Scene {
         WindowGroup {
             appContent
+                .preferredColorScheme(.light)
                 .environmentObject(templeDataService)
                 .environmentObject(locationService)
                 .modelContainer(PersistenceController.shared.container)
